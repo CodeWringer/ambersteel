@@ -1,0 +1,2 @@
+# Essin
+Essin is a continent to the east-south-east of the old world. An elongated, jungle-covered island-continent flanks a smaller island, which is wedged between it and the shore of the old world. 

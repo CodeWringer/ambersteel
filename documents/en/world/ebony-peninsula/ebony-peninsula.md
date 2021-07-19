@@ -1,0 +1,2 @@
+# Ebony Peninsula
+The peninsula to the very north east of the old world is called the Ebony Peninsula. A large forest dominates its southern, the mountain range of the [Ebony Spires](ebony-spires) its western and a barren tundra its northern and eastern sides. 

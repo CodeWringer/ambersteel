@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"[markdown]": {
+			"editor.wordWrap": "on",
+			"editor.quickSuggestions": false,
+		},
+		"markdown.styles": [
+			"assets/style/main.css"
+		]
+	}
+}

@@ -1,0 +1,2 @@
+# Solennian Peninsula
+Like a spear tip, the Solennian Peninsula juts out of the southern edge of the western wing of the [old world](../world), where a warm and mostly dry climate dominates the continent. 

@@ -1,0 +1,2 @@
+# Westveerd
+Westveerd is the tempate center of the western slice of the [old world](../world). It conjoins [Arn](../arn/arn), [Veerdhart](../veerdhart/veerdhart) and [Király Föld](../kiray-fold/kiray-fold). 

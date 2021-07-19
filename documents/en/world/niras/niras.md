@@ -1,0 +1,2 @@
+# Niras
+Niras represents the southernmost continent of the old world. It is an inhospitable desert artchipelago, with shallow mountain tops dominating it. A single, large river proves the sole source of life on the main island-continent. 

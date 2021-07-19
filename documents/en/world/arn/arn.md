@@ -1,0 +1,2 @@
+# Arn
+The north-western tip of the [old world](../world) is called Arn. It is where the temperate climate of [Westveerd](westveerd/westveerd) meets the icy spires of the mountain ranged called the [Gray Spire Ridge](gray-spire-ridge). 

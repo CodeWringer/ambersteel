@@ -1,0 +1,6 @@
+# Magic Runes
+Shards of [Abyssalite](abyssalite) can have runes carved into them, which allow magic to flow through the runes, as opposed to the magic-user. This renders runes extremely powerful artifacts, as they can allow for near limitless magic-use. 
+
+To activate such a rune, is a difficult skill to learn, however. Even if no innate magical ability is required, an understanding of the flow of magic is. The rune must be touched in the right spots, at the right intervals, to activate successfully. Mistakes in this procedure can have disastrous results. 
+
+What's more, it takes great skill to carve the right runes, as each rune's shape and complexity depends in part on the size and shape of the [Abyssalite](abyssalite) shard. The only way to get it right, is to *feel* the way the rune must be shaped. Alternatively, the shard can be adjusted to be of equivalent size and shape, but this requires considerable effort, as [Abyssalite](abyssalite) is a tough material, prone to shattering if too much force is applied, yet resistant to the common techniques of metallurgy. 

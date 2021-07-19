@@ -1,0 +1,2 @@
+# Mebira 
+Mebira is the large southern continent, covered in largest part by desert. Colder winds often caught on the mountains lining the north-west and south-west result in rain that fills some sparse rivers, granting a source of life to that part of the desert. 
