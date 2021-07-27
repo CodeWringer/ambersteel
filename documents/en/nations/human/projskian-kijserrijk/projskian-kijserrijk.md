@@ -1,27 +1,37 @@
-# Prennian Kijserrijk
-> "The Kijserrijk is the first and last bastion of civilization! So it has been and so it shall always be!" - Kijser Waldemar Priesner I in a speech at his coronation. 
+# Projskian Kijserrijk
+> "This greatest nation of all - the great Kijserrijk - not only represents civilization, but it safeguards it! We are a bastion against the ruinous forces of this world! So it has always been and so it shall always be!" - Kijser Waldemar Priesner I in a speech at his coronation. 
 
-The prennian Kijserrijk is the largest human nation and represents a world power, with vast resources at its disposal. 
+The projskian Kijserrijk is the largest human nation and represents a world power, with vast resources at its disposal. 
+
+## Culture(s)
+* Dominant (60%) - [Projskian]()
+* Minor (20%) - [Svessian]()
+* Other (20%) - Trade partners, travelers, adventurers, mercenaries, strays from non-human species, etc. 
 
 ## Magic
 There haven't been free magic-casters in the Kijserrijk for several centuries. Magic is seen as a force of corruption and evil, that must be weeded out. Magic is the antithesis to peace and order, bringing out what's worst in man. 
 
+The [Amberantist Order]() is permitted fairly free reign over mages found on Projskian territory, but the Kijser reserves the right to overrule the [Amberantist]()'s verdicts. 
+
+## Technology
+Technology is quite far ahead of most other nations. A ship of iron was recently inaugurated, cannons and muskets, fueled by gunpowder exist and are reserved by the military, while research into steam power is ongoing. 
+
 ## City- and Landscape
-Prennian cities represent the prennian spirit, with many closely packed and orderly blocks of multi-storied buildings, separated by large, cobbled roads and broken up by clean, circular plazas. 
+Projskian cities represent the projskian spirit, with many closely packed and orderly blocks of multi-storied buildings, separated by large, cobbled roads and broken up by clean, circular plazas. 
 
 Bordering several blocks are frequent large plazas, often times with a central fountain, occasional flower pots and beds and caged trees, benches and space for market stalls. 
 
 Many inner walls separate the older cities into large sections, indicating a city's age and expansion over time. Although the inner gates are rarely ever closed, when needed to, they can serve to isolate city districts from each other. This usually only happens to contain pestilence or prevent a fugitive's escape. 
 
-Prennian buildings are often times white-washed and painted over, or just left plain, showing the bright stone that is often used in construction. Large windows are flanked by finely decorated balconies and many smaller statues and sculptures boast of the wealth of their owner to any passer-by. 
+Projskian buildings are often times white-washed and painted over, or just left plain, showing the bright stone that is often used in construction. Large windows are flanked by finely decorated balconies and many smaller statues and sculptures boast of the wealth of their owner to any passer-by. 
 
 Especially bordering the large plazas are many settled-down traders, where one can find almost anything for sale, that isn't illegal. There are also occasional markets being held, when the caravans of travelling merchants stop by to offer their wares. Open markets are more of a rarity inside the larger urban centers, whereas they can be taken for granted in most smaller towns. 
 
-Most prennian cities are equipped with a well-developed canalisation, which carries most filth outside the city walls. This leads to most prennian cities smelling far less than their southern counter-parts, but also provides the city with another set of maintenance troubles. Despite many grates and gates barring passage and infrequent patrols, do criminals and monsters find their way into the sewer systems, from where they stage their sinister acts against the citizens above. 
+Most projskian cities are equipped with a well-developed canalisation, which carries most filth outside the city walls. This leads to most projskian cities smelling far less than their southern counter-parts, but also provides the city with another set of maintenance troubles. Despite many grates and gates barring passage and infrequent patrols, do criminals and monsters find their way into the sewer systems, from where they stage their sinister acts against the citizens above. 
 
-A common sight in prennian cities are libraries, schools and private learning institutions, some state-funded, while others require frequent donations to keep running. Entry is not always open to the public and may be limited to membership in a guild or particular group of people. 
+A common sight in projskian cities are libraries, schools and private learning institutions, some state-funded, while others require frequent donations to keep running. Entry is not always open to the public and may be limited to membership in a guild or particular group of people. 
 
-**Every** prennian city has at least one larger bath-house, sometimes even several. These are places of cleansing and community. Entry is open to all, but the heated baths require a small fee to be paid at the entrance. 
+**Every** projskian city has at least one larger bath-house, sometimes even several. These are places of cleansing and community. Entry is open to all, but the heated baths require a small fee to be paid at the entrance. 
 Part of these bath-houses are not only the bath-chambers, but also additional atriums and often times a second floor, where comfortable seating arrangements invite to a casual afternoon. 
 
 Covering the landscape are many fields, used in agriculture. Cutting through these fields are many country roads, but some main traffic roads exist, which may even be cobbled and linked to occasional guard houses and castles. 
@@ -48,12 +58,31 @@ Children of wealthy parents may enjoy additional tutoring and can attend additio
 
 The larger cities often times have public libraries, funded either by the state or the guilds and wealthy merchants. 
 
-Due to a good general education, paper has grown in popularity as a medium for communication. 
+## Literacy
+The ability to read and write is commonplace, even amongst the lower class. 
+
+### History
+Due to having access to the [Old Empire]()'s archives, Projskians have a very good recollection of the events of the past two millenia. They also keep collecting more documents and recordings, hoarding them in great libraries. 
 
 ## Economy
 The large Kijserrijk boasts a very well developed economy. Much trade flows to and from the Kijserrijk, but amongst the plentiful larger towns and cities in the nation. 
 
 The merchant-caste is constantly growing in power. 
+
+### Resources
+A nation as large and spanning as diverse a territory as the Kijserrijk finds itself with access to vast resources. The [Ruggengraat Mountains](../../../world/veerdhart/veerdhart#Ruggengraat-Mountains) provide for most needs of raw materials, as well as luxury metals. 
+
+Lots of arable land and a welcoming temperate climate support agriculture. 
+
+### Food / Water Supply
+Most Projskians know no shortage of water and food, save for a few bad harvests in the past decades. However, to prevent starvation, regulations to reduce taxation exist. 
+
+The most fertile land lies in the center, with the coastal regions growing rather sparse and barren. 
+
+### Produce / Trade
+Many fine and complex crafts leave the Projskian borders on a daily basis. Whether by sea or by land, whether produced themselves or bought in the east, trade flows through the Kijserrijk. 
+
+Due to a good general education, paper has grown in popularity as a medium for communication. As such, paper is produced and imported in ever growing quantities. 
 
 ## Governance
 ### Type
@@ -73,7 +102,7 @@ The other electors control the other provinces. Ruling under them is a wide rang
 ### Law and Order
 Especially in larger towns and all of the cities are many guard houses, barracks and even fortresses, where the city watch organize themselves, rest and train. There is usually at least one city watch for each district of a city. As an endeavour to keep a feeling of unity and appreciation for cooperation high, guards are often exchanged between districts, where they serve for a certain time, until being reassigned again. 
 
-The streets are patrolled and known problem-quarters kept under close watch. A particularity of prennian city watch is that they're all equipped with police whistles. When a guard is attacked or chasing down a fugitive, they use the whistle to call for aid, or to lock down adjacent streets. Once a whistle goes off, many more cascade through the streets, encircling the criminals and then closing in on them. 
+The streets are patrolled and known problem-quarters kept under close watch. A particularity of projskian city watch is that they're all equipped with police whistles. When a guard is attacked or chasing down a fugitive, they use the whistle to call for aid, or to lock down adjacent streets. Once a whistle goes off, many more cascade through the streets, encircling the criminals and then closing in on them. 
 This is why criminals rarely act alone, as it is simply too easy to get caught. 
 
 It is mandatory to carry a source of light on one's person, when travelling the city at night. Anyone caught without can be forced to pay a fee. 
@@ -83,14 +112,22 @@ Legal disputes are carried out in court, where citizens can dispute laws and rul
 ### Military
 Military service is mandatory for all male citizens of the Kijserrijk. Near the borders, even the women may be conscripted, in times of need. 
 
-This results in every prennian citizen having undergone a basic military training and having their arms and armor at home, in case they are called upon. Anybody unable to afford their own arms and armor may have those given to them by the state, at the same time entering a contract that has them pay off the arms and armor over time. This can either be in the form of small payments, collected in addition to the regular taxes, or in the form of social work. 
+This results in every projskian citizen having undergone a basic military training and having their arms and armor at home, in case they are called upon. Anybody unable to afford their own arms and armor may have those given to them by the state, at the same time entering a contract that has them pay off the arms and armor over time. This can either be in the form of small payments, collected in addition to the regular taxes, or in the form of social work. 
 
 During times of war, every citizen can be drafted into service by their feudal lord, who reports to the marshal. The old, sick and otherwise unfit for battle are exempt, but must either send a substitute or pay for the hiring of an appropriate number of men and their equipment. 
 
 ## Citizenship
+Anyone born on or employed in Projskian territory is considered a citizen, with all the privileges and obligations that entails. 
+
+Foreigners can attain citizen status by decree of the local lord or lady. 
+
+### Urbanization
+A significant portion of Projskians live in large cities and almost all wealthy citizens, except for lords and ladies, live in cities. 
+
+Cities take up far less area than rural areas, however, cities are very large and sprawling. 
 
 ## Religion
-Prennians are fairly open-minded when it comes to the various religious practices. The well educated populace does not live in fear of gods and religious practicioners and look upon religion fairly objectively. 
+Projskians are fairly open-minded when it comes to the various religious practices. The well educated populace does not live in fear of gods and religious practicioners and look upon religion fairly objectively. 
 
 The official state religion is [Amelianism](../religions/amelianism), although it's influence has shrunk significantly over the centuries. 
 
