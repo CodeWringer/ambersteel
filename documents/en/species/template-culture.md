@@ -30,7 +30,6 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
     - [Typical Names of Individuals](#typical-names-of-individuals)
       - [First Names](#first-names)
       - [Last Names](#last-names)
-  - [Sex](#sex)
   - [Food & Drink](#food--drink)
     - [Seating Arrangements](#seating-arrangements)
     - [Food Types & Variety](#food-types--variety)
@@ -40,6 +39,7 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
     - [Morality](#morality)
     - [Hygiene](#hygiene)
     - [Ethics](#ethics)
+    - [Sex](#sex)
   - [Spiriturality](#spiriturality)
     - [Myths & Folklore in Society](#myths--folklore-in-society)
     - [Faith & Religion](#faith--religion)
@@ -250,25 +250,6 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
 #### Last Names
 * 
 
-## Sex
-* How does this society define incest & rape; and how do people react to these events?
-  * Are there tabus against sex with children?
-  * At what age is it considered normal to engage in sex?
-* What secret vices are believed to be widely practiced?
-  * What secret vices actually are being practiced?
-* What sexual habits are widely believed common among foreigners?
-* What sexual acts or behaviours are considered unnatural, and how do people react to them?
-  * What is the greatest sexual tabu?
-  * Are there any cultural or religious strictures, norms or tabus that specifically address sexual conduct?
-* How is adultery defined?
-  * What, if any, is the punishment and how is it decided to be an offence?
-* Is prostitution legal?
-  * How are prostitutes viewed by people and are their views accurate?
-* What does this society mean by the word "virgin" and how important is it?
-* Is sex confined to marriage, or, is it even supposed to be?
-* How much privacy is accorded to sexual activity?
-  * Should sex be a one-to-one experience, or are groups allowed?
-
 ## Food & Drink
 ### Seating Arrangements
 * Describe the eating arrangements: how is the table or other eating space arranged?
@@ -336,6 +317,25 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
   * What is the hierarchy of duty among them and what do the various duties consist of?
 * Who are the arbiters of ethical matters, as opposed to legal matters?
   * Which ethical or moral decisions are considered the province of religion, and which are not?
+
+### Sex
+* How does this society define incest & rape; and how do people react to these events?
+  * Are there tabus against sex with children?
+  * At what age is it considered normal to engage in sex?
+* What secret vices are believed to be widely practiced?
+  * What secret vices actually are being practiced?
+* What sexual habits are widely believed common among foreigners?
+* What sexual acts or behaviours are considered unnatural, and how do people react to them?
+  * What is the greatest sexual tabu?
+  * Are there any cultural or religious strictures, norms or tabus that specifically address sexual conduct?
+* How is adultery defined?
+  * What, if any, is the punishment and how is it decided to be an offence?
+* Is prostitution legal?
+  * How are prostitutes viewed by people and are their views accurate?
+* What does this society mean by the word "virgin" and how important is it?
+* Is sex confined to marriage, or, is it even supposed to be?
+* How much privacy is accorded to sexual activity?
+  * Should sex be a one-to-one experience, or are groups allowed?
 
 ## Spiriturality
 ### Myths & Folklore in Society
