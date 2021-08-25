@@ -26,20 +26,25 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
       - [Gestures & Body Language](#gestures--body-language)
       - [Visiting & Hospitality](#visiting--hospitality)
       - [Tabus & Faux Pas](#tabus--faux-pas)
+    - [Food & Drink](#food--drink)
+      - [Seating Arrangements](#seating-arrangements)
+      - [Food Types & Variety](#food-types--variety)
+      - [Eating & Social Class](#eating--social-class)
   - [Onomastics](#onomastics)
     - [Typical Names of Individuals](#typical-names-of-individuals)
       - [First Names](#first-names)
       - [Last Names](#last-names)
-  - [Food & Drink](#food--drink)
-    - [Seating Arrangements](#seating-arrangements)
-    - [Food Types & Variety](#food-types--variety)
-    - [Eating & Social Class](#eating--social-class)
   - [Morality & Ethics](#morality--ethics)
     - [Values](#values)
     - [Morality](#morality)
     - [Hygiene](#hygiene)
     - [Ethics](#ethics)
     - [Sex](#sex)
+    - [Unnatural Death](#unnatural-death)
+      - [Suicide](#suicide)
+      - [Abortion & Exposure](#abortion--exposure)
+      - [Murder & Killing](#murder--killing)
+      - [Judicial Slaying](#judicial-slaying)
   - [Spiriturality](#spiriturality)
     - [Myths & Folklore in Society](#myths--folklore-in-society)
     - [Faith & Religion](#faith--religion)
@@ -50,11 +55,6 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
     - [Birth, Childhood & Adolescence](#birth-childhood--adolescence)
     - [Rites of Passage](#rites-of-passage)
     - [Death and Funerary Customs](#death-and-funerary-customs)
-  - [Unnatural Death](#unnatural-death)
-    - [Suicide](#suicide)
-    - [Abortion & Exposure](#abortion--exposure)
-    - [Murder & Killing](#murder--killing)
-    - [Judicial Slaying](#judicial-slaying)
   - [Daily Life](#daily-life)
     - [City Life](#city-life)
     - [Country Life](#country-life)
@@ -224,6 +224,36 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
 * What are the greatest social faux pas?
 * What subjects or actions cause embarrassment or discomfort?
 
+### Food & Drink
+#### Seating Arrangements
+* Describe the eating arrangements: how is the table or other eating space arranged?
+  * Where is the place of honor for a guest?
+  * Where do the important members of the household sit or recline?
+  * Is there any arrangement by age or dignity of diners?
+  * Do men & women, parents & children, servants & masters eat separately, or does everyone eat together and how is status displayed at the table?
+* Do people sit when eating? How?
+
+#### Food Types & Variety
+* What foods, drinks and dishes are common and which are reserved for special occasions?
+* Which foods is the region famous for?
+* What foods are considered exotic or expensive?
+* What foods are normally eaten cooked versus raw?
+* What things, while edible, are never eaten?
+  * Are there religious or social norms governing what may and may not be eaten?
+* How many meals are considered normal in a day?
+  * What times of day are they served and in what manner?
+  * Which meals are substantial and which are smaller; which are more formal or more relaxed?
+* How is food preserved for later use and how reliable are the methods used?
+
+#### Eating & Social Class
+* What kinds of utensils, cutlery, & cookware, if any, do people use for cooking and eating?
+* What does the ordinary diet consist of in this region and how does it differ by social class or occupation?
+* What foods are considered beneath one's dignity to eat?
+* When food is in limited supply, is there a scheme of rationing or if not, who gets to continue eating well and who starves?
+* What distinguishes a formal, high-court dinner from an ordinary meal, besides quantity and variety of food?
+  * How do high-court manners differ from everyday ones?
+  * What is the order of a typical upper-class meal? -- is there a particular starting dish followed in proper order, or are all the dishes brought out at once?
+
 ## Onomastics
 * Are names for things mere matters of identification or are there deeper meanings?
   * Do names convey any kind of power over a thing or are they mere labels?
@@ -249,36 +279,6 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
 
 #### Last Names
 * 
-
-## Food & Drink
-### Seating Arrangements
-* Describe the eating arrangements: how is the table or other eating space arranged?
-  * Where is the place of honor for a guest?
-  * Where do the important members of the household sit or recline?
-  * Is there any arrangement by age or dignity of diners?
-  * Do men & women, parents & children, servants & masters eat separately, or does everyone eat together and how is status displayed at the table?
-* Do people sit when eating? How?
-
-### Food Types & Variety
-* What foods, drinks and dishes are common and which are reserved for special occasions?
-* Which foods is the region famous for?
-* What foods are considered exotic or expensive?
-* What foods are normally eaten cooked versus raw?
-* What things, while edible, are never eaten?
-  * Are there religious or social norms governing what may and may not be eaten?
-* How many meals are considered normal in a day?
-  * What times of day are they served and in what manner?
-  * Which meals are substantial and which are smaller; which are more formal or more relaxed?
-* How is food preserved for later use and how reliable are the methods used?
-
-### Eating & Social Class
-* What kinds of utensils, cutlery, & cookware, if any, do people use for cooking and eating?
-* What does the ordinary diet consist of in this region and how does it differ by social class or occupation?
-* What foods are considered beneath one's dignity to eat?
-* When food is in limited supply, is there a scheme of rationing or if not, who gets to continue eating well and who starves?
-* What distinguishes a formal, high-court dinner from an ordinary meal, besides quantity and variety of food?
-  * How do high-court manners differ from everyday ones?
-  * What is the order of a typical upper-class meal? -- is there a particular starting dish followed in proper order, or are all the dishes brought out at once?
 
 ## Morality & Ethics
 ### Values
@@ -336,6 +336,32 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
 * Is sex confined to marriage, or, is it even supposed to be?
 * How much privacy is accorded to sexual activity?
   * Should sex be a one-to-one experience, or are groups allowed?
+
+### Unnatural Death
+#### Suicide
+* What views do people in this culture have about suicide?
+* Is it the greatest sin one can commit or is it seen as a civic duty under certain circumstances?
+* Or is it even a sin at all -- is it the great and last comfort of a tormented soul?
+* Is it worse than murder?
+
+#### Abortion & Exposure
+* Under what circumstances might an infant be aborted in utero or exposed after birth?
+* Are such killings viewed as legal or moral?
+* What features might mark an infant for abortion or exposure?
+* What circumstances surrounding the infant's conception, gestation or birth might mark the infant for abortion or exposure?
+* Are such children ever rescued, and under what circumstances might this happen?
+* Are birth control or abortion or infanticide tabu or practiced freely; and under what circumstances?
+
+#### Murder & Killing
+* Is there a distinction to be made between a planned murder and an accidental or incidental killing?
+* If so, how is this reflected in cultural lore, the justice & penal systems?
+* Are either ever justifiable or even outright permissible?
+
+#### Judicial Slaying
+* Is the execution of convicted criminals permitted?
+* What laws must be broken to warrant such a punishment?
+* What forms does this punishment take?
+* Who carries out the sentence, and is it done in open or in secret?
 
 ## Spiriturality
 ### Myths & Folklore in Society
@@ -437,32 +463,6 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
 * Do people visit the dead?
   * If so, how often and what is done while visiting?
 * Are the dead feared, revered, or ignored?
-
-## Unnatural Death
-### Suicide
-* What views do people in this culture have about suicide?
-* Is it the greatest sin one can commit or is it seen as a civic duty under certain circumstances?
-* Or is it even a sin at all -- is it the great and last comfort of a tormented soul?
-* Is it worse than murder?
-
-### Abortion & Exposure
-* Under what circumstances might an infant be aborted in utero or exposed after birth?
-* Are such killings viewed as legal or moral?
-* What features might mark an infant for abortion or exposure?
-* What circumstances surrounding the infant's conception, gestation or birth might mark the infant for abortion or exposure?
-* Are such children ever rescued, and under what circumstances might this happen?
-* Are birth control or abortion or infanticide tabu or practiced freely; and under what circumstances?
-
-### Murder & Killing
-* Is there a distinction to be made between a planned murder and an accidental or incidental killing?
-* If so, how is this reflected in cultural lore, the justice & penal systems?
-* Are either ever justifiable or even outright permissible?
-
-### Judicial Slaying
-* Is the execution of convicted criminals permitted?
-* What laws must be broken to warrant such a punishment?
-* What forms does this punishment take?
-* Who carries out the sentence, and is it done in open or in secret?
 
 ## Daily Life
 ### City Life
