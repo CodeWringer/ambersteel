@@ -1,14 +1,8 @@
-# Template
-Provide a summary, with only the most noteworthy and unique aspects of the culture, here. 
-
-* When answering the questions below, try to answer only up to a maximum of 5, per section. 
-* Try to evoke an idea, rather than noting specifics. The specifics should be derivable from the idea, when needed. 
-* E. g. generalize, instead of outlining all laws regarding theft and slavery.
-  * > Crime is not tolerated under any circumstance and will be met with harsh punishments. 
-  * > However, slavery is commonplace, encouraged and strictly regulated, so there shall be no doubt who owns who. 
+# Ambrin
+Ambrin is the peculiar manifestation of a nation ruled entirely by [Amberantists](../../../religions/amberantism.md). As such, the "culture" derives most of its values from its ruling religion and the [Amber Order](../../../independent-organizations/amber-order.md). 
 
 ## TOC <!-- omit in TOC -->
-- [Template](#template)
+- [Ambrin](#ambrin)
   - [Appearance](#appearance)
     - [Body Adornment](#body-adornment)
     - [Clothing & Fashion](#clothing--fashion)

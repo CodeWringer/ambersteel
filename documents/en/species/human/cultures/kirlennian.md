@@ -1,19 +1,23 @@
 # Kirlennian
-
-## Personality
-Kirlennians understand themselves as threatened and backed into a corner in the [old world](../../../world/world). 
+Kirlennians are very proud, patriotic and martially inclined people. 
 
 Due to their isolationism they have grown deeply distrustful of foreigners and strangers. They will not open up to foreigners and strangers or relax around them, instead always staying on edge, seeing them as potential threats. 
 
 However, they're very open towards fellow Kirlennians. Amongst each other, they are very sociable and help each other without question. 
 
+Kirlennians are very loyal people. Loyal to their emperor, loyal to each other and to their friends. 
+
+
+
+
+
+
+## Personality
 It is not impossible to gain a Kirlennian's trust, and those that do, will quickly learn they could not find a more loyal and trusting friend. 
 
 They love to sing and dance, play music and drink in company. 
 
 There is a strong sense of superiority emanating from many Kirlennians, as they believe themselves to be the rightful inheritors of the world. 
-
-When abroad, Kirlennians have a tendency to ignore local laws, as they feel they don't apply to them. Only the emperor's rule is rightful, after all. This tends to make them  very unwelcome guests. However, when lawmen are about, they do end up caring about the foreign laws. No need to end up in a foreign prison, after all. 
 
 ## Social Interactions
 Social status is divided into social class and martial prowess. 

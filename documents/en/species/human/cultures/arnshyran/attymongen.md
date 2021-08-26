@@ -1,4 +1,4 @@
-# Template
+# Attymongen
 Provide a summary, with only the most noteworthy and unique aspects of the culture, here. 
 
 * When answering the questions below, try to answer only up to a maximum of 5, per section. 
@@ -8,7 +8,7 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
   * > However, slavery is commonplace, encouraged and strictly regulated, so there shall be no doubt who owns who. 
 
 ## TOC <!-- omit in TOC -->
-- [Template](#template)
+- [Attymongen](#attymongen)
   - [Appearance](#appearance)
     - [Body Adornment](#body-adornment)
     - [Clothing & Fashion](#clothing--fashion)

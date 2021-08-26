@@ -1,14 +1,14 @@
-# Template
-Provide a summary, with only the most noteworthy and unique aspects of the culture, here. 
+# Lentzian
+Lentzians are known as skilled merchants, shrewd negotiators and rigorous employers. They will accept only preferable deals, while expecting diligent work from their servants. 
 
-* When answering the questions below, try to answer only up to a maximum of 5, per section. 
-* Try to evoke an idea, rather than noting specifics. The specifics should be derivable from the idea, when needed. 
-* E. g. generalize, instead of outlining all laws regarding theft and slavery.
-  * > Crime is not tolerated under any circumstance and will be met with harsh punishments. 
-  * > However, slavery is commonplace, encouraged and strictly regulated, so there shall be no doubt who owns who. 
+> What a Lentzian cannot buy, a Lentzian does not want. 
+> 
+> Money speaks more eloquently than any honeyed word. 
+
+Most Lentzians believe these principles with all their heart. Witnessing Lentzians at work negotiating, it is easy to understand why. 
 
 ## TOC <!-- omit in TOC -->
-- [Template](#template)
+- [Lentzian](#lentzian)
   - [Appearance](#appearance)
     - [Body Adornment](#body-adornment)
     - [Clothing & Fashion](#clothing--fashion)

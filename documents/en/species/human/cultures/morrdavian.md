@@ -1,14 +1,14 @@
-# Template
-Provide a summary, with only the most noteworthy and unique aspects of the culture, here. 
+# Morrdavian
+Morrdavians are very hardy and hard working people. 
 
-* When answering the questions below, try to answer only up to a maximum of 5, per section. 
-* Try to evoke an idea, rather than noting specifics. The specifics should be derivable from the idea, when needed. 
-* E. g. generalize, instead of outlining all laws regarding theft and slavery.
-  * > Crime is not tolerated under any circumstance and will be met with harsh punishments. 
-  * > However, slavery is commonplace, encouraged and strictly regulated, so there shall be no doubt who owns who. 
+Used to living in an unhospitable land, they do not hesitate to take what they need by force, be it from the land itself, or other people. 
+
+Among other cultures, they're usually unwelcome guests, due to their rather morose nature. Morrdavians are known as serious and gloomy folk, with little sense of humor. 
+
+Despite a tendency to selfishness, they respect and value law and order. This makes it easy for them to integrate into other societies, as they generally adapt well to regional laws. 
 
 ## TOC <!-- omit in TOC -->
-- [Template](#template)
+- [Morrdavian](#morrdavian)
   - [Appearance](#appearance)
     - [Body Adornment](#body-adornment)
     - [Clothing & Fashion](#clothing--fashion)
@@ -60,53 +60,26 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
     - [Matters of Daily Life](#matters-of-daily-life)
 
 ## Appearance
-* What is their range of appearance: e.g., colour of hair or eyes or skin, height, build, and the like?
+* Many Morrdavians are born with gray or even white hair, which makes them stand out in other countries. Aside from that, reddish and blonde hair are common. 
 
 ### Body Adornment
-* Are tattoos, scarification, piercings or body paint common?
-  * What forms do they take?
-  * Are they monochromatic or tinted?
-  * What areas of the body must be covered?
-  * What significance might these kinds of decorations have?
-* Is facial hair a common or even respectable feature? And who has facial hair?
-* If such adornments are not used in this culture, how do people react to outsiders wearing tattoos or piercings, facial hair or cosmetics?
+* Morrdavians proudly wear their scars, even if they do not seek them out on purpose. 
+* Tattoos are also common. Popular motives are skulls, skeletons, ravens and things of steel. 
 
 ### Clothing & Fashion
-* What articles of clothing do people habitually wear and how does this vary by season, ethnicity, age, profession, and the like?
-  * Are certain articles of clothing customary or obligatory for certain occupations and how much variation is allowed?
-* Describe how the genders dress: what differences & similarities are there between men's and women's clothing and accessories?
-* What materials do people prefer their clothes made of?
-  * What materials are intended for special occasions?
-  * Is the material be produced locally, or must some or all of it be imported? Must the material be exotic? 
-  * Are there dyes for certain colors, such as purple or indigo that are very rare, making cloth of that color more expensive and/or reserved for nobility or other high-status people?
-* How many changes of clothing can a person be expected to own or afford?
-* Or is clothing more a matter of individual taste?
-* Are there fashions or fads in things besides clothes? -- styles of carriages, furniture, race or gender of household slaves, modes of speech?
-* Are there fashions or fads in magical practice, religious devotion or in other areas of life? -- are herbal spells "in" this year and ritual spells "out," or is that god out while this new religion is in fashion?
-* What is the current fashion in clothing, haberdashery, jewellery, shoes & other accouterments?
-* What articles are considered tacky and vulgar, and which are stylish?
-* What physical appearance types and characteristics are currently fashionable? -- tan versus pale skin, the "consumptive look" versus robust good health, fat versus thin, blonde versus brunette?
-* How pervasive is the culture of vanity and how are people who simply can not fit into a fashionable category affected? -- do they suffer along, or try to make up for their perceived deficiencies or do they simply create their own categories of fashion and vanity?
-* How are colors for clothing chosen?
-  * What colors and combinations of colors are thought to look well or to clash?
-  * What colors are associated with power, with virtue and with death?
-* Are weapons of some kind a standard part of dress for any/all segments of society?
-  * Are such weapons crafted solely with "utility" in mind or are they so decorative as to be nearly useless?
+* Coats, made from thick wool or furs are worn over a black undercoat. 
+* Silver and red inlays decorate the otherwise plain clothes. 
+  * The greater the decoration, the wealthier the individual. 
+* Choice of clothing is mostly pragmatic, with little heed paid to fashionability. 
+* Decorative pieces on the clothes are common. Popular motives are skulls, skeletons, ravens and things of steel. 
+* Hats are rarely worn. Morrdavians are proud of their outstanding hair. 
 
 ## Family
-* What is considered a family?
-* How big are families, typically?
-* How *extended* is an extended family?
-* How are families named?
-* Are people strongly attached to their heritage?
-* How important are family connections and responsibilities?
+* Family is nothing special. Each to their own. 
 
 ### Houshold
-* What constitutes a household?
-* How many people live in one household?
-* How many generations?
-* Which members are expected to leave, and why and when?
-* What is the division of labor among gender and generational lines within the household?
+* A household is comprised of a family. Servants are uncommon. 
+* The women typically stay at home. 
 
 ### Marriage
 * How many spouses may a man or woman have?

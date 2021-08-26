@@ -1,14 +1,13 @@
-# Template
-Provide a summary, with only the most noteworthy and unique aspects of the culture, here. 
+# Svessian
+Svessians represent an off-shoot of [The Old Empire](../../../nations/historical/human/old-empire), that adopted many of its aspects, but also developing their own distinct culture. 
 
-* When answering the questions below, try to answer only up to a maximum of 5, per section. 
-* Try to evoke an idea, rather than noting specifics. The specifics should be derivable from the idea, when needed. 
-* E. g. generalize, instead of outlining all laws regarding theft and slavery.
-  * > Crime is not tolerated under any circumstance and will be met with harsh punishments. 
-  * > However, slavery is commonplace, encouraged and strictly regulated, so there shall be no doubt who owns who. 
+* Svessians can sometimes can come off as fairly close-minded
+* They're often proud and arrogant, especially the higher a social status they enjoy
+* Pugnacious and oppoprtunistic
+* Militaristic
 
 ## TOC <!-- omit in TOC -->
-- [Template](#template)
+- [Svessian](#svessian)
   - [Appearance](#appearance)
     - [Body Adornment](#body-adornment)
     - [Clothing & Fashion](#clothing--fashion)

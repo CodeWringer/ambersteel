@@ -1,14 +1,14 @@
-# Template
-Provide a summary, with only the most noteworthy and unique aspects of the culture, here. 
+# Arnshyran
+Arnshyrans are hardy, stout and simple folk who value strength and endurance above all. There is only little sympathy for weaklings. 
 
-* When answering the questions below, try to answer only up to a maximum of 5, per section. 
-* Try to evoke an idea, rather than noting specifics. The specifics should be derivable from the idea, when needed. 
-* E. g. generalize, instead of outlining all laws regarding theft and slavery.
-  * > Crime is not tolerated under any circumstance and will be met with harsh punishments. 
-  * > However, slavery is commonplace, encouraged and strictly regulated, so there shall be no doubt who owns who. 
+They love to fight and compete. Brawls are common among Arnshyrans, as are friendly and not-so-friendly tests of strength and endurance. 
+
+They're very pious and fearful of their gods. 
+
+Arnshyrans don't talk much, instead letting their fists and weapons do the talking. But when they do speak, they command respect with loud and boisterous voices. Bone-chilling, is an Arnshyran's war cry and bone-crushing, their ferocity in battle. They're known as fierce and almost animalistic fighters. 
 
 ## TOC <!-- omit in TOC -->
-- [Template](#template)
+- [Arnshyran](#arnshyran)
   - [Appearance](#appearance)
     - [Body Adornment](#body-adornment)
     - [Clothing & Fashion](#clothing--fashion)
@@ -58,6 +58,27 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
     - [City Life](#city-life)
     - [Country Life](#country-life)
     - [Matters of Daily Life](#matters-of-daily-life)
+  - [Social Interactions](#social-interactions)
+    - [Family](#family-1)
+    - [Events](#events)
+      - [Raid](#raid)
+    - [Behavioral Norms](#behavioral-norms)
+    - [Social Status](#social-status)
+  - [Fashion](#fashion)
+  - [Hygiene](#hygiene-1)
+  - [Music and Art](#music-and-art)
+  - [Writing](#writing)
+  - [Cuisine](#cuisine)
+  - [Morality and Ethics](#morality-and-ethics)
+  - [Spirituality](#spirituality)
+  - [World View](#world-view)
+  - [Sports and Competition](#sports-and-competition)
+    - [Wrestling](#wrestling)
+    - [Spear-fishing](#spear-fishing)
+    - [Shield-Breaking](#shield-breaking)
+  - [Names](#names)
+    - [First Names](#first-names-1)
+    - [Last Names](#last-names-1)
 
 ## Appearance
 * What is their range of appearance: e.g., colour of hair or eyes or skin, height, build, and the like?
@@ -495,3 +516,72 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
   * How common are such disasters?
 * How early do people get up in the morning?
 * Are clocks common, or do people tell time by the sun or by listening for church or town-hall bells or some other public alarm?
+
+
+
+
+
+## Social Interactions
+Social interaction is usually only tolerable if alcoholic beverages are involved. Raiders stick together, much like families, but once their business together is concluded, they scatter. 
+
+### Family
+Most fathers prefer being tough and harsh, dominating the family and leaving little room for their wife to interfere. It is important to uphold the honor of the family, through whatever means necessary. A father's primary concern is always the strength of their sons, to ensure the security of the family. 
+
+Despite that, sons feel the obligation to honor the blood-ties, but foster a cold relationship to their father, while they feel they barely know their mother. 
+
+Daughters are commonly married off to create alliances by extending the family. Blood ties are important and secure peace. 
+
+### Events
+#### Raid
+Arnshyrans often organize raids, sailing along the coastlines, to where they suspect weak settlements and then landing to plunder and murder with impunity.
+
+### Behavioral Norms
+
+### Social Status
+Wealth equals power and thus social status. Wealth comes from raids and is thus a privilege of great raiders and warriors. 
+
+It is displayed through jewelry and finely crafted weapons and armor. 
+
+## Fashion
+Arnshyrans prefer to wear their mail-armor underneath large and fluffy furs. Bracelets and circlets of gold and silver flaunt their owner's wealth. 
+
+They combine both beauty and brutality in their style of clothing. 
+
+## Hygiene
+Despite their affinity for the sea, only few Arnsyhrans can actually swim. They've little care for personal hygiene, often reeking of booze and leaving their clothes caked in dried blood, almost proudly displaying it. 
+
+## Music and Art
+Preferring war drums and horns, they don't really play music for fun, but to psyche themselves up for battle. 
+
+Their art mostly consists of carved menhirs, resembling their gods. 
+
+## Writing
+Only the lore masters know how to read and write, often curating their own small library, but commonly being employed by chieftains to handle messenging services. 
+
+## Cuisine
+Mostly occupying the coastal regions and lacking access to arable land, they mostly eat fish or whatever they bring back from their raids. 
+
+## Morality and Ethics
+Might and the gods' favor makes right and the Arnshyrans have plenty of both. 
+
+## Spirituality
+
+## World View
+
+## Sports and Competition
+### Wrestling
+It is customary for wrestling competitions to be held, where participants have to either force their opponent out of the ring or to the ground. Violence is encouraged. 
+
+### Spear-fishing
+Young men often compete in spear-fishing. The heavier the catch, the better. 
+
+### Shield-Breaking
+As a means of settling disputes, a competition of shield-breaking can be held, in which two duelists are equipped with an axe and round shield. They fight not to the death, but until one participant has broken three of his opponent's round shields before he breaks his. 
+
+## Names
+
+### First Names
+* 
+
+### Last Names
+* 
