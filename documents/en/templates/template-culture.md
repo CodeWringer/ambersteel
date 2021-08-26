@@ -11,12 +11,11 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
 - [Template](#template)
   - [Appearance](#appearance)
     - [Body Adornment](#body-adornment)
-    - [Clothing](#clothing)
-    - [Fashion](#fashion)
+    - [Clothing & Fashion](#clothing--fashion)
   - [Family](#family)
     - [Houshold](#houshold)
     - [Marriage](#marriage)
-    - [Childcare /-rearing](#childcare--rearing)
+    - [Childcare](#childcare)
     - [Domestic Violence](#domestic-violence)
   - [Customs and Social Life](#customs-and-social-life)
     - [Class and Hierarchy](#class-and-hierarchy)
@@ -72,7 +71,7 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
 * What kinds of jewelry or accessories are worn on the body?
 * If such adornments are not used in this culture, how do people react to outsiders wearing tattoos or piercings, facial hair or cosmetics?
 
-### Clothing
+### Clothing & Fashion
 * What articles of clothing do people habitually wear and how does this vary by season, ethnicity, age, profession, and the like?
   * Are certain articles of clothing customary or obligatory for certain occupations and how much variation is allowed?
 * Describe how the genders dress: what differences & similarities are there between men's and women's clothing and accessories?
@@ -82,8 +81,6 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
   * Are there dyes for certain colors, such as purple or indigo that are very rare, making cloth of that color more expensive and/or reserved for nobility or other high-status people?
 * How many changes of clothing can a person be expected to own or afford?
 * Or is clothing more a matter of individual taste?
-
-### Fashion
 * Are there fashions or fads in things besides clothes? -- styles of carriages, furniture, race or gender of household slaves, modes of speech?
 * Are there fashions or fads in magical practice, religious devotion or in other areas of life? -- are herbal spells "in" this year and ritual spells "out," or is that god out while this new religion is in fashion?
 * What is the current fashion in clothing, haberdashery, jewellery, shoes & other accouterments?
@@ -124,7 +121,7 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
 * What is the term of a marriage contract?
 * What is considered too great a difference in age for a couple?
 
-### Childcare /-rearing
+### Childcare
 * What are the patterns of childcare?
   * Are girls and boys treated differently? 
   * Are girls or boys preferred and why?
@@ -319,11 +316,6 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
   * Which ethical or moral decisions are considered the province of religion, and which are not?
 
 ### Sex
-* How does this society define incest & rape; and how do people react to these events?
-  * Are there tabus against sex with children?
-  * At what age is it considered normal to engage in sex?
-* What secret vices are believed to be widely practiced?
-  * What secret vices actually are being practiced?
 * What sexual habits are widely believed common among foreigners?
 * What sexual acts or behaviours are considered unnatural, and how do people react to them?
   * What is the greatest sexual tabu?
@@ -340,28 +332,28 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
 ### Unnatural Death
 #### Suicide
 * What views do people in this culture have about suicide?
-* Is it the greatest sin one can commit or is it seen as a civic duty under certain circumstances?
-* Or is it even a sin at all -- is it the great and last comfort of a tormented soul?
-* Is it worse than murder?
+  * Is it the greatest sin one can commit or is it seen as a civic duty under certain circumstances?
+  * Or is it even a sin at all -- is it the great and last comfort of a tormented soul?
+  * Is it worse than murder?
 
 #### Abortion & Exposure
 * Under what circumstances might an infant be aborted in utero or exposed after birth?
-* Are such killings viewed as legal or moral?
-* What features might mark an infant for abortion or exposure?
-* What circumstances surrounding the infant's conception, gestation or birth might mark the infant for abortion or exposure?
-* Are such children ever rescued, and under what circumstances might this happen?
-* Are birth control or abortion or infanticide tabu or practiced freely; and under what circumstances?
+  * Are such killings viewed as legal or moral?
+  * What features might mark an infant for abortion or exposure?
+  * What circumstances surrounding the infant's conception, gestation or birth might mark the infant for abortion or exposure?
+  * Are such children ever rescued, and under what circumstances might this happen?
+  * Are birth control or abortion or infanticide tabu or practiced freely; and under what circumstances?
 
 #### Murder & Killing
 * Is there a distinction to be made between a planned murder and an accidental or incidental killing?
-* If so, how is this reflected in cultural lore, the justice & penal systems?
-* Are either ever justifiable or even outright permissible?
+  * If so, how is this reflected in cultural lore, the justice & penal systems?
+  * Are either ever justifiable or even outright permissible?
 
 #### Judicial Slaying
 * Is the execution of convicted criminals permitted?
-* What laws must be broken to warrant such a punishment?
-* What forms does this punishment take?
-* Who carries out the sentence, and is it done in open or in secret?
+  * What laws must be broken to warrant such a punishment?
+  * What forms does this punishment take?
+  * Who carries out the sentence, and is it done in open or in secret?
 
 ## Spiriturality
 ### Myths & Folklore in Society
