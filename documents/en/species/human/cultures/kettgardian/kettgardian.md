@@ -3,7 +3,9 @@ Kettgardians are very stout and stubborn folk, who bow to no one. Proudly, they 
 
 They're rough folk. Domestic violence is common, so are inequality and bigotry. The nobility are generally to blame for it all. They live in the tallest spires of the great fortresses, while the poor toil in the treacherous mines or arid fields. 
 
-The honor of the family reflects upon the individual, and vice-versa. As such, family clans are very tight-knit communities and alliances between houses carefully crafted through marriages. 
+Kettgardians are also a very pragmatic folk. Both in costume and mannerisms, they prefer functional and to the point over ornate and roundabout. 
+
+The honor of the family reflects upon the individual, and vice-versa. As such, family clans are very tight-knit communities and alliances between houses carefully crafted through marriages. Being very patriarchical, the lord of the house enjoys the utmost respect. Failing to pay sufficient homage to the lord can start wars. 
 
 Where others see a treacherous mountain range, Kettgardians see a fine place for a sprawling city. And it will be so, until proven otherwise. Considering Kettgardian stubbornness, that would take quite some convincing, too. 
 
@@ -112,85 +114,33 @@ Wary of strangers, they're not known for their welcoming nature. In fact, even [
 * Does the government play a large part in individuals' lives?
 
 ### Class and Hierarchy
-* How is society divided into classes, ranks or hierarchies?
-  * Are people able to move from one social class to another?
-  * Are there any benefits to being of one class over another?
-  * What are the various ranks and titles and their proper forms of address?
-  * How firm are the divisions between social classes?
-  * How much social mobility is there in fact compared to how much people believe there is?
-  * Is it considered beneath dignity for a noble to engage in trade or for a warrior to help with the harvest?
-* Which occupations are respected and which are looked down upon?
-* Is society segregated an any way?
-  * Is there any discrimination against or oppression of some groups be they racial, ethnic or religious in this society?
-* How independent or codependent are individuals?
-* What genders are biologically ordained and socially constructed?
-  * What are the typical roles of individuals of different genders?
-* What are the expectations of children?
+* There is an upper class, represented by the nobility, and a lower class, which includes everyone but the few rich merchants, who comprise the middle class. 
+* Foreigners are treated with scepticism at best, disrespect and discrimination at worst. 
 
 ### Healing Arts
-* Do people seek care on an as-needed or emergency basis?
-* How often do people typically engage with a healer?
-* How do people react to physical deformity, both congenital & acquired?
-* Who normally handles issues of fertility and childbirth -- midwives, doctors, or someone else?
-* Is there an understanding of or distinction between quack medicine and valid medicine?
+* Healers are quacks - grit your teeth and tough it out. 
+* Kettgardians dislike receiving help from outside their family, especially strangers. It takes a great deal of convincing to make them let a healer take a look at them. 
 
 ### Manners
-* Who speaks first at a formal gathering?
-* What kinds of gifts are considered appropriate or in extremely bad taste?
-* How do younger adults address their elders?
-* When is it rude to laugh at something funny?
-* What parts of the body are routinely covered?
-* How private are bodily functions like bathing or defecating?
-* What are the rules of precedence? -- who gets to go through doors first and who gets introduced first?
-* How important are "good manners" in this society?
-* What constitutes everyday good manners?
-* How do different peoples react when someone has just been, by their standards, unspeakably rude?
-* When and where are people supposed to be on their best behavior?
+* The lord of the house enjoys everyone's respect. They speak first, others answer. 
+* Gifts are rude - they imply weakness. But fulfillment of requests is perfectly fine. 
+* Manners are usually as pragmatic as expected. Say what you want, or get lost. 
 
 #### Greetings
-* When meeting someone, what gestures or words are used for greeting?
-* Is there a difference between the greeting offered to an equal and that offered to a superior or an inferior?
-* Is there a difference between the greeting offered a man or a woman or between people of different races?
-* How are two people who have never met normally introduced to one another?
-* What is the order of precedence when there are several people of differing sex or social status or race present, all of whom need to be introduced to each other?
-  * Are there classes of people who are never introduced to other classes of people?
-  * Are there customs involving the way in which someone is named when being introduced, such as using full titles at the first meeting, but never repeating them afterward?
-* Are true names significant, and if so, under what circumstances would someone be given another person's true name?
-* Is there any difference in the way you greet someone you already know, compared to greeting a stranger?
-* How does someone acknowledge seeing an acquaintance at a distance, for example passing on the other side of the street?
+* Greeting someone with the name of their house can go a long way to endearing yourself to them. 
+* The lord of a house must be greeted with the proper respect. A deep bow and praise of their house are the minimum that is expected. 
+* Nobility must be adressed with their full title, on top of their house's name and praise. 
 
 #### Gestures & Body Language
-* Are gestures and body language in this society generally subtle or obvious?
-* Do people talk with their hands or other appendages, or is that considered vulgar?
-  * What gestures are insulting?
-  * What do they mean?
-* Is there a way of changing a greeting gesture to make it insulting?
-* What is a comfortable and polite speaking distance for people in this culture and how does this compare with others?
-* How aware are people of these differences and are they well or poorly respected?
-* What are the ways of showing respect and to whom is one expected to show such respect?
-* How do people demonstrate grief?
+* Kettgardians aren't known for subtlety. They prefer to be direct and clear. Gestures get the point across clearly. 
 
 #### Visiting & Hospitality
-* When a guest arrives, is food or drink offered immediately, after an interval, or only on request?
-  * What things are considered courteous to offer a guest? -- food, reading material, personal guards or attendants, music, entertainment, a person of the opposite sex to sleep with?
-  * What is considered a courteous response to a host's offer?
-  * Are there things it is considered rude to accept or rude to turn down; rude to ask for or not to ask for?
-* Is there a particular food or drink that is customary to offer a newly arrived guest?
-* Are there questions that must be asked or avoided?
-* Are there topics that can only be raised by the host or the guest?
-* How seriously does the culture take the responsibilities of host and guest?
-  * What norms define the host-guest relationship?
-* Are guests expected to share a room or bed? Perhaps even with the host?
-  * Are strangers expected to share a room or bed together?
+* Kettgardians aren't used to having guests. In fact, they consider guests a bother they'd rather not have to deal with. 
+  * However, when forced to host a guest, they only offer food and drink, if the guest can make up for it, somehow. Payment or service are often negotiated before anything is offered. 
+* Kettgardians dislike guests wandering around their home and property freely. They'll keep a watchful eye at all times. 
 
 #### Tabus & Faux Pas
-* What are considered controversial subjects in this culture?
-* What things can you start a friendly disputation about?
-* What things will automatically result in an unfriendly argument?
-* What are the primary social tabus? -- what things are simply not done and what things are not talked about?
-* What would happen if someone broke such a tabu?
-* What are the greatest social faux pas?
-* What subjects or actions cause embarrassment or discomfort?
+* Mentioning a family's misfortunes and embarrassing failures is almost sure to result in heated arguments. 
 
 ### Food & Drink
 #### Seating Arrangements
