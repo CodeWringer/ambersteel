@@ -9,27 +9,27 @@ An average IP reward for a completed adventure of short to medium length should 
 In the following table, the cost denoted for an attribute value represents the [Improvement Point](improvement-points) cost for the jump from the current attribute value to the next one. 
 
 | Value | Cost |
-| ---- | ---- |
-| 1  | 10 |
-| 2  | 10 | 
-| 3  | 10 | 
-| 4  | 20 | 
-| 5  | 30 | 
-| 6  | 50 | 
-| 7  | 70 | 
-| 8  | 110 | 
-| 9  | 150 | 
-| 10 | 200 | 
-| 11 | 270 | 
-| 12 | 350 | 
-| 13 | 440 | 
-| 14 | 550 | 
-| 15 | 680 | 
-| 16 | 820 | 
-| 17 | 990 | 
-| 18 | 1170 | 
-| 19 | 1380 | 
-| 20 | 1600 | 
+| ----- | ---- |
+| 1     | 10   |
+| 2     | 10   |
+| 3     | 10   |
+| 4     | 20   |
+| 5     | 30   |
+| 6     | 50   |
+| 7     | 70   |
+| 8     | 110  |
+| 9     | 150  |
+| 10    | 200  |
+| 11    | 270  |
+| 12    | 350  |
+| 13    | 440  |
+| 14    | 550  |
+| 15    | 680  |
+| 16    | 820  |
+| 17    | 990  |
+| 18    | 1170 |
+| 19    | 1380 |
+| 20    | 1600 |
 
 ### Example
 Susanne has a character with a strength value of 10 and wants to increase that value. That means she needs to pay 2700 IP in order to get her character to strength 11. 

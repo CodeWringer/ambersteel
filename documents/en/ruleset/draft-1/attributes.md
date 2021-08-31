@@ -14,27 +14,27 @@ The following table outlines the dice to roll for successful attacks. A dice cou
 *Strength modifier* is abbreviated as *Str-Mod*.
 
 | Strength | Strength Modifier |
-| ---- | ---- |
-| 1  | -5 |
-| 2  | -4 | 
-| 3  | -3 | 
-| 4  | -3 | 
-| 5  | -2 | 
-| 6  | -2 | 
-| 7  | -1 | 
-| 8  | -1 | 
-| 9  | 0  | 
-| 10 | 0  | 
-| 11 | 0  | 
-| 12 | 1  | 
-| 13 | 1  | 
-| 14 | 2  | 
-| 15 | 2  | 
-| 16 | 3  | 
-| 17 | 3  | 
-| 18 | 4  | 
-| 19 | 4  | 
-| 20 | 5  | 
+| -------- | ----------------- |
+| 1        | -5                |
+| 2        | -4                |
+| 3        | -3                |
+| 4        | -3                |
+| 5        | -2                |
+| 6        | -2                |
+| 7        | -1                |
+| 8        | -1                |
+| 9        | 0                 |
+| 10       | 0                 |
+| 11       | 0                 |
+| 12       | 1                 |
+| 13       | 1                 |
+| 14       | 2                 |
+| 15       | 2                 |
+| 16       | 3                 |
+| 17       | 3                 |
+| 18       | 4                 |
+| 19       | 4                 |
+| 20       | 5                 |
 
 ### Dexterity [Dex]
 Determines how dexterous a character is. Any action that requires a character to move very precisely, will require dexterity. 
@@ -118,24 +118,24 @@ The following table outlines the precision modifier values, based on a character
 *Precision modifier* is abbreviated as *Prec-Mod*.
 
 | Dexterity | Precision Modifier |
-| ---- | ---- |
-| 1  | -5 |
-| 2  | -4 | 
-| 3  | -3 | 
-| 4  | -2 | 
-| 5  | -1 | 
-| 6  | -1 | 
-| 7  | 0  | 
-| 8  | 0  | 
-| 9  | 0  | 
-| 10 | 1  | 
-| 11 | 1  | 
-| 12 | 2  | 
-| 13 | 2  | 
-| 14 | 3  | 
-| 15 | 3  | 
-| 16 | 4  | 
-| 17 | 4  | 
-| 18 | 5  | 
-| 19 | 5  | 
-| 20 | 6  | 
+| --------- | ------------------ |
+| 1         | -5                 |
+| 2         | -4                 |
+| 3         | -3                 |
+| 4         | -2                 |
+| 5         | -1                 |
+| 6         | -1                 |
+| 7         | 0                  |
+| 8         | 0                  |
+| 9         | 0                  |
+| 10        | 1                  |
+| 11        | 1                  |
+| 12        | 2                  |
+| 13        | 2                  |
+| 14        | 3                  |
+| 15        | 3                  |
+| 16        | 4                  |
+| 17        | 4                  |
+| 18        | 5                  |
+| 19        | 5                  |
+| 20        | 6                  |

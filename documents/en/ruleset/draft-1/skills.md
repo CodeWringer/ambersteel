@@ -56,13 +56,13 @@ Gaining an animal's trust, directing and commanding it, as well as training it t
 ## Knowledge
 These skills have a dominant mental aspect and are strongly related to a character's *mental attributes*. 
 
-### Architecture ()
+### Architecture (Int + Int + Wis)
 Analysing and planning buildings. Discerning weak points in a structure. 
 
 ### Alchemy (Arc + Int + Wis)
 The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
 
-### Brewing ()
+### Brewing (Wis + Wis + Con)
 The brewing of alcoholic beverages. 
 
 ### Geography (Wis + Perc + Int)
@@ -76,19 +76,19 @@ Knowledge about past events and locations.
 
 Specific historical knowledge should be noted. 
 
-### Language < language > ()
+### Language < language > (Int + Int + Wis)
 Speaking and understanding a specific language. The language in question must be noted. 
 
 ### Law and politics (Int + Int + Wis)
 The ability to understand laws and politics, as well as the ability to direct politics. 
 
-### Leatherworking ()
+### Leatherworking (Dex + Int + Wis)
 Producing crafts with leather as the primary material. 
 
 ### Mathematics (Int + Int + Wis)
 The ability to work with numbers. Useful for anyone handling large sums of money, but also for engineers and architects. 
 
-### Mechanics ()
+### Mechanics (Int + Int + Wis)
 Understanding, designing and maintaining complex mechanical machines and devices. 
 
 ### Nature (Int + Wis + Perc)
@@ -107,13 +107,13 @@ The ability to both read and write in a specific language.
 
 The language in question must be noted in addition to this skill. 
 
-### Tanning/Skinning ()
+### Tanning/Skinning (Dex + Dex + Wis)
 Taking the hide off a creature undamaged. 
 
-### Warfare (Str, Wis, Perc)
+### Warfare (Str + Wis + Perc)
 The ability to understand and direct large-scale combat movements, as well as understanding what makes defences effective and how to circumvent them. Also governs knowledge about sieges and siege equipment. 
 
-### Woodcrafting ()
+### Woodcrafting (Int + Dex + Str)
 General working with wood, where particular knowledge isn't required. 
 
 ## Craftsmanship
