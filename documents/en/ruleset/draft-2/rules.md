@@ -7,7 +7,7 @@
 - [Character](#character)
   - [Attributes](#attributes)
     - [Physical Attributes](#physical-attributes)
-      - [Dexterity [Dex]](#dexterity-dex)
+      - [Agility [Agi]](#agility-agi)
       - [Endurance [End]](#endurance-end)
       - [Perception [Perc]](#perception-perc)
       - [Strength [Str]](#strength-str)
@@ -24,53 +24,52 @@
     - [Skill Forking](#skill-forking)
     - [Skill List](#skill-list)
     - [Physical skills](#physical-skills)
-      - [Acrobatics (Dex + Str + End)](#acrobatics-dex--str--end)
-      - [Instrument-Playing < instrument > (Dex + Wis + Emp)](#instrument-playing--instrument--dex--wis--emp)
-      - [Stealth (Dex + Spd + Int)](#stealth-dex--spd--int)
-      - [Swimming (Dex + Str + End)](#swimming-dex--str--end)
-      - [Thievery (Dex + Perc + Spd)](#thievery-dex--perc--spd)
-      - [Path-finding (Int + Wis + Perc)](#path-finding-int--wis--perc)
-      - [Riding (Dex + End + Emp)](#riding-dex--end--emp)
-      - [Sailing (End + Str + Wis)](#sailing-end--str--wis)
+      - [Acrobatics (Agi)](#acrobatics-agi)
+      - [Instrument-Playing < instrument > (Agi)](#instrument-playing--instrument--agi)
+      - [Stealth (Agi)](#stealth-agi)
+      - [Swimming (End)](#swimming-end)
+      - [Thievery (Agi)](#thievery-agi)
+      - [Path-finding (Perc)](#path-finding-perc)
+      - [Riding (Emp)](#riding-emp)
+      - [Sailing (Str)](#sailing-str)
     - [Social Skills](#social-skills)
-      - [Intimidation (Str + End + Ora)](#intimidation-str--end--ora)
-      - [Persuasion (Emp + Ora + Ora)](#persuasion-emp--ora--ora)
-      - [Deception (Ora + Emp + Dex)](#deception-ora--emp--dex)
-      - [Animal Handling (Emp + Dex + Wis)](#animal-handling-emp--dex--wis)
+      - [Intimidation (Will)](#intimidation-will)
+      - [Persuasion (Emp)](#persuasion-emp)
+      - [Deception (Ora)](#deception-ora)
+      - [Animal Handling (Emp)](#animal-handling-emp)
     - [Knowledge](#knowledge)
-      - [Architecture ()](#architecture-)
-      - [Alchemy (Arc + Int + Wis)](#alchemy-arc--int--wis)
-      - [Brewing (Wis + Wis + Con)](#brewing-wis--wis--con)
-      - [Geography (Wis + Perc + Int)](#geography-wis--perc--int)
-      - [Heraldry (Wis + Wis + Perc)](#heraldry-wis--wis--perc)
-      - [History < subject > (Wis + Wis + Int)](#history--subject--wis--wis--int)
-      - [Language < language > ()](#language--language--)
-      - [Law and politics (Int + Int + Wis)](#law-and-politics-int--int--wis)
-      - [Leatherworking ()](#leatherworking-)
-      - [Mathematics (Int + Int + Wis)](#mathematics-int--int--wis)
-      - [Mechanics ()](#mechanics-)
-      - [Nature (Int + Wis + Perc)](#nature-int--wis--perc)
-      - [Mysticism and Religion (Int + Wis + Wis)](#mysticism-and-religion-int--wis--wis)
-      - [Medicine (Int + Wis + Perc)](#medicine-int--wis--perc)
-      - [Reading and Writing < language > (Int + Wis + Perc)](#reading-and-writing--language--int--wis--perc)
-      - [Tanning/Skinning ()](#tanningskinning-)
-      - [Warfare (Str, Wis, Perc)](#warfare-str-wis-perc)
-      - [Woodcrafting ()](#woodcrafting-)
+      - [Architecture (Int)](#architecture-int)
+      - [Alchemy (Arc)](#alchemy-arc)
+      - [Brewing (Wis)](#brewing-wis)
+      - [Geography (Int)](#geography-int)
+      - [Heraldry (Int)](#heraldry-int)
+      - [History < subject > (Wis)](#history--subject--wis)
+      - [Language < language > (Int)](#language--language--int)
+      - [Law and politics (Int)](#law-and-politics-int)
+      - [Leatherworking (Agi)](#leatherworking-agi)
+      - [Mathematics (Int)](#mathematics-int)
+      - [Mechanics (Int)](#mechanics-int)
+      - [Nature (Int)](#nature-int)
+      - [Mysticism and Religion (Wis)](#mysticism-and-religion-wis)
+      - [Medicine (Int)](#medicine-int)
+      - [Reading and Writing < language > (Int)](#reading-and-writing--language--int)
+      - [Tanning/Skinning (Agi)](#tanningskinning-agi)
+      - [Warfare (Wis)](#warfare-wis)
+      - [Woodcrafting (Agi)](#woodcrafting-agi)
     - [Craftsmanship](#craftsmanship)
-      - [Architecture (Int + Wis + Perc)](#architecture-int--wis--perc)
-      - [Armor smithing (Str + Str + Wis)](#armor-smithing-str--str--wis)
-      - [Artistry (Perc + Dex + Emp)](#artistry-perc--dex--emp)
-      - [Blacksmithing (Str + Str + Perc)](#blacksmithing-str--str--perc)
-      - [Bow-Making (Str + Dex + End)](#bow-making-str--dex--end)
-      - [Carpentry (Str + Dex + Perc)](#carpentry-str--dex--perc)
-      - [Clothesmaking (Dex + Perc + Wis)](#clothesmaking-dex--perc--wis)
+      - [Armor smithing (Str)](#armor-smithing-str)
+      - [Artistry (Emp)](#artistry-emp)
+      - [Blacksmithing (Str)](#blacksmithing-str)
+      - [Bow-Making (Agi)](#bow-making-agi)
+      - [Carpentry (Agi)](#carpentry-agi)
+      - [Clothesmaking (Agi)](#clothesmaking-agi)
       - [Cooking (Dex + Perc + Wis)](#cooking-dex--perc--wis)
-      - [Engineering (Int + Wis + Perc)](#engineering-int--wis--perc)
-      - [Fishing (Dex + End + Tough)](#fishing-dex--end--tough)
-      - [Fletching (Dex + Dex + End)](#fletching-dex--dex--end)
-      - [Leatherworking (Str + Dex + Wis)](#leatherworking-str--dex--wis)
-      - [Masonry (Str + Str + Perc)](#masonry-str--str--perc)
-      - [Weapon smithing (Str + Str + Wis)](#weapon-smithing-str--str--wis)
+      - [Engineering (Int)](#engineering-int)
+      - [Fishing (End)](#fishing-end)
+      - [Fletching (Agi)](#fletching-agi)
+      - [Leatherworking (Agi)](#leatherworking-agi-1)
+      - [Masonry (Str)](#masonry-str)
+      - [Weapon smithing (Str)](#weapon-smithing-str)
     - [Learning Skills](#learning-skills)
   - [Ambitions, Beliefs & Instincts](#ambitions-beliefs--instincts)
     - [Ambition](#ambition)
@@ -81,20 +80,25 @@
     - [Recovery](#recovery)
     - [Debilities](#debilities)
     - [Death's Door](#deaths-door)
+  - [Possessions & Equipment](#possessions--equipment)
 - [Combat](#combat)
 - [Magic](#magic)
 
 # Dice
-**Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as D6). *Dice pool* means a variable number of D6 will be rolled to resolve uncertain situations and actions in game. 
+**Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**). *Dice pool* means a variable number of **D6** will be rolled to resolve uncertain situations and actions in game. 
 
 ## Tests
-Whenever the outcome of an action or situation is uncertain, a **test** may be called for by the GM, in order to resolve the action or situation. 
+Whenever the outcome of an action or situation is uncertain, a **test** may be called for by the GM, in order to resolve it. 
 
 As a basis for a test, either an [attribute](#attributes) or [skill](#skills) is used. 
 
 Only a six rolled on a single die counts as a success. Other values are discarded as irrelevant. Only successes (sixes) matter. 
 
-How many successes are needed in order to succeed a test, is determined by the GM, via the mechanism called **obstacles**. For every **obstacle** in a test, a success must be rolled to overcome it. 
+How many successes are needed in order to succeed a test, is determined by the GM, via the mechanism called **obstacle** (henceforth referred to as **Ob**). The test can only succeed, if at least as many successes are rolled, as the *obstacle level* named by the GM. For example, to succeed a test at **Ob 3**, at least three successes must be rolled. Any less, and the test is a failure. 
+
+To resolve an **attribute test**, the number of **D6** indicated by the *attribute level* (the number next to the attribute) must be rolled. 
+
+To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill), plus the number of **D6** indicated by the related [attribute](#attributes) must be rolled. 
 
 ### Types of Test
 There are the following types of tests. The GM decides when each type of test is appropriate. 
@@ -124,8 +128,8 @@ The value of an attribute indicates the number of **D6** to roll for a test of t
 ### Physical Attributes
 These numbers represent a character's basic physical abilities. 
 
-#### Dexterity [Dex]
-Determines how nimble and flexible a character is. Any action that requires a character to move very precisely, will require dexterity. 
+#### Agility [Agi]
+Determines how nimble, fast and flexible a character is. Any action that requires a character to move very precisely, will require agility. 
 
 #### Endurance [End]
 Governs how long a character can endure physical strains. 
@@ -136,7 +140,11 @@ For every point in endurance, a character raises their [Exhaustion Threshold](#e
 Governs a character's ability to quickly pick up on fine and fleeting details in their environment or on objects and other characters. Also governs the ability to perceive under difficult conditions such as dim light and fog, or noisy and smelly environments. 
 
 #### Strength [Str]
-Governs a character's strength - the ability to lift, throw and break heavy and sturdy things. Such as skulls. 
+Governs a character's strength - the ability to lift, throw and break heavy and sturdy things. Such as skulls. Also governs the carrying capacity of a character. 
+
+Each point in strength allows carrying one moderate and two light objects. 
+
+Every two points in strength allow carrying one heavy object. 
 
 #### Toughness [Tough]
 Governs the [injury threshold](#injury) of a character. 
@@ -191,161 +199,160 @@ The following list does not and cannot aim to be a complete listing of all possi
 ### Physical skills
 These skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
 
-#### Acrobatics (Dex + Str + End)
+#### Acrobatics (Agi)
 Performing acrobatic feats, such as jumping and climbing, without inuring oneself in the process. 
 
-#### Instrument-Playing < instrument > (Dex + Wis + Emp)
+#### Instrument-Playing < instrument > (Agi)
 Playing an instrument of choice. 
 
 The instrument in question must be noted. 
 
-#### Stealth (Dex + Spd + Int)
+#### Stealth (Agi)
 Moving silently and performing actions undetected. 
 
-#### Swimming (Dex + Str + End)
+#### Swimming (End)
 Swimming, as opposed to drowning. 
 
-#### Thievery (Dex + Perc + Spd)
+#### Thievery (Agi)
 Pickpocketing and lockpicking. 
 
-#### Path-finding (Int + Wis + Perc)
+#### Path-finding (Perc)
 Orienting oneself in the world. 
 
 Finding and following tracks. 
 
-#### Riding (Dex + End + Emp)
+#### Riding (Emp)
 Riding and controling a mount. 
 
-#### Sailing (End + Str + Wis)
-Steering, navigating and maintaining a naval vessel. 
+#### Sailing (Str)
+Steering and maintaining a naval vessel. 
 
 ### Social Skills
 These skills have a dominant social aspect and are strongly related to a character's *social attributes*. 
 
-#### Intimidation (Str + End + Ora)
+#### Intimidation (Will)
 Intimidating another character into doing something. 
 
 This should also in large part be based on appearance, strength and reputation. 
 
-#### Persuasion (Emp + Ora + Ora)
+#### Persuasion (Emp)
 Persuading another character to think differently about something. 
 
-#### Deception (Ora + Emp + Dex)
+#### Deception (Ora)
 Telling lies, acting in a way so as to deceive another character into believing something untruthful. 
 
-#### Animal Handling (Emp + Dex + Wis)
+#### Animal Handling (Emp)
 Gaining an animal's trust, directing and commanding it, as well as training it to obey commands. 
 
 ### Knowledge
 These skills have a dominant mental aspect and are strongly related to a character's *mental attributes*. 
 
-#### Architecture ()
+#### Architecture (Int)
 Analysing and planning buildings. Discerning weak points in a structure. 
 
-#### Alchemy (Arc + Int + Wis)
+#### Alchemy (Arc)
 The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
 
-#### Brewing (Wis + Wis + Con)
+#### Brewing (Wis)
 The brewing of alcoholic beverages. 
 
-#### Geography (Wis + Perc + Int)
+#### Geography (Int)
 Knowledge about the geography of the world. Used to recall the location of places in relation to each other. 
 
-#### Heraldry (Wis + Wis + Perc)
+#### Heraldry (Int)
 The ability to tell noble houses apart and to know their heraldry. 
 
-#### History < subject > (Wis + Wis + Int)
+#### History < subject > (Wis)
 Knowledge about past events and locations. 
 
 Specific historical knowledge should be noted. 
 
-#### Language < language > ()
+#### Language < language > (Int)
 Speaking and understanding a specific language. The language in question must be noted. 
 
-#### Law and politics (Int + Int + Wis)
+#### Law and politics (Int)
 The ability to understand laws and politics, as well as the ability to direct politics. 
 
-#### Leatherworking ()
+#### Leatherworking (Agi)
 Producing crafts with leather as the primary material. 
 
-#### Mathematics (Int + Int + Wis)
+#### Mathematics (Int)
 The ability to work with numbers. Useful for anyone handling large sums of money, but also for engineers and architects. 
 
-#### Mechanics ()
+#### Mechanics (Int)
 Understanding, designing and maintaining complex mechanical machines and devices. 
 
-#### Nature (Int + Wis + Perc)
+#### Nature (Int)
 The ability to tell flora and fauna apart and to know of their attributes, such as what is edible or poisonous or how to hunt a deer, and so on. 
 
-#### Mysticism and Religion (Int + Wis + Wis)
+#### Mysticism and Religion (Wis)
 Knowledge about religions, legends and myths. May be used to recall knowledge about mythical creatures, artifacts and locations, as well as understand the local religion more easily. 
 
-#### Medicine (Int + Wis + Perc)
+#### Medicine (Int)
 Diagnosing and treating injuries and non-magical afflictions. 
 
 Implies an understanding of anatomy, whereas past experiences with the creatures treated should be noted. 
 
-#### Reading and Writing < language > (Int + Wis + Perc)
+#### Reading and Writing < language > (Int)
 The ability to both read and write in a specific language. 
 
 The language in question must be noted in addition to this skill. 
 
-#### Tanning/Skinning ()
+#### Tanning/Skinning (Agi)
 Taking the hide off a creature undamaged. 
 
-#### Warfare (Str, Wis, Perc)
+#### Warfare (Wis)
 The ability to understand and direct large-scale combat movements, as well as understanding what makes defences effective and how to circumvent them. Also governs knowledge about sieges and siege equipment. 
 
-#### Woodcrafting ()
+#### Woodcrafting (Agi)
 General working with wood, where particular knowledge isn't required. 
 
 ### Craftsmanship
 All craftsmanship requires a mix of physical and mental attributes, for the purpose of creating a wide variety of things.
 
-#### Architecture (Int + Wis + Perc)
-The ability to plan and construct buildings. 
-
-#### Armor smithing (Str + Str + Wis)
+#### Armor smithing (Str)
 The ability to make armor from metal. 
 
-#### Artistry (Perc + Dex + Emp)
+#### Artistry (Emp)
 The ability to paint and draw well, as well as a general sense of aesthetics. 
 
-#### Blacksmithing (Str + Str + Perc)
+#### Blacksmithing (Str)
 The ability to create every-day items from metal. 
 
-#### Bow-Making (Str + Dex + End)
+#### Bow-Making (Agi)
 The ability to craft bows and crossbows. 
 
-#### Carpentry (Str + Dex + Perc)
+#### Carpentry (Agi)
 The ability to shape wood to craft predominantly wooden things. 
 
-#### Clothesmaking (Dex + Perc + Wis)
+#### Clothesmaking (Agi)
 The ability to make comfortable, well-fitting and decorated clothes. 
 
 #### Cooking (Dex + Perc + Wis)
 The ability to cook well. Poor cooks are prone to losing ingredients due to burning them or overcooking them to the point of inedibility. 
 
-#### Engineering (Int + Wis + Perc)
+#### Engineering (Int)
 The ability to plan and construct complex mechanisms and devices. 
 
-#### Fishing (Dex + End + Tough)
+#### Fishing (End)
 The ability to efficiently catch fish. 
 
-#### Fletching (Dex + Dex + End)
+#### Fletching (Agi)
 The ability to efficiently craft arrows, bolts and javelins. 
 
-#### Leatherworking (Str + Dex + Wis)
+#### Leatherworking (Agi)
 The ability to create leather objects. 
 
-#### Masonry (Str + Str + Perc)
+#### Masonry (Str)
 The ability to shape stone to craft predominantly stone-based things. 
 
-#### Weapon smithing (Str + Str + Wis)
+#### Weapon smithing (Str)
 The ability to make weapons from metal. 
 
 ### Learning Skills
-TODO
+Whenever asked to test a skill a player character does not yet know, it will be added or progressed in the *currently learning* section of the character sheet. 
+
+A skill in learning can only be tested with their related [attribute](#attributes), at twice the **Ob** it would normally get. 
 
 ## Ambitions, Beliefs & Instincts
 While all characters are expected to have ambitions, beliefs and instincts, player characters are special in that these concepts are cemented through rules and mechanics. 
@@ -405,6 +412,15 @@ Debilities may affect a character's appearance, physical, mental and social abil
 A character at death's door must succeed at least one [toughness](#toughness-tough) test out of a possible three. If they never succeed, they perish, irrevocably. If the character is at death's door during combat, they must roll their [toughness](#toughness-tough) test at the end of the player turn. 
 
 A character can be helped out of death's grasp, via the use of medical arts or healing magic. A successful [medicine](#medicine-int--wis--perc) test is required. Forking is not possible. The character at death's door receives **+1D6** for each success. Alternatively, a healing magic test also grants **+1D6** for each success. 
+
+## Possessions & Equipment
+Money is generalized as **crowns**, with no regard for regional currencies. 
+
+How much a character can carry, is determined by their [strength level](#strength-str). 
+
+There are four weight levels: Heavy, moderate, light and negligible. A character can only carry up to a set number of heavy, moderate and light objects. An arbitrary number of negligible objects can be carried. 
+
+Worn equipment, such as clothing, armor or backpacks do not count, for as long as they're worn. 
 
 # Combat
 
