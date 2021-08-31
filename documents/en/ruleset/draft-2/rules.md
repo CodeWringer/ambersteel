@@ -1,9 +1,12 @@
+- [Introduction](#introduction)
 - [Dice](#dice)
   - [Tests](#tests)
     - [Types of Test](#types-of-test)
       - [Binary Test](#binary-test)
       - [Graduated Test](#graduated-test)
       - [Creative Test](#creative-test)
+      - [Opposed Test](#opposed-test)
+    - [Advantage & Disadvantage](#advantage--disadvantage)
 - [Character](#character)
   - [Attributes](#attributes)
     - [Physical Attributes](#physical-attributes)
@@ -22,6 +25,7 @@
       - [Will [Will]](#will-will)
   - [Skills](#skills)
     - [Skill Forking](#skill-forking)
+    - [Intent & Action](#intent--action)
     - [Skill List](#skill-list)
     - [Physical skills](#physical-skills)
       - [Acrobatics (Agi)](#acrobatics-agi)
@@ -29,6 +33,7 @@
       - [Stealth (Agi)](#stealth-agi)
       - [Swimming (End)](#swimming-end)
       - [Thievery (Agi)](#thievery-agi)
+      - [Observation (Perc)](#observation-perc)
       - [Path-finding (Perc)](#path-finding-perc)
       - [Riding (Emp)](#riding-emp)
       - [Sailing (Str)](#sailing-str)
@@ -84,6 +89,13 @@
 - [Combat](#combat)
 - [Magic](#magic)
 
+# Introduction
+**Ambersteel** is a role-playing game, requiring a **game master** (henceforth referred to as the **GM**) and at least one **player** to play. 
+
+While each player only indirectly controls a single character, the GM is in direct control of every single non-player character (**NPC**), the world and the story. 
+
+The system is designed to fit a low to medium fantasy medieval setting. Player characters may be special, but they're far from heroic. Combat is deadly, magic is powerful, yet risky and character's abilities grow over time. 
+
 # Dice
 **Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**). *Dice pool* means a variable number of **D6** will be rolled to resolve uncertain situations and actions in game. 
 
@@ -118,6 +130,22 @@ Also known as a **skill challenge**, this type of test asks the player(s) to pic
 
 Whether the attribute(s) and skill(s) in question apply to resolve the situation at hand, lies at the GM's discretion. 
 
+#### Opposed Test
+Also known as a *versus test*, this type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of successes of each character. The one with the most successes is the winner. 
+
+If there is a tie, the defending character is considered the winner. 
+
+For example, a character tries to sneak past another, the sneak will have to do a [stealth](#stealth-agi) test, while the other character will have to do a [observation](#observation-perc) test. If the result is a tie, the one doing the observation test is considered the defender and wins. 
+
+If a tie occurs in which a defender cannot be clearly determined, the result is a deadlock and neither side gains anything. 
+
+### Advantage & Disadvantage
+Certain situations may warrant a character getting advantage or disadvantage to a test they have to make. 
+
+Advantage grants **+1D6**, while disadvantage forces **-1D6** to the test in question. 
+
+A player may argue for their advantage in a situation, but only once, with a clear statement. Dancing around, trying and hoping to somehow convince the GM with vague descriptions and arguing against the GM's decision immediately disqualifies your character from getting advantage. 
+
 # Character
 
 ## Attributes
@@ -137,7 +165,9 @@ Governs how long a character can endure physical strains.
 For every point in endurance, a character raises their [Exhaustion Threshold](#exhaustion) by two. 
 
 #### Perception [Perc]
-Governs a character's ability to quickly pick up on fine and fleeting details in their environment or on objects and other characters. Also governs the ability to perceive under difficult conditions such as dim light and fog, or noisy and smelly environments. 
+Governs a character's ability to passively quickly pick up on fine and fleeting details in their environment or on objects and other characters. 
+
+Also governs the ability to perceive under difficult conditions such as dim light and fog, or noisy and smelly environments. 
 
 #### Strength [Str]
 Governs a character's strength - the ability to lift, throw and break heavy and sturdy things. Such as skulls. Also governs the carrying capacity of a character. 
@@ -193,6 +223,13 @@ Which skills can be forked into a particular test is up to the GM. If a player i
 
 Back to the thievery example. Let's assume a player character is trying to quickly unlock a door, because they're being chased by guards and desperately need to get away. They could argue to use their stealth skill, but ultimately, what use is stealth when you've already been detected? Unless you can make yourself *unseen* somehow, the GM should rule that stealth does not apply in that situation. 
 
+### Intent & Action
+The players drive the story and the action. When deciding on what to do, make sure you state the **intent** of your action, like "I will make that person work for us!". 
+
+Then, the GM will need to know how you aim to follow up on your intent. Describe the **action** you will take. The clearer, the better. "I will tell them of our exploits and how well we get paid!", is a good response and allows the GM to conclude you're trying to [persuade](#persuasion-emp) the other character. Even better would be something like "I will *persuade* them by telling them of our exploits and how well we get paid!" That leaves no room for doubt *how* you wish to achieve your goal. 
+
+Of course, how appropriate a certain skill is for the resolution of a given situation, is ultimately up to the GM and the specifics of the situation itself. 
+
 ### Skill List
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the GM. 
 
@@ -215,6 +252,9 @@ Swimming, as opposed to drowning.
 
 #### Thievery (Agi)
 Pickpocketing and lockpicking. 
+
+#### Observation (Perc)
+Actively looking out for and detecting hidden things or characters. 
 
 #### Path-finding (Perc)
 Orienting oneself in the world. 
@@ -418,9 +458,11 @@ Money is generalized as **crowns**, with no regard for regional currencies.
 
 How much a character can carry, is determined by their [strength level](#strength-str). 
 
-There are four weight levels: Heavy, moderate, light and negligible. A character can only carry up to a set number of heavy, moderate and light objects. An arbitrary number of negligible objects can be carried. 
+There are four weight levels: **Heavy**, **moderate**, **light** and **negligible**. A character can only carry up to a set number of heavy, moderate and light objects. An arbitrary number of negligible objects can be carried. 
 
 Worn equipment, such as clothing, armor or backpacks do not count, for as long as they're worn. 
+
+Technically, there would actually be five weight levels, the fifth being **too heavy**, which is anything that cannot be reasonably carried. For example, a human will never be able to *carry* an entire mountain. It is up to the GM to decide on when something is *too heavy* to carry for the character in question. 
 
 # Combat
 
