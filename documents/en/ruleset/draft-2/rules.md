@@ -27,6 +27,7 @@
       - [Empathy [Emp]](#empathy-emp)
       - [Oratory [Ora]](#oratory-ora)
       - [Will [Will]](#will-will)
+    - [Advancing Attributes](#advancing-attributes)
   - [Skills](#skills)
     - [Skill Forking](#skill-forking)
     - [Intent & Action](#intent--action)
@@ -81,6 +82,7 @@
       - [Masonry (Str)](#masonry-str)
       - [Weapon smithing (Str)](#weapon-smithing-str)
     - [Learning Skills](#learning-skills)
+    - [Advancing Skills](#advancing-skills)
   - [Ambitions, Beliefs & Instincts](#ambitions-beliefs--instincts)
     - [Ambition](#ambition)
     - [Beliefs](#beliefs)
@@ -293,6 +295,9 @@ Governs a character's ability to convincingly speak with and before others. Also
 #### Will [Will]
 Governs a character's ability to withstand persuasion, intimidation, charm or terror. 
 
+### Advancing Attributes
+TODO
+
 ## Skills
 A skill is any acquired knowledge and experience regarding a specific subject. 
 
@@ -320,6 +325,8 @@ Of course, how appropriate a certain skill is for the resolution of a given situ
 
 ### Skill List
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
+
+For a human, a skill at level ten represents an absolute, almost god-like mastery of that skill. It is possible to go higher than that, but that should be extremely rare. Instead, the average skill a human could reasonably have in a skill they've been practicing for months, should be around two or three. Only years of experience allow for a four or five. Anything higher than five should be considered excellence. 
 
 ### Physical skills
 These skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
@@ -484,6 +491,11 @@ The ability to make weapons from metal.
 Whenever asked to test a skill a **PC** does not yet know, it will be added or progressed in the *currently learning* section of the character sheet. 
 
 A skill in learning can only be tested with their related [attribute](#attributes), at twice the **Ob** it would normally get. 
+
+### Advancing Skills
+Whenever a **PC** uses a skill in a [test](#tests), the outcome must be noted. The number of successes/failures of the roll don't matter, only if the test as a whole was a success or a failure. 
+
+TODO math
 
 ## Ambitions, Beliefs & Instincts
 While all characters are expected to have ambitions, beliefs and instincts, **PC**s are special in that these concepts are cemented through rules and mechanics. 
