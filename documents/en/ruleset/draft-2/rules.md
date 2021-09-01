@@ -3,11 +3,15 @@
   - [Tests](#tests)
     - [Types of Test](#types-of-test)
       - [Binary Test](#binary-test)
+      - [Stepped Test](#stepped-test)
       - [Graduated Test](#graduated-test)
       - [Creative Test](#creative-test)
       - [Opposed Test](#opposed-test)
     - [Advantage & Disadvantage](#advantage--disadvantage)
+    - [Providing Assistance](#providing-assistance)
 - [Character](#character)
+    - [Time](#time)
+    - [Fewer Tests Are Better](#fewer-tests-are-better)
   - [Attributes](#attributes)
     - [Physical Attributes](#physical-attributes)
       - [Agility [Agi]](#agility-agi)
@@ -92,50 +96,61 @@
 # Introduction
 **Ambersteel** is a role-playing game, requiring a **game master** (henceforth referred to as the **GM**) and at least one **player** to play. 
 
-While each player only indirectly controls a single character, the GM is in direct control of every single non-player character (**NPC**), the world and the story. 
+While each player only indirectly controls a single character, the **GM** is in direct control of every single non-player character (**NPC**), the world and the story. A player character is abbreviated as **PC**. 
 
 The system is designed to fit a low to medium fantasy medieval setting. Player characters may be special, but they're far from heroic. Combat is deadly, magic is powerful, yet risky and character's abilities grow over time. 
+
+But this is not an *antagonistic* game. The **GM** and the players work ***together*** to tell a compelling, interesting, humorous or tense story. Ultimately, the **GM**'s job is to provide conundrums to the players and their job is to provide answers. 
 
 # Dice
 **Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**). *Dice pool* means a variable number of **D6** will be rolled to resolve uncertain situations and actions in game. 
 
 ## Tests
-Whenever the outcome of an action or situation is uncertain, a **test** may be called for by the GM, in order to resolve it. 
+Whenever the outcome of an action or situation is uncertain, a **test** may be called for by the **GM**, in order to resolve it. 
 
 As a basis for a test, either an [attribute](#attributes) or [skill](#skills) is used. 
 
 Only a six rolled on a single die counts as a success. Other values are discarded as irrelevant. Only successes (sixes) matter. 
 
-How many successes are needed in order to succeed a test, is determined by the GM, via the mechanism called **obstacle** (henceforth referred to as **Ob**). The test can only succeed, if at least as many successes are rolled, as the *obstacle level* named by the GM. For example, to succeed a test at **Ob 3**, at least three successes must be rolled. Any less, and the test is a failure. 
+How many successes are needed in order to succeed a test, is determined by the **GM**, via the mechanism called **obstacle** (henceforth referred to as **Ob**). The test can only succeed, if at least as many successes are rolled, as the *obstacle level* named by the **GM**. 
+
+> For example, to succeed a test at **Ob 3**, at least three successes must be rolled. Any less, and the test outcome is a failure. 
 
 To resolve an **attribute test**, the number of **D6** indicated by the *attribute level* (the number next to the attribute) must be rolled. 
 
 To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill), plus the number of **D6** indicated by the related [attribute](#attributes) must be rolled. 
 
 ### Types of Test
-There are the following types of tests. The GM decides when each type of test is appropriate. 
+There are the following types of tests. The **GM** decides when each type of test is appropriate. 
 
 #### Binary Test
 The outcome of the test is an absolute success, or failure. These are tests, where the **degree of success** is irrelevant. 
 
+#### Stepped Test
+A stepped test is really just a series of [binary tests](#binary-test). This allows for finer-grained results, while not behaving like a [graduated test](#graduated-test). 
+
+This type of test is useful for situations where the **GM** decides to create very fine *time slices* and allow more chances for success. This makes it easier to allow a **PC** to *fail forward* or prevent a *one roll to end it all* situation. 
+
+> For example, a **PC** is attempting to cross a suspension bridge, but upon setting foot on the bridge, the ropes holding it up, suddenly snap. The **PC** can make an [acrobatics](#acrobatics-agi) test, to try and quickly jump off and back onto solid ground. They fail, and get to make another [acrobatics](#acrobatics-agi) test, to try and grab a root sticking out of the ground beneath the bridge. As a last chance for that **PC** to survive, the **GM** asks one of the other players if their character will attempt an [acrobatics](#acrobatics-agi) test to try and grab their falling ally's hand in a daring rescue. Finally, their ally succeeds and the **PC**'s life is saved. Obviously, such a situation should not arise often, as stepped tests can quickly grow exasperating for the players. 
+
 #### Graduated Test
 The outcome of the test is graduated. That means, the number of successes rolled during the test factor into the outcome. This is called the **degree of success**. 
 
-For example, when crafting a work of art, the number of successes achieved may result in a more impressive piece, which can then be sold at a higher price or which could make for a more impressive gift. 
+> For example, when crafting a work of art, the number of successes achieved may result in a more impressive piece, which can then be sold at a higher price or which could make for a more impressive gift. 
 
 On the other hand, failure doesn't have to be absolute. The degree of failure can allow for a "failing forward" - a success, but with complications, whose severity depends on the number of failures. 
 
 #### Creative Test
 Also known as a **skill challenge**, this type of test asks the player(s) to pick and justify the skill(s) and attribute(s) to use in a given situation. Players are encouraged to think creatively and come up with solutions. 
 
-Whether the attribute(s) and skill(s) in question apply to resolve the situation at hand, lies at the GM's discretion. 
+Whether the attribute(s) and skill(s) in question apply to resolve the situation at hand, lies at the **GM**'s discretion. 
 
 #### Opposed Test
 Also known as a *versus test*, this type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of successes of each character. The one with the most successes is the winner. 
 
 If there is a tie, the defending character is considered the winner. 
 
-For example, a character tries to sneak past another, the sneak will have to do a [stealth](#stealth-agi) test, while the other character will have to do a [observation](#observation-perc) test. If the result is a tie, the one doing the observation test is considered the defender and wins. 
+> For example, a character tries to sneak past another, the sneak will have to do a [stealth](#stealth-agi) test, while the other character will have to do an [observation](#observation-perc) test. If the result is a tie, the one doing the observation test is considered the defender, and wins. 
 
 If a tie occurs in which a defender cannot be clearly determined, the result is a deadlock and neither side gains anything. 
 
@@ -144,9 +159,40 @@ Certain situations may warrant a character getting advantage or disadvantage to 
 
 Advantage grants **+1D6**, while disadvantage forces **-1D6** to the test in question. 
 
-A player may argue for their advantage in a situation, but only once, with a clear statement. Dancing around, trying and hoping to somehow convince the GM with vague descriptions and arguing against the GM's decision immediately disqualifies your character from getting advantage. 
+A player may argue for their advantage in a situation, but only once, with a clear statement. Dancing around, trying and hoping to somehow convince the **GM** with vague descriptions immediately disqualifies your character from getting advantage. Arguing with the **GM** *also* immediately disqualifies your character from getting advantage. 
+
+### Providing Assistance
+Characters can help each other in tests. In order to help with a test, a character must know the [skill](#skills) and the one being helped must accept the help. 
+
+Helping in a test works much like [forking](#skill-forking) a skill. The character being helped receives **+1D6** to roll for each *character* helping them. The number of relevant skills a helping character has is irrelevant. Just one is enough to allow them to help and only one **+1D6** is granted by the helping character. 
+
+If a **PC** is helping another, their player must describe *how* they're using their relevant skill to help. 
+
+> For example, a **PC** is currently using their [thievery](#thievery-agi) to lockpick a door. Their allied **PC** is *helping*, by using their [observation](#observation-perc) skill to *keep an eye out for guards*, which allows the one on the door to work without having to constantly look over their shoulder. 
+
+Ultimately, whether a skill is appropriate to help with is determined by the **GM**. 
 
 # Character
+A character is a representation of a sentient creature in the game world. They're an amalgam of [attributes](#attributes), [skills](#skills), [ambitions, beliefs & instincts](#ambitions-beliefs--instincts) and of course their [possessions](#possessions--equipment). 
+
+### Time
+Not all tests are created equal - some actions require more time than others. 
+
+While the **GM** decides on how much time a given test will need, the following guidelines should provide a good basis. 
+
+* (Near) instantaneous: Combat actions, recalling knowledge, noticing things in passing. 
+* A matter of minutes: inspecting an environment, quickly skimming the contents of a book, persuading someone in conversation, first aid. 
+* A matter of hours: Simple crafts, surgery, scrutinizing an environment, researching something simple/not obscure, engaging in lengthy and difficult negotiations.
+* A matter of days and months: Complex crafts and artistry, researching a complex or obscure subject. 
+
+### Fewer Tests Are Better
+This section is primarily directed at the **GM**. The short of it goes as follows: 
+
+Only have a player make one test per scene/situation, as long as the scene/situation doesn't change significantly. 
+
+> For example, a **PC** is trying to sneak past two guards huddled around a campfire. If they succeed their [stealth](#stealth-agi) test, the **GM** lets them sneak all around the camp, without making them do multiple tests, as long as the situation doesn't change significantly. One of the guards getting up to take a pee behind a tree somewhere shouldn't be such a change, even if that happens to be the tree the **PC** is hiding behind. On the other hand, if the guards pick up torches and start actively looking for intruders, for whatever reason, then the situation changes significantly. Another [stealth](#stealth-agi) test would be warranted. 
+
+Of course, how many tests are appropriate in a given situation is entirely the **GM**'s decision to make. 
 
 ## Attributes
 Attributes describe a character's basic, inherent abilities. 
@@ -210,6 +256,8 @@ Governs a character's ability to convincingly speak with and before others. Also
 Governs a character's ability to withstand persuasion, intimidation, charm or terror. 
 
 ## Skills
+A skill is any acquired knowledge and experience regarding a specific subject. 
+
 All of a character's skills have a value attached to them, which indicates the number of **D6** to use when testing that skill. 
 
 Skills can be improved over time. Every time a roll for a skill is made, the outcome will be noted. Whenever a certain threshold of successes and failures is passed, the skill improves. Both a certain number of successes *and* a certain number of failures must be accumulated to grow a skill. 
@@ -217,21 +265,23 @@ Skills can be improved over time. Every time a roll for a skill is made, the out
 ### Skill Forking
 For every skill a character knows (= is not currently still learning), and they are currently testing a skill that is thematically related, they can **fork** that skill into their test, granting them **+1D6** for their test. 
 
-For example, if a character is testing their [thievery](#thievery-dex--perc--spd) sill at level three and they also know [stealth](#stealth-dex--spd--int), they can **fork** their stealth skill into their thievery test. Any number of skills can be forked into a test, but each fork only grants **+1D6**. For the thievery test above, it doesn't matter if the character is at stealth level one or five or nine-thousand. They only get a **+1D6** to their thievery test. 
+> Imagine a large forked rivermouth. One of the forks feeding into it is also a large river, which represents the skill primarily being tested. The other, smaller forks of the river represent the supporting skills. They all combine together at the rivermouth. A primary and supporting skills flow together into the test! 
 
-Which skills can be forked into a particular test is up to the GM. If a player is performing a test, they can argue for the use of the skills they want to fork into their particular test, but ultimately, if the GM says no, that decision stands. 
+> For example, if a character is testing their [thievery](#thievery-dex--perc--spd) sill at level three and they also know [stealth](#stealth-dex--spd--int), they can **fork** their stealth skill into their thievery test. Any number of skills can be **forked** into a test, but each **fork** only grants **+1D6**. For the thievery test above, it doesn't matter if the character is at stealth level one or five or nine-thousand. They only get a **+1D6** to their thievery test. So in this case, if the **GM** agrees, the player gets to roll **4D6** for their test. 
 
-Back to the thievery example. Let's assume a player character is trying to quickly unlock a door, because they're being chased by guards and desperately need to get away. They could argue to use their stealth skill, but ultimately, what use is stealth when you've already been detected? Unless you can make yourself *unseen* somehow, the GM should rule that stealth does not apply in that situation. 
+Which skills can be **forked** into a particular test is up to the **GM**. If a player is performing a test, they can lobby for the use of the skills they want to **fork** into their particular test, but ultimately, if the **GM** says no, that decision is final. 
+
+> Back to the thievery example. Let's assume a **PC** is trying to quickly unlock a door, because they're being chased by guards and desperately need to get away. They could argue to use their [stealth](#stealth-dex--spd--int) skill, but ultimately, what use is stealth when you've already been detected? Unless you can make yourself *unseen* somehow, the **GM** should rule that stealth cannot apply in that situation. 
 
 ### Intent & Action
 The players drive the story and the action. When deciding on what to do, make sure you state the **intent** of your action, like "I will make that person work for us!". 
 
-Then, the GM will need to know how you aim to follow up on your intent. Describe the **action** you will take. The clearer, the better. "I will tell them of our exploits and how well we get paid!", is a good response and allows the GM to conclude you're trying to [persuade](#persuasion-emp) the other character. Even better would be something like "I will *persuade* them by telling them of our exploits and how well we get paid!" That leaves no room for doubt *how* you wish to achieve your goal. 
+Then, the **GM** will need to know how you aim to follow up on your intent. Describe the **action** you will take. The clearer, the better. "I will tell them of our exploits and how well we get paid!", is a good response and allows the **GM** to conclude you're trying to [persuade](#persuasion-emp) the other character. Even better would be something like "I will *persuade* them by telling them of our exploits and how well we get paid!" That leaves no room for doubt *how* you wish to achieve your goal. 
 
-Of course, how appropriate a certain skill is for the resolution of a given situation, is ultimately up to the GM and the specifics of the situation itself. 
+Of course, how appropriate a certain skill is for the resolution of a given situation, is ultimately up to the **GM** and the specifics of the situation itself. 
 
 ### Skill List
-The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the GM. 
+The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
 
 ### Physical skills
 These skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
@@ -390,17 +440,17 @@ The ability to shape stone to craft predominantly stone-based things.
 The ability to make weapons from metal. 
 
 ### Learning Skills
-Whenever asked to test a skill a player character does not yet know, it will be added or progressed in the *currently learning* section of the character sheet. 
+Whenever asked to test a skill a **PC** does not yet know, it will be added or progressed in the *currently learning* section of the character sheet. 
 
 A skill in learning can only be tested with their related [attribute](#attributes), at twice the **Ob** it would normally get. 
 
 ## Ambitions, Beliefs & Instincts
-While all characters are expected to have ambitions, beliefs and instincts, player characters are special in that these concepts are cemented through rules and mechanics. 
+While all characters are expected to have ambitions, beliefs and instincts, **PC**s are special in that these concepts are cemented through rules and mechanics. 
 
 Ambitions, beliefs and instincts can not change during a game session. They can only be changed in-between. 
 
 ### Ambition
-Every player character must have at least one ambition - a life-fulfilling long-term goal to pursue, which is to be determined during character creation. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an ambition is a primary driver for a character, to drive them onward. The important part is to think *big*. Something easily achievable would make for a dull ambition and defeat the point of it. 
+Every **PC** must have at least one ambition - a life-fulfilling long-term goal to pursue, which is to be determined during character creation. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an ambition is a primary driver for a character, to drive them onward. The important part is to think *big*. Something easily achievable would make for a dull ambition and defeat the point of it. 
 
 An ambition is not expected to change often. An ideal ambition would last a character a long time. 
 
@@ -412,9 +462,11 @@ Beliefs are expected to change frequently.
 ### Instincts
 Much like [beliefs](#beliefs), a player must determine three instincts for their character. 
 
-An instinct represents an automatic reaction from the character, given a situation that triggers the instinct. They can be seen as "if/then" and "always/never" statements. For example: "Whenever someone praises the state religion, I start ranting against it."
+An instinct represents an automatic reaction from the character, given a situation that triggers the instinct. They can be seen as "if/then" and "always/never" statements. 
 
-Ideally, an instinct should be (ab-)usable by the GM, to get the player character into *trouble* easier. This is to be taken with a wink, though. A GM is expected to craft an *interesting* story and thus create *interesting* conundrums for the players and their characters, with a realistic chance for the players and their characters to maneuver themselves back out of trouble. 
+> For example: "Whenever someone praises the state religion, I start ranting against it."
+
+Ideally, an instinct should be (ab-)usable by the **GM**, to get the **PC** into *trouble* easier. This is to be taken with a wink, though. A **GM** is expected to craft an *interesting* story and thus create *interesting* conundrums for the players and their characters, with a realistic chance for the players and their characters to maneuver themselves back out of trouble. 
 
 Instincts are expected to change frequently. 
 
@@ -427,7 +479,7 @@ Exhaustion is gained through performing **exhausting actions**, carrying **exhau
 
 Exhaustion gained from **exhausting actions** can be reduced by resting. A full rest of at least six uninterrupted hours will fully clear any exhaustion gained from **exhausting actions**. 
 
-Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question and resting for a short while, at the GM's discretion. A character trying to carry more than they can endure, should not immediately fall unconscious, mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them. 
+Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question and resting for a short while, at the **GM**'s discretion. A character trying to carry more than they can endure, should not immediately fall unconscious, mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them. 
 
 ## Injury
 If a character is injured up to their **injury threshold**, they fall unconscious and arrive at [death's door](#deaths-door). 
@@ -462,7 +514,11 @@ There are four weight levels: **Heavy**, **moderate**, **light** and **negligibl
 
 Worn equipment, such as clothing, armor or backpacks do not count, for as long as they're worn. 
 
-Technically, there would actually be five weight levels, the fifth being **too heavy**, which is anything that cannot be reasonably carried. For example, a human will never be able to *carry* an entire mountain. It is up to the GM to decide on when something is *too heavy* to carry for the character in question. 
+Technically, there would actually be five weight levels, the fifth being **too heavy**, which is anything that cannot be reasonably carried. 
+
+> For example, an ordinary human will never be able to *carry* an entire mountain. They can carry smaller pieces (rocks), but not all at once. 
+
+It is up to the **GM** to decide on when something is *too heavy* to carry for the character in question. 
 
 # Combat
 
