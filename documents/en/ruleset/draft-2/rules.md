@@ -104,6 +104,16 @@
       - [Poisoned](#poisoned)
   - [Possessions & Equipment](#possessions--equipment)
 - [Combat](#combat)
+  - [Start of Combat](#start-of-combat)
+  - [Combat Actions](#combat-actions)
+  - [Melee Combat](#melee-combat)
+  - [Ranged Combat](#ranged-combat)
+    - [Thrown Weapons](#thrown-weapons)
+  - [Types of Attack](#types-of-attack)
+    - [Aimed Attack](#aimed-attack)
+    - [Difficult Attack](#difficult-attack)
+    - [Easy Attack](#easy-attack)
+    - [Execution Attack](#execution-attack)
 - [Magic](#magic)
   - [Spell Intensity](#spell-intensity)
   - [Maximum Spell Intensity](#maximum-spell-intensity)
@@ -592,7 +602,62 @@ Technically, there would actually be five weight levels, the fifth being **too h
 It is up to the **GM** to decide on when something is *too heavy* to carry for the character in question. 
 
 # Combat
+TODO
 
+## Start of Combat
+At the beginning of every combat encounter, the involved parties must roll for initiative. Character's get to act in the reverse order of the value rolled. That means that higher values get to go first. 
+
+If one party is surprised, the ambushing party gets to act for a full round, without initiative being rolled. This is called a *surprise round*. After the surprise round, initiative is rolled and combat begins as explained above. 
+
+A party is considered surprised if they were unaware of their opponents when the first attack roll happens. 
+
+> As an example: this does not count for opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and attacks. The attacker can be clearly seen by the defender and thus they must both roll for initiative, to determine whether the defender can react in time. 
+
+## Combat Actions
+TODO
+
+## Melee Combat
+TODO
+
+## Ranged Combat
+TODO
+
+### Thrown Weapons
+TODO
+
+## Types of Attack
+TODO
+
+### Aimed Attack
+An attack generally targets the center of mass (torso) of the targeted opponent. 
+
+It is, however, possible to call out wanting to attack a specific part of an opponent's body. Generally, this means that the attack must be rolled with [disadvantage](#advantage--disadvantage). However, the game master can also decide the part being targeted is fairly easy to hit, either generally or due to current circumstance, so no disadvantage is incurred. 
+
+A player may call out what effect the aimed attack is supposed to have, such as limiting their opponent's ability to stand, move, attack or whatever else the body part may be useful for. If they don't, the game master decides the negative effect. 
+
+### Difficult Attack
+There may be attacks that are more difficult to perform, due to current circumstance. Such attack rolls are [disadvantaged](#advantage--disadvantage). 
+
+An example for a *difficult attack* would be targeting an opponent with a ranged weapon when the opponent is behind cover. 
+
+Another example would be attacking backwards, at an invisible enemy or with a broken arm, and so on.
+
+### Easy Attack
+Opposite of the difficult attack, is the *easy attack*, which is [advantaged](#advantage--disadvantage).
+
+The following are generally considered easy attacks (but at the game master's discretion):
+* From behind
+* Against prone opponents
+* Against restrained opponents
+
+### Execution Attack
+The extreme version of an easy attack, the *execution attack* allows outright killing or maiming an opponent, without having to roll for an attack or for damage. 
+
+Such an attack can be carried out against any character who is unable to fight back (with the exception of player characters, see [death's door](#deaths-door)). 
+
+This kind of attack is always possible only at the game master's discretion. 
+
+Examples for an execution attack would be a stealthed character slitting another's throat, without them being aware of their assailant, or a character restrained by chains and unable to avoid the attack at all, when their assailant pushes their spear through their heart. 
 
 # Magic
 Any character knowing [arcana](#arcana-arc), can cast magic. What kind of magic, depends on the [magic schools](#magic-schools) the character knows. 
