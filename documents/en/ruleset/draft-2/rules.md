@@ -56,6 +56,7 @@
       - [Language < language > (Int)](#language--language--int)
       - [Law and politics (Int)](#law-and-politics-int)
       - [Leatherworking (Agi)](#leatherworking-agi)
+      - [Magic School < School > (Arc)](#magic-school--school--arc)
       - [Mathematics (Int)](#mathematics-int)
       - [Mechanics (Int)](#mechanics-int)
       - [Nature (Int)](#nature-int)
@@ -89,9 +90,32 @@
     - [Recovery](#recovery)
     - [Debilities](#debilities)
     - [Death's Door](#deaths-door)
+    - [Damage Types](#damage-types)
+      - [Slashing](#slashing)
+      - [Piercing](#piercing)
+      - [Crushing](#crushing)
+      - [Burning](#burning)
+      - [Freezing](#freezing)
+      - [Poison](#poison)
+      - [Acid](#acid)
+    - [Damage Resistances](#damage-resistances)
+    - [Injury Over Time](#injury-over-time)
+      - [Bleeding](#bleeding)
+      - [Poisoned](#poisoned)
   - [Possessions & Equipment](#possessions--equipment)
 - [Combat](#combat)
 - [Magic](#magic)
+  - [Spell Intensity](#spell-intensity)
+  - [Maximum Spell Intensity](#maximum-spell-intensity)
+  - [Injuring Magic](#injuring-magic)
+  - [Spell Backfire](#spell-backfire)
+  - [Magic Schools](#magic-schools)
+    - [Pyromancy](#pyromancy)
+    - [Cryomancy](#cryomancy)
+    - [Restoration](#restoration)
+    - [Alteration](#alteration)
+    - [Illusion](#illusion)
+    - [Counter-Magic](#counter-magic)
 
 # Introduction
 **Ambersteel** is a role-playing game, requiring a **game master** (henceforth referred to as the **GM**) and at least one **player** to play. 
@@ -101,6 +125,8 @@ While each player only indirectly controls a single character, the **GM** is in 
 The system is designed to fit a low to medium fantasy medieval setting. Player characters may be special, but they're far from heroic. Combat is deadly, magic is powerful, yet risky and character's abilities grow over time. 
 
 But this is not an *antagonistic* game. The **GM** and the players work ***together*** to tell a compelling, interesting, humorous or tense story. Ultimately, the **GM**'s job is to provide conundrums to the players and their job is to provide answers. 
+
+In some places, where distances are concerned, both feet and meters are noted as units. What attentive readers will notice, is that the conversion between the numbers won't always be correct. This is a deliberate decision to make the math easier, whenever a grid (or *battlemap*) is used in play. One square on the grid should represent either a five foot, or one meter square. Furthermore, a single, ordinary human, should occupy an entire such square. 
 
 # Dice
 **Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**). *Dice pool* means a variable number of **D6** will be rolled to resolve uncertain situations and actions in game. 
@@ -235,6 +261,8 @@ Governs a character's ability to control magic flow, sense magic and withstand m
 
 Also used to resist negative magic effects. 
 
+For every point in arcana, a character raises their [maximum spell intensity](#maximum-spell-intensity) by one and their [exhaustion resistance](#magic) by one. 
+
 #### Intelligence [Int]
 Governs a character's ability to reason and analyze. 
 
@@ -366,6 +394,9 @@ The ability to understand laws and politics, as well as the ability to direct po
 #### Leatherworking (Agi)
 Producing crafts with leather as the primary material. 
 
+#### Magic School < School > (Arc)
+Knowledge and experience in a specific [magic school](#magic-schools). 
+
 #### Mathematics (Int)
 The ability to work with numbers. Useful for anyone handling large sums of money, but also for engineers and architects. 
 
@@ -488,7 +519,7 @@ Each time a character incurs an injury at or past half of their threshold, they 
 
 For every two injuries, a character's [exhaustion threshold](#exhaustion) is lowered by one. 
 
-For every three injuries, the character suffers a penalty of **-1d**, to all tests. 
+For every three injuries, the character suffers a penalty of **-1D**, to all tests. 
 
 If injured past two thirds of their injury tolerance, a character must succeed a [toughness](#toughness-tough) test, or else suffer a [debility](#debilities).
 
@@ -504,6 +535,46 @@ Debilities may affect a character's appearance, physical, mental and social abil
 A character at death's door must succeed at least one [toughness](#toughness-tough) test out of a possible three. If they never succeed, they perish, irrevocably. If the character is at death's door during combat, they must roll their [toughness](#toughness-tough) test at the end of the player turn. 
 
 A character can be helped out of death's grasp, via the use of medical arts or healing magic. A successful [medicine](#medicine-int--wis--perc) test is required. Forking is not possible. The character at death's door receives **+1D6** for each success. Alternatively, a healing magic test also grants **+1D6** for each success. 
+
+### Damage Types
+All injuries inflicted, are inflicted with a certain type of damage. 
+
+#### Slashing
+Usually inflicted by any sort of cutting/slashing weapon, like a sword, or a talon. 
+
+#### Piercing
+Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. 
+
+#### Crushing
+Usually inflicted by any sort of blunt weapon, like a hammer, or an animal's tusks. 
+
+#### Burning
+Inflicted by fire. 
+
+#### Freezing
+Inflicted by extreme cold. 
+
+#### Poison
+Usually represents a [injuries over time effect](#injury-over-time). 
+
+#### Acid
+Dissolves anything it touches, or perhaps just organic matter. 
+
+### Damage Resistances
+Some creatures can resist certain [types of damage](#damage-types) naturally, while others may cover themselves in armor to the same effect. 
+
+Whether all, half or a certain amount of [injuries](#injury) is resisted, depends on the specifics of the creature or character and their [equipment](#possessions--equipment). 
+
+### Injury Over Time
+Also known as *damage over time* or *status effect*, these are [damage types](#damage-types), which inflict injuries over a set period of time. 
+
+Every **injury over time** has an **intensity level**. The intensity governs how many injuries a afflicted character/creature suffers and at which intervals. 
+
+#### Bleeding
+One injury per intensity level, per round of combat, or every minute. 
+
+#### Poisoned
+One injury per intensity level, per round of combat, or every minute. 
 
 ## Possessions & Equipment
 Money is generalized as **crowns**, with no regard for regional currencies. 
@@ -524,3 +595,69 @@ It is up to the **GM** to decide on when something is *too heavy* to carry for t
 
 
 # Magic
+Any character knowing [arcana](#arcana-arc), can cast magic. What kind of magic, depends on the [magic schools](#magic-schools) the character knows. 
+
+## Spell Intensity
+Any magic can be cast at different **intensities**. A greater **spell intensity** results in a greater effect, at a proportionally greater cost. 
+
+Whenever a mage casts a spell, they must roll **ND3**, where *N* is the **spell intensity** they're casting the spell at. The number they roll, is the amount of [exhaustion](#exhaustion) they gain from casting the spell. The amount of [exhaustion](#exhaustion) gained is reduced by a mage's **exhaustion resistance**, which is governed by their [arcana](#arcana-arc) attribute, plus their skill the related [magic school](#magic-schools). Exhaustion gain cannot be reduced to less than one. That means, whenever a mage casts a spell, no matter how significant, they gain *at least* one [exhaustion](#exhaustion). 
+
+## Maximum Spell Intensity
+A mage can only cast spells at an intensity up to a maximum, called their **maximum spell intensity**. This number is is governed by their [arcana](#arcana-arc) attribute, plus their skill in the related [magic school](#magic-schools). 
+
+This means, for every [school of magic](#magic-schools) the mage knows, they may have a different **maximum spell intensity**. 
+
+## Injuring Magic
+While not all spells can be used offensively, those that can, will inflict [injuries](#injury), proportional to the [spell's intensity](#spell-intensity). 
+
+The number of [injuries](#injury) inflicted, will be noted next to the [spell's intensity](#spell-intensity) levels. 
+
+The effects of a spell do not affect the mage casting the spell, unless they cause a [spell backfire](#spell-backfire)
+
+## Spell Backfire
+If a mage's exhaustion level reaches their threshold, by casting a spell, the spell **backfires**. This causes the spell to inflict its injuries and effects only upon the mage casting it. 
+
+## Magic Schools
+Noted for each spell intensity, are the effects of the spell and the maximum distance, from the caster, at which the spell can be cast or the distance up to which it can have an effect. 
+
+If applicable, injuries inflicted, exhaustion inflicted and other such effects, will also be noted. 
+
+### Pyromancy
+The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light. 
+
+Injuries inflicted are of the [burning](#burning) damage type. 
+
+| Spell Intensity | Injuries Inflicted | Max Distance | Effect(s) |
+| --------------- | ------------------ | ------------ | --------- |
+| 1  | 0   | 0      | A small, controlled flame erupts and stays in the mage's hand. Alternatively, a small flame (like a candle flame) in immediate proximity of the mage is extinguished. |
+| 2  | 1D2 | 5'/1m  | A moderate torch fire erupts and stays in the mage's hand. Or a torch in immediate proximity of the mage is extinguished. |
+| 3  | 2D2 | 25'/5m | A ball of fire forms in the mage's hand, ready to be flung at a nearby spot. Or a decent-sized flame is extinguished nearby. |
+| 4  | 3D2 | 25'/5m | A static wall or column of flame erupts in a nearby spot of the mage's choosing. Alternatively, a nearby flame (wall) is redirected. |
+| 5  | 4D2 | 40'/8m | Flame shoots out of the mage's hand in a steady stream, covering a moderate distance. Or another mage's stream of flame is redirected. |
+| 6+ | ND2 | 40'/8m | N = spell intensity; Causes a spot of the mage's choosing at moderate distance to explode and then burn. |
+
+### Cryomancy
+The summoning and control of ice. Besides the frostbite, cryomancer's can inflict [exhaustion](#exhaustion) on opponents, or freeze things, so they're harder to break. 
+
+Injuries inflicted are of the [freezing](#freezing) damage type. 
+
+| Spell Intensity | Injuries Inflicted | Exhaustion Inflicted | Max Distance | Effect(s) |
+| --------------- | ------------------ | -------------------- | ------------ | --------- |
+| 1  | 0   | 0   | 0     | Any freezable liquid in the mage's hand immediately freezes. Doesn't work on living things. So no freezing of the blood in someone's veins, while they still live! |
+| 2  | 1D2 | 1   | 5'/1m | A spot of the mage's choosing, within hand's reach, freezes over. Can be used on living things. |
+| 3  | 1D2 | 1D2 | 25'/5m | An ice-shard forms from whatever liquid is in the mage's hands. It can be shot at a nearby spot of the mage's choosing. The impacted spot freezes over. |
+| 4  | 2D2 | 1D3 | 40'/8m | A large ice-shard forms in the mage's hands, without requiring any liquid. It can be shot at a moderately distant spot of the mage's choosing. The impacted spot freezes over. |
+| 5  | 2D2 | 2D2 | 40'/8m | A large area of the mage's choosing, at moderate distance from the mage, freezes over. |
+| 6+ | ND2 | 2D3 | 40'/8m | N = spell intensity; A torrent of ice and snow forms in a large area of the mage's choosing, at moderate distance. Anything within it, freezes over. |
+
+### Restoration
+The mending of injuries and treatment of diseases. 
+
+### Alteration
+The alteration of physical things, to change their shape and purpose. 
+
+### Illusion
+Creation of non-physical influences on the senses. 
+
+### Counter-Magic
+The redirection and dissolution of magic flow. 
