@@ -9,6 +9,7 @@
       - [Opposed Test](#opposed-test)
     - [Advantage & Disadvantage](#advantage--disadvantage)
     - [Providing Assistance](#providing-assistance)
+      - [Helpers Learn](#helpers-learn)
 - [Character](#character)
     - [Time](#time)
     - [Fewer Tests Are Better](#fewer-tests-are-better)
@@ -31,10 +32,16 @@
   - [Skills](#skills)
     - [Skill Forking](#skill-forking)
     - [Intent & Action](#intent--action)
+    - [Learning Skills](#learning-skills)
+    - [Advancing Skills](#advancing-skills)
+      - [Practice](#practice)
+      - [Teaching](#teaching)
     - [Skill List](#skill-list)
     - [Physical skills](#physical-skills)
       - [Acrobatics (Agi)](#acrobatics-agi)
       - [Instrument-Playing < instrument > (Agi)](#instrument-playing--instrument--agi)
+      - [Melee Defence (Agi)](#melee-defence-agi)
+      - [Ranged Defence (Agi)](#ranged-defence-agi)
       - [Stealth (Agi)](#stealth-agi)
       - [Swimming (End)](#swimming-end)
       - [Thievery (Agi)](#thievery-agi)
@@ -42,6 +49,8 @@
       - [Path-finding (Perc)](#path-finding-perc)
       - [Riding (Emp)](#riding-emp)
       - [Sailing (Str)](#sailing-str)
+      - [Shield (End)](#shield-end)
+      - [Weapon < weapon type > (Str)](#weapon--weapon-type--str)
     - [Social Skills](#social-skills)
       - [Intimidation (Will)](#intimidation-will)
       - [Persuasion (Emp)](#persuasion-emp)
@@ -80,9 +89,8 @@
       - [Fletching (Agi)](#fletching-agi)
       - [Leatherworking (Agi)](#leatherworking-agi-1)
       - [Masonry (Str)](#masonry-str)
+      - [Rune Carving (Arc)](#rune-carving-arc)
       - [Weapon smithing (Str)](#weapon-smithing-str)
-    - [Learning Skills](#learning-skills)
-    - [Advancing Skills](#advancing-skills)
   - [Ambitions, Beliefs & Instincts](#ambitions-beliefs--instincts)
     - [Ambition](#ambition)
     - [Beliefs](#beliefs)
@@ -106,10 +114,9 @@
       - [Poisoned](#poisoned)
   - [Possessions & Equipment](#possessions--equipment)
 - [Combat](#combat)
-  - [Start of Combat](#start-of-combat)
+  - [Who Acts When](#who-acts-when)
   - [Combat Actions](#combat-actions)
-  - [Melee Combat](#melee-combat)
-  - [Ranged Combat](#ranged-combat)
+  - [How to Attack](#how-to-attack)
     - [Thrown Weapons](#thrown-weapons)
   - [Types of Attack](#types-of-attack)
     - [Aimed Attack](#aimed-attack)
@@ -127,7 +134,13 @@
     - [Restoration](#restoration)
     - [Alteration](#alteration)
     - [Illusion](#illusion)
+    - [Soul-Binding](#soul-binding)
     - [Counter-Magic](#counter-magic)
+  - [Magic Things](#magic-things)
+    - [Abyssalite](#abyssalite)
+    - [Amberite](#amberite)
+    - [Ambersteel](#ambersteel)
+    - [Runes](#runes)
 
 # Introduction
 **Ambersteel** is a role-playing game, requiring a **game master** (henceforth referred to as the **GM**) and at least one **player** to play. 
@@ -136,9 +149,11 @@ While each player only indirectly controls a single character, the **GM** is in 
 
 The system is designed to fit a low to medium fantasy medieval setting. Player characters may be special, but they're far from heroic. Combat is deadly and magic is powerful, yet risky. The rules are designed to be as intuitive and simple as possible, while complex enough to allow players to make meaningful decisions. 
 
-Most rules will have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in every situation. The descriptions in the rules here should only serve as a point for orientation for the **GM**. How they interpret the rules, is how they're to be understood. And, in general, the most important rule of all is: **the GM's decision is final**.
+The aim of this system is to provide players with **decisions to make**, instead of *choices to pick*. 
 
-But this is not an *antagonistic* game. The **GM** and the players work ***together*** to tell a compelling, interesting, humorous or tense story. Ultimately, the **GM**'s job is to provide interesting conundrums to the players and their job is to provide interesting answers, in-line with what their character believes. 
+Most rules will have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in every situation. The descriptions in the rules here should only serve as a point for orientation for the **GM**. How they interpret the rules, is how they're to be understood. 
+
+But this is not an *adversarial* game. The **GM** and the players work ***together*** to tell a compelling, interesting, humorous or tense story. Ultimately, the **GM**'s job is to provide interesting conundrums to the players and their job is to provide interesting answers, in-line with what their character believes. 
 
 Another important aspect of **Ambersteel** is that character's abilities grow over time. There are neither character classes, nor character levels. Skills and attributes improve as they're being used in tests. 
 
@@ -147,7 +162,7 @@ In some places, where distances are concerned, both feet and meters are noted as
 # Dice
 **Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**). *Dice pool* means a variable number of **D6** will be rolled to resolve uncertain situations and actions in game. 
 
-Also used in play are **three-sided dice**, abbreviated as **D3**. 
+Also used in play are **three-sided dice**, abbreviated as **D3** and **two-sided dice**, abbreviated as **D2**.
 
 ## Tests
 Whenever the outcome of an action or situation is uncertain, a **test** may be called for by the **GM**, in order to resolve it. 
@@ -206,15 +221,18 @@ Advantage grants **+1D6**, while disadvantage forces **-1D6** to the test in que
 A player may argue for their advantage in a situation, but only once, with a clear statement. Dancing around, trying and hoping to somehow convince the **GM** with vague descriptions immediately disqualifies your character from getting advantage. Arguing with the **GM** *also* immediately disqualifies your character from getting advantage. 
 
 ### Providing Assistance
-Characters can help each other in tests. In order to help with a test, a character must know the [skill](#skills) and the one being helped must accept the help. 
+Characters can help each other in tests. In order to help with a test, a character must know a relevant [skill](#skills) and the one being helped must accept the help. 
 
-Helping in a test works much like [forking](#skill-forking) a skill. The character being helped receives **+1D6** to roll for each *character* helping them. The number of relevant skills a helping character has is irrelevant. Just one is enough to allow them to help and only one **+1D6** is granted by the helping character. 
+Helping in a test works much like [forking](#skill-forking) a skill. The character being helped receives **+1D6** to roll for each *character* helping them. The number of relevant skills a helping character has is irrelevant. Just one is enough to allow them to help and only one **+1D6** is granted by the helping character. Which skill is used to help with, matters, however. 
 
 If a **PC** is helping another, their player must describe *how* they're using their relevant skill to help. 
 
-> For example, a **PC** is currently using their [thievery](#thievery-agi) to lockpick a door. Their allied **PC** is *helping*, by using their [observation](#observation-perc) skill to *keep an eye out for guards*, which allows the one on the door to work without having to constantly look over their shoulder. 
+> For example, a **PC** is currently using their [thievery](#thievery-agi) to lockpick a door. Their allied **PC** is *helping*, by using their [observation](#observation-perc) skill to *keep an eye out for guards*, which allows the one on the door to work without having to constantly look over their shoulder. The **GM** finds that description agreeable and allows the use of the skill to help. 
 
 Ultimately, whether a skill is appropriate to help with is determined by the **GM**. 
+
+#### Helpers Learn
+A character helping in a test, also gains [progress](#advancing-skills) towards the [skill](#skills) they've helped with. If the character who was helped succeeded their test, the helper also gains a successful test to mark on their skill. 
 
 # Character
 A character is a representation of a sentient creature in the game world. They're an amalgam of [attributes](#attributes), [skills](#skills), [ambitions, beliefs & instincts](#ambitions-beliefs--instincts) and of course their [possessions](#possessions--equipment). 
@@ -329,6 +347,26 @@ Then, the **GM** will need to know how you aim to follow up on your intent. Desc
 
 Of course, how appropriate a certain skill is for the resolution of a given situation, is ultimately up to the **GM** and the specifics of the situation itself. 
 
+### Learning Skills
+Whenever asked to test a skill a **PC** does not yet know, it will be added or progressed in the *currently learning* section of the character sheet. 
+
+A skill in learning can only be tested with their related [attribute](#attributes). 
+
+### Advancing Skills
+Whenever a **PC** uses a skill in a [test](#tests), the outcome must be noted. The number of successes/failures of the roll don't matter, only if the test as a whole was a success or a failure. 
+
+TODO math
+
+#### Practice
+It is possible to advance skills *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice a skill of choice. 
+
+TODO math
+
+#### Teaching
+Much like it is possible for a character to [practice](#practice) on their own, they can also be taught by another, who knows more than them. 
+
+TODO math
+
 ### Skill List
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
 
@@ -344,6 +382,12 @@ Performing acrobatic feats, such as jumping and climbing, without inuring onesel
 Playing an instrument of choice. 
 
 The instrument in question must be noted. 
+
+#### Melee Defence (Agi)
+Skill at defending oneself in close-combat. 
+
+#### Ranged Defence (Agi)
+Skill at evading projectiles. 
 
 #### Stealth (Agi)
 Moving silently and performing actions undetected. 
@@ -367,6 +411,12 @@ Riding and controling a mount.
 
 #### Sailing (Str)
 Steering and maintaining a naval vessel. 
+
+#### Shield (End)
+Expertise at defending oneself using a shield. 
+
+#### Weapon < weapon type > (Str)
+Expertise at handling a weapon of a specific type. 
 
 ### Social Skills
 These skills have a dominant social aspect and are strongly related to a character's *social attributes*. 
@@ -490,18 +540,11 @@ The ability to create leather objects.
 #### Masonry (Str)
 The ability to shape stone to craft predominantly stone-based things. 
 
+#### Rune Carving (Arc)
+The ability to carve [magic runes](#runes).
+
 #### Weapon smithing (Str)
 The ability to make weapons from metal. 
-
-### Learning Skills
-Whenever asked to test a skill a **PC** does not yet know, it will be added or progressed in the *currently learning* section of the character sheet. 
-
-A skill in learning can only be tested with their related [attribute](#attributes), at twice the **Ob** it would normally get. 
-
-### Advancing Skills
-Whenever a **PC** uses a skill in a [test](#tests), the outcome must be noted. The number of successes/failures of the roll don't matter, only if the test as a whole was a success or a failure. 
-
-TODO math
 
 ## Ambitions, Beliefs & Instincts
 While all characters are expected to have ambitions, beliefs and instincts, **PC**s are special in that these concepts are cemented through rules and mechanics. 
@@ -515,6 +558,14 @@ An ambition is not expected to change often. An ideal ambition would last a char
 
 ### Beliefs
 A player also has to decide on three beliefs for their character, which represent short-term goals and expectations of the character and their player. A belief should not be a triviality, but instead a goal that requires some considerable effort on both the character's and player's part to achieve. 
+
+A belief must be based on the events and circumstances affecting the character in game. 
+
+> For example, a **PC** learns of a conspiracy against their lord during the session. After the session, they decide they'll change one of their beliefs to "I will uncover the plot against my lord!"
+
+Beliefs can also target other **PC**s. You can either set a belief to help or even change your fellow **PC**. Be mindful though, your belief should not be *too* drastic.
+
+> For example, a **PC** learns their ally is a member of a secretive and dangerous cult. After the session, the player determines the new belief "I will get my ally to leave that dangerous cult!" Whether successful or not, this belief, in play, will create an **interesting conflict** between the two **PC**s. 
 
 Beliefs are expected to change frequently. 
 
@@ -620,25 +671,40 @@ Technically, there would actually be five weight levels, the fifth being **too h
 It is up to the **GM** to decide on when something is *too heavy* to carry for the character in question. 
 
 # Combat
-TODO
+When diplomacy fails, hostilities ensue. 
 
-## Start of Combat
-At the beginning of every combat encounter, the involved parties must roll for initiative. Character's get to act in the reverse order of the value rolled. That means that higher values get to go first. 
+## Who Acts When
+The involved parties (= groups) act one after another. After all involed parties have had their **turn** to act, a **combat round** has passed. All members of a party act at the same time, during the party's turn. 
 
-If one party is surprised, the ambushing party gets to act for a full round, without initiative being rolled. This is called a *surprise round*. After the surprise round, initiative is rolled and combat begins as explained above. 
+At the beginning of every combat encounter, the involved parties must roll for initiative. In order to determine which party gets to act first, each party rolls a **1D6**. The party rolling the higher number, goes first. If there is a tie, roll a **1D2**. If the player party is involved, a one means they get to go first. 
+
+If one party is surprised, the ambushing party gets to act for a full turn, without initiative being rolled. This is called a *surprise round*. After the surprise round, initiative is rolled and combat begins as explained above. 
 
 A party is considered surprised if they were unaware of their opponents when the first attack roll happens. 
 
 > As an example: this does not count for opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and attacks. The attacker can be clearly seen by the defender and thus they must both roll for initiative, to determine whether the defender can react in time. 
 
 ## Combat Actions
-TODO
+Every turn, every character gets to move and use a skill, once. They can do so in any order (move first or use a skill first) or they can forego taking either or even any action. 
 
-## Melee Combat
-TODO
+## How to Attack
+All attacks made against another creature or character are made as an [opposed test](#opposed-test). 
 
-## Ranged Combat
-TODO
+* When attacking with a weapon: 
+  * It is possible to fork other weapon skills into the attack roll. 
+  * The [weapon skill](#weapon--weapon-type--str) of choice must be rolled as a [graduated test](#graduated-test). 
+    * If it is a melee attack, the defender must roll a [melee defence](#melee-defence-agi) [graduated test](#graduated-test). 
+    * If it is a ranged attack, the defender must roll a [ranged defence](#ranged-defence-agi) [graduated test](#graduated-test).
+* When attacking with magic:
+  * It is **not** possible to fork other magic skills into the attack roll. 
+  * The mage must roll the specific [magic school](#magic-school--school--arc) as a [graduated test](#graduated-test).
+  * The defender can either roll a [ranged defence](#ranged-defence-agi) [graduated test](#graduated-test)...
+  * ...or they can roll a [magic school](#magic-school--school--arc) [graduated test](#graduated-test) of their own, to try and counter the attack. 
+* Whoever has more successes, wins the [opposed test](#opposed-test). 
+  * If the attacker wins, they can roll the [injuries](#injury) to inflict. That number is then reduced by [resistances and armor](#damage-resistances). The final number of injuries is then applied to the defender. 
+  * If the defender wins or the result is a tie, the attack fails and no [injuries](#injury) are inflicted. 
+
+
 
 ### Thrown Weapons
 TODO
@@ -717,7 +783,7 @@ Injuries inflicted are of the [burning](#burning) damage type.
 | 3  | 2D2 | 25'/5m | A ball of fire forms in the mage's hand, ready to be flung at a nearby spot. Or a decent-sized flame is extinguished nearby. |
 | 4  | 3D2 | 25'/5m | A static wall or column of flame erupts in a nearby spot of the mage's choosing. Alternatively, a nearby flame (wall) is redirected. |
 | 5  | 4D2 | 40'/8m | Flame shoots out of the mage's hand in a steady stream, covering a moderate distance. Or another mage's stream of flame is redirected. |
-| 6+ | ND2 | 40'/8m | N = spell intensity; Causes a spot of the mage's choosing at moderate distance to explode and then burn. |
+| 6+ | N-1 D2 | 40'/8m | N = spell intensity; Causes a spot of the mage's choosing at moderate distance to explode and then burn. |
 
 ### Cryomancy
 The summoning and control of ice. Besides the frostbite, cryomancer's can inflict [exhaustion](#exhaustion) on opponents, or freeze things, so they're harder to break. 
@@ -735,12 +801,54 @@ Injuries inflicted are of the [freezing](#freezing) damage type.
 
 ### Restoration
 The mending of injuries and treatment of diseases. 
+TODO
 
 ### Alteration
 The alteration of physical things, to change their shape and purpose. 
+TODO
 
 ### Illusion
 Creation of non-physical influences on the senses. 
+TODO
+
+### Soul-Binding
+TODO
 
 ### Counter-Magic
 The redirection and dissolution of magic flow. 
+
+## Magic Things
+
+### Abyssalite
+Abyssalite is a hard and brittle mineral, that has the ability to *amplify the flow of magic*. It can only be acquired from the depths of the earth and is fairly rare. 
+
+Its surface is unnaturally smooth and covered in a fine, iridescent shine. Underneath the smooth surface, one searches for depth and color in vain. It is as though the void itself was being contained by that iridescent shell. 
+
+Abyssalite is a hard and brittle mineral, prone to shattering if too much force is applied. This makes it difficult to shape. 
+
+### Amberite
+As magic is amplified by [Abyssalite](#abyssalite), its antithesis is called **Amberite**, a metal which dulls the effects of magic and slows any magic flow nearby it. The material is also known to affect magic creatures and can cause great pain in magic-users. 
+
+Weapons made from Amberite are quite popular with witch and monster hunters alike, although fairly hard to come by, due to the difficulty in amber-iron processing. 
+
+Amberite is a crystalline material, that can be molten down and shaped, like iron. It glows weakly, in the fiery orange of the name-sharing amber stone. Near the edges, the glow fades to a dull reflection, like cooling molten glass. 
+
+It only occurs naturally in a few select places in the world, where the ground offers the right conditions. Amberite grows over time, in the right environment. It can take several decades for a finger-sized crystal to grow to the size of an adult man's forearm. Attempts to cultivate it have mostly failed, as Amberite farmers have so far been unable to understand and reproduce the right conditions for it to thrive. Due to the slow rate at which it grows, an Amberite farmer may not realize the lack of growth until well into a decade later. 
+
+Prolonged exposure to Amberite causes severe ill-effects with nausea and migranes being common symptoms. 
+
+### Ambersteel
+Amberite can be processed into Ambersteel, which makes it a usable metal. The raw material heats slowly and must be heated over the course of several days and nights, without interruption. When it finally reaches the right temperature, it will glow white, with a purple sheen. At that point, it can be hammered into shape. Constant re-heating ensures it stays at the right temperature and a final quenching in vegetable oil ensures it retains its flexibility. 
+
+If processed outside the optimal temperature, the material quickly grows brittle and will shatter if any stress is put on it.
+
+Due to the length of the process and the difficulty in keeping the right temperature, smiths capable of working amber-iron are rare. 
+
+### Runes
+Shards of [Abyssalite](#abyssalite) can have runes carved into them, which allow magic to flow through the runes, as opposed to the magic-user. This renders runes extremely powerful artifacts, as they can allow for near limitless magic-use. 
+
+To activate such a rune, is a difficult skill to learn, however. Even if no innate magical ability is required, an understanding of the flow of magic is. The rune must be touched in the right spots, at the right intervals, to activate successfully. Mistakes in this procedure can have disastrous results. 
+
+What's more, it takes great skill to carve the right runes, as each rune's shape and complexity depends in part on the size and shape of the [Abyssalite](abyssalite) shard. The only way to get it right, is to *feel* the way the rune must be shaped. Alternatively, the shard can be adjusted to be of equivalent size and shape, but this requires considerable effort, as [Abyssalite](abyssalite) is a tough material, prone to shattering if too much force is applied, yet resistant to the common techniques of metallurgy. 
+
+If certain runes are carved into the stones, the magic flow can even be guided in a way that allows the otherwise magically incapable of casting magic. 
