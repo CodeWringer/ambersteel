@@ -74,6 +74,7 @@
       - [Mysticism and Religion (Wis)](#mysticism-and-religion-wis)
       - [Medicine (Int)](#medicine-int)
       - [Reading and Writing < language > (Int)](#reading-and-writing--language--int)
+      - [Surgery (Int)](#surgery-int)
       - [Tanning/Skinning (Agi)](#tanningskinning-agi)
       - [Warfare (Wis)](#warfare-wis)
       - [Woodcrafting (Agi)](#woodcrafting-agi)
@@ -515,6 +516,9 @@ The ability to both read and write in a specific language.
 
 The language in question must be noted in addition to this skill. 
 
+#### Surgery (Int)
+The ability to invasively treat ailments without making things worse for the patient. 
+
 #### Tanning/Skinning (Agi)
 Taking the hide off a creature undamaged. 
 
@@ -634,9 +638,11 @@ A character accruing too many injuries may also suffer a debility, which may eit
 Debilities may affect a character's appearance, physical, mental and social abilities. 
 
 ### Death's Door
-A character at death's door must succeed at least one [toughness](#toughness-tough) test out of a possible three. If they never succeed, they perish, irrevocably. If the character is at death's door during combat, they must roll their [toughness](#toughness-tough) test at the end of the player turn. 
+**Death's door** is a state only a **PC** can enter and represents their final battle with death. 
 
-A character can be helped out of death's grasp, via the use of medical arts or healing magic. A successful [medicine](#medicine-int--wis--perc) test is required. Forking is not possible. The character at death's door receives **+1D6** for each success. Alternatively, a healing magic test also grants **+1D6** for each success. 
+A **PC** at death's door must succeed at least one [toughness](#toughness-tough) test out of a possible three. If they never succeed, they perish, irrevocably. If the character is at death's door during [combat](#combat), they must roll their [toughness](#toughness-tough) test at the end of the round. 
+
+A character can be helped out of **death's door**, via the use of [medical arts](#medicine-int) or [healing magic](#restoration). 
 
 ### Damage Types
 All injuries inflicted, are inflicted with a certain type of damage. 
@@ -796,7 +802,7 @@ An attack generally targets the center of mass (torso) of the targeted opponent.
 
 It is, however, possible to call out wanting to attack a specific part of an opponent's body. Generally, this means that the attack must be rolled with [disadvantage](#advantage--disadvantage). However, the **GM** can also decide the part being targeted is fairly easy to hit, either generally or due to current circumstance, so no disadvantage is incurred. 
 
-A player may call out what effect the aimed attack is supposed to have, such as limiting their opponent's ability to stand, move, attack or whatever else the body part may be useful for. If they don't, the **GM** decides the negative effect. 
+A player may call out what effect the aimed attack is supposed to have, such as limiting their opponent's ability to stand, move, attack or whatever else the body part may be useful for. If they don't, the **GM** decides the effect. 
 
 #### Difficult Attack
 There may be attacks that are more difficult to perform, due to current circumstance. Such attack rolls are [disadvantaged](#advantage--disadvantage). 
@@ -806,7 +812,7 @@ An example for a *difficult attack* would be targeting an opponent with a ranged
 Another example would be attacking backwards, at an invisible enemy or with a broken arm, and so on.
 
 #### Easy Attack
-Opposite of the difficult attack, is the *easy attack*, which is [advantaged](#advantage--disadvantage).
+Some attacks may be easier to perform. An **easy attack** is [advantaged](#advantage--disadvantage).
 
 The following are generally considered easy attacks (but at the **GM**'s discretion):
 * From behind
@@ -816,11 +822,9 @@ The following are generally considered easy attacks (but at the **GM**'s discret
 #### Execution Attack
 The extreme version of an easy attack, the *execution attack* allows outright killing or maiming an opponent, without having to roll for an attack or for damage. 
 
-Such an attack can be carried out against any character who is unable to fight back (with the exception of player characters, see [death's door](#deaths-door)). 
+Such an attack can be carried out against any character who is unable to resist (with the exception of player characters, see [death's door](#deaths-door)). 
 
-This kind of attack is always possible only at the game master's discretion. 
-
-Examples for an execution attack would be a stealthed character slitting another's throat, without them being aware of their assailant, or a character restrained by chains and unable to avoid the attack at all, when their assailant pushes their spear through their heart. 
+This kind of attack is always possible only at the **GM**'s discretion. 
 
 # Magic
 Any character knowing [arcana](#arcana-arc), can cast magic. What kind of magic, depends on the [magic schools](#magic-schools) the character knows. 
