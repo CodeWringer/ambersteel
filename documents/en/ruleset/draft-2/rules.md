@@ -50,7 +50,8 @@
       - [Riding (Emp)](#riding-emp)
       - [Sailing (Str)](#sailing-str)
       - [Shield (End)](#shield-end)
-      - [Weapon < weapon type > (Str)](#weapon--weapon-type--str)
+      - [Weapon < weapon type > (Str/Agi)](#weapon--weapon-type--stragi)
+      - [Weapon-Throwing < weapon type > (Str/Agi)](#weapon-throwing--weapon-type--stragi)
     - [Social Skills](#social-skills)
       - [Intimidation (Will)](#intimidation-will)
       - [Persuasion (Emp)](#persuasion-emp)
@@ -117,12 +118,11 @@
   - [Who Acts When](#who-acts-when)
   - [Combat Actions](#combat-actions)
   - [How to Attack](#how-to-attack)
-    - [Thrown Weapons](#thrown-weapons)
-  - [Types of Attack](#types-of-attack)
-    - [Aimed Attack](#aimed-attack)
-    - [Difficult Attack](#difficult-attack)
-    - [Easy Attack](#easy-attack)
-    - [Execution Attack](#execution-attack)
+    - [Types of Attack](#types-of-attack)
+      - [Aimed Attack](#aimed-attack)
+      - [Difficult Attack](#difficult-attack)
+      - [Easy Attack](#easy-attack)
+      - [Execution Attack](#execution-attack)
 - [Magic](#magic)
   - [Spell Intensity](#spell-intensity)
   - [Maximum Spell Intensity](#maximum-spell-intensity)
@@ -350,7 +350,9 @@ Of course, how appropriate a certain skill is for the resolution of a given situ
 ### Learning Skills
 Whenever asked to test a skill a **PC** does not yet know, it will be added or progressed in the *currently learning* section of the character sheet. 
 
-A skill in learning can only be tested with their related [attribute](#attributes). 
+A skill in learning can only be tested with their related [attribute](#attributes). If multiple attributes are listed for a skill, you can choose which one to test with. 
+
+The outcome of a test gets noted on the skill it was made for, not the attribute actually used for the test. 
 
 ### Advancing Skills
 Whenever a **PC** uses a skill in a [test](#tests), the outcome must be noted. The number of successes/failures of the roll don't matter, only if the test as a whole was a success or a failure. 
@@ -415,8 +417,11 @@ Steering and maintaining a naval vessel.
 #### Shield (End)
 Expertise at defending oneself using a shield. 
 
-#### Weapon < weapon type > (Str)
+#### Weapon < weapon type > (Str/Agi)
 Expertise at handling a weapon of a specific type. 
+
+#### Weapon-Throwing < weapon type > (Str/Agi)
+Expertise at throwing weapons of a specific type. 
 
 ### Social Skills
 These skills have a dominant social aspect and are strongly related to a character's *social attributes*. 
@@ -656,9 +661,16 @@ One injury per intensity level, per round of combat, or every minute.
 One injury per intensity level, per round of combat, or every minute. 
 
 ## Possessions & Equipment
-Money is generalized as **crowns**, with no regard for regional currencies. 
+Money is generalized as **crowns**, with no regard for regional currencies. The following table gives a brief overview of the value of crowns. 
+| Cost Range | Goods                      | Services                   |
+| ---------- | -------------------------- | -------------------------- |
+| 1-10       | Unprocessed foods; Very common things | Simple Lodgings; Sending a message a short distance with a messenger; Peasant's and hireling pay |
+| 10-50      | Low to medium quality alcoholic drinks; A proper, warm meal; Simple tools and items; Simple weapons, like a dagger or woodcutter's axe; Plain clothes or cloth; Farm animals; Somewhat common things | Lodgings in a private room; Private services; Simple equipment repairs; Travel by carriage or stagecoach; A simple guard's pay |
+| 50-100     | Light armor; Decorated clothes; Weapons; Shields; Fine drinks; Lordly meals; Decorative silver things; Low-quality gems; Horses; Books and Scriptures; Uncommon things | Medical services; An elite guard's pay |
+| 100-500    | Medium to heavy armor; Well-made weapons; Decorative gold things; High-quality gems; Carefully bred war-steeds; Rare things |  |
+| 500-1000   | Decorated armor; Decorated well-made weapons; Very rare things |  |
 
-How much a character can carry, is determined by their [strength level](#strength-str). 
+How much a character can carry, is determined by their [strength](#strength-str). 
 
 There are four weight levels: **Heavy**, **moderate**, **light** and **negligible**. A character can only carry up to a set number of heavy, moderate and light objects. An arbitrary number of negligible objects can be carried. 
 
@@ -687,6 +699,8 @@ A party is considered surprised if they were unaware of their opponents when the
 ## Combat Actions
 Every turn, every character gets to move and use a skill, once. They can do so in any order (move first or use a skill first) or they can forego taking either or even any action. 
 
+Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will have to take multiple rounds. 
+
 ## How to Attack
 All attacks made against another creature or character are made as an [opposed test](#opposed-test). 
 
@@ -704,37 +718,32 @@ All attacks made against another creature or character are made as an [opposed t
   * If the attacker wins, they can roll the [injuries](#injury) to inflict. That number is then reduced by [resistances and armor](#damage-resistances). The final number of injuries is then applied to the defender. 
   * If the defender wins or the result is a tie, the attack fails and no [injuries](#injury) are inflicted. 
 
+### Types of Attack
+Sometimes, simply *hitting it* isn't enough. Sometimes, more control is needed. These rules outline how a character can do more specific attacks. 
 
-
-### Thrown Weapons
-TODO
-
-## Types of Attack
-TODO
-
-### Aimed Attack
+#### Aimed Attack
 An attack generally targets the center of mass (torso) of the targeted opponent. 
 
-It is, however, possible to call out wanting to attack a specific part of an opponent's body. Generally, this means that the attack must be rolled with [disadvantage](#advantage--disadvantage). However, the game master can also decide the part being targeted is fairly easy to hit, either generally or due to current circumstance, so no disadvantage is incurred. 
+It is, however, possible to call out wanting to attack a specific part of an opponent's body. Generally, this means that the attack must be rolled with [disadvantage](#advantage--disadvantage). However, the **GM** can also decide the part being targeted is fairly easy to hit, either generally or due to current circumstance, so no disadvantage is incurred. 
 
-A player may call out what effect the aimed attack is supposed to have, such as limiting their opponent's ability to stand, move, attack or whatever else the body part may be useful for. If they don't, the game master decides the negative effect. 
+A player may call out what effect the aimed attack is supposed to have, such as limiting their opponent's ability to stand, move, attack or whatever else the body part may be useful for. If they don't, the **GM** decides the negative effect. 
 
-### Difficult Attack
+#### Difficult Attack
 There may be attacks that are more difficult to perform, due to current circumstance. Such attack rolls are [disadvantaged](#advantage--disadvantage). 
 
 An example for a *difficult attack* would be targeting an opponent with a ranged weapon when the opponent is behind cover. 
 
 Another example would be attacking backwards, at an invisible enemy or with a broken arm, and so on.
 
-### Easy Attack
+#### Easy Attack
 Opposite of the difficult attack, is the *easy attack*, which is [advantaged](#advantage--disadvantage).
 
-The following are generally considered easy attacks (but at the game master's discretion):
+The following are generally considered easy attacks (but at the **GM**'s discretion):
 * From behind
 * Against prone opponents
 * Against restrained opponents
 
-### Execution Attack
+#### Execution Attack
 The extreme version of an easy attack, the *execution attack* allows outright killing or maiming an opponent, without having to roll for an attack or for damage. 
 
 Such an attack can be carried out against any character who is unable to fight back (with the exception of player characters, see [death's door](#deaths-door)). 
