@@ -115,6 +115,8 @@
       - [Bleeding](#bleeding)
       - [Poisoned](#poisoned)
   - [Possessions & Equipment](#possessions--equipment)
+    - [Money](#money)
+    - [Carrying Capacity](#carrying-capacity)
     - [Weapon Types](#weapon-types)
       - [Unarmed](#unarmed)
       - [Short Blade](#short-blade)
@@ -297,11 +299,9 @@ Governs a character's ability to passively quickly pick up on fine and fleeting 
 Also governs the ability to perceive under difficult conditions such as dim light and fog, or noisy and smelly environments. 
 
 #### Strength [Str]
-Governs a character's strength - the ability to lift, throw and break heavy and sturdy things. Such as skulls. Also governs the carrying capacity of a character. 
+Governs a character's strength - the ability to lift, throw and break heavy and sturdy things. Such as skulls. Also governs the [carrying capacity](#carrying-capacity) of a character. 
 
-Each point in strength allows carrying one moderate and two light objects. 
-
-Every two points in strength allow carrying one heavy object. 
+Each point in strength raises the [carrying capacity](#carrying-capacity) of the character by three. 
 
 #### Toughness [Tough]
 Governs the [injury threshold](#injury) of a character. 
@@ -685,6 +685,7 @@ One injury per intensity level, per round of combat, or every minute.
 One injury per intensity level, per round of combat, or every minute. 
 
 ## Possessions & Equipment
+### Money
 Money is generalized as **crowns**, with no regard for regional currencies. The following table gives a brief overview of the value of crowns. 
 | Cost Range | Goods                      | Services                   |
 | ---------- | -------------------------- | -------------------------- |
@@ -692,15 +693,14 @@ Money is generalized as **crowns**, with no regard for regional currencies. The 
 | 10-50      | Low to medium quality alcoholic drinks; A proper, warm meal; Simple tools and items; Simple weapons, like a dagger or woodcutter's axe; Plain clothes or cloth; Farm animals; Somewhat common things | Lodgings in a private room; Private services; Simple equipment repairs; Travel by carriage or stagecoach; A simple guard's pay |
 | 50-100     | Light armor; Decorated clothes; Weapons; Shields; Fine drinks; Lordly meals; Decorative silver things; Low-quality gems; Horses; Books and Scriptures; Uncommon things | Medical services; An elite guard's pay |
 | 100-500    | Medium to heavy armor; Well-made weapons; Decorative gold things; High-quality gems; Carefully bred war-steeds; Rare things |  |
-| 500-1000   | Decorated armor; Decorated well-made weapons; Very rare things |  |
+| 500-1000   | Decorated armor; Decorated well-made weapons; [Magic runes](#runes); Very rare things |  |
 
-How much a character can carry, is determined by their [strength](#strength-str). 
+### Carrying Capacity
+How much a character can carry, is determined by their [strength](#strength-str). The limit of how much they can carry is called the **carrying capacity**. 
 
-There are four weight levels: **Heavy**, **moderate**, **light** and **negligible**. A character can only carry up to a set number of heavy, moderate and light objects. An arbitrary number of negligible objects can be carried. 
+Worn equipment, such as clothing, armor or backpacks do not count, for as long as they're worn. Weapons still count, though. 
 
-Worn equipment, such as clothing, armor or backpacks do not count, for as long as they're worn. 
-
-Technically, there would actually be five weight levels, the fifth being **too heavy**, which is anything that cannot be reasonably carried. 
+All things have an abstract weight associated with them. If the weight is zero, it is considered negligible and doesn't count towards the weight limit. There are also things that are simply too heavy to carry. 
 
 > For example, an ordinary human will never be able to *carry* an entire mountain. They can carry smaller pieces (rocks), but not all at once. 
 
@@ -820,11 +820,13 @@ The following are generally considered easy attacks (but at the **GM**'s discret
 * Against restrained opponents
 
 #### Execution Attack
-The extreme version of an easy attack, the *execution attack* allows outright killing or maiming an opponent, without having to roll for an attack or for damage. 
+The extreme version of an easy attack, the **execution attack** allows outright killing or maiming an opponent, without having to roll for an attack or for damage. 
 
 Such an attack can be carried out against any character who is unable to resist (with the exception of player characters, see [death's door](#deaths-door)). 
 
-This kind of attack is always possible only at the **GM**'s discretion. 
+> An unconscious character, or one chained to the wall couldn't possibly resist and can be instantaneously killed with an **execution attack**. 
+
+This kind of attack is only possible at the **GM**'s discretion. 
 
 # Magic
 Any character knowing [arcana](#arcana-arc), can cast magic. What kind of magic, depends on the [magic schools](#magic-schools) the character knows. 
@@ -847,7 +849,7 @@ The number of [injuries](#injury) inflicted, will be noted next to the [spell's 
 The effects of a spell do not affect the mage casting the spell, unless they cause a [spell backfire](#spell-backfire)
 
 ## Spell Backfire
-If a mage's exhaustion level reaches their threshold, by casting a spell, the spell **backfires**. This causes the spell to inflict its injuries and effects only upon the mage casting it. 
+If a mage's exhaustion level reaches their threshold, by or while casting a spell, the spell **backfires**. This causes the spell to inflict its injuries and effects only upon the mage casting it. 
 
 ## Magic Schools
 Noted for each spell intensity, are the effects of the spell and the maximum distance, from the caster, at which the spell can be cast or the distance up to which it can have an effect. 
@@ -899,6 +901,7 @@ TODO
 
 ### Counter-Magic
 The redirection and dissolution of magic flow. 
+TODO
 
 ## Magic Things
 
@@ -907,7 +910,9 @@ Abyssalite is a hard and brittle mineral, that has the ability to *amplify the f
 
 Its surface is unnaturally smooth and covered in a fine, iridescent shine. Underneath the smooth surface, one searches for depth and color in vain. It is as though the void itself was being contained by that iridescent shell. 
 
-Abyssalite is a hard and brittle mineral, prone to shattering if too much force is applied. This makes it difficult to shape. 
+Abyssalite is a hard and brittle mineral, prone to shattering if too much force is applied. This makes it difficult to shape. It is also fairly heavy, which makes it difficult to lug large amounts of it around. 
+
+A decent-sized Abyssalite chunk has a weight of three. It grants one greater [spell intensity](#spell-intensity), but without costing any [exhaustion](#exhaustion). 
 
 ### Amberite
 As magic is amplified by [Abyssalite](#abyssalite), its antithesis is called **Amberite**, a metal which dulls the effects of magic and slows any magic flow nearby it. The material is also known to affect magic creatures and can cause great pain in magic-users. 
