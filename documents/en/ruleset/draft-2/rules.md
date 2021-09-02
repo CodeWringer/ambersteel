@@ -134,14 +134,20 @@
 
 While each player only indirectly controls a single character, the **GM** is in direct control of every single non-player character (**NPC**), the world and the story. A player character is abbreviated as **PC**. 
 
-The system is designed to fit a low to medium fantasy medieval setting. Player characters may be special, but they're far from heroic. Combat is deadly, magic is powerful, yet risky and character's abilities grow over time. 
+The system is designed to fit a low to medium fantasy medieval setting. Player characters may be special, but they're far from heroic. Combat is deadly and magic is powerful, yet risky. The rules are designed to be as intuitive and simple as possible, while complex enough to allow players to make meaningful decisions. 
 
-But this is not an *antagonistic* game. The **GM** and the players work ***together*** to tell a compelling, interesting, humorous or tense story. Ultimately, the **GM**'s job is to provide conundrums to the players and their job is to provide answers. 
+Most rules will have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in every situation. The descriptions in the rules here should only serve as a point for orientation for the **GM**. How they interpret the rules, is how they're to be understood. And, in general, the most important rule of all is: **the GM's decision is final**.
+
+But this is not an *antagonistic* game. The **GM** and the players work ***together*** to tell a compelling, interesting, humorous or tense story. Ultimately, the **GM**'s job is to provide interesting conundrums to the players and their job is to provide interesting answers, in-line with what their character believes. 
+
+Another important aspect of **Ambersteel** is that character's abilities grow over time. There are neither character classes, nor character levels. Skills and attributes improve as they're being used in tests. 
 
 In some places, where distances are concerned, both feet and meters are noted as units. What attentive readers will notice, is that the conversion between the numbers won't always be correct. This is a deliberate decision to make the math easier, whenever a grid (or *battlemap*) is used in play. One square on the grid should represent either a five foot, or one meter square. Furthermore, a single, ordinary human, should occupy an entire such square. 
 
 # Dice
 **Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**). *Dice pool* means a variable number of **D6** will be rolled to resolve uncertain situations and actions in game. 
+
+Also used in play are **three-sided dice**, abbreviated as **D3**. 
 
 ## Tests
 Whenever the outcome of an action or situation is uncertain, a **test** may be called for by the **GM**, in order to resolve it. 
