@@ -114,6 +114,24 @@
       - [Bleeding](#bleeding)
       - [Poisoned](#poisoned)
   - [Possessions & Equipment](#possessions--equipment)
+    - [Weapon Types](#weapon-types)
+      - [Unarmed](#unarmed)
+      - [Short Blade](#short-blade)
+      - [Long Blade](#long-blade)
+      - [Great Blade](#great-blade)
+      - [Axe](#axe)
+      - [Great Axe](#great-axe)
+      - [Spear](#spear)
+      - [Polearm](#polearm)
+      - [Club](#club)
+      - [Mace](#mace)
+      - [Hammer](#hammer)
+      - [Short-Bow](#short-bow)
+      - [Longbow](#longbow)
+      - [War-Bow](#war-bow)
+      - [Crossbow](#crossbow)
+      - [Siege Crossbow](#siege-crossbow)
+      - [Firearm](#firearm)
 - [Combat](#combat)
   - [Who Acts When](#who-acts-when)
   - [Combat Actions](#combat-actions)
@@ -681,6 +699,58 @@ Technically, there would actually be five weight levels, the fifth being **too h
 > For example, an ordinary human will never be able to *carry* an entire mountain. They can carry smaller pieces (rocks), but not all at once. 
 
 It is up to the **GM** to decide on when something is *too heavy* to carry for the character in question. 
+
+### Weapon Types
+#### Unarmed
+Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. 
+
+#### Short Blade
+Small one-handed blades, like shivs, daggers and short-swords. 
+
+#### Long Blade
+One-and-half-handed blades, like bastard swords and long swords.
+
+#### Great Blade
+Two-handed swords like swords of war, great swords and Zweihänders. 
+
+#### Axe
+One-handed axes, like hatchets and woodcutter's axes. 
+
+#### Great Axe
+Two-handed axes, like the bearded axe or double-sided axe. 
+
+#### Spear
+One or two-handed spears. 
+
+#### Polearm
+Two-handed polearms, like halberds or poleaxes. 
+
+#### Club
+One-handed crushing weapons, like wooden clubs. 
+
+#### Mace
+One-handed or two-handed crushing weapons, like the flanged mace or the grand-mace. 
+
+#### Hammer
+One-handed or two-handed crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples are the one-handed warhammer or the two-handed polehammer. 
+
+#### Short-Bow
+A short distance ranged weapon, shooting arrows. 
+
+#### Longbow
+A long distance ranged weapon, shooting arrows. 
+
+#### War-Bow
+A very deadly long distance ranged weapon, shooting arrows. 
+
+#### Crossbow
+A deadly medium distance ranged weapon, shooting quarrels. 
+
+#### Siege Crossbow
+A very deadly long distance ranged weapon, shooting quarrels. 
+
+#### Firearm
+A very deadly short to medium distance ranged weapon, shooting musket balls that can even penetrate armor. 
 
 # Combat
 When diplomacy fails, hostilities ensue. 
