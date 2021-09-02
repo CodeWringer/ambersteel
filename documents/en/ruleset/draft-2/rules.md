@@ -148,7 +148,7 @@
 - [Magic](#magic)
   - [Spell Intensity](#spell-intensity)
   - [Maximum Spell Intensity](#maximum-spell-intensity)
-  - [Injuring Magic](#injuring-magic)
+  - [Effects of Magic](#effects-of-magic)
   - [Spell Backfire](#spell-backfire)
   - [Magic Schools](#magic-schools)
     - [Pyromancy](#pyromancy)
@@ -845,7 +845,7 @@ A mage can only cast spells at an intensity up to a maximum, called their **maxi
 
 This means, for every [school of magic](#magic-schools) the mage knows, they may have a different **maximum spell intensity**. 
 
-## Injuring Magic
+## Effects of Magic
 While not all spells can be used offensively, those that can, will inflict [injuries](#injury), proportional to the [spell's intensity](#spell-intensity). 
 
 The number of [injuries](#injury) inflicted, will be noted next to the [spell's intensity](#spell-intensity) levels. 
