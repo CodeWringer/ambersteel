@@ -135,6 +135,7 @@
       - [Crossbow](#crossbow)
       - [Siege Crossbow](#siege-crossbow)
       - [Firearm](#firearm)
+  - [Character Creation](#character-creation)
 - [Combat](#combat)
   - [Who Acts When](#who-acts-when)
   - [Combat Actions](#combat-actions)
@@ -758,6 +759,9 @@ A very deadly long distance ranged weapon, shooting quarrels.
 #### Firearm
 A very deadly short to medium distance ranged weapon, shooting musket balls that can even penetrate armor. 
 
+## Character Creation
+TODO
+
 # Combat
 When diplomacy fails, hostilities ensue. 
 
@@ -829,7 +833,7 @@ Such an attack can be carried out against any character who is unable to resist 
 This kind of attack is only possible at the **GM**'s discretion. 
 
 # Magic
-Any character knowing [arcana](#arcana-arc), can cast magic. What kind of magic, depends on the [magic schools](#magic-schools) the character knows. 
+Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, depends on the [magic schools](#magic-schools) the character knows. 
 
 ## Spell Intensity
 Any magic can be cast at different **intensities**. A greater **spell intensity** results in a greater effect, at a proportionally greater cost. 
@@ -882,11 +886,17 @@ Injuries inflicted are of the [freezing](#freezing) damage type.
 | 3  | 1D2 | 1D2 | 25'/5m | An ice-shard forms from whatever liquid is in the mage's hands. It can be shot at a nearby spot of the mage's choosing. The impacted spot freezes over. |
 | 4  | 2D2 | 1D3 | 40'/8m | A large ice-shard forms in the mage's hands, without requiring any liquid. It can be shot at a moderately distant spot of the mage's choosing. The impacted spot freezes over. |
 | 5  | 2D2 | 2D2 | 40'/8m | A large area of the mage's choosing, at moderate distance from the mage, freezes over. |
-| 6+ | ND2 | 2D3 | 40'/8m | N = spell intensity; A torrent of ice and snow forms in a large area of the mage's choosing, at moderate distance. Anything within it, freezes over. |
+| 6+ | N-3 D2 | 2D3 | 40'/8m | N = spell intensity; A torrent of ice and snow forms in a large area of the mage's choosing, at moderate distance. Anything within it, freezes over. |
 
 ### Restoration
 The mending of injuries and treatment of diseases. 
-TODO
+
+| Spell Intensity | Injuries Removed | Max Distance | Effect(s) |
+| --------------- | ---------------- | ------------ | --------- |
+| 1               | 1                | 0            | A creature of the mage's choosing, in hand's reach, is magically healed. Removes [bleeding](#bleeding). |
+| 2               | 1D2              | 0            | Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
+| 3               | 2D2              | 0            | Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
+| 4+              | N-1 D2           | 0            | N = spell intensity; Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
 
 ### Alteration
 The alteration of physical things, to change their shape and purpose. 
