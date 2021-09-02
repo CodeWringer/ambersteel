@@ -895,8 +895,7 @@ The mending of injuries and treatment of diseases.
 | --------------- | ---------------- | ------------ | --------- |
 | 1               | 1                | 0            | A creature of the mage's choosing, in hand's reach, is magically healed. Removes [bleeding](#bleeding). |
 | 2               | 1D2              | 0            | Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
-| 3               | 2D2              | 0            | Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
-| 4+              | N-1 D2           | 0            | N = spell intensity; Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
+| 3+              | N-1 D2           | 0            | N = spell intensity; Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
 
 ### Alteration
 The alteration of physical things, to change their shape and purpose. 
