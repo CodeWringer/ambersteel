@@ -97,10 +97,11 @@
     - [Ambition](#ambition)
     - [Beliefs](#beliefs)
     - [Instincts](#instincts)
-  - [Exhaustion](#exhaustion)
-  - [Injury](#injury)
-    - [Recovery](#recovery)
-    - [Debilities](#debilities)
+  - [Health & Exhaustion](#health--exhaustion)
+    - [Injury](#injury)
+    - [Debility](#debility)
+    - [Exhaustion](#exhaustion)
+    - [Illness](#illness)
     - [Death's Door](#deaths-door)
     - [Damage Types](#damage-types)
       - [Slashing](#slashing)
@@ -111,20 +112,13 @@
       - [Poison](#poison)
       - [Acid](#acid)
     - [Damage Resistances](#damage-resistances)
-    - [Injury Over Time](#injury-over-time)
+    - [Damage Over Time](#damage-over-time)
       - [Bleeding](#bleeding)
       - [Poisoned](#poisoned)
   - [Possessions & Equipment](#possessions--equipment)
     - [Money](#money)
     - [Carrying Capacity](#carrying-capacity)
     - [Weapon Types](#weapon-types)
-      - [Unarmed](#unarmed)
-      - [Short Blade](#short-blade)
-      - [Long Blade](#long-blade)
-      - [Great Blade](#great-blade)
-      - [Axe](#axe)
-      - [Great Axe](#great-axe)
-      - [Spear](#spear)
       - [Polearm](#polearm)
       - [Club](#club)
       - [Mace](#mace)
@@ -136,6 +130,7 @@
       - [Siege Crossbow](#siege-crossbow)
       - [Firearm](#firearm)
   - [Character Creation](#character-creation)
+- [Fate Points](#fate-points)
 - [Combat](#combat)
   - [Who Acts When](#who-acts-when)
   - [Combat Actions](#combat-actions)
@@ -191,15 +186,20 @@ Whenever the outcome of an action or situation is uncertain, a **test** may be c
 
 As a basis for a test, either an [attribute](#attributes) or [skill](#skills) is used. 
 
-Only a six rolled on a single die counts as a success. Other values are discarded as irrelevant. Only successes (sixes) matter. 
+Either a **six** or a **five** rolled on a single die counts as a **positive**. Other values are considered **negatives**. **Positives** are required in order to succeed a test. 
 
-How many successes are needed in order to succeed a test, is determined by the **GM**, via the mechanism called **obstacle** (henceforth referred to as **Ob**). The test can only succeed, if at least as many successes are rolled, as the *obstacle level* named by the **GM**. 
+The **positives** needed to succeed a test, is determined by the **GM**, via a mechanism called **obstacle** (henceforth referred to as **Ob**). The test can only succeed, if at least as many **positives** are rolled, as the *obstacle level* named by the **GM**. 
 
-> For example, to succeed a test at **Ob 3**, at least three successes must be rolled. Any less, and the test outcome is a failure. 
+> For example, to succeed a test at **Ob 3**, at least three **positives** must be rolled. Any less, and the test outcome is a failure. 
 
 To resolve an **attribute test**, the number of **D6** indicated by the *attribute level* (the number next to the attribute) must be rolled. 
 
 To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill), plus the number of **D6** indicated by the related [attribute](#attributes) must be rolled. 
+
+For every test, one of three outcomes is possible: 
+* Complete Success: There are enough or even more than required **positives**.
+* Partial Success/Failure: There are not enough **positives**, but more than none. 
+* Complete Failure: There are no **positives**, only **negatives**. 
 
 ### Types of Test
 There are the following types of tests. The **GM** decides when each type of test is appropriate. 
@@ -579,6 +579,8 @@ While all characters are expected to have ambitions, beliefs and instincts, **PC
 
 Ambitions, beliefs and instincts can not change during a game session. They can only be changed in-between. 
 
+Whenever a player plays to their **ambitions**, **belifs** and **instincts** in certain ways, they are awarded [fate points](#fate-points). 
+
 ### Ambition
 Every **PC** must have at least one ambition - a life-fulfilling long-term goal to pursue, which is to be determined during character creation. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an ambition is a primary driver for a character, to drive them onward. The important part is to think *big*. Something easily achievable would make for a dull ambition and defeat the point of it. 
 
@@ -608,7 +610,60 @@ Ideally, an instinct should be (ab-)usable by the **GM**, to get the **PC** into
 
 Instincts are expected to change frequently. 
 
-## Exhaustion
+## Health & Exhaustion
+Every character has **Hit Points (HP)** and a maximum number of **Injuries (Inj.)** they can endure, before they die. 
+
+Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. When their **HP** reach zero, they suffer an **Inj.** and their **HP** is reset to their **maximum - N**, where *N* is the number of **Inj.** they currently have. So, in other words, for every **Inj.**, a character loses one maximum **HP**. 
+
+Whenever a character suffers an **Inj.**, they must also suffer a [debility](#debility), randomly chosen from the table below. A **D100** roll determines the [debility](#debility). 
+
+If a [debility](#debility) causes an [attribute](#attributes) to drop to zero, they fall unconscious, until the [attribute](#attributes) is raised back up to at least one. For example, by removing the [debility](#debility). 
+
+Whenever a character is brought to at least half their maximum number of **Inj.**, they must pass a [toughness](#toughness-tough) test, or else fall unconscious. 
+
+If a character is brought to their **injury limit**, they die. **PC**s are an exception, they instead arrive at [death's door](#deaths-door). 
+
+For every point in [toughness](#toughness-tough), a character gains **+1 maximum HP**. 
+
+For every two points in [toughness](#toughness-tough), a character raises their **Inj.** limit by one. 
+
+### Injury
+An **injury** is an abstraction of a serious health impediment of a character. Every **injury** brings a character closer to death and every character has a maximum number of **injuries** they can endure. 
+
+For every day an **injury** remains untreated, it will cause an additional **injury**. A successful [medicine](#medicine-int) or [surgery](#surgery-int) test is required to treat all current **injuries** of a character. 
+
+To fully recover from an injury, a character must spend **Nd4** weeks in recovery, where *N* is the current number of injuries. 
+
+### Debility
+A **debility** is represents a long-term ailment for a character, usually as a result of an [injury](#injury). A **debility** can reduce [attributes](#attributes) and impose other restrictions. 
+
+**Debilities** must be removed, one by one, via successful [surgery](#surgery-int). Only one [surgery](#surgery-int) attempt can be made every 24 hours. 
+
+If the attempt at [surgery](#surgery-int) is a partial failure, the **debility** is not removed, but another attempt can be made. 
+
+If the attempt at [surgery](#surgery-int) is a complete failure, the **debility** becomes permanent. It cannot be removed via [surgery](#surgery-int) anymore. 
+
+How many times a **debility** can be suffered, can be limited. In the table, the *max* is the maximum number of times the **debility** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **debility**, pick the next **debility** below it, instead. 
+
+| Range D100 | Debility            | Max | Description                      |
+| ---------  | ------------------- | --- | -------------------------------- |
+| 0 - 6      | Butchered Arm       | 2   | -1 [Agility](#agility-agi); Actions and equipment requiring two hands cannot be used. If incurred twice, any actions requiring arm movement is impossible. |
+| 7 - 12     | Broken Leg          | 2   | -1 [Agility](#agility-agi); Max movement of 3'/1m; If incurred twice, movement on their own is impossible. |
+| 13 - 18    | Skull Fracture      | 1   | -1 [Intelligence](#intelligence-int); -1 [Wisdom](#wisdom-wis) |
+| 19 - 24    | Concussion          | /   | -1 [Intelligence](#intelligence-int); -1 [Perception](#perception-perc) |
+| 25 - 30    | Punctured Lung      | /   | -1 [Endurance](#endurance-end) |
+| 31 - 36    | Bacterial Infection | 1   | -1 [Toughness](#toughness-tough); Within a day, the character will contract an [illness](#illness). |
+| 37 - 42    | Fractured Rib       | /   | -1 [Toughness](#toughness-tough) | 
+| 43 - 48    | Nasty Wound         | /   | +1 [Bleeding](#bleeding) |
+| 49 - 54    | Broken Nose         | 1   | -1 [Perception](#perception-perc); Cannot smell; |
+| 55 - 60    | Maimed Ear          | /   | -1 [Perception](#perception-perc); Cannot hear; | 
+| 61 - 66    | Knocked Senseless   | /   | -1 [Perception](#perception-perc) |
+| 67 - 72    | Torn Tendon         | /   | -1 [Strength](#strength-str) | 
+| 73 - 79    | Mental Trauma       | /   | -1 [Will](#will-will) | 
+| 80 - 90    | Tremors             | /   | -1 [Arcana](#arcana-arc) | 
+| 90 - 100   | Cosmic Misfortune   | 1   | [Disadvantage](#advantage--disadvantage) on all tests. | 
+
+### Exhaustion
 Exhaustion is the measure of a character's maximum physical and mental strain they can endure. 
 
 If a character's exhaustion reaches their threshold, they fall unconscious from extreme over-exertion. 
@@ -619,24 +674,8 @@ Exhaustion gained from **exhausting actions** can be reduced by resting. A full 
 
 Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question and resting for a short while, at the **GM**'s discretion. A character trying to carry more than they can endure, should not immediately fall unconscious, mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them. 
 
-## Injury
-If a character is injured up to their **injury threshold**, they fall unconscious and arrive at [death's door](#deaths-door). 
-
-Each time a character incurs an injury at or past half of their threshold, they must succeed a [toughness](#toughness-tough) test, or else lose consciousness. 
-
-For every two injuries, a character's [exhaustion threshold](#exhaustion) is lowered by one. 
-
-For every three injuries, the character suffers a penalty of **-1D**, to all tests. 
-
-If injured past two thirds of their injury tolerance, a character must succeed a [toughness](#toughness-tough) test, or else suffer a [debility](#debilities).
-
-### Recovery
-To recover from an injury, a character must spend **Nd4** days in recovery, where *N* is the current number of injuries. 
-
-### Debilities
-A character accruing too many injuries may also suffer a debility, which may either be permanent, or at least stick around a long time. 
-
-Debilities may affect a character's appearance, physical, mental and social abilities. 
+### Illness
+TODO
 
 ### Death's Door
 **Death's door** is a state only a **PC** can enter and represents their final battle with death. 
@@ -664,7 +703,7 @@ Inflicted by fire.
 Inflicted by extreme cold. 
 
 #### Poison
-Usually represents a [injuries over time effect](#injury-over-time). 
+Usually represents a [damage over time effect](#damage-over-time). 
 
 #### Acid
 Dissolves anything it touches, or perhaps just organic matter. 
@@ -674,10 +713,10 @@ Some creatures can resist certain [types of damage](#damage-types) naturally, wh
 
 Whether all, half or a certain amount of [injuries](#injury) is resisted, depends on the specifics of the creature or character and their [equipment](#possessions--equipment). 
 
-### Injury Over Time
+### Damage Over Time
 Also known as *damage over time* or *status effect*, these are [damage types](#damage-types), which inflict injuries over a set period of time. 
 
-Every **injury over time** has an **intensity level**. The intensity governs how many injuries a afflicted character/creature suffers and at which intervals. 
+Every **damage over time** has an **intensity level**. The intensity governs how many injuries a afflicted character/creature suffers and at which intervals. 
 
 #### Bleeding
 One injury per intensity level, per round of combat, or every minute. 
@@ -708,26 +747,15 @@ All things have an abstract weight associated with them. If the weight is zero, 
 It is up to the **GM** to decide on when something is *too heavy* to carry for the character in question. 
 
 ### Weapon Types
-#### Unarmed
-Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. 
-
-#### Short Blade
-Small one-handed blades, like shivs, daggers and short-swords. 
-
-#### Long Blade
-One-and-half-handed blades, like bastard swords and long swords.
-
-#### Great Blade
-Two-handed swords like swords of war, great swords and Zweihänders. 
-
-#### Axe
-One-handed axes, like hatchets and woodcutter's axes. 
-
-#### Great Axe
-Two-handed axes, like the bearded axe or double-sided axe. 
-
-#### Spear
-One or two-handed spears. 
+| Weapon Type | Injuries Inflicted | Examples            |
+| ----------- | ------------------ | ------------------- |
+| Unarmed     | ND2 where N = [strength](#strength-str) | Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. |
+| Short Blade | 1D2 | Shiv; Dagger; Short-sword |
+| Long Blade  | 2D2 | Bastard sword; Longsword |
+| Great Blade | 3D2 | Sword of war; Great sword; Zweihänder |
+| Axe         | 1D3 | Hatchet; Woodcutter's axe |
+| Great Axe   | 2D3 | Bearded axe; Double-sided axe |
+| Spear       | 2D2 | One or two-handed spears |
 
 #### Polearm
 Two-handed polearms, like halberds or poleaxes. 
@@ -760,6 +788,9 @@ A very deadly long distance ranged weapon, shooting quarrels.
 A very deadly short to medium distance ranged weapon, shooting musket balls that can even penetrate armor. 
 
 ## Character Creation
+TODO
+
+# Fate Points
 TODO
 
 # Combat
