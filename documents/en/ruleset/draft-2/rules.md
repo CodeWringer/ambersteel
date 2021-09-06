@@ -1,5 +1,21 @@
 - [Introduction](#introduction)
-  - [Dice](#dice)
+  - [How to Play](#how-to-play)
+    - [Dice](#dice)
+    - [Before the Game](#before-the-game)
+    - [The Session](#the-session)
+    - [After the Session](#after-the-session)
+  - [Tests](#tests)
+    - [Types of Test](#types-of-test)
+      - [Binary Test](#binary-test)
+      - [Stepped Test](#stepped-test)
+      - [Graduated Test](#graduated-test)
+      - [Creative Test](#creative-test)
+      - [Opposed Test](#opposed-test)
+    - [Advantage & Disadvantage](#advantage--disadvantage)
+    - [Providing Assistance](#providing-assistance)
+      - [Helpers Learn](#helpers-learn)
+    - [Time](#time)
+    - [Fewer Tests Are Better](#fewer-tests-are-better)
 - [Character](#character)
   - [Attributes](#attributes)
     - [Physical Attributes](#physical-attributes)
@@ -120,18 +136,6 @@
       - [Siege Crossbow](#siege-crossbow)
       - [Firearm](#firearm)
   - [Character Creation](#character-creation)
-- [Tests](#tests)
-  - [Types of Test](#types-of-test)
-    - [Binary Test](#binary-test)
-    - [Stepped Test](#stepped-test)
-    - [Graduated Test](#graduated-test)
-    - [Creative Test](#creative-test)
-    - [Opposed Test](#opposed-test)
-  - [Advantage & Disadvantage](#advantage--disadvantage)
-  - [Providing Assistance](#providing-assistance)
-    - [Helpers Learn](#helpers-learn)
-  - [Time](#time)
-  - [Fewer Tests Are Better](#fewer-tests-are-better)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
   - [Major Fate Points](#major-fate-points)
@@ -170,19 +174,22 @@
 
 On the spectrum of narrative-driven, gamey and simulationist, **Ambersteel** aims for the region between gamey and narrative-driven. Tactical and lethal combat is where most of the gamey-ness stems from, with most other aspects being kept closer towards the narrative-driven end. 
 
-While each player only indirectly controls a single character, the **GM** is in direct control of every single non-player character (**NPC**), the world and the story. A player character is abbreviated as **PC**. 
+While each player only controls a single character, the **GM** is in control of every single non-player character (**NPC**), the world and the story. A player character is abbreviated as **PC**. 
 
 The system is designed to fit a low to medium fantasy medieval setting. Player characters may be special, but they're far from heroic. Combat is deadly and magic is powerful, yet risky. The rules are designed to be as intuitive and simple as possible, while complex enough to allow players to make meaningful choices. 
 
 Most rules will have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in every situation. The descriptions in the rules here should serve as a point for orientation for the **GM**. How they interpret the rules, is how they're to be understood. 
 
-But this is not an *adversarial* game. The **GM** and the players work ***together*** to tell a compelling, interesting, humorous, tense, etc. story. Ultimately, the **GM**'s job is to provide interesting conundrums to the players and their job is to provide interesting answers, in-line with what their characters believe. 
+But this is not an *adversarial* game. The **GM** and the players work ***together*** to tell a compelling, interesting, humorous, tense, etc. story. Ultimately, the **GM**'s job is to provide interesting conundrums to the players and their job is to provide interesting answers, in-line with what their characters believe. What's important to remember is that the **GM** is a *player*, too. They're here to have fun and enjoy their time at the table, too. 
 
 Another important aspect of **Ambersteel** is that character's abilities grow over time. There are neither character classes, nor character levels. Skills and attributes improve as they're being used in tests. Characters have long-term and short-term goals and beliefs, which drive them onward and which change over time. 
 
+## How to Play
+As **Ambersteel** is a **roleplaying game**, there are certain rules and expectations of both players and **GM**. 
+
 In some places, where distances are concerned, both feet and meters are noted as units. What attentive readers will notice, is that the conversion between the numbers won't always be correct. This is a deliberate decision to make the math easier, whenever a grid (or *battlemap*) is used in play. One square on the grid should represent either a three foot, or one meter square. Furthermore, a single, ordinary human, should occupy an entire such square. 
 
-## Dice
+### Dice
 **Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**) to resolve [tests](#tests). *Dice pool* means a variable number of dice will be rolled, based on a character's [attributes](#attributes), [skills](#skills), boons and circumstance of the situation they're in. 
 
 The following types of dice come into play:
@@ -191,6 +198,115 @@ The following types of dice come into play:
 * **D4** - four-sided dice
 * **D6** - six-sided dice
 * **D10** (**D100**) - two ten-sided dice
+
+### Before the Game
+Before anyone can start to play, the players have to [create their characters](#character-creation). Ideally, this process should be done in cooperation with the **GM** and each other, to make sure the character concepts fit into the world and planned narrative. Also, it is advisable to design characters that will work well together, as a group. 
+
+### The Session
+This is the time, when the magic happens. The players and **GM** have come together and begin or continue the story. 
+
+[Fate points](#fate-points) cannot be awarded during play and neither can cards be bought from the [hand of fate](#hand-of-fate). However, players and the **GM** should take note of every situation they believe a **PC** (their own included) could have earned a [fate point](#fate-points).
+
+### After the Session
+After a playing session is done, the players and **GM** should stick around to discuss which players earned [fate points](#fate-points). This is where players are nominated for [fate points](#fate-points), by each other and by the **GM**. If everyone agrees, the [fate points](#fate-points) are awarded. Players can and should lobby for their [fate points](#fate-points), but shouldn't beg. If most everyone else says no, then that decision stands. That doesn't mean there is no point in discussing the matter further, but such a discussion shoulnd't be forced. 
+
+Also after the session, players and the **GM** discuss whether a **PC** should lose an [instinct](#instincts), because they have acted against it or haven't gotten to play it out at all. 
+
+Any time in between sessions, players can spend [fate points](#fate-points) to buy cards (boons) from the [hand of fate](#hand-of-fate). 
+
+## Tests
+Whenever the outcome of an action or situation is uncertain, a **test** may be called for by the **GM**, in order to resolve it. 
+
+As a basis for a test, either an [attribute](#attributes) or [skill](#skills) is used. 
+
+Either a **six** or a **five** rolled on a single die counts as a **positive**. Other values are considered **negatives**. **Positives** are required in order to succeed a test. 
+
+The **positives** needed to succeed a test, is determined by the **GM**, via a mechanism called **obstacle** (henceforth referred to as **Ob**). The test can only succeed, if at least as many **positives** are rolled, as the *obstacle level* named by the **GM**. 
+
+> For example, to succeed a test at **Ob 3**, at least three **positives** must be rolled. Any less, and the test outcome is a failure. 
+
+To resolve an **attribute test**, the number of **D6** indicated by the *attribute level* (the number next to the attribute) must be rolled. 
+
+To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill), plus the number of **D6** indicated by the related [attribute](#attributes) must be rolled. 
+
+For every test, one of three outcomes is possible: 
+* Complete Success: There are enough or even more than required **positives**.
+* Partial Success/Failure: There are not enough **positives**, but more than none. 
+* Complete Failure: There are no **positives**, only **negatives**. 
+
+### Types of Test
+There are the following types of tests. The **GM** decides when each type of test is appropriate. 
+
+#### Binary Test
+The outcome of the test is an absolute success, or failure. These are tests, where the **degree of success** is irrelevant. 
+
+#### Stepped Test
+A stepped test is really just a series of [binary tests](#binary-test). This allows for finer-grained results, while not behaving like a [graduated test](#graduated-test). 
+
+This type of test is useful for situations where the **GM** decides to create very fine *time slices* and allow more chances for success. This makes it easier to allow a **PC** to *fail forward* or prevent a *one roll to end it all* situation. 
+
+> For example, a **PC** is attempting to cross a suspension bridge, but upon setting foot on the bridge, the ropes holding it up, suddenly snap. The **PC** can make an [acrobatics](#acrobatics-agi) test, to try and quickly jump off and back onto solid ground. They fail, and get to make another [acrobatics](#acrobatics-agi) test, to try and grab a root sticking out of the ground beneath the bridge. As a last chance for that **PC** to survive, the **GM** asks one of the other players if their character will attempt an [acrobatics](#acrobatics-agi) test to try and grab their falling ally's hand in a daring rescue. Finally, their ally succeeds and the **PC**'s life is saved. Obviously, such a situation should not arise often, as stepped tests can quickly grow exasperating for the players. 
+
+#### Graduated Test
+The outcome of the test is graduated. That means, the number of successes rolled during the test factor into the outcome. This is called the **degree of success**. 
+
+> For example, when crafting a work of art, the number of successes achieved may result in a more impressive piece, which can then be sold at a higher price or which could make for a more impressive gift. 
+
+On the other hand, failure doesn't have to be absolute. The degree of failure can allow for a "failing forward" - a success, but with complications, whose severity depends on the number of failures. 
+
+#### Creative Test
+Also known as a **skill challenge**, this type of test asks the player(s) to pick and justify the skill(s) and attribute(s) to use in a given situation. Players are encouraged to think creatively and come up with solutions. 
+
+Whether the attribute(s) and skill(s) in question apply to resolve the situation at hand, lies at the **GM**'s discretion. 
+
+#### Opposed Test
+Also known as a *versus test*, this type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of successes of each character. The one with the most successes is the winner. 
+
+If there is a tie, the defending character is considered the winner. 
+
+> For example, a character tries to sneak past another, the sneak will have to do a [stealth](#stealth-agi) test, while the other character will have to do an [observation](#observation-perc) test. If the result is a tie, the one doing the observation test is considered the defender, and wins. 
+
+If a tie occurs in which a defender cannot be clearly determined, the result is a deadlock and neither side gains anything. 
+
+### Advantage & Disadvantage
+Certain situations may warrant a character getting advantage or disadvantage to a test they have to make. 
+
+Advantage grants **+1D6**, while disadvantage forces **-1D6** to the test in question. 
+
+A player may argue for their advantage in a situation, but only once, with a clear statement. Dancing around, trying and hoping to somehow convince the **GM** with vague descriptions immediately disqualifies your character from getting advantage. Arguing with the **GM** *also* immediately disqualifies your character from getting advantage. 
+
+### Providing Assistance
+Characters can help each other in tests. In order to help with a test, a character must know a relevant [skill](#skills) and the one being helped must accept the help. 
+
+Helping in a test works much like [forking](#skill-forking) a skill. The character being helped receives **+1D6** to roll for each *character* helping them. The number of relevant skills a helping character has is irrelevant. Just one is enough to allow them to help and only one **+1D6** is granted by the helping character. Which skill is used to help with, matters, however. 
+
+If a **PC** is helping another, their player must describe *how* they're using their relevant skill to help. 
+
+> For example, a **PC** is currently using their [thievery](#thievery-agi) to lockpick a door. Their allied **PC** is *helping*, by using their [observation](#observation-perc) skill to *keep an eye out for guards*, which allows the one on the door to work without having to constantly look over their shoulder. The **GM** finds that description agreeable and allows the use of the skill to help. 
+
+Ultimately, whether a skill is appropriate to help with is determined by the **GM**. 
+
+#### Helpers Learn
+A character helping in a test, also gains [progress](#advancing-skills) towards the [skill](#skills) they've helped with. If the character who was helped succeeded their test, the helper also gains a successful test to mark on their skill. 
+
+### Time
+Not all tests are created equal - some actions require more time than others. 
+
+While the **GM** decides on how much time a given test will need, the following guidelines should provide a good basis. 
+
+* (Near) instantaneous: Combat actions, recalling knowledge, noticing things in passing. 
+* A matter of minutes: inspecting an environment, quickly skimming the contents of a book, persuading someone in conversation, first aid. 
+* A matter of hours: Simple crafts, surgery, scrutinizing an environment, researching something simple/not obscure, engaging in lengthy and difficult negotiations.
+* A matter of days and months: Complex crafts and artistry, researching a complex or obscure subject. 
+
+### Fewer Tests Are Better
+This section is primarily directed at the **GM**. The short of it goes as follows: 
+
+Only have a player make one test per scene/situation, as long as the scene/situation doesn't change significantly. 
+
+> For example, a **PC** is trying to sneak past two guards huddled around a campfire. If they succeed their [stealth](#stealth-agi) test, the **GM** lets them sneak all around the camp, without making them do multiple tests, as long as the situation doesn't change significantly. One of the guards getting up to take a pee behind a tree somewhere shouldn't be such a change, even if that happens to be the tree the **PC** is hiding behind. On the other hand, if the guards pick up torches and start actively looking for intruders, for whatever reason, then the situation changes significantly. Another [stealth](#stealth-agi) test would be warranted. 
+
+Of course, how many tests are appropriate in a given situation is entirely the **GM**'s decision to make. 
 
 # Character
 A character is a representation of a sentient creature in the game world. They're an amalgam of [attributes](#attributes), [skills](#skills), [ambitions, beliefs & instincts](#ambitions-beliefs--instincts) and of course their [possessions](#possessions--equipment). 
@@ -723,100 +839,6 @@ A very deadly short to medium distance ranged weapon, shooting musket balls that
 
 ## Character Creation
 TODO
-
-# Tests
-Whenever the outcome of an action or situation is uncertain, a **test** may be called for by the **GM**, in order to resolve it. 
-
-As a basis for a test, either an [attribute](#attributes) or [skill](#skills) is used. 
-
-Either a **six** or a **five** rolled on a single die counts as a **positive**. Other values are considered **negatives**. **Positives** are required in order to succeed a test. 
-
-The **positives** needed to succeed a test, is determined by the **GM**, via a mechanism called **obstacle** (henceforth referred to as **Ob**). The test can only succeed, if at least as many **positives** are rolled, as the *obstacle level* named by the **GM**. 
-
-> For example, to succeed a test at **Ob 3**, at least three **positives** must be rolled. Any less, and the test outcome is a failure. 
-
-To resolve an **attribute test**, the number of **D6** indicated by the *attribute level* (the number next to the attribute) must be rolled. 
-
-To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill), plus the number of **D6** indicated by the related [attribute](#attributes) must be rolled. 
-
-For every test, one of three outcomes is possible: 
-* Complete Success: There are enough or even more than required **positives**.
-* Partial Success/Failure: There are not enough **positives**, but more than none. 
-* Complete Failure: There are no **positives**, only **negatives**. 
-
-## Types of Test
-There are the following types of tests. The **GM** decides when each type of test is appropriate. 
-
-### Binary Test
-The outcome of the test is an absolute success, or failure. These are tests, where the **degree of success** is irrelevant. 
-
-### Stepped Test
-A stepped test is really just a series of [binary tests](#binary-test). This allows for finer-grained results, while not behaving like a [graduated test](#graduated-test). 
-
-This type of test is useful for situations where the **GM** decides to create very fine *time slices* and allow more chances for success. This makes it easier to allow a **PC** to *fail forward* or prevent a *one roll to end it all* situation. 
-
-> For example, a **PC** is attempting to cross a suspension bridge, but upon setting foot on the bridge, the ropes holding it up, suddenly snap. The **PC** can make an [acrobatics](#acrobatics-agi) test, to try and quickly jump off and back onto solid ground. They fail, and get to make another [acrobatics](#acrobatics-agi) test, to try and grab a root sticking out of the ground beneath the bridge. As a last chance for that **PC** to survive, the **GM** asks one of the other players if their character will attempt an [acrobatics](#acrobatics-agi) test to try and grab their falling ally's hand in a daring rescue. Finally, their ally succeeds and the **PC**'s life is saved. Obviously, such a situation should not arise often, as stepped tests can quickly grow exasperating for the players. 
-
-### Graduated Test
-The outcome of the test is graduated. That means, the number of successes rolled during the test factor into the outcome. This is called the **degree of success**. 
-
-> For example, when crafting a work of art, the number of successes achieved may result in a more impressive piece, which can then be sold at a higher price or which could make for a more impressive gift. 
-
-On the other hand, failure doesn't have to be absolute. The degree of failure can allow for a "failing forward" - a success, but with complications, whose severity depends on the number of failures. 
-
-### Creative Test
-Also known as a **skill challenge**, this type of test asks the player(s) to pick and justify the skill(s) and attribute(s) to use in a given situation. Players are encouraged to think creatively and come up with solutions. 
-
-Whether the attribute(s) and skill(s) in question apply to resolve the situation at hand, lies at the **GM**'s discretion. 
-
-### Opposed Test
-Also known as a *versus test*, this type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of successes of each character. The one with the most successes is the winner. 
-
-If there is a tie, the defending character is considered the winner. 
-
-> For example, a character tries to sneak past another, the sneak will have to do a [stealth](#stealth-agi) test, while the other character will have to do an [observation](#observation-perc) test. If the result is a tie, the one doing the observation test is considered the defender, and wins. 
-
-If a tie occurs in which a defender cannot be clearly determined, the result is a deadlock and neither side gains anything. 
-
-## Advantage & Disadvantage
-Certain situations may warrant a character getting advantage or disadvantage to a test they have to make. 
-
-Advantage grants **+1D6**, while disadvantage forces **-1D6** to the test in question. 
-
-A player may argue for their advantage in a situation, but only once, with a clear statement. Dancing around, trying and hoping to somehow convince the **GM** with vague descriptions immediately disqualifies your character from getting advantage. Arguing with the **GM** *also* immediately disqualifies your character from getting advantage. 
-
-## Providing Assistance
-Characters can help each other in tests. In order to help with a test, a character must know a relevant [skill](#skills) and the one being helped must accept the help. 
-
-Helping in a test works much like [forking](#skill-forking) a skill. The character being helped receives **+1D6** to roll for each *character* helping them. The number of relevant skills a helping character has is irrelevant. Just one is enough to allow them to help and only one **+1D6** is granted by the helping character. Which skill is used to help with, matters, however. 
-
-If a **PC** is helping another, their player must describe *how* they're using their relevant skill to help. 
-
-> For example, a **PC** is currently using their [thievery](#thievery-agi) to lockpick a door. Their allied **PC** is *helping*, by using their [observation](#observation-perc) skill to *keep an eye out for guards*, which allows the one on the door to work without having to constantly look over their shoulder. The **GM** finds that description agreeable and allows the use of the skill to help. 
-
-Ultimately, whether a skill is appropriate to help with is determined by the **GM**. 
-
-### Helpers Learn
-A character helping in a test, also gains [progress](#advancing-skills) towards the [skill](#skills) they've helped with. If the character who was helped succeeded their test, the helper also gains a successful test to mark on their skill. 
-
-## Time
-Not all tests are created equal - some actions require more time than others. 
-
-While the **GM** decides on how much time a given test will need, the following guidelines should provide a good basis. 
-
-* (Near) instantaneous: Combat actions, recalling knowledge, noticing things in passing. 
-* A matter of minutes: inspecting an environment, quickly skimming the contents of a book, persuading someone in conversation, first aid. 
-* A matter of hours: Simple crafts, surgery, scrutinizing an environment, researching something simple/not obscure, engaging in lengthy and difficult negotiations.
-* A matter of days and months: Complex crafts and artistry, researching a complex or obscure subject. 
-
-## Fewer Tests Are Better
-This section is primarily directed at the **GM**. The short of it goes as follows: 
-
-Only have a player make one test per scene/situation, as long as the scene/situation doesn't change significantly. 
-
-> For example, a **PC** is trying to sneak past two guards huddled around a campfire. If they succeed their [stealth](#stealth-agi) test, the **GM** lets them sneak all around the camp, without making them do multiple tests, as long as the situation doesn't change significantly. One of the guards getting up to take a pee behind a tree somewhere shouldn't be such a change, even if that happens to be the tree the **PC** is hiding behind. On the other hand, if the guards pick up torches and start actively looking for intruders, for whatever reason, then the situation changes significantly. Another [stealth](#stealth-agi) test would be warranted. 
-
-Of course, how many tests are appropriate in a given situation is entirely the **GM**'s decision to make. 
 
 # Fate Points
 Fate points (**FP**) represent a meta-currency that *players* can earn and use to buy boons for their character or the group as a whole. 
