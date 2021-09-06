@@ -87,11 +87,12 @@
     - [Instincts](#instincts)
   - [Health & Exhaustion](#health--exhaustion)
     - [Injury](#injury)
-    - [Debility](#debility)
-      - [List of Debilities](#list-of-debilities)
+      - [List of Injuries](#list-of-injuries)
     - [Exhaustion](#exhaustion)
+    - [Status Effects](#status-effects)
+      - [Dazed](#dazed)
+      - [Death's Door](#deaths-door)
     - [Illness](#illness)
-    - [Death's Door](#deaths-door)
     - [Damage Types](#damage-types)
       - [Slashing](#slashing)
       - [Piercing](#piercing)
@@ -219,7 +220,9 @@ Each point in strength raises the [carrying capacity](#carrying-capacity) of the
 #### Toughness [Tough]
 Governs the [injury threshold](#injury) of a character. 
 
-For every point in toughness, a character raises their [injury threshold](#injury) by two.
+For every point in [toughness](#toughness-tough), a character gains **+1 maximum HP**. 
+
+For every two points in [toughness](#toughness-tough), a character raises their **Inj.** limit by 1. 
 
 ### Mental Attributes
 These numbers represent a character's basic mental abilities. 
@@ -527,38 +530,37 @@ Every character has **Hit Points (HP)** and a maximum number of **Injuries (Inj.
 
 Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. When their **HP** reach zero, they suffer an **Inj.** and their **HP** is reset to their **maximum - N**, where *N* is the number of **Inj.** they currently have. So, in other words, for every **Inj.**, a character loses one maximum **HP**. 
 
-Whenever a character suffers an **Inj.**, they must also suffer a [debility](#debility), randomly chosen from the table below. A **D100** roll determines the [debility](#debility). 
-
-Whenever a character is brought to at least half their maximum number of **Inj.**, they must pass a [toughness](#toughness-tough) test, or else fall unconscious. 
-
-If a character is brought to their **injury limit**, they die. **PC**s are an exception, they instead arrive at [death's door](#deaths-door). 
-
-For every point in [toughness](#toughness-tough), a character gains **+1 maximum HP**. 
-
-For every two points in [toughness](#toughness-tough), a character raises their **Inj.** limit by one. 
+When [Toughness](#toughness-tough) is reduced, still only one maximum **HP** is deducted. 
 
 ### Injury
-An **injury (Inj.)** is an abstraction of a serious health impediment of a character. Every character has a maximum number of **Inj.** they can endure and every **Inj.** brings a character closer to death. 
+An **injury (Inj.)** is a serious health impediment of a character. Every character has a maximum number of **Inj.** they can endure. If they reach their maximum number of **Inj.**, the character dies. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
 
-For every day an **Inj.** remains untreated, it will cause an additional **Inj.** A successful [medicine](#medicine-int) test is required to treat an **Inj.** of a character. 
+Whenever a character suffers an **Inj.**, a **D100** must be rolled and the corresponding result from the [list of injuries](#list-of-injuries) added to the character. 
 
-A character can remove their treated **Inj.**, by spending **ND4** weeks in recovery, where *N* is the current number of treated **Inj.** 
+Whenever a character is brought to at least half their maximum number of **Inj.** (rounded down), they must succeed a [toughness](#toughness-tough) test, or else suffer +1 [exhaustion](#exhaustion). 
 
-### Debility
-A **debility** is represents a long-term ailment for a character, usually as a result of an [injury](#injury). A **debility** can reduce [attributes](#attributes) and impose other restrictions. 
+An **Inj.** can reduce [attributes](#attributes) and impose other restrictions. An [attribute](#attributes) cannot be brought down to less than 1, by **Inj.**
 
-* **Debilities** can be removed, one by one, via [surgery](#surgery-int). 
-  * If the attempt is a complete success, the **debility** is removed. 
-  * If the attempt is a partial success, the **debility** is not removed, but another attempt can be made. 
-  * If the attempt at is a complete failure, the **debility** becomes permanent. It cannot be removed via [surgery](#surgery-int) anymore. 
-  * Only one [surgery](#surgery-int) attempt can be made every 24 hours. 
+There are three possible states of an **Inj.**: **active**, **patched up** or **treated**
 
-An [attribute](#attributes) cannot be brought down to less than 1, by **debilities**. 
+Only an **active** **Inj.** imposes negative effects. 
 
-#### List of Debilities
+An **Inj.** can be **patched up** via [medicine](#medicine-int):
+* If the attempt is a complete success, the **Inj.** is **patched up**.
+* If the attempt is a partial success or a complete failure, the **Inj.** remains **active**. 
+
+An **Inj.** can be properly **treated** via [surgery](#surgery-int): 
+* If the attempt is a complete success, the **Inj.** is **treated**. 
+* If the attempt is a partial success, the **Inj.** is not **treated**, but another attempt can be made. 
+* If the attempt at is a complete failure, the **Inj.** becomes permanent. It cannot be **treated** via [surgery](#surgery-int) anymore. 
+* Only one [surgery](#surgery-int) attempt can be made every 24 hours. 
+
+All currently **treated** **Inj.** can be removed/recovered from, by spending **ND4** weeks in recovery, where *N* is the current number of **treated** **Inj.** 
+
+#### List of Injuries
 How many times a **debility** can be suffered, can be limited. In the table below, the *max* is the maximum number of times the **debility** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **debility**, pick the next **debility** below it, instead. 
 
-| Range D100 | Debility            | Max | Description                      |
+| Range D100 | Injury              | Max | Description                      |
 | ---------  | ------------------- | --- | -------------------------------- |
 | 0 - 5      | Cosmic Fortune      | /   | Luck is with you! You suffer no **debility**! |
 | 6 - 10     | Butchered Arm       | 2   | -1 [Agility](#agility-agi); Actions and equipment requiring two hands cannot be used. If incurred twice, any actions requiring arm movement is impossible. |
@@ -566,7 +568,7 @@ How many times a **debility** can be suffered, can be limited. In the table belo
 | 16 - 19    | Skull Fracture      | 1   | -1 [Intelligence](#intelligence-int); -1 [Wisdom](#wisdom-wis) |
 | 20 - 24    | Concussion          | /   | -1 [Intelligence](#intelligence-int); -1 [Perception](#perception-perc) |
 | 25 - 30    | Punctured Lung      | /   | -1 [Endurance](#endurance-end) |
-| 31 - 36    | Infection           | 1   | -1 [Toughness](#toughness-tough); Within a day, the character will contract an [illness](#illness). |
+| 31 - 36    | Infection           | 1   | -1 [Toughness](#toughness-tough); Within a day, the character will contract an [illness](#illness). This will happen, even if the **Inj.** is treated. |
 | 37 - 42    | Fractured Rib       | /   | -1 [Toughness](#toughness-tough) | 
 | 43 - 48    | Nasty Wound         | /   | +1 [Bleeding](#bleeding) |
 | 49 - 54    | Broken Nose         | 1   | -1 [Perception](#perception-perc); Cannot smell; |
@@ -574,13 +576,13 @@ How many times a **debility** can be suffered, can be limited. In the table belo
 | 61 - 66    | Knocked Senseless   | /   | -1 [Perception](#perception-perc) |
 | 67 - 72    | Torn Tendon         | /   | -1 [Strength](#strength-str) | 
 | 73 - 79    | Mental Trauma       | /   | -1 [Will](#will-will) | 
-| 80 - 94    | Tremors             | /   | -1 [Arcana](#arcana-arc) | 
+| 80 - 94    | Tremors             | /   | -1 [Arcana](#arcana-arc); [Agility](#agility-agi) | 
 | 95 - 100   | Cosmic Misfortune   | 1   | [Disadvantage](#advantage--disadvantage) on all tests. | 
 
 ### Exhaustion
 Exhaustion is the measure of a character's maximum physical and mental strain they can endure. 
 
-If a character's exhaustion reaches their threshold, they fall unconscious from extreme over-exertion. 
+If a character's exhaustion reaches their threshold, they become [dazed](#dazed) from over-exertion. 
 
 Exhaustion is gained through performing **exhausting actions**, carrying **exhausting equipment** or suffering [injuries](#injury). 
 
@@ -588,15 +590,23 @@ Exhaustion gained from **exhausting actions** can be reduced by resting. A full 
 
 Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question and resting for a short while, at the **GM**'s discretion. A character trying to carry more than they can endure, should not immediately fall unconscious, mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them. 
 
-### Illness
+### Status Effects
+Characters can have one or more **status effect(s)** affecting them. A **status effect** can have positive or negative effects on the character. 
+
+#### Dazed
 TODO
 
-### Death's Door
+#### Death's Door
 **Death's door** is a state only a **PC** can enter and represents their final battle with death. 
 
-A **PC** at death's door must succeed at least one [toughness](#toughness-tough) test out of a possible three. If they never succeed, they perish, irrevocably. If the character is at death's door during [combat](#combat), they must roll their [toughness](#toughness-tough) test at the end of the round. 
+A **PC** at **death's door** must succeed at least one [toughness](#toughness-tough) test out of a possible of three. If they never succeed, they perish, irrevocably. 
+* If the character is at **death's door** during [combat](#combat), they must make a [toughness](#toughness-tough) test at the end of every round. 
+* If the character is at **death's door** out of [combat](#combat), they must make a test every minute. 
 
-A character can be helped out of **death's door**, via the use of [medical arts](#medicine-int) or [healing magic](#restoration). 
+A character can be helped out of **death's door**, if all of their **active** **Inj.** are **patched up** or **treated**. For every **active** **Inj.** that is **patched up** or **treated**, the character gains one more attempt to succeed a [toughness](#toughness-tough) test. 
+
+### Illness
+TODO
 
 ### Damage Types
 All injuries inflicted, are inflicted with a certain type of damage. 
