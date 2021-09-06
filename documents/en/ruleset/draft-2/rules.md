@@ -1,18 +1,6 @@
 - [Introduction](#introduction)
-- [Dice](#dice)
-  - [Tests](#tests)
-    - [Types of Test](#types-of-test)
-      - [Binary Test](#binary-test)
-      - [Stepped Test](#stepped-test)
-      - [Graduated Test](#graduated-test)
-      - [Creative Test](#creative-test)
-      - [Opposed Test](#opposed-test)
-    - [Advantage & Disadvantage](#advantage--disadvantage)
-    - [Providing Assistance](#providing-assistance)
-      - [Helpers Learn](#helpers-learn)
+  - [Dice](#dice)
 - [Character](#character)
-    - [Time](#time)
-    - [Fewer Tests Are Better](#fewer-tests-are-better)
   - [Attributes](#attributes)
     - [Physical Attributes](#physical-attributes)
       - [Agility [Agi]](#agility-agi)
@@ -36,7 +24,7 @@
     - [Advancing Skills](#advancing-skills)
       - [Practice](#practice)
       - [Teaching](#teaching)
-    - [Skill List](#skill-list)
+  - [Skill List](#skill-list)
     - [Physical skills](#physical-skills)
       - [Acrobatics (Agi)](#acrobatics-agi)
       - [Instrument-Playing < instrument > (Agi)](#instrument-playing--instrument--agi)
@@ -100,6 +88,7 @@
   - [Health & Exhaustion](#health--exhaustion)
     - [Injury](#injury)
     - [Debility](#debility)
+      - [List of Debilities](#list-of-debilities)
     - [Exhaustion](#exhaustion)
     - [Illness](#illness)
     - [Death's Door](#deaths-door)
@@ -130,6 +119,18 @@
       - [Siege Crossbow](#siege-crossbow)
       - [Firearm](#firearm)
   - [Character Creation](#character-creation)
+- [Tests](#tests)
+  - [Types of Test](#types-of-test)
+    - [Binary Test](#binary-test)
+    - [Stepped Test](#stepped-test)
+    - [Graduated Test](#graduated-test)
+    - [Creative Test](#creative-test)
+    - [Opposed Test](#opposed-test)
+  - [Advantage & Disadvantage](#advantage--disadvantage)
+  - [Providing Assistance](#providing-assistance)
+    - [Helpers Learn](#helpers-learn)
+  - [Time](#time)
+  - [Fewer Tests Are Better](#fewer-tests-are-better)
 - [Fate Points](#fate-points)
 - [Combat](#combat)
   - [Who Acts When](#who-acts-when)
@@ -176,107 +177,18 @@ Another important aspect of **Ambersteel** is that character's abilities grow ov
 
 In some places, where distances are concerned, both feet and meters are noted as units. What attentive readers will notice, is that the conversion between the numbers won't always be correct. This is a deliberate decision to make the math easier, whenever a grid (or *battlemap*) is used in play. One square on the grid should represent either a five foot, or one meter square. Furthermore, a single, ordinary human, should occupy an entire such square. 
 
-# Dice
-**Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**). *Dice pool* means a variable number of **D6** will be rolled to resolve uncertain situations and actions in game. 
+## Dice
+**Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**) to resolve [tests](#tests). *Dice pool* means a variable number of dice will be rolled, based on a character's [attributes](#attributes), [skills](#skills), boons and circumstance of the situation they're in. 
 
-Also used in play are **three-sided dice**, abbreviated as **D3** and **two-sided dice**, abbreviated as **D2**.
-
-## Tests
-Whenever the outcome of an action or situation is uncertain, a **test** may be called for by the **GM**, in order to resolve it. 
-
-As a basis for a test, either an [attribute](#attributes) or [skill](#skills) is used. 
-
-Either a **six** or a **five** rolled on a single die counts as a **positive**. Other values are considered **negatives**. **Positives** are required in order to succeed a test. 
-
-The **positives** needed to succeed a test, is determined by the **GM**, via a mechanism called **obstacle** (henceforth referred to as **Ob**). The test can only succeed, if at least as many **positives** are rolled, as the *obstacle level* named by the **GM**. 
-
-> For example, to succeed a test at **Ob 3**, at least three **positives** must be rolled. Any less, and the test outcome is a failure. 
-
-To resolve an **attribute test**, the number of **D6** indicated by the *attribute level* (the number next to the attribute) must be rolled. 
-
-To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill), plus the number of **D6** indicated by the related [attribute](#attributes) must be rolled. 
-
-For every test, one of three outcomes is possible: 
-* Complete Success: There are enough or even more than required **positives**.
-* Partial Success/Failure: There are not enough **positives**, but more than none. 
-* Complete Failure: There are no **positives**, only **negatives**. 
-
-### Types of Test
-There are the following types of tests. The **GM** decides when each type of test is appropriate. 
-
-#### Binary Test
-The outcome of the test is an absolute success, or failure. These are tests, where the **degree of success** is irrelevant. 
-
-#### Stepped Test
-A stepped test is really just a series of [binary tests](#binary-test). This allows for finer-grained results, while not behaving like a [graduated test](#graduated-test). 
-
-This type of test is useful for situations where the **GM** decides to create very fine *time slices* and allow more chances for success. This makes it easier to allow a **PC** to *fail forward* or prevent a *one roll to end it all* situation. 
-
-> For example, a **PC** is attempting to cross a suspension bridge, but upon setting foot on the bridge, the ropes holding it up, suddenly snap. The **PC** can make an [acrobatics](#acrobatics-agi) test, to try and quickly jump off and back onto solid ground. They fail, and get to make another [acrobatics](#acrobatics-agi) test, to try and grab a root sticking out of the ground beneath the bridge. As a last chance for that **PC** to survive, the **GM** asks one of the other players if their character will attempt an [acrobatics](#acrobatics-agi) test to try and grab their falling ally's hand in a daring rescue. Finally, their ally succeeds and the **PC**'s life is saved. Obviously, such a situation should not arise often, as stepped tests can quickly grow exasperating for the players. 
-
-#### Graduated Test
-The outcome of the test is graduated. That means, the number of successes rolled during the test factor into the outcome. This is called the **degree of success**. 
-
-> For example, when crafting a work of art, the number of successes achieved may result in a more impressive piece, which can then be sold at a higher price or which could make for a more impressive gift. 
-
-On the other hand, failure doesn't have to be absolute. The degree of failure can allow for a "failing forward" - a success, but with complications, whose severity depends on the number of failures. 
-
-#### Creative Test
-Also known as a **skill challenge**, this type of test asks the player(s) to pick and justify the skill(s) and attribute(s) to use in a given situation. Players are encouraged to think creatively and come up with solutions. 
-
-Whether the attribute(s) and skill(s) in question apply to resolve the situation at hand, lies at the **GM**'s discretion. 
-
-#### Opposed Test
-Also known as a *versus test*, this type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of successes of each character. The one with the most successes is the winner. 
-
-If there is a tie, the defending character is considered the winner. 
-
-> For example, a character tries to sneak past another, the sneak will have to do a [stealth](#stealth-agi) test, while the other character will have to do an [observation](#observation-perc) test. If the result is a tie, the one doing the observation test is considered the defender, and wins. 
-
-If a tie occurs in which a defender cannot be clearly determined, the result is a deadlock and neither side gains anything. 
-
-### Advantage & Disadvantage
-Certain situations may warrant a character getting advantage or disadvantage to a test they have to make. 
-
-Advantage grants **+1D6**, while disadvantage forces **-1D6** to the test in question. 
-
-A player may argue for their advantage in a situation, but only once, with a clear statement. Dancing around, trying and hoping to somehow convince the **GM** with vague descriptions immediately disqualifies your character from getting advantage. Arguing with the **GM** *also* immediately disqualifies your character from getting advantage. 
-
-### Providing Assistance
-Characters can help each other in tests. In order to help with a test, a character must know a relevant [skill](#skills) and the one being helped must accept the help. 
-
-Helping in a test works much like [forking](#skill-forking) a skill. The character being helped receives **+1D6** to roll for each *character* helping them. The number of relevant skills a helping character has is irrelevant. Just one is enough to allow them to help and only one **+1D6** is granted by the helping character. Which skill is used to help with, matters, however. 
-
-If a **PC** is helping another, their player must describe *how* they're using their relevant skill to help. 
-
-> For example, a **PC** is currently using their [thievery](#thievery-agi) to lockpick a door. Their allied **PC** is *helping*, by using their [observation](#observation-perc) skill to *keep an eye out for guards*, which allows the one on the door to work without having to constantly look over their shoulder. The **GM** finds that description agreeable and allows the use of the skill to help. 
-
-Ultimately, whether a skill is appropriate to help with is determined by the **GM**. 
-
-#### Helpers Learn
-A character helping in a test, also gains [progress](#advancing-skills) towards the [skill](#skills) they've helped with. If the character who was helped succeeded their test, the helper also gains a successful test to mark on their skill. 
+The following types of dice come into play:
+* D2 - two-sided dice; or a coin
+* D3 - three-sided dice
+* D4 - four-sided dice
+* D6 - six-sided dice
+* D10 (D100) - two ten-sided dice
 
 # Character
 A character is a representation of a sentient creature in the game world. They're an amalgam of [attributes](#attributes), [skills](#skills), [ambitions, beliefs & instincts](#ambitions-beliefs--instincts) and of course their [possessions](#possessions--equipment). 
-
-### Time
-Not all tests are created equal - some actions require more time than others. 
-
-While the **GM** decides on how much time a given test will need, the following guidelines should provide a good basis. 
-
-* (Near) instantaneous: Combat actions, recalling knowledge, noticing things in passing. 
-* A matter of minutes: inspecting an environment, quickly skimming the contents of a book, persuading someone in conversation, first aid. 
-* A matter of hours: Simple crafts, surgery, scrutinizing an environment, researching something simple/not obscure, engaging in lengthy and difficult negotiations.
-* A matter of days and months: Complex crafts and artistry, researching a complex or obscure subject. 
-
-### Fewer Tests Are Better
-This section is primarily directed at the **GM**. The short of it goes as follows: 
-
-Only have a player make one test per scene/situation, as long as the scene/situation doesn't change significantly. 
-
-> For example, a **PC** is trying to sneak past two guards huddled around a campfire. If they succeed their [stealth](#stealth-agi) test, the **GM** lets them sneak all around the camp, without making them do multiple tests, as long as the situation doesn't change significantly. One of the guards getting up to take a pee behind a tree somewhere shouldn't be such a change, even if that happens to be the tree the **PC** is hiding behind. On the other hand, if the guards pick up torches and start actively looking for intruders, for whatever reason, then the situation changes significantly. Another [stealth](#stealth-agi) test would be warranted. 
-
-Of course, how many tests are appropriate in a given situation is entirely the **GM**'s decision to make. 
 
 ## Attributes
 Attributes describe a character's basic, inherent abilities. 
@@ -389,7 +301,7 @@ Much like it is possible for a character to [practice](#practice) on their own, 
 
 TODO math
 
-### Skill List
+## Skill List
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
 
 For a human, a skill at level ten represents an absolute, almost god-like mastery of that skill. It is possible to go higher than that, but that should be extremely rare. Instead, the average skill a human could reasonably have in a skill they've been practicing for months, should be around two or three. Only years of experience allow for a four or five. Anything higher than five should be considered excellence. 
@@ -617,8 +529,6 @@ Whenever a character is hurt, the **damage** that has been inflicted upon them i
 
 Whenever a character suffers an **Inj.**, they must also suffer a [debility](#debility), randomly chosen from the table below. A **D100** roll determines the [debility](#debility). 
 
-If a [debility](#debility) causes an [attribute](#attributes) to drop to zero, they fall unconscious, until the [attribute](#attributes) is raised back up to at least one. For example, by removing the [debility](#debility). 
-
 Whenever a character is brought to at least half their maximum number of **Inj.**, they must pass a [toughness](#toughness-tough) test, or else fall unconscious. 
 
 If a character is brought to their **injury limit**, they die. **PC**s are an exception, they instead arrive at [death's door](#deaths-door). 
@@ -628,31 +538,35 @@ For every point in [toughness](#toughness-tough), a character gains **+1 maximum
 For every two points in [toughness](#toughness-tough), a character raises their **Inj.** limit by one. 
 
 ### Injury
-An **injury** is an abstraction of a serious health impediment of a character. Every **injury** brings a character closer to death and every character has a maximum number of **injuries** they can endure. 
+An **injury (Inj.)** is an abstraction of a serious health impediment of a character. Every character has a maximum number of **Inj.** they can endure and every **Inj.** brings a character closer to death. 
 
-For every day an **injury** remains untreated, it will cause an additional **injury**. A successful [medicine](#medicine-int) or [surgery](#surgery-int) test is required to treat all current **injuries** of a character. 
+For every day an **Inj.** remains untreated, it will cause an additional **Inj.** A successful [medicine](#medicine-int) test is required to treat an **Inj.** of a character. 
 
-To fully recover from an injury, a character must spend **Nd4** weeks in recovery, where *N* is the current number of injuries. 
+A character can remove their treated **Inj.**, by spending **ND4** weeks in recovery, where *N* is the current number of treated **Inj.** 
 
 ### Debility
 A **debility** is represents a long-term ailment for a character, usually as a result of an [injury](#injury). A **debility** can reduce [attributes](#attributes) and impose other restrictions. 
 
-**Debilities** must be removed, one by one, via successful [surgery](#surgery-int). Only one [surgery](#surgery-int) attempt can be made every 24 hours. 
+* **Debilities** can be removed, one by one, via [surgery](#surgery-int). 
+  * If the attempt is a complete success, the **debility** is removed. 
+  * If the attempt is a partial success, the **debility** is not removed, but another attempt can be made. 
+  * If the attempt at is a complete failure, the **debility** becomes permanent. It cannot be removed via [surgery](#surgery-int) anymore. 
+  * Only one [surgery](#surgery-int) attempt can be made every 24 hours. 
 
-If the attempt at [surgery](#surgery-int) is a partial failure, the **debility** is not removed, but another attempt can be made. 
+An [attribute](#attributes) cannot be brought down to less than 1, by **debilities**. 
 
-If the attempt at [surgery](#surgery-int) is a complete failure, the **debility** becomes permanent. It cannot be removed via [surgery](#surgery-int) anymore. 
-
-How many times a **debility** can be suffered, can be limited. In the table, the *max* is the maximum number of times the **debility** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **debility**, pick the next **debility** below it, instead. 
+#### List of Debilities
+How many times a **debility** can be suffered, can be limited. In the table below, the *max* is the maximum number of times the **debility** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **debility**, pick the next **debility** below it, instead. 
 
 | Range D100 | Debility            | Max | Description                      |
 | ---------  | ------------------- | --- | -------------------------------- |
-| 0 - 6      | Butchered Arm       | 2   | -1 [Agility](#agility-agi); Actions and equipment requiring two hands cannot be used. If incurred twice, any actions requiring arm movement is impossible. |
-| 7 - 12     | Broken Leg          | 2   | -1 [Agility](#agility-agi); Max movement of 3'/1m; If incurred twice, movement on their own is impossible. |
-| 13 - 18    | Skull Fracture      | 1   | -1 [Intelligence](#intelligence-int); -1 [Wisdom](#wisdom-wis) |
-| 19 - 24    | Concussion          | /   | -1 [Intelligence](#intelligence-int); -1 [Perception](#perception-perc) |
+| 0 - 5      | Cosmic Fortune      | /   | Luck is with you! You suffer no **debility**! |
+| 6 - 10     | Butchered Arm       | 2   | -1 [Agility](#agility-agi); Actions and equipment requiring two hands cannot be used. If incurred twice, any actions requiring arm movement is impossible. |
+| 11 - 15    | Broken Leg          | 2   | -1 [Agility](#agility-agi); Max movement of 3'/1m; If incurred twice, actions involving movement are impossible. |
+| 16 - 19    | Skull Fracture      | 1   | -1 [Intelligence](#intelligence-int); -1 [Wisdom](#wisdom-wis) |
+| 20 - 24    | Concussion          | /   | -1 [Intelligence](#intelligence-int); -1 [Perception](#perception-perc) |
 | 25 - 30    | Punctured Lung      | /   | -1 [Endurance](#endurance-end) |
-| 31 - 36    | Bacterial Infection | 1   | -1 [Toughness](#toughness-tough); Within a day, the character will contract an [illness](#illness). |
+| 31 - 36    | Infection           | 1   | -1 [Toughness](#toughness-tough); Within a day, the character will contract an [illness](#illness). |
 | 37 - 42    | Fractured Rib       | /   | -1 [Toughness](#toughness-tough) | 
 | 43 - 48    | Nasty Wound         | /   | +1 [Bleeding](#bleeding) |
 | 49 - 54    | Broken Nose         | 1   | -1 [Perception](#perception-perc); Cannot smell; |
@@ -660,8 +574,8 @@ How many times a **debility** can be suffered, can be limited. In the table, the
 | 61 - 66    | Knocked Senseless   | /   | -1 [Perception](#perception-perc) |
 | 67 - 72    | Torn Tendon         | /   | -1 [Strength](#strength-str) | 
 | 73 - 79    | Mental Trauma       | /   | -1 [Will](#will-will) | 
-| 80 - 90    | Tremors             | /   | -1 [Arcana](#arcana-arc) | 
-| 90 - 100   | Cosmic Misfortune   | 1   | [Disadvantage](#advantage--disadvantage) on all tests. | 
+| 80 - 94    | Tremors             | /   | -1 [Arcana](#arcana-arc) | 
+| 95 - 100   | Cosmic Misfortune   | 1   | [Disadvantage](#advantage--disadvantage) on all tests. | 
 
 ### Exhaustion
 Exhaustion is the measure of a character's maximum physical and mental strain they can endure. 
@@ -749,13 +663,13 @@ It is up to the **GM** to decide on when something is *too heavy* to carry for t
 ### Weapon Types
 | Weapon Type | Injuries Inflicted | Examples            |
 | ----------- | ------------------ | ------------------- |
-| Unarmed     | ND2 where N = [strength](#strength-str) | Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. |
-| Short Blade | 1D2 | Shiv; Dagger; Short-sword |
-| Long Blade  | 2D2 | Bastard sword; Longsword |
-| Great Blade | 3D2 | Sword of war; Great sword; Zweihänder |
+| Unarmed     | ND3 where N = [strength](#strength-str) | Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. |
+| Short Blade | 1D3 | Shiv; Dagger; Short-sword |
+| Long Blade  | 2D3 | Bastard sword; Longsword |
+| Great Blade | 3D3 | Sword of war; Great sword; Zweihänder |
 | Axe         | 1D3 | Hatchet; Woodcutter's axe |
 | Great Axe   | 2D3 | Bearded axe; Double-sided axe |
-| Spear       | 2D2 | One or two-handed spears |
+| Spear       | 2D3 | One or two-handed spears |
 
 #### Polearm
 Two-handed polearms, like halberds or poleaxes. 
@@ -789,6 +703,100 @@ A very deadly short to medium distance ranged weapon, shooting musket balls that
 
 ## Character Creation
 TODO
+
+# Tests
+Whenever the outcome of an action or situation is uncertain, a **test** may be called for by the **GM**, in order to resolve it. 
+
+As a basis for a test, either an [attribute](#attributes) or [skill](#skills) is used. 
+
+Either a **six** or a **five** rolled on a single die counts as a **positive**. Other values are considered **negatives**. **Positives** are required in order to succeed a test. 
+
+The **positives** needed to succeed a test, is determined by the **GM**, via a mechanism called **obstacle** (henceforth referred to as **Ob**). The test can only succeed, if at least as many **positives** are rolled, as the *obstacle level* named by the **GM**. 
+
+> For example, to succeed a test at **Ob 3**, at least three **positives** must be rolled. Any less, and the test outcome is a failure. 
+
+To resolve an **attribute test**, the number of **D6** indicated by the *attribute level* (the number next to the attribute) must be rolled. 
+
+To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill), plus the number of **D6** indicated by the related [attribute](#attributes) must be rolled. 
+
+For every test, one of three outcomes is possible: 
+* Complete Success: There are enough or even more than required **positives**.
+* Partial Success/Failure: There are not enough **positives**, but more than none. 
+* Complete Failure: There are no **positives**, only **negatives**. 
+
+## Types of Test
+There are the following types of tests. The **GM** decides when each type of test is appropriate. 
+
+### Binary Test
+The outcome of the test is an absolute success, or failure. These are tests, where the **degree of success** is irrelevant. 
+
+### Stepped Test
+A stepped test is really just a series of [binary tests](#binary-test). This allows for finer-grained results, while not behaving like a [graduated test](#graduated-test). 
+
+This type of test is useful for situations where the **GM** decides to create very fine *time slices* and allow more chances for success. This makes it easier to allow a **PC** to *fail forward* or prevent a *one roll to end it all* situation. 
+
+> For example, a **PC** is attempting to cross a suspension bridge, but upon setting foot on the bridge, the ropes holding it up, suddenly snap. The **PC** can make an [acrobatics](#acrobatics-agi) test, to try and quickly jump off and back onto solid ground. They fail, and get to make another [acrobatics](#acrobatics-agi) test, to try and grab a root sticking out of the ground beneath the bridge. As a last chance for that **PC** to survive, the **GM** asks one of the other players if their character will attempt an [acrobatics](#acrobatics-agi) test to try and grab their falling ally's hand in a daring rescue. Finally, their ally succeeds and the **PC**'s life is saved. Obviously, such a situation should not arise often, as stepped tests can quickly grow exasperating for the players. 
+
+### Graduated Test
+The outcome of the test is graduated. That means, the number of successes rolled during the test factor into the outcome. This is called the **degree of success**. 
+
+> For example, when crafting a work of art, the number of successes achieved may result in a more impressive piece, which can then be sold at a higher price or which could make for a more impressive gift. 
+
+On the other hand, failure doesn't have to be absolute. The degree of failure can allow for a "failing forward" - a success, but with complications, whose severity depends on the number of failures. 
+
+### Creative Test
+Also known as a **skill challenge**, this type of test asks the player(s) to pick and justify the skill(s) and attribute(s) to use in a given situation. Players are encouraged to think creatively and come up with solutions. 
+
+Whether the attribute(s) and skill(s) in question apply to resolve the situation at hand, lies at the **GM**'s discretion. 
+
+### Opposed Test
+Also known as a *versus test*, this type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of successes of each character. The one with the most successes is the winner. 
+
+If there is a tie, the defending character is considered the winner. 
+
+> For example, a character tries to sneak past another, the sneak will have to do a [stealth](#stealth-agi) test, while the other character will have to do an [observation](#observation-perc) test. If the result is a tie, the one doing the observation test is considered the defender, and wins. 
+
+If a tie occurs in which a defender cannot be clearly determined, the result is a deadlock and neither side gains anything. 
+
+## Advantage & Disadvantage
+Certain situations may warrant a character getting advantage or disadvantage to a test they have to make. 
+
+Advantage grants **+1D6**, while disadvantage forces **-1D6** to the test in question. 
+
+A player may argue for their advantage in a situation, but only once, with a clear statement. Dancing around, trying and hoping to somehow convince the **GM** with vague descriptions immediately disqualifies your character from getting advantage. Arguing with the **GM** *also* immediately disqualifies your character from getting advantage. 
+
+## Providing Assistance
+Characters can help each other in tests. In order to help with a test, a character must know a relevant [skill](#skills) and the one being helped must accept the help. 
+
+Helping in a test works much like [forking](#skill-forking) a skill. The character being helped receives **+1D6** to roll for each *character* helping them. The number of relevant skills a helping character has is irrelevant. Just one is enough to allow them to help and only one **+1D6** is granted by the helping character. Which skill is used to help with, matters, however. 
+
+If a **PC** is helping another, their player must describe *how* they're using their relevant skill to help. 
+
+> For example, a **PC** is currently using their [thievery](#thievery-agi) to lockpick a door. Their allied **PC** is *helping*, by using their [observation](#observation-perc) skill to *keep an eye out for guards*, which allows the one on the door to work without having to constantly look over their shoulder. The **GM** finds that description agreeable and allows the use of the skill to help. 
+
+Ultimately, whether a skill is appropriate to help with is determined by the **GM**. 
+
+### Helpers Learn
+A character helping in a test, also gains [progress](#advancing-skills) towards the [skill](#skills) they've helped with. If the character who was helped succeeded their test, the helper also gains a successful test to mark on their skill. 
+
+## Time
+Not all tests are created equal - some actions require more time than others. 
+
+While the **GM** decides on how much time a given test will need, the following guidelines should provide a good basis. 
+
+* (Near) instantaneous: Combat actions, recalling knowledge, noticing things in passing. 
+* A matter of minutes: inspecting an environment, quickly skimming the contents of a book, persuading someone in conversation, first aid. 
+* A matter of hours: Simple crafts, surgery, scrutinizing an environment, researching something simple/not obscure, engaging in lengthy and difficult negotiations.
+* A matter of days and months: Complex crafts and artistry, researching a complex or obscure subject. 
+
+## Fewer Tests Are Better
+This section is primarily directed at the **GM**. The short of it goes as follows: 
+
+Only have a player make one test per scene/situation, as long as the scene/situation doesn't change significantly. 
+
+> For example, a **PC** is trying to sneak past two guards huddled around a campfire. If they succeed their [stealth](#stealth-agi) test, the **GM** lets them sneak all around the camp, without making them do multiple tests, as long as the situation doesn't change significantly. One of the guards getting up to take a pee behind a tree somewhere shouldn't be such a change, even if that happens to be the tree the **PC** is hiding behind. On the other hand, if the guards pick up torches and start actively looking for intruders, for whatever reason, then the situation changes significantly. Another [stealth](#stealth-agi) test would be warranted. 
+
+Of course, how many tests are appropriate in a given situation is entirely the **GM**'s decision to make. 
 
 # Fate Points
 TODO
