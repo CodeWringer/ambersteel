@@ -395,9 +395,20 @@ A skill in learning can only be tested with their related [attribute](#attribute
 The outcome of a test gets noted on the skill it was made for, not the attribute actually used for the test. 
 
 ### Advancing Skills
-Whenever a **PC** uses a skill in a [test](#tests), the outcome must be noted. The number of successes/failures of the roll don't matter, only if the test as a whole was a success or a failure. 
+Whenever a **PC** uses a skill in a [test](#tests), the outcome must be noted. 
 
-TODO math
+Advancing a skill requires:
+* 2 + N * 2 **complete successess**.
+* 4 + N * 3 **partial successess** or **complete failures**.
+* Where *N* is the current level of the skill. 
+
+> A character has a [nature](#nature-int) skill at level 1. 
+> 
+> To advance their skill to level 2, they would need 2 + 1 * 2 = 4 **complete successes** and 4 + 1 * 3 = 7 **partial successess** or **complete failures**
+
+> A character has a [medicine](#medicine-int) skill at level 4. 
+> 
+> To advance their skill to level 5, they would need 2 + 4 * 2 = 10 **complete successes** and 4 + 4 * 3 = 16 **partial successess** or **complete failures**
 
 #### Practice
 It is possible to advance skills *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice a skill of choice. 
