@@ -653,7 +653,7 @@ Whenever a player plays to their **ambitions**, **beliefs** and **instincts** in
 It is the **GM**'s role, to create interesting situations, which can *challenge* the **beliefs** and **instincts**, or even **ambitions** of the **PC**s. However the players and **PC**s react, can earn them [fate points](#fate-points) and will drive the story forward. 
 
 ### Ambition
-Every **PC** must have at least one **ambition** - a life-fulfilling long-term goal to pursue. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an **ambition** is a primary driver for a character, to guide them onward. The important part is to think *big*. Something easily achievable would make for a dull **ambition** and defeat the point of it. 
+Every **PC** must have one **ambition** - a life-fulfilling long-term goal to pursue. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an **ambition** is a primary driver for a character, to guide them onward. The important part is to think *big*. Something easily achievable would make for a dull **ambition** and defeat the point of it. 
 
 An **ambition** is not expected to change often. An ideal **ambition** would accompany a character a long time. 
 
