@@ -365,7 +365,7 @@ Whenever a **PC** uses an attribute in a [test](#tests), the outcome must be not
 Advancing an attribute requires:
 * N * N / 2 (rounded up) **complete successess**.
 * N * N **partial successess** or **complete failures**.
-* Where *N* is the current level of the skill. 
+* Where *N* is the current level of the attribute. 
 
 > A character has a [strength](#strength-str) attribute at level 1. 
 > 
