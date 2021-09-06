@@ -133,6 +133,10 @@
   - [Time](#time)
   - [Fewer Tests Are Better](#fewer-tests-are-better)
 - [Fate Points](#fate-points)
+  - [Minor Fate Points](#minor-fate-points)
+  - [Major Fate Points](#major-fate-points)
+  - [Ambition Fate Points](#ambition-fate-points)
+  - [Hand of Fate](#hand-of-fate)
 - [Combat](#combat)
   - [Who Acts When](#who-acts-when)
   - [Combat Actions](#combat-actions)
@@ -490,40 +494,46 @@ The ability to carve [magic runes](#runes).
 The ability to make weapons from metal. 
 
 ## Ambitions, Beliefs & Instincts
-While all characters are expected to have ambitions, beliefs and instincts, **PC**s are special in that these concepts are cemented through rules and mechanics. 
+While all characters are expected to have *ambitions*, *beliefs* and *instincts*, **PC**s are special, because for them, these concepts are cemented through rules and mechanics. 
 
-Ambitions, beliefs and instincts can not change during a game session. They can only be changed in-between. 
+**Ambitions**, **beliefs** and **instincts** can not change during a game session. They can only be changed in-between. 
 
-Whenever a player plays to their **ambitions**, **belifs** and **instincts** in certain ways, they are awarded [fate points](#fate-points). 
+Whenever a player plays to their **ambitions**, **beliefs** and **instincts** in certain ways, they earn [fate points](#fate-points). 
+
+It is the **GM**'s role, to create interesting situations, which can *challenge* the **beliefs** and **instincts**, or even **ambitions** of the **PC**s. However the players and **PC**s react, can earn them [fate points](#fate-points) and will drive the story forward. 
 
 ### Ambition
-Every **PC** must have at least one ambition - a life-fulfilling long-term goal to pursue, which is to be determined during character creation. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an ambition is a primary driver for a character, to drive them onward. The important part is to think *big*. Something easily achievable would make for a dull ambition and defeat the point of it. 
+Every **PC** must have at least one **ambition** - a life-fulfilling long-term goal to pursue. This can be anything from "found a family" to "become king of the world!". No matter how unrealistic, an **ambition** is a primary driver for a character, to guide them onward. The important part is to think *big*. Something easily achievable would make for a dull **ambition** and defeat the point of it. 
 
-An ambition is not expected to change often. An ideal ambition would last a character a long time. 
+An **ambition** is not expected to change often. An ideal **ambition** would accompany a character a long time. 
 
 ### Beliefs
-A player also has to decide on three beliefs for their character, which represent short-term goals and expectations of the character and their player. A belief should not be a triviality, but instead a goal that requires some considerable effort on both the character's and player's part to achieve. 
+A player also has to decide on three **beliefs** for their character, which represent short-term goals and expectations of the character and their player. A belief should not be a triviality, but instead a goal that requires some considerable effort on both the character's and player's part to achieve. 
 
 A belief must be based on the events and circumstances affecting the character in game. 
 
-> For example, a **PC** learns of a conspiracy against their lord during the session. After the session, they decide they'll change one of their beliefs to "I will uncover the plot against my lord!"
+> For example, a **PC** learns of a conspiracy against their lord during the session. After the session, they decide they'll change one of their **beliefs** to "I will uncover the plot against my lord!"
 
-Beliefs can also target other **PC**s. You can either set a belief to help or even change your fellow **PC**. Be mindful though, your belief should not be *too* drastic.
+**Beliefs** can also target other **PC**s. You can either set a belief to help or even change your fellow **PC**. Be mindful though, your belief should not be *too* drastic.
 
 > For example, a **PC** learns their ally is a member of a secretive and dangerous cult. After the session, the player determines the new belief "I will get my ally to leave that dangerous cult!" Whether successful or not, this belief, in play, will create an **interesting conflict** between the two **PC**s. 
 
-Beliefs are expected to change frequently. 
+**Beliefs** are expected to change frequently, commonly from session to session. But not so frequent as to make achieving them impossible. 
 
 ### Instincts
-Much like [beliefs](#beliefs), a player must determine three instincts for their character. 
+Much like [beliefs](#beliefs), a player must determine three **instincts** for their character. 
 
-An instinct represents an automatic reaction from the character, given a situation that triggers the instinct. They can be seen as "if/then" and "always/never" statements. 
+An **instinct** represents an automatic reaction from the character, given a situation that triggers it. They can be seen as "if/then" and "always/never" statements. These can either be beneficial or detrimental to the character. 
+* A detrimental **instinct** acts as a *troublemaker* and allows earning [fate points](#fate-points). 
+* A beneficial **instinct** acts as *insurance*, but doesn't allow earning [fate points](#fate-points). 
 
-> For example: "Whenever someone praises the state religion, I start ranting against it."
+> For example: "Whenever someone praises the state religion, I start ranting against it." - This is a detrimental **instinct**, as the **GM** can use that to cause the **PC** trouble. 
 
-Ideally, an instinct should be (ab-)usable by the **GM**, to get the **PC** into *trouble* easier. This is to be taken with a wink, though. A **GM** is expected to craft an *interesting* story and thus create *interesting* conundrums for the players and their characters, with a realistic chance for the players and their characters to maneuver themselves back out of trouble. 
+> Another example: "Whenever a lethal fight breaks out, I have my weapons in hand!" - This is insurance, that even when the **PC** narratively might not have their weapons at the ready, they will, in fact, have them at the ready. 
 
-Instincts are expected to change frequently. 
+Ideally, an **instinct** should be (ab-)usable by the **GM**, to get the **PC** into *trouble* easier. This is to be taken with a wink, though. A **GM** is expected to craft an *interesting* story and thus create *interesting* conundrums for the players and their characters, with a realistic chance for the players and their characters to maneuver themselves back out of trouble. 
+
+**Instincts** are expected to change whenever a character (decides) to act against them. A **PC** cannot keep an instinct they keep contradicting. 
 
 ## Health & Exhaustion
 Every character has **Hit Points (HP)** and a maximum number of **Injuries (Inj.)** they can endure, before they die. 
@@ -809,7 +819,59 @@ Only have a player make one test per scene/situation, as long as the scene/situa
 Of course, how many tests are appropriate in a given situation is entirely the **GM**'s decision to make. 
 
 # Fate Points
-TODO
+Fate points (**FP**) represent a meta-currency that *players* can earn and use to buy boons for their character or the group as a whole. 
+
+There are three types of **FP**: [Minor](#minor-fate-points), [major](#major-fate-points) and [ambition](#ambition-fate-points). 
+
+**FP** are earned, by playing to one's [ambitions, beliefs and instincts](#ambitions-beliefs--instincts). Most **FP** are earned by a single player, but some may also be earned as a group. 
+
+## Minor Fate Points
+**Minor Fate Points (MiFP)** are the lowest valued and most common type of **FP**, most commonly earned by playing the mechanics of the game. 
+
+**MiFP** can be earned in the following ways: 
+* **Beliefs**: Playing to one's **beliefs**. This only counts *working towards* a goal set by a belief. 
+* **Trouble**: Playing to one's **instincts** - if they get their character, or their allies, into trouble. 
+* **Humor**: Stopping the table with a good bit of humor at the right time. But don't overdo it - your **GM** can only weave you a dramatic and gripping story, if you let them. 
+* **Specialist**: Driving the story forward, when no one else could - having the right skill to employ at the right time. 
+* **Helper**: Helping an ally out at a critical time - during or out of [combat](#combat). 
+
+## Major Fate Points
+**Major Fate Points (MaFP)** take more effort from the *player* to earn, only being earned through convincing roleplaying, creative efforts and accomplishing long-term goals. 
+
+**MaFP** can be earned in the following ways: 
+* **Beliefs**: Accomplishing a goal set by a belief. 
+* **Achievements**: Whenever a major plot point or story arc is concluded - a great journey, uncovering a plot of assassination, fulfilling a contract to clear out a bandit camp or discovering an ancient artifact, all count as *achievements*, which earn this award **for all the players, as a group**. 
+* **Embodiment**: Capturing their character and personifying them, in the moment. For example, by giving a great speech, acting scared or enjoying a bitter revenge with glee, as if they were actually there and doing it. 
+* **Inner Turmoil**: Convincingly acting out an inner conflict that may come up when a decision that conflicts with a **belief** comes up. If the others can *feel* the gut-wrenching decision being made, this award is earned!
+* **Creative Solutions**: Coming up with a very creative way to solve a problem. This may be a diplomatic solution, where the **GM** thought one impossible. Or, perhaps an unexpected use of the environment during **combat**, which earned the **PC**s a distinct advantage on the battlefield, in a way the **GM** couldn't foresee. 
+* **Collaboration**: Working with the **GM** to further the world and the story in creative ways and helping the **GM** out when possible. Secret plots that only one of the players is involved in, which causes gasps and applause from the other players, when the plot is finally revealed, for example. 
+* **The Gears**: Being *the gears*, without which nothing would move. Doing the laborious work during session, nobody wants to do, but which has to happen to keep the story moving. Always making sure to pitch the tents in the right spot, watching out for traps or doing the boring question-asking all earn this award!
+
+## Ambition Fate Points
+**Ambition Fate Points (AFP)** are very rare and only earned through outstanding achievements. 
+
+**AFP** can be earned in the following ways: 
+* **World-Shaper**: Changing the world around oneself in a significant way. 
+* **Selfless**: Going above and beyond to achieve something, a betterment, not for oneself, but for others and at great cost. 
+
+## Hand of Fate
+The **Hand of Fate** is a deck of cards a player can draw from, using their **FP** as currency to buy cards. 
+
+A player can play any of their cards whenever appropriate. A played card is discarded. 
+
+There are no limits to how many of a given card a player can own, but they may only hoard a maximum of 5 cards at a time. 
+
+| Cost    | Name               | Effect             |
+| ------- | ------------------ | ------------------ |
+| 3 MiFP  | Single Re-Roll     | Re-Roll a single **negative** die. |
+| 5 MiFP  | Test Advantage     | Gain [advantage](#advantage--disadvantage) on your next/current test. |
+| 10 MiFP | Clotter            | One **active Inj.** of choice is now **patched up**. |
+| 1 MaFP  | Fact Check         | Change a minor plot point in a way your prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
+| 1 MaFP  | Just a Flesh Wound | Remove or avoid one non-permanent **Inj.** of choice. |
+| 5 MaFP  | Double the Fun     | Double the number of dice to roll on your next/current test. |
+| 10 MaFP | Wrong Diagnosis    | Remove or avoid one permanent **Inj.** of choice. |
+| 1 AFP   | Defy Death         | Leap from [death's door](#deaths-door), remove 1 **active Inj.** of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. |
+| 1 AFP   | Yes, my liege      | Work with your **GM** to create a follower/hireling who will now be at your command/employ. |
 
 # Combat
 When diplomacy fails, hostilities ensue. 
