@@ -164,19 +164,19 @@
 # Introduction
 **Ambersteel** is a role-playing game, requiring a **game master** (henceforth referred to as the **GM**) and at least one **player** to play. 
 
+On the spectrum of narrative-driven, gamey and simulationist, **Ambersteel** aims for the region between gamey and narrative-driven. Tactical and lethal combat is where most of the gamey-ness stems from, with most other aspects being kept closer towards the narrative-driven end. 
+
 While each player only indirectly controls a single character, the **GM** is in direct control of every single non-player character (**NPC**), the world and the story. A player character is abbreviated as **PC**. 
 
-The system is designed to fit a low to medium fantasy medieval setting. Player characters may be special, but they're far from heroic. Combat is deadly and magic is powerful, yet risky. The rules are designed to be as intuitive and simple as possible, while complex enough to allow players to make meaningful decisions. 
+The system is designed to fit a low to medium fantasy medieval setting. Player characters may be special, but they're far from heroic. Combat is deadly and magic is powerful, yet risky. The rules are designed to be as intuitive and simple as possible, while complex enough to allow players to make meaningful choices. 
 
-The aim of this system is to provide players with **decisions to make**, instead of *choices to pick*. 
+Most rules will have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in every situation. The descriptions in the rules here should serve as a point for orientation for the **GM**. How they interpret the rules, is how they're to be understood. 
 
-Most rules will have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in every situation. The descriptions in the rules here should only serve as a point for orientation for the **GM**. How they interpret the rules, is how they're to be understood. 
+But this is not an *adversarial* game. The **GM** and the players work ***together*** to tell a compelling, interesting, humorous, tense, etc. story. Ultimately, the **GM**'s job is to provide interesting conundrums to the players and their job is to provide interesting answers, in-line with what their characters believe. 
 
-But this is not an *adversarial* game. The **GM** and the players work ***together*** to tell a compelling, interesting, humorous or tense story. Ultimately, the **GM**'s job is to provide interesting conundrums to the players and their job is to provide interesting answers, in-line with what their character believes. 
+Another important aspect of **Ambersteel** is that character's abilities grow over time. There are neither character classes, nor character levels. Skills and attributes improve as they're being used in tests. Characters have long-term and short-term goals and beliefs, which drive them onward and which change over time. 
 
-Another important aspect of **Ambersteel** is that character's abilities grow over time. There are neither character classes, nor character levels. Skills and attributes improve as they're being used in tests. 
-
-In some places, where distances are concerned, both feet and meters are noted as units. What attentive readers will notice, is that the conversion between the numbers won't always be correct. This is a deliberate decision to make the math easier, whenever a grid (or *battlemap*) is used in play. One square on the grid should represent either a five foot, or one meter square. Furthermore, a single, ordinary human, should occupy an entire such square. 
+In some places, where distances are concerned, both feet and meters are noted as units. What attentive readers will notice, is that the conversion between the numbers won't always be correct. This is a deliberate decision to make the math easier, whenever a grid (or *battlemap*) is used in play. One square on the grid should represent either a three foot, or one meter square. Furthermore, a single, ordinary human, should occupy an entire such square. 
 
 ## Dice
 **Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**) to resolve [tests](#tests). *Dice pool* means a variable number of dice will be rolled, based on a character's [attributes](#attributes), [skills](#skills), boons and circumstance of the situation they're in. 
