@@ -959,7 +959,9 @@ A mage can only cast spells at an intensity up to a maximum, called their **maxi
 This means, for every [school of magic](#magic-schools) the mage knows, they may have a different **maximum spell intensity**. 
 
 ## Spell Backfire
-If a test to cast magic isn't a **complete success**, the spell **backfires** and applies its effects and damage to the caster, instead. The intensity at which it hits the caster, is the number of **negatives** they rolled. 
+If a test to cast magic isn't a **complete success**, the spell **backfires** and applies its effects and damage to the caster, instead. The intensity at which it hits the caster, is the number of **negatives** they rolled below the intended **intensity**. 
+
+**Backfire intensity** = **intensity** - **positives**
 
 > A pyromancer with a [pyromancy](#pyromancy) skill of 4 and [arcana](#arcana-arc) of 3 chooses to cast their magic at intensity level 4. They have to roll 4 **positives**, in order to completely succeed. They get to roll **7D6** for this test. Unfortunately, they fail, having rolled only 2 **positives**. The spell **backfires**, at an intensity of 2. 
 
