@@ -360,7 +360,20 @@ Governs a character's ability to convincingly speak with and before others. Also
 Governs a character's ability to withstand persuasion, intimidation, charm or terror. 
 
 ### Advancing Attributes
-TODO
+Whenever a **PC** uses an attribute in a [test](#tests), the outcome must be noted. 
+
+Advancing an attribute requires:
+* N * N / 2 (rounded up) **complete successess**.
+* N * N **partial successess** or **complete failures**.
+* Where *N* is the current level of the skill. 
+
+> A character has a [strength](#strength-str) attribute at level 1. 
+> 
+> To advance their attribute to level 2, they would need 2 * 2 / 2 = 2 **complete successes** and 2 * 2 = 4 **partial successess** or **complete failures**
+
+> A character has a [will](#will-will) attribute at level 3. 
+> 
+> To advance their attribute to level 4, they would need 3 * 3 / 2 = 5 **complete successes** and 3 * 3 = 9 **partial successess** or **complete failures**
 
 ## Skills
 A skill is any acquired knowledge and experience regarding a specific subject. 
