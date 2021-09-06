@@ -413,12 +413,28 @@ Advancing a skill requires:
 #### Practice
 It is possible to advance skills *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice a skill of choice. 
 
-TODO math
+A **PC** can only actively practice one **category of skills**. For every **cycle** that passes of active practice, the **PC** can roll a [test](#tests) of a skill of the corresponding category. 
+
+| Skill Category | Cycle    |
+| -------------- | -------- |
+| Physical       | 3 Weeks  |
+| Social         | 2 Week   |
+| Knowledge      | 3 Months |
+| Craftsmanship  | 2 Months |
+
+> A **PC** spends seven weeks practicing their [fighting](#fighting-str), while waiting for their comrade to recover from their [injuries](#injury). Being a physical skill, **fighting** the cycle for tests is 3 weeks. In this case, 2 tests can be made and their outcomes noted. 
 
 #### Teaching
 Much like it is possible for a character to [practice](#practice) on their own, they can also be taught by another, who knows more than them. 
 
-TODO math
+Both teacher and pupil must actively spend time together, furthering the pupil's skill. The rules for cycle and test are the same as with [practice](#practice). The cycles noted in the table below are used instead. 
+
+| Skill Category | Cycle    |
+| -------------- | -------- |
+| Physical       | 2 Weeks  |
+| Social         | 1 Week   |
+| Knowledge      | 2 Months |
+| Craftsmanship  | 1 Months |
 
 ## Skill List
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
