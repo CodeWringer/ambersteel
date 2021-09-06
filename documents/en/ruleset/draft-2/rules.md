@@ -53,6 +53,7 @@
       - [Observation (Perc)](#observation-perc)
       - [Path-finding (Perc)](#path-finding-perc)
       - [Riding (Emp)](#riding-emp)
+      - [Rune-Using (Agi)](#rune-using-agi)
       - [Sailing (Str)](#sailing-str)
       - [Shield (End)](#shield-end)
       - [Weapon < weapon type > (Str/Agi)](#weapon--weapon-type--stragi)
@@ -451,7 +452,10 @@ Orienting oneself in the world.
 Finding and following tracks. 
 
 #### Riding (Emp)
-Riding and controling a mount. 
+Riding and controling a mount.
+
+#### Rune-Using (Agi)
+Skill at using [magic runes](#runes). 
 
 #### Sailing (Str)
 Steering and maintaining a naval vessel. 
@@ -990,12 +994,12 @@ Injuries inflicted are of the [burning](#burning) damage type.
 
 | Spell Intensity | Damage Inflicted | Max Distance | Effect(s) |
 | --------------- | ------------------ | ------------ | --------- |
-| 1  | 0   | 0      | A small, controlled flame erupts and stays in the mage's hand. Alternatively, a small flame (like a candle flame) in immediate proximity of the mage is extinguished. |
-| 2  | 2D3 | 3'/1m  | A moderate torch fire erupts and stays in the mage's hand. Or a torch in immediate proximity of the mage is extinguished. |
-| 3  | 3D3 | 15'/5m | A ball of fire forms in the mage's hand, ready to be flung at a nearby spot. Or a decent-sized flame is extinguished nearby. |
-| 4  | 4D3 | 15'/5m | A static wall or column of flame erupts in a nearby spot of the mage's choosing. Alternatively, a nearby flame (wall) is redirected. |
-| 5  | 5D3 | 24'/8m | Flame shoots out of the mage's hand in a steady stream, covering a moderate distance. Or another mage's stream of flame is redirected. |
-| 6+ | N-1 D3 | 24'/8m | N = spell intensity; Causes a spot of the mage's choosing at moderate distance to explode and then burn. |
+| 1  | 1D3 **Burning** | 0      | A small, controlled flame erupts and stays in the mage's hand. Alternatively, a small flame (like a candle flame) in immediate proximity of the mage is extinguished. |
+| 2  | 2D3 **Burning** | 3'/1m  | A moderate torch fire erupts and stays in the mage's hand. Or a torch in immediate proximity of the mage is extinguished. |
+| 3  | 3D3 **Burning** | 15'/5m | A ball of fire forms in the mage's hand, ready to be flung at a nearby spot, dealing its damage in a 6'/2m radius. Or a decent-sized flame is extinguished nearby. |
+| 4  | 4D3 **Burning** | 15'/5m | A static wall or column of flame erupts in a nearby spot of the mage's choosing, covering up to a 12'/4m square. Alternatively, a nearby flame (wall) is redirected. |
+| 5  | 5D3 **Burning** | 24'/8m | Flame shoots out of the mage's hand in a steady stream, covering a moderate distance and causing its damage in a straight line. Everything caught in the line takes the damage. Or another mage's stream of flame is redirected. |
+| 6+ | ND3 **Burning** | 24'/8m | N = spell intensity; Causes a spot of the mage's choosing at moderate distance to explode, causing its damage in a radius of 15'/5m. |
 
 ### Cryomancy
 The summoning and control of ice. Besides the frostbite, cryomancer's can inflict [exhaustion](#exhaustion) on opponents, or freeze things, so they're harder to break. 
@@ -1005,11 +1009,11 @@ Injuries inflicted are of the [freezing](#freezing) damage type.
 | Spell Intensity | Damage Inflicted | Exhaustion Inflicted | Max Distance | Effect(s) |
 | --------------- | ------------------ | -------------------- | ------------ | --------- |
 | 1  | 0   | 0   | 0     | Any freezable liquid in the mage's hand immediately freezes. Doesn't work on living things. So no freezing of the blood in someone's veins, while they still live! |
-| 2  | 1D3 | 1   | 3'/1m | A spot of the mage's choosing, within hand's reach, freezes over. Can be used on living things. |
-| 3  | 1D3 | 1D3 | 15'/5m | An ice-shard forms from whatever liquid is in the mage's hands. It can be shot at a nearby spot of the mage's choosing. The impacted spot freezes over. |
-| 4  | 2D3 | 2D3 | 24'/8m | A large ice-shard forms in the mage's hands, without requiring any liquid. It can be shot at a moderately distant spot of the mage's choosing. The impacted spot freezes over. |
-| 5  | 2D3 | 1D6 | 24'/8m | A large area of the mage's choosing, at moderate distance from the mage, freezes over. |
-| 6+ | N-3 D3 | 1D6 + 1 | 24'/8m | N = spell intensity; A torrent of ice and snow forms in a large area of the mage's choosing, at moderate distance. Anything within it, freezes over. |
+| 2  | 1D3 **Freezing** | 1   | 3'/1m | A spot of the mage's choosing, within hand's reach, freezes over. |
+| 3  | 1D3 **Freezing** | 1D3 | 15'/5m | An ice-shard forms from whatever liquid is in the mage's hands. It can be shot at a nearby spot of the mage's choosing. The impacted spot freezes over. |
+| 4  | 2D3 **Freezing** | 2D3 | 24'/8m | A large ice-shard forms in the mage's hands, without requiring any liquid. It can be shot at a moderately distant spot of the mage's choosing. The impacted spot freezes over. |
+| 5  | 2D3 **Freezing** | 1D6 | 24'/8m | A large area of the mage's choosing, at moderate distance from the mage, freezes over. |
+| 6+ | N-3 D3 **Freezing** | 1D6 + N-5 | 24'/8m | N = spell intensity; A torrent of ice and snow forms in a large area of the mage's choosing, at moderate distance. Anything within it, freezes over. |
 
 ### Restoration
 The mending of injuries and treatment of diseases. 
@@ -1018,6 +1022,7 @@ The mending of injuries and treatment of diseases.
 | --------------- | ---------------- | ------------ | --------- |
 | 1               | 1                | 0            | A creature of the mage's choosing, in hand's reach, is magically healed. Removes [bleeding](#bleeding). |
 | 2+              | N                | 0            | N = spell intensity; Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
+| 6+              | 0                | 0            | N = spell intensity; A single **Inj.** of choice becomes **treated**. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
 
 ### Alteration
 The alteration of physical things, to change their shape and purpose. 
@@ -1064,10 +1069,18 @@ If processed outside the optimal temperature, the material quickly grows brittle
 Due to the length of the process and the difficulty in keeping the right temperature, smiths capable of working amber-iron are rare. 
 
 ### Runes
-Shards of [Abyssalite](#abyssalite) can have runes carved into them, which allow magic to flow through the runes, as opposed to the magic-user. This renders runes extremely powerful artifacts, as they can allow for near limitless magic-use. 
+Shards of [Abyssalite](#abyssalite) can have runes carved into them, which allow magic to flow through the runes. This renders runes extremely powerful artifacts, as they can allow for near limitless magic-use, even in the hands of a non-mage. 
 
 To activate such a rune, is a difficult skill to learn, however. Even if no innate magical ability is required, an understanding of the flow of magic is. The rune must be touched in the right spots, at the right intervals, to activate successfully. Mistakes in this procedure can have disastrous results. 
 
 What's more, it takes great skill to carve the right runes, as each rune's shape and complexity depends in part on the size and shape of the [Abyssalite](abyssalite) shard. The only way to get it right, is to *feel* the way the rune must be shaped. Alternatively, the shard can be adjusted to be of equivalent size and shape, but this requires considerable effort, as [Abyssalite](abyssalite) is a tough material, prone to shattering if too much force is applied, yet resistant to the common techniques of metallurgy. 
 
-If certain runes are carved into the stones, the magic flow can even be guided in a way that allows the otherwise magically incapable of casting magic. 
+In order to craft a **rune**:
+* A **rune** can only be made to cast one type of magic. So the carver has to pick one of the [magic schools](#magic-schools). 
+* The maximum **level** at which a **rune** can be created, depends on the carver's skill. The **level** of the **rune** dictates the [spell intensity](#spell-intensity) it will cast its spell at. 
+* The carver has to succeed a [rune carving](#rune-carving-arc) skill test. 
+  * If they fail, the carving is botched and the [Abyssalite chunk](#abyssalite) cannot be used for another carving attempt. There is no room for mistakes. 
+
+In order to invoke a **rune**:
+* A **complete success** of a [rune-using](#rune-using-agi) skill test will invoke the spell of the **rune** as expected.
+* A **partial success** or **complete failure** results in a [spell backfire](#spell-backfire). 
