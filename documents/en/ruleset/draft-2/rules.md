@@ -45,6 +45,7 @@
       - [Acrobatics (Agi)](#acrobatics-agi)
       - [Instrument-Playing < instrument > (Agi)](#instrument-playing--instrument--agi)
       - [Melee Defence (Agi)](#melee-defence-agi)
+      - [Fighting (Str)](#fighting-str)
       - [Ranged Defence (Agi)](#ranged-defence-agi)
       - [Stealth (Agi)](#stealth-agi)
       - [Swimming (End)](#swimming-end)
@@ -110,31 +111,13 @@
       - [Death's Door](#deaths-door)
     - [Illness](#illness)
     - [Damage Types](#damage-types)
-      - [Slashing](#slashing)
-      - [Piercing](#piercing)
-      - [Crushing](#crushing)
-      - [Burning](#burning)
-      - [Freezing](#freezing)
-      - [Poison](#poison)
-      - [Acid](#acid)
-    - [Damage Resistances](#damage-resistances)
     - [Damage Over Time](#damage-over-time)
-      - [Bleeding](#bleeding)
-      - [Poisoned](#poisoned)
+    - [Damage Resistances](#damage-resistances)
   - [Possessions & Equipment](#possessions--equipment)
     - [Money](#money)
     - [Carrying Capacity](#carrying-capacity)
     - [Weapon Types](#weapon-types)
-      - [Polearm](#polearm)
-      - [Club](#club)
-      - [Mace](#mace)
-      - [Hammer](#hammer)
-      - [Short-Bow](#short-bow)
-      - [Longbow](#longbow)
-      - [War-Bow](#war-bow)
-      - [Crossbow](#crossbow)
-      - [Siege Crossbow](#siege-crossbow)
-      - [Firearm](#firearm)
+    - [Armor Types](#armor-types)
   - [Character Creation](#character-creation)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
@@ -443,6 +426,9 @@ The instrument in question must be noted.
 #### Melee Defence (Agi)
 Skill at defending oneself in close-combat. 
 
+#### Fighting (Str)
+General fighting expertise. 
+
 #### Ranged Defence (Agi)
 Skill at evading projectiles. 
 
@@ -735,46 +721,37 @@ A character can be helped out of **death's door**, if all of their **active** **
 TODO
 
 ### Damage Types
-All injuries inflicted, are inflicted with a certain type of damage. 
+All damage inflicted, is inflicted with a certain type of damage. 
 
-#### Slashing
-Usually inflicted by any sort of cutting/slashing weapon, like a sword, or a talon. 
-
-#### Piercing
-Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. 
-
-#### Crushing
-Usually inflicted by any sort of blunt weapon, like a hammer, or an animal's tusks. 
-
-#### Burning
-Inflicted by fire. 
-
-#### Freezing
-Inflicted by extreme cold. 
-
-#### Poison
-Usually represents a [damage over time effect](#damage-over-time). 
-
-#### Acid
-Dissolves anything it touches, or perhaps just organic matter. 
-
-### Damage Resistances
-Some creatures can resist certain [types of damage](#damage-types) naturally, while others may cover themselves in armor to the same effect. 
-
-Whether all, half or a certain amount of [injuries](#injury) is resisted, depends on the specifics of the creature or character and their [equipment](#possessions--equipment). 
+| Damage Type | Description |
+| ----------- | ----------- |
+| Slashing    | Usually inflicted by any sort of cutting/slashing weapon, like a sword, or a talon. |
+| Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. |
+| Bludgeoning | Inflicted by light blunt weapons and unarmed attacks. **Bludgeoning** causes non-lethal damage. It inflicts [exhaustion](#exhaustion) instead of [injuries](#injury). |
+| Crushing    | Usually inflicted by any sort of heavy blunt weapon, like a hammer, or an animal's tusks. |
+| Burning     | Inflicted by extreme heat. |
+| Freezing    | Inflicted by extreme cold. |
+| Poison      | Usually represents a [damage over time effect](#damage-over-time).. |
+| Acid        | Dissolves anything it touches, or perhaps just organic matter. |
 
 ### Damage Over Time
 Also known as *damage over time* or *status effect*, these are [damage types](#damage-types), which inflict injuries over a set period of time. 
 
 Every **damage over time** has an **intensity level**. The intensity governs how many injuries a afflicted character/creature suffers and at which intervals. 
 
-#### Bleeding
-One injury per intensity level, per round of combat, or every minute. 
+| Damage Type | Description |
+| ----------- | ----------- |
+| Bleeding    | One point of **damage** per intensity level, per round of **combat**, or every minute. |
+| Poisoned    | One point of **damage** per intensity level, per round of **combat**, or every minute. |
 
-#### Poisoned
-One injury per intensity level, per round of combat, or every minute. 
+### Damage Resistances
+Some creatures can resist certain [types of damage](#damage-types) naturally, while others may cover themselves in armor to the same effect. 
+
+How much **damage** is resisted, depends on the specifics of the creature or character and their [equipment](#possessions--equipment). 
 
 ## Possessions & Equipment
+A character may have things on their persion, such as worn equipment, as well as the things they *own*. 
+
 ### Money
 Money is generalized as **crowns**, with no regard for regional currencies. The following table gives a brief overview of the value of crowns. 
 | Cost Range | Goods                      | Services                   |
@@ -797,45 +774,30 @@ All things have an abstract weight associated with them. If the weight is zero, 
 It is up to the **GM** to decide on when something is *too heavy* to carry for the character in question. 
 
 ### Weapon Types
-| Weapon Type | Injuries Inflicted | Examples            |
-| ----------- | ------------------ | ------------------- |
-| Unarmed     | ND3 where N = [strength](#strength-str) | Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. |
-| Short Blade | 1D3 | Shiv; Dagger; Short-sword |
-| Long Blade  | 2D3 | Bastard sword; Longsword |
-| Great Blade | 3D3 | Sword of war; Great sword; Zweihänder |
-| Axe         | 1D3 | Hatchet; Woodcutter's axe |
-| Great Axe   | 2D3 | Bearded axe; Double-sided axe |
-| Spear       | 2D3 | One or two-handed spears |
+Certain weapons can be flexible in the type of damage it deals. In such cases, the types of damage are separated by a slash (/). Before an attack is made, the type of damage to inflict must be announced and cannot be changed anymore. 
 
-#### Polearm
-Two-handed polearms, like halberds or poleaxes. 
+| Weapon Type    | Damage Inflicted | Examples            |
+| -------------- | ------------------ | ------------------- |
+| Unarmed        | N Bludgeoning where N = [strength](#strength-str) | Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. |
+| Short Blade    | 2 **Slashing** / 1 **Piercing** | Shiv; Dagger; Short-sword |
+| Long Blade     | 2D3 **Slashing** / 1 + 1D3 **Piercing** | Bastard sword; Longsword |
+| Great Blade    | 3D3 **Slashing** / 2 + 1D3 **Piercing** | Sword of war; Great sword; Zweihänder |
+| Axe            | 1D6 **Slashing** + 1 **Crushing** | Hatchet; Woodcutter's axe |
+| Great Axe      | 2D3 **Slashing** + 2 **Crushing** | Bearded axe; Double-sided axe |
+| Spear          | 2D3 | One or two-handed spears |
+| Polearm        | 2D3 | Two-handed polearms, like halberds or poleaxes |
+| Club           | 2D3 | One-handed crushing weapons, like wooden clubs |
+| Mace           | 2D3 | One-handed or two-handed crushing weapons, like the flanged mace or the grand-mace |
+| Hammer         | 2D3 | One-handed or two-handed crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples are the one-handed warhammer or the two-handed polehammer |
+| Short-Bow      | 2D3 | A short distance ranged weapon, shooting arrows. |
+| Longbow        | 2D3 | A long distance ranged weapon, shooting arrows. |
+| War-Bow        | 2D3 | A very deadly long distance ranged weapon, shooting arrows. |
+| Crossbow       | 2D3 | A deadly medium distance ranged weapon, shooting quarrels. |
+| Siege Crossbow | 2D3 | A very deadly long distance ranged weapon, shooting quarrels. |
+| Firearm        | 8D3 **Piercing** | A very deadly short to medium distance ranged weapon, shooting musket balls that can even penetrate armor. |
 
-#### Club
-One-handed crushing weapons, like wooden clubs. 
+### Armor Types
 
-#### Mace
-One-handed or two-handed crushing weapons, like the flanged mace or the grand-mace. 
-
-#### Hammer
-One-handed or two-handed crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples are the one-handed warhammer or the two-handed polehammer. 
-
-#### Short-Bow
-A short distance ranged weapon, shooting arrows. 
-
-#### Longbow
-A long distance ranged weapon, shooting arrows. 
-
-#### War-Bow
-A very deadly long distance ranged weapon, shooting arrows. 
-
-#### Crossbow
-A deadly medium distance ranged weapon, shooting quarrels. 
-
-#### Siege Crossbow
-A very deadly long distance ranged weapon, shooting quarrels. 
-
-#### Firearm
-A very deadly short to medium distance ranged weapon, shooting musket balls that can even penetrate armor. 
 
 ## Character Creation
 TODO
