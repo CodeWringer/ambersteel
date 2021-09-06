@@ -137,8 +137,8 @@
 - [Magic](#magic)
   - [Spell Intensity](#spell-intensity)
   - [Maximum Spell Intensity](#maximum-spell-intensity)
-  - [Effects of Magic](#effects-of-magic)
   - [Spell Backfire](#spell-backfire)
+  - [Casting Magic](#casting-magic)
   - [Magic Schools](#magic-schools)
     - [Pyromancy](#pyromancy)
     - [Cryomancy](#cryomancy)
@@ -700,7 +700,10 @@ Exhaustion is the measure of a character's maximum physical and mental strain th
 
 If a character's exhaustion reaches their threshold, they become [dazed](#dazed) from over-exertion. 
 
-Exhaustion is gained through performing **exhausting actions**, carrying **exhausting equipment** or suffering [injuries](#injury). 
+Exhaustion is gained through performing **exhausting actions**, carrying **exhausting equipment** or suffering [injuries](#injury). **Exhausting actions** are any actions that are physically or mentally taxing, such as:
+* Attacking
+* Acrobatics (jumping, climbing)
+* [Casting Magic](#casting-magic)
 
 Exhaustion gained from **exhausting actions** can be reduced by resting. A full rest of at least six uninterrupted hours will fully clear any exhaustion gained from **exhausting actions**. 
 
@@ -710,7 +713,7 @@ Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the
 Characters can have one or more **status effect(s)** affecting them. A **status effect** can have positive or negative effects on the character. 
 
 #### Dazed
-TODO
+A **dazed** character begins their turn with -2 **AP**. 
 
 #### Death's Door
 **Death's door** is a state only a **PC** can enter and represents their final battle with death. 
@@ -885,6 +888,8 @@ A character can move up to 15'/5m per **AP** spent. In **difficult terrain**, th
 
 Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will have to take multiple rounds. 
 
+Whenever an **exhausting action** is made, the character gains one point of [exhaustion](#exhaustion).
+
 If the turn is ended with any **AP** unspent, they go towards the character's [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi), as **+1D6** per **AP**. 
 
 ## How to Attack
@@ -941,25 +946,35 @@ This kind of attack is only possible at the **GM**'s discretion.
 # Magic
 Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, depends on the [magic schools](#magic-schools) the character knows. 
 
+While not all spells can be used offensively, those that can, will inflict [damage](#health--exhaustion), proportional to the [spell's intensity](#spell-intensity) and may cause other effects on those affected by it. 
+
+The effects of a spell do not affect the mage casting the spell, unless they suffer a [spell backfire](#spell-backfire). 
+
 ## Spell Intensity
 Any magic can be cast at different **intensities**. A greater **spell intensity** results in a greater effect, at a proportionally greater cost. 
 
-Whenever a mage casts a spell, they must roll **ND3**, where *N* is the **spell intensity** they're casting the spell at. The number they roll, is the amount of [exhaustion](#exhaustion) they gain from casting the spell. The amount of [exhaustion](#exhaustion) gained is reduced by a mage's **exhaustion resistance**, which is governed by their [arcana](#arcana-arc) attribute, plus their skill in the related [magic school](#magic-schools). Exhaustion gain cannot be reduced to less than one. That means, whenever a mage casts a spell, no matter how significant, they gain *at least* one [exhaustion](#exhaustion). 
-
 ## Maximum Spell Intensity
-A mage can only cast spells at an intensity up to a maximum, called their **maximum spell intensity**. This number is is governed by their [arcana](#arcana-arc) attribute, plus their skill in the related [magic school](#magic-schools). 
+A mage can only cast spells at an intensity up to a maximum, called their **maximum spell intensity**. This number directly correlates to their skill in the type of [magic school](#magic-schools) they wish to use. 
 
 This means, for every [school of magic](#magic-schools) the mage knows, they may have a different **maximum spell intensity**. 
 
-## Effects of Magic
-While not all spells can be used offensively, those that can, will inflict [injuries](#injury), proportional to the [spell's intensity](#spell-intensity). 
-
-The number of [injuries](#injury) inflicted, will be noted next to the [spell's intensity](#spell-intensity) levels. 
-
-The effects of a spell do not affect the mage casting the spell, unless they cause a [spell backfire](#spell-backfire)
-
 ## Spell Backfire
-If a mage's exhaustion level reaches their threshold, by or while casting a spell, the spell **backfires**. This causes the spell to inflict its injuries and effects only upon the mage casting it. 
+If a test to cast magic isn't a **complete success**, the spell **backfires** and applies its effects and damage to the caster, instead. The intensity at which it hits the caster, is the number of **negatives** they rolled. 
+
+> A pyromancer with a [pyromancy](#pyromancy) skill of 4 and [arcana](#arcana-arc) of 3 chooses to cast their magic at intensity level 4. They have to roll 4 **positives**, in order to completely succeed. They get to roll **7D6** for this test. Unfortunately, they fail, having rolled only 2 **positives**. The spell **backfires**, at an intensity of 2. 
+
+## Casting Magic
+In order to cast magic, a mage has to roll a skill test in a [magic school](#magic-schools) of choice: 
+* If they roll a **complete success**, the spell goes off as planned, at the intended [intensity](#spell-intensity). 
+* If they roll a **partial success** or a **complete failure**, the spell [backfires](#spell-backfire), with an intensity equal to the number of **negatives** rolled. 
+
+Any damage rolls or other effects are then made and applied to the target/self. 
+
+After that, the mage has to roll the amount of [exhaustion](#exhaustion) they gain from casting the spell. To do so, they must roll **ND3**, where *N* is the **spell intensity** they cast the spell at. 
+
+The amount of [exhaustion](#exhaustion) gained is then reduced by their **magic exhaustion resistance**, which is governed by their [arcana](#arcana-arc) attribute, plus their skill in the related [magic school](#magic-schools). 
+
+[Exhaustion](#exhaustion) gain cannot be reduced to less than one. That means, whenever a mage casts a spell, they gain *at least* one point of [exhaustion](#exhaustion). 
 
 ## Magic Schools
 Noted for each spell intensity, are the effects of the spell and the maximum distance, from the caster, at which the spell can be cast or the distance up to which it can have an effect. 
