@@ -58,10 +58,11 @@
       - [Weapon < weapon type > (Str/Agi)](#weapon--weapon-type--stragi)
       - [Weapon-Throwing < weapon type > (Str/Agi)](#weapon-throwing--weapon-type--stragi)
     - [Social Skills](#social-skills)
+      - [Animal Handling (Emp)](#animal-handling-emp)
+      - [Commanding (Will)](#commanding-will)
+      - [Deception (Ora)](#deception-ora)
       - [Intimidation (Will)](#intimidation-will)
       - [Persuasion (Emp)](#persuasion-emp)
-      - [Deception (Ora)](#deception-ora)
-      - [Animal Handling (Emp)](#animal-handling-emp)
     - [Knowledge](#knowledge)
       - [Architecture (Int)](#architecture-int)
       - [Alchemy (Arc)](#alchemy-arc)
@@ -467,6 +468,15 @@ Expertise at throwing weapons of a specific type.
 ### Social Skills
 These skills have a dominant social aspect and are strongly related to a character's *social attributes*. 
 
+#### Animal Handling (Emp)
+Gaining an animal's trust, directing and commanding it, as well as training it to obey commands. 
+
+#### Commanding (Will)
+Speaking commands others will respect and follow to the letter. 
+
+#### Deception (Ora)
+Telling lies, acting in a way so as to deceive another character into believing something untruthful. 
+
 #### Intimidation (Will)
 Intimidating another character into doing something. 
 
@@ -474,12 +484,6 @@ This should also in large part be based on appearance, strength and reputation.
 
 #### Persuasion (Emp)
 Persuading another character to think differently about something. 
-
-#### Deception (Ora)
-Telling lies, acting in a way so as to deceive another character into believing something untruthful. 
-
-#### Animal Handling (Emp)
-Gaining an animal's trust, directing and commanding it, as well as training it to obey commands. 
 
 ### Knowledge
 These skills have a dominant mental aspect and are strongly related to a character's *mental attributes*. 
@@ -797,7 +801,7 @@ Certain weapons can be flexible in the type of damage it deals. In such cases, t
 | Firearm        | 8D3 **Piercing** | A very deadly short to medium distance ranged weapon, shooting musket balls that can even penetrate armor. |
 
 ### Armor Types
-
+TODO
 
 ## Character Creation
 TODO
@@ -852,6 +856,7 @@ There are no limits to how many of a given card a player can own, but they may o
 | 10 MiFP | Clotter            | One **active Inj.** of choice is now **patched up**. |
 | 1 MaFP  | Fact Check         | Change a minor plot point in a way your prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
 | 1 MaFP  | Just a Flesh Wound | Remove or avoid one non-permanent **Inj.** of choice. |
+| 1 MaFP  | Hastened           | Gain +1 **AP** during your turn when in [combat](#combat). |
 | 5 MaFP  | Double the Fun     | Double the number of dice to roll on your next/current test. |
 | 10 MaFP | Wrong Diagnosis    | Remove or avoid one permanent **Inj.** of choice. |
 | 1 AFP   | Defy Death         | Leap from [death's door](#deaths-door), remove 1 **active Inj.** of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. |
@@ -861,20 +866,26 @@ There are no limits to how many of a given card a player can own, but they may o
 When diplomacy fails, hostilities ensue. 
 
 ## Who Acts When
-The involved parties (= groups) act one after another. After all involed parties have had their **turn** to act, a **combat round** has passed. All members of a party act at the same time, during the party's turn. 
+At the beginning of every combat encounter, the involved parties (= groups) must roll for initiative. In order to determine which party gets to act first, each party rolls a **1D6**. The party rolling the higher number, goes first. If there is a tie, roll a **1D2**. If the player party is involved, a one means they get to go first. 
 
-At the beginning of every combat encounter, the involved parties must roll for initiative. In order to determine which party gets to act first, each party rolls a **1D6**. The party rolling the higher number, goes first. If there is a tie, roll a **1D2**. If the player party is involved, a one means they get to go first. 
+The involved parties act one after another. After all involed parties have had their **turn** to act, a **combat round** has passed. All members of a party act at the same time, during the party's turn. 
 
-If one party is surprised, the ambushing party gets to act for a full turn, without initiative being rolled. This is called a *surprise round*. After the surprise round, initiative is rolled and combat begins as explained above. 
-
-A party is considered surprised if they were unaware of their opponents when the first attack roll happens. 
+If one party is surprised, the ambushing party gets to act for a full turn, without initiative being rolled. This is called a *surprise round*. After the surprise round, initiative is rolled and combat begins as explained above. A party is considered surprised if they were unaware of their opponents when the first attack roll happens. 
 
 > As an example: this does not count for opponents standing right in front of each other in conversation, when one of them suddenly draws a dagger and attacks. The attacker can be clearly seen by the defender and thus they must both roll for initiative, to determine whether the defender can react in time. 
 
 ## Combat Actions
-Every turn, every character gets to move and use a skill, once. They can do so in any order (move first or use a skill first) or they can forego taking either or even any action. 
+Every turn, every character gets 3 **Action Points (AP)** to spend on actions during their turn. 
+
+Any basic action, so any action not requiring a test, costs 1 **AP**. Any action requiring a test, costs 2 **AP**. 
+
+This means that generally, one attack and one movement can be made, per turn. 
+
+A character can move up to 15'/5m per **AP** spent. In **difficult terrain**, the distance moved per **AP** is 6'/2m. 
 
 Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will have to take multiple rounds. 
+
+If the turn is ended with any **AP** unspent, they go towards the character's [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi), as **+1D6** per **AP**. 
 
 ## How to Attack
 All attacks made against another creature or character are made as an [opposed test](#opposed-test). 
@@ -933,7 +944,7 @@ Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, de
 ## Spell Intensity
 Any magic can be cast at different **intensities**. A greater **spell intensity** results in a greater effect, at a proportionally greater cost. 
 
-Whenever a mage casts a spell, they must roll **ND3**, where *N* is the **spell intensity** they're casting the spell at. The number they roll, is the amount of [exhaustion](#exhaustion) they gain from casting the spell. The amount of [exhaustion](#exhaustion) gained is reduced by a mage's **exhaustion resistance**, which is governed by their [arcana](#arcana-arc) attribute, plus their skill the related [magic school](#magic-schools). Exhaustion gain cannot be reduced to less than one. That means, whenever a mage casts a spell, no matter how significant, they gain *at least* one [exhaustion](#exhaustion). 
+Whenever a mage casts a spell, they must roll **ND3**, where *N* is the **spell intensity** they're casting the spell at. The number they roll, is the amount of [exhaustion](#exhaustion) they gain from casting the spell. The amount of [exhaustion](#exhaustion) gained is reduced by a mage's **exhaustion resistance**, which is governed by their [arcana](#arcana-arc) attribute, plus their skill in the related [magic school](#magic-schools). Exhaustion gain cannot be reduced to less than one. That means, whenever a mage casts a spell, no matter how significant, they gain *at least* one [exhaustion](#exhaustion). 
 
 ## Maximum Spell Intensity
 A mage can only cast spells at an intensity up to a maximum, called their **maximum spell intensity**. This number is is governed by their [arcana](#arcana-arc) attribute, plus their skill in the related [magic school](#magic-schools). 
@@ -953,44 +964,43 @@ If a mage's exhaustion level reaches their threshold, by or while casting a spel
 ## Magic Schools
 Noted for each spell intensity, are the effects of the spell and the maximum distance, from the caster, at which the spell can be cast or the distance up to which it can have an effect. 
 
-If applicable, injuries inflicted, exhaustion inflicted and other such effects, will also be noted. 
+If applicable, damage inflicted, exhaustion inflicted and other such effects, will also be noted. 
 
 ### Pyromancy
 The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light. 
 
 Injuries inflicted are of the [burning](#burning) damage type. 
 
-| Spell Intensity | Injuries Inflicted | Max Distance | Effect(s) |
+| Spell Intensity | Damage Inflicted | Max Distance | Effect(s) |
 | --------------- | ------------------ | ------------ | --------- |
 | 1  | 0   | 0      | A small, controlled flame erupts and stays in the mage's hand. Alternatively, a small flame (like a candle flame) in immediate proximity of the mage is extinguished. |
-| 2  | 1D2 | 5'/1m  | A moderate torch fire erupts and stays in the mage's hand. Or a torch in immediate proximity of the mage is extinguished. |
-| 3  | 2D2 | 25'/5m | A ball of fire forms in the mage's hand, ready to be flung at a nearby spot. Or a decent-sized flame is extinguished nearby. |
-| 4  | 3D2 | 25'/5m | A static wall or column of flame erupts in a nearby spot of the mage's choosing. Alternatively, a nearby flame (wall) is redirected. |
-| 5  | 4D2 | 40'/8m | Flame shoots out of the mage's hand in a steady stream, covering a moderate distance. Or another mage's stream of flame is redirected. |
-| 6+ | N-1 D2 | 40'/8m | N = spell intensity; Causes a spot of the mage's choosing at moderate distance to explode and then burn. |
+| 2  | 2D3 | 3'/1m  | A moderate torch fire erupts and stays in the mage's hand. Or a torch in immediate proximity of the mage is extinguished. |
+| 3  | 3D3 | 15'/5m | A ball of fire forms in the mage's hand, ready to be flung at a nearby spot. Or a decent-sized flame is extinguished nearby. |
+| 4  | 4D3 | 15'/5m | A static wall or column of flame erupts in a nearby spot of the mage's choosing. Alternatively, a nearby flame (wall) is redirected. |
+| 5  | 5D3 | 24'/8m | Flame shoots out of the mage's hand in a steady stream, covering a moderate distance. Or another mage's stream of flame is redirected. |
+| 6+ | N-1 D3 | 24'/8m | N = spell intensity; Causes a spot of the mage's choosing at moderate distance to explode and then burn. |
 
 ### Cryomancy
 The summoning and control of ice. Besides the frostbite, cryomancer's can inflict [exhaustion](#exhaustion) on opponents, or freeze things, so they're harder to break. 
 
 Injuries inflicted are of the [freezing](#freezing) damage type. 
 
-| Spell Intensity | Injuries Inflicted | Exhaustion Inflicted | Max Distance | Effect(s) |
+| Spell Intensity | Damage Inflicted | Exhaustion Inflicted | Max Distance | Effect(s) |
 | --------------- | ------------------ | -------------------- | ------------ | --------- |
 | 1  | 0   | 0   | 0     | Any freezable liquid in the mage's hand immediately freezes. Doesn't work on living things. So no freezing of the blood in someone's veins, while they still live! |
-| 2  | 1D2 | 1   | 5'/1m | A spot of the mage's choosing, within hand's reach, freezes over. Can be used on living things. |
-| 3  | 1D2 | 1D2 | 25'/5m | An ice-shard forms from whatever liquid is in the mage's hands. It can be shot at a nearby spot of the mage's choosing. The impacted spot freezes over. |
-| 4  | 2D2 | 1D3 | 40'/8m | A large ice-shard forms in the mage's hands, without requiring any liquid. It can be shot at a moderately distant spot of the mage's choosing. The impacted spot freezes over. |
-| 5  | 2D2 | 2D2 | 40'/8m | A large area of the mage's choosing, at moderate distance from the mage, freezes over. |
-| 6+ | N-3 D2 | 2D3 | 40'/8m | N = spell intensity; A torrent of ice and snow forms in a large area of the mage's choosing, at moderate distance. Anything within it, freezes over. |
+| 2  | 1D3 | 1   | 3'/1m | A spot of the mage's choosing, within hand's reach, freezes over. Can be used on living things. |
+| 3  | 1D3 | 1D3 | 15'/5m | An ice-shard forms from whatever liquid is in the mage's hands. It can be shot at a nearby spot of the mage's choosing. The impacted spot freezes over. |
+| 4  | 2D3 | 2D3 | 24'/8m | A large ice-shard forms in the mage's hands, without requiring any liquid. It can be shot at a moderately distant spot of the mage's choosing. The impacted spot freezes over. |
+| 5  | 2D3 | 1D6 | 24'/8m | A large area of the mage's choosing, at moderate distance from the mage, freezes over. |
+| 6+ | N-3 D3 | 1D6 + 1 | 24'/8m | N = spell intensity; A torrent of ice and snow forms in a large area of the mage's choosing, at moderate distance. Anything within it, freezes over. |
 
 ### Restoration
 The mending of injuries and treatment of diseases. 
 
-| Spell Intensity | Injuries Removed | Max Distance | Effect(s) |
+| Spell Intensity | Injuries Patched Up | Max Distance | Effect(s) |
 | --------------- | ---------------- | ------------ | --------- |
 | 1               | 1                | 0            | A creature of the mage's choosing, in hand's reach, is magically healed. Removes [bleeding](#bleeding). |
-| 2               | 1D2              | 0            | Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
-| 3+              | N-1 D2           | 0            | N = spell intensity; Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
+| 2+              | N                | 0            | N = spell intensity; Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
 
 ### Alteration
 The alteration of physical things, to change their shape and purpose. 
