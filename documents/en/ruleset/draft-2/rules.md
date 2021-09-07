@@ -110,6 +110,7 @@
     - [Exhaustion](#exhaustion)
     - [Status Effects](#status-effects)
       - [Dazed](#dazed)
+      - [Grappled](#grappled)
       - [Death's Door](#deaths-door)
     - [Illness](#illness)
       - [List of Illnesses](#list-of-illnesses)
@@ -782,6 +783,9 @@ Characters can have one or more **status effect(s)** affecting them. A **status 
 #### Dazed
 A **dazed** character begins their turn with -2 **AP**. 
 
+#### Grappled
+A **grappled** character is unable to move and suffers -1 [melee defence](#melee-defence-agi), for as long as they are **grappled**. A **grappled** character can break free, by **completely succeeding** a [strength](#strength-str) test against the other character grappling them. 
+
 #### Death's Door
 **Death's door** is a state only a **PC** can enter and represents their final battle with death. 
 
@@ -894,7 +898,7 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 | Skill | **Ob** | Attack              | AP | Damage            | Effect |
 | ----- | ------ | --------------------| -- | ----------------- | ------ |
 | 0     | 0  | Punch, kick, headbutt   | 2  | 2 **Bludgeoning** | / |
-| 1     | 0  | Grapple                 | 2  | /                 | The target is unable to move and suffers -1 [melee defence](#melee-defence-agi) while grappled. |
+| 1     | 0  | Grapple                 | 2  | /                 | Requires a successful opposed [strength](#strength-str) test. If **completely successful** The target is unable to move and suffers -1 [melee defence](#melee-defence-agi) while grappled. Someone grappled can attempt to break free with an opposed [strength](#strength-str) test, on their turn. |
 
 #### Short Blade
 Any short, one-handed blade. Examples: shiv, dagger, Shortsword
