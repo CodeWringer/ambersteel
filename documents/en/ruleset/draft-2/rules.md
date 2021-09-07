@@ -155,6 +155,8 @@
     - [Ambersteel](#ambersteel)
     - [Runes](#runes)
 
+Version 0.1 "Kettgard"
+
 # Introduction
 **Ambersteel** is a role-playing game, requiring a **game master** (henceforth referred to as the **GM**) and at least one **player** to play. 
 
