@@ -120,7 +120,26 @@
     - [Money](#money)
     - [Carrying Capacity](#carrying-capacity)
     - [Weapon Types](#weapon-types)
+      - [Unarmed](#unarmed)
+      - [Short Blade](#short-blade)
+      - [Long Blade](#long-blade)
+      - [Great Blade](#great-blade)
+      - [Axe](#axe)
+      - [Great Axe](#great-axe)
+      - [Spear](#spear)
+      - [Lance](#lance)
+      - [Polearm](#polearm)
+      - [Club](#club)
+      - [Mace](#mace)
+      - [Hammer](#hammer)
+      - [Short-Bow](#short-bow)
+      - [Longbow](#longbow)
+      - [War-Bow](#war-bow)
+      - [Crossbow](#crossbow)
+      - [Siege-Crossbow](#siege-crossbow)
+      - [Firearm](#firearm)
     - [Armor Types](#armor-types)
+      - [Light Armor](#light-armor)
   - [Character Creation](#character-creation)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
@@ -328,7 +347,7 @@ Each point in strength raises the [carrying capacity](#carrying-capacity) of the
 #### Toughness [Tough]
 Governs the [injury threshold](#injury) of a character. 
 
-For every point in [toughness](#toughness-tough), a character gains **+1 maximum HP**. 
+For every point in [toughness](#toughness-tough), a character gains **+2 maximum HP**. 
 
 For every two points in [toughness](#toughness-tough), a character raises their **Inj.** limit by 1. 
 
@@ -691,9 +710,11 @@ Ideally, an **instinct** should be (ab-)usable by the **GM**, to get the **PC** 
 ## Health & Exhaustion
 Every character has **Hit Points (HP)** and a maximum number of **Injuries (Inj.)** they can endure, before they die. 
 
-Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. When their **HP** reach zero, they suffer an **Inj.** and their **HP** is reset to their **maximum - N**, where *N* is the number of **Inj.** they currently have. So, in other words, for every **Inj.**, a character loses one maximum **HP**. 
+Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. When their **HP** reach zero, they suffer an **Inj.** and their **HP** is reset to their **maximum - N\*2**, where *N* is the number of **Inj.** they currently have. So, in other words, for every **Inj.**, a character loses 2 maximum **HP**. Any **HP** past zero overflow, so the damage dealt isn't lost. 
 
-When [Toughness](#toughness-tough) is reduced, still only one maximum **HP** is deducted. 
+When [Toughness](#toughness-tough) is reduced, still only 2 maximum **HP** are deducted. 
+
+Outside of combat, a successful [medicine](#medicine-int) test can restore all currently missing **HP** of a character. 
 
 ### Injury
 An **injury (Inj.)** is a serious health impediment of a character. Every character has a maximum number of **Inj.** they can endure. If they reach their maximum number of **Inj.**, the character dies. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
@@ -860,30 +881,167 @@ All things have an abstract weight associated with them. If the weight is zero, 
 It is up to the **GM** to decide on when something is *too heavy* to carry for the character in question. 
 
 ### Weapon Types
-Certain weapons can be flexible in the type of damage it deals. In such cases, the types of damage are separated by a slash (/). Before an attack is made, the type of damage to inflict must be announced and cannot be changed anymore. 
+TODO
 
-| Weapon Type    | Damage Inflicted | Examples            |
-| -------------- | ------------------ | ------------------- |
-| Unarmed        | N Bludgeoning where N = [strength](#strength-str) | Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage. |
-| Short Blade    | 2 **Slashing** / 1 **Piercing** | Shiv; Dagger; Short-sword |
-| Long Blade     | 2D3 **Slashing** / 1 + 1D3 **Piercing** | Bastard sword; Longsword |
-| Great Blade    | 3D3 **Slashing** / 2 + 1D3 **Piercing** | Sword of war; Great sword; Zweihänder |
-| Axe            | 1D6 **Slashing** + 1 **Crushing** | Hatchet; Woodcutter's axe |
-| Great Axe      | 2D3 **Slashing** + 2 **Crushing** | Bearded axe; Double-sided axe |
-| Spear          | 2D3 | One or two-handed spears |
-| Polearm        | 2D3 | Two-handed polearms, like halberds or poleaxes |
-| Club           | 2D3 | One-handed crushing weapons, like wooden clubs |
-| Mace           | 2D3 | One-handed or two-handed crushing weapons, like the flanged mace or the grand-mace |
-| Hammer         | 2D3 | One-handed or two-handed crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples are the one-handed warhammer or the two-handed polehammer |
-| Short-Bow      | 2D3 | A short distance ranged weapon, shooting arrows. |
-| Longbow        | 2D3 | A long distance ranged weapon, shooting arrows. |
-| War-Bow        | 2D3 | A very deadly long distance ranged weapon, shooting arrows. |
-| Crossbow       | 2D3 | A deadly medium distance ranged weapon, shooting quarrels. |
-| Siege Crossbow | 2D3 | A very deadly long distance ranged weapon, shooting quarrels. |
-| Firearm        | 8D3 **Piercing** | A very deadly short to medium distance ranged weapon, shooting musket balls that can even penetrate armor. |
+A **counter-attack** is a reaction that allows a fighter being attacked to attack their attacker. 
+
+**Long Reach** allows attacking an enemy two squares (6'/2m) away. 
+
+#### Unarmed
+Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage.
+
+| Skill | **Ob** | Attack              | AP | Damage            | Effect |
+| ----- | ------ | --------------------| -- | ----------------- | ------ |
+| 0     | 0  | Punch, kick, headbutt   | 2  | 2 **Bludgeoning** | / |
+| 1     | 0  | Grapple                 | 2  | /                 | The target is unable to move and suffers -1 [melee defence](#melee-defence-agi) while grappled. |
+
+#### Short Blade
+Any short, one-handed blade. Examples: shiv, dagger, Shortsword
+
+* One-handed
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| 0     | 0  | Slash                   | 2  | 2 **Slashing**   | / |
+| 0     | 0  | Stab                    | 2  | 1 **Piercing**   | / |
+| 3     | +2 | Target weak-spot        | 3  | 3 **Piercing**   | / |
+| 3     | +2 | Artery cut              | 3  | 2 **Slashing**   | +1 **bleeding** to the target. |
+
+#### Long Blade
+Any long blade, including long one-handed blades. Examples: arming sword, bastard sword, Longsword
+
+* One-handed or two-handed
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| 0     | 0  | Slash                   | 2  | **2D4** **Slashing** | / |
+| 0     | 0  | Stab                    | 2  | **1D6** **Piercing** | / |
+| 3     | +2 | Mordhau-Strike          | 2  | **1D4** **Crushing** | / |
+| 4     | 0  | Fencer-Stance           | 3  | / | The fighter enters a defensive fencing stance. They gain +2 [melee defence](#melee-defence-agi) and **counter-attack** anyone attacking them with a **slash**. |
+
+#### Great Blade
+Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
+
+* Two-handed
+* Long Reach
+
+| Skill | **Ob** | Attack              | AP | Damage      | Effect |
+| ----- | ------ | --------------------| -- | ----------- | ------ |
+| 0     | 0  | Slash                   | 2  | **2D6** **Slashing** | / |
+| 0     | 0  | Stab                    | 2  | **1D6 + 1** **Piercing** | / |
+| 3     | +2 | Mordhau-Strike          | 3  | **1D6** **Crushing** | / |
+| 4     | +1 | Heavy Blow              | 3  | **1D6** **Slashing** and **1D4** **Crushing** | +1 [exhaustion](#exhaustion) to self. |
+
+#### Axe
+One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
+
+* One-handed
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| 0     | 0  | Hack | 2 | **2D6** **Slashing** and **1D3** **Crushing** | / |
+
+#### Great Axe
+Two-handed axes. Examples: bearded axe, double-sided axe
+
+* Two-handed
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| 0     | 0  | Hack         | 2 | **3D6** **Slashing** and **2D3** **Crushing** | / |
+| 3     | +2 | Savage Slash | 2 | **2D6** **Slashing** | +2 **bleeding** to the target. |
+
+#### Spear
+Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
+
+* One-handed or two-handed
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| 0     | 0  | Stab                    | 2  | **1D8** **Piercing** | / |
+| 3     | +2 | Spear wall              | 3  | / | Whenever any enemy moves into a square adjacent to the fighter, the fighter can attack the enemy with a **stab**, even during the enemy's turn. |
+
+#### Lance
+Any one or two-handed long piercing polearms. Examples: pike, lance
+
+* Two-handed
+* Long Reach
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| 0     | 0  | Stab                    | 2  | **1D8** **Piercing**  | / |
+| 3     | 0  | Couched Lancing         | 3  | / | Requires the fighter to be mounted on horse-back (or similar creature). The fighter must move at least 15'/5m in a straight line, past the enemy, allowing them an attack dealing **3D10** **Piercing** damage to the enemy. |
+
+#### Polearm
+Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
+
+* Two-handed
+* Long Reach
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| 0     | 0  | Slash                   | 2  | **2D6** **Slashing**   | / |
+| 0     | 0  | Stab                    | 2  | **1D8** **Piercing**  | / |
+
+#### Club
+.  Examples: wooden club
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+
+#### Mace
+.  Examples: flanged mace, grand-mace
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+
+#### Hammer
+One-handed or two-handed crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target.  Examples: one-handed warhammer, two-handed polehammer
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+
+#### Short-Bow
+A short distance ranged weapon, shooting arrows.
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+
+#### Longbow
+A long distance ranged weapon, shooting arrows.
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+
+#### War-Bow
+A very deadly long distance ranged weapon, shooting arrows.
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+
+#### Crossbow
+A deadly medium distance ranged weapon, shooting quarrels.
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+
+#### Siege-Crossbow
+A very deadly long distance ranged weapon, shooting quarrels.
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+
+#### Firearm
+A very deadly short to medium distance ranged weapon, shooting musket balls that can even penetrate armor.
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
 
 ### Armor Types
 TODO
+
+#### Light Armor
+A set of light armor that doesn't impede the wearer by much.
 
 ## Character Creation
 TODO
