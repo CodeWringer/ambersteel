@@ -294,7 +294,9 @@ If a **PC** is helping another, their player must describe *how* they're using t
 Ultimately, whether a skill is appropriate to help with is determined by the **GM**. 
 
 #### Helpers Learn
-A character helping in a test, also gains [progress](#advancing-skills) towards the [skill](#skills) they've helped with. If the character who was helped succeeded their test, the helper also gains a successful test to mark on their skill. 
+A character helping in a test, also gains [progress](#advancing-skills) towards the [skill](#skills) they've helped with. The outcome of the test for the character they helped, is their own outcome. 
+
+> If the character who was helped succeeded their test, the helper also gains a successful test to mark on their skill. 
 
 ### Time
 Not all tests are created equal - some actions require more time than others. 
