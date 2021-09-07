@@ -112,6 +112,7 @@
       - [Dazed](#dazed)
       - [Death's Door](#deaths-door)
     - [Illness](#illness)
+      - [List of Illnesses](#list-of-illnesses)
     - [Damage Types](#damage-types)
     - [Damage Over Time](#damage-over-time)
     - [Damage Resistances](#damage-resistances)
@@ -769,7 +770,39 @@ A **PC** at **death's door** must succeed at least one [toughness](#toughness-to
 A character can be helped out of **death's door**, if all of their **active** **Inj.** are **patched up** or **treated**. For every **active** **Inj.** that is **patched up** or **treated**, the character gains one more attempt to succeed a [toughness](#toughness-tough) test. 
 
 ### Illness
-TODO
+An illness can affect a character over a perod of time and cause various negative effects. 
+
+Illness can be contracted in a variety of ways, although most of them involve an open wound exposed to bacterial breeding grounds, such as bogs, sewers, mass graves and trash dumps. Or from something ingested, such as spoiled or poisoned food. 
+
+When a character is about to contract an illness, they most make a [toughness](#toughness-tough) test:
+* On a **complete success**, the illness is shrugged off. 
+* On a **partial success** or **complete failure**, the illness is contracted and will immediately apply its effects to the character. 
+* If they contracted the illness, determine which one by rolling a **D100** and picking the corresponding illness from the [list of illnesses](#list-of-illnesses). 
+  * Once the illness has been determined, its duration and severity must also be rolled. 
+
+Most illnesses have a duration, during which their effects are active and after which, all ill-effects go away. In some cases, an illness may have a duration of "until cured", which means it will never go away, if not treated. 
+
+Treatment of an illness is possible through [medicine](#medicine-int) or [surgery](#surgery-int). Which skill is required, will be noted on the illness. Treatment will often be able to reduce the ill-effects and sometimes to remove the illness, altogether. A treatment attempt can only be made once every 24 hours. 
+
+Any illness, that when treated has its duration reduced, can only have its duration reduced once. If a treatment would also suspend any ill-effects, that would still be applicable. That way, treating an illness which already had its duration reduced can still be useful. 
+
+#### List of Illnesses
+
+| Range D100 | Name         | Duration      | Effect      | Treatment |
+| ---------- | ------------ | ------------- | ----------- | --------- |
+| 0 - 7 | Strength Sap | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D3** [strength](#strength-str); **-1D3** [agility](#agility-agi); Max 6'/2m movement distance. | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
+| 8 - 15 | Lung Fever | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D3 + 1)** [endurance](#endurance-end). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
+| 16 - 23 | Bleeder's Curse | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [dazed](#dazed). | [medicine](#medicine-int); Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
+| 24 - 31 | Jazz-Hands | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D3** [agility](#agility-agi); **-1D4** [arcana](#arcana-arc). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
+| 32 - 39 | Brain Rot | **2D10** Days | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D3** [intelligence](#intelligence-int); **-1D3** [wisdom](#wisdom-wis). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
+| 40 - 47 | Feeble Tounge | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D3** [oratory](#oratory-ora). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
+| 48 - 55 | Wound Fever | Until cured | [Injuries](#injury) of the victim refuse any treatment. Any **Inj.** of the victim can be **patched up**, but not **treated**. | [medicine](#medicine-int); Reduces the duration by **1D10** days. |
+| 56 - 63 | Filth Fever | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D3** [oratory](#oratory-ora); **-1D3** [endurance](#endurance-end). | [medicine](#medicine-int); Removes the illness on the next day. |
+| 64 - 71 | Amber Curse | **2D10** Days | The victim finds it difficult to feel the flow of magic through their body. **-1D4** [arcana](#arcana-arc); **-1D3** to any magic skills and [rune-using](#rune-using-agi). | Conventional methods cannot treat this illness. |
+| 72 - 79 | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D3** [will](#will-will). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
+| 80 - 87 | Rot Plague | **4D10** Days | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D3** [endurance](#endurance-end); **-(1D3 + 1)** [toughness](#toughness-tough). | [surgery](#surgery-int); The ill-effects are suspended for 24 hours. |
+| 88 - 95 | Organ Mold | Until cured | Causes an [injury](#injury) every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
+| 95 - 100 | Red Death | Until cured | The victim starts bleeding from all of their orifices, with no end in sight. Causes 1 **bleeding** every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
 
 ### Damage Types
 All damage inflicted, is inflicted with a certain type of damage. 
