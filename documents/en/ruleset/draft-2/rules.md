@@ -228,7 +228,7 @@ As a basis for a test, either an [attribute](#attributes) or [skill](#skills) is
 
 Either a **six** or a **five** rolled on a single die counts as a **positive**. Other values are considered **negatives**. **Positives** are required in order to succeed a test. 
 
-The **positives** needed to succeed a test, is determined by the **GM**, via a mechanism called **obstacle** (henceforth referred to as **Ob**). The test can only succeed, if at least as many **positives** are rolled, as the *obstacle level* named by the **GM**. 
+The **positives** needed to succeed a test, is determined by the **GM**, via a mechanism called **obstacle** (henceforth referred to as **Ob**). The test can only succeed, if at least as many **positives** are rolled, as the **Ob** named by the **GM**. 
 
 > For example, to succeed a test at **Ob 3**, at least three **positives** must be rolled. Any less, and the test outcome is a failure. 
 
@@ -237,50 +237,56 @@ To resolve an **attribute test**, the number of **D6** indicated by the *attribu
 To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill), plus the number of **D6** indicated by the related [attribute](#attributes) must be rolled. 
 
 For every test, one of three outcomes is possible: 
-* Complete Success: There are enough or even more than required **positives**.
-* Partial Success/Failure: There are not enough **positives**, but more than none. 
-* Complete Failure: There are no **positives**, only **negatives**. 
+* **Complete Success**: There are enough or even more than required **positives**.
+* **Partial Success**: There are not enough **positives**, but more than none. 
+* **Complete Failure**: There are no **positives**, only **negatives**. 
 
 ### Types of Test
 There are the following types of tests. The **GM** decides when each type of test is appropriate. 
 
 #### Binary Test
-The outcome of the test is an absolute success, or failure. These are tests, where the **degree of success** is irrelevant. 
+The outcome of the test is either a **complete success** or **complete failure**. A **partial success** is treated as if it were a **complete failure**. 
 
 #### Stepped Test
-A stepped test is really just a series of [binary tests](#binary-test). This allows for finer-grained results, while not behaving like a [graduated test](#graduated-test). 
+A stepped test is really just a series of [binary tests](#binary-test). This allows for finer-grained results, while still not behaving like a [graduated test](#graduated-test). 
 
 This type of test is useful for situations where the **GM** decides to create very fine *time slices* and allow more chances for success. This makes it easier to allow a **PC** to *fail forward* or prevent a *one roll to end it all* situation. 
 
-> For example, a **PC** is attempting to cross a suspension bridge, but upon setting foot on the bridge, the ropes holding it up, suddenly snap. The **PC** can make an [acrobatics](#acrobatics-agi) test, to try and quickly jump off and back onto solid ground. They fail, and get to make another [acrobatics](#acrobatics-agi) test, to try and grab a root sticking out of the ground beneath the bridge. As a last chance for that **PC** to survive, the **GM** asks one of the other players if their character will attempt an [acrobatics](#acrobatics-agi) test to try and grab their falling ally's hand in a daring rescue. Finally, their ally succeeds and the **PC**'s life is saved. Obviously, such a situation should not arise often, as stepped tests can quickly grow exasperating for the players. 
+> For example, a **PC** is attempting to cross a suspension bridge, but upon setting foot on the bridge, the ropes holding it up, suddenly snap. The **PC** can make an [acrobatics](#acrobatics-agi) test, to try and quickly jump off and back onto solid ground. They fail, and get to make another [acrobatics](#acrobatics-agi) test at greater **Ob**, to try and grab a root sticking out of the ground beneath the bridge. They fail again! As a last chance for that **PC** to survive, the **GM** asks one of the other players if their character will attempt an [acrobatics](#acrobatics-agi) test at high **Ob**, to try and grab their falling ally's hand in a daring rescue. Finally, their ally succeeds and the **PC**'s life is saved. 
+> 
+> Obviously, such a situation should not arise often, as stepped tests can quickly grow exasperating. 
 
 #### Graduated Test
-The outcome of the test is graduated. That means, the number of successes rolled during the test factor into the outcome. This is called the **degree of success**. 
+The outcome of the test is graduated. That means, the number of **positives** rolled during the test factor into the outcome. This is called the **degree of success**. 
 
-> For example, when crafting a work of art, the number of successes achieved may result in a more impressive piece, which can then be sold at a higher price or which could make for a more impressive gift. 
+> For example, when crafting a work of art, the number of **positives** achieved may result in a more impressive piece, which can then be sold at a higher price or which could make for a more impressive gift. 
 
 On the other hand, failure doesn't have to be absolute. The degree of failure can allow for a "failing forward" - a success, but with complications, whose severity depends on the number of failures. 
 
 #### Creative Test
-Also known as a **skill challenge**, this type of test asks the player(s) to pick and justify the skill(s) and attribute(s) to use in a given situation. Players are encouraged to think creatively and come up with solutions. 
+Also known as a **skill challenge**, this type of test asks the player(s) to pick and justify the skill(s) and attribute(s) to use in a given situation. Players are encouraged to think creatively, come up with and describe their solutions. 
 
-Whether the attribute(s) and skill(s) in question apply to resolve the situation at hand, lies at the **GM**'s discretion. 
+Whether the attribute(s) and skill(s) in question can apply to resolve the situation at hand, lies at the **GM**'s discretion. 
 
 #### Opposed Test
-Also known as a *versus test*, this type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of successes of each character. The one with the most successes is the winner. 
+Also known as a *versus test*, this type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of **positives** of each character. The one with the most **positives** is the winner. 
 
-If there is a tie, the defending character is considered the winner. 
+In order to even stand a chance of winning an **opposed test**, the **attacker** has to also achieve a **complete success**. 
 
-> For example, a character tries to sneak past another, the sneak will have to do a [stealth](#stealth-agi) test, while the other character will have to do an [observation](#observation-perc) test. If the result is a tie, the one doing the observation test is considered the defender, and wins. 
+If there is a tie, the **defending** character is considered the winner. 
 
-If a tie occurs in which a defender cannot be clearly determined, the result is a deadlock and neither side gains anything. 
+The terms of **attacker** and **defender** refer to the character initiating and the character reacting to the **opposed test**, respectively. 
+
+> For example, a character tries to sneak past another, the sneaking character will have to succeed a [stealth](#stealth-agi) test, while the other character will have to succeed an [observation](#observation-perc) test. If the result is a tie, the one making the observation test is considered the **defender**, and wins. 
+
+If a tie occurs in which a **defender** cannot be clearly determined, the result is a deadlock and neither side gains anything. 
 
 ### Advantage & Disadvantage
-Certain situations may warrant a character getting advantage or disadvantage to a test they have to make. 
+Certain situations may warrant a character getting **advantage** or **disadvantage** to a test they have to make. 
 
-Advantage grants **+1D6**, while disadvantage forces **-1D6** to the test in question. 
+**Advantage** grants **+1D6**, while **disadvantage** forces **-1D6** to the test in question. **Disadvantage** cannot cause less than **1D6** to be available for the test. In other words, **disadvantage** cannot reduce the number of dice to roll to less than 1. 
 
-A player may argue for their advantage in a situation, but only once, with a clear statement. Dancing around, trying and hoping to somehow convince the **GM** with vague descriptions immediately disqualifies your character from getting advantage. Arguing with the **GM** *also* immediately disqualifies your character from getting advantage. 
+A player may argue for their **advantage** in a situation, but only once, with a clear statement. Dancing around, trying and hoping to somehow convince the **GM** with vague descriptions immediately disqualifies your character from getting **advantage**. Arguing with the **GM** over their decision *also* immediately disqualifies your character from getting **advantage**. 
 
 ### Providing Assistance
 Characters can help each other in tests. In order to help with a test, a character must know a relevant [skill](#skills) and the one being helped must accept the help. 
