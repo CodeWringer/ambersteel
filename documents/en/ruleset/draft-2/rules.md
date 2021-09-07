@@ -130,13 +130,12 @@
       - [Lance](#lance)
       - [Polearm](#polearm)
       - [Club](#club)
-      - [Mace](#mace)
-      - [Hammer](#hammer)
+      - [Small Crusher](#small-crusher)
+      - [Large Crusher](#large-crusher)
       - [Short-Bow](#short-bow)
       - [Longbow](#longbow)
       - [War-Bow](#war-bow)
       - [Crossbow](#crossbow)
-      - [Siege-Crossbow](#siege-crossbow)
       - [Firearm](#firearm)
     - [Armor Types](#armor-types)
       - [Light Armor](#light-armor)
@@ -881,11 +880,13 @@ All things have an abstract weight associated with them. If the weight is zero, 
 It is up to the **GM** to decide on when something is *too heavy* to carry for the character in question. 
 
 ### Weapon Types
-TODO
+Weapons can have one or more of the following **weapon attributes**:
+* **Long Reach**: Allows attacking a target two squares (6'/2m) away. 
+* **Range Only**: Implies a weapon cannot be used against any targets adjacent to self. 
+* **Prefer Range**: +2 **Ob** to using the weapon against an adjacent target. 
 
-A **counter-attack** is a reaction that allows a fighter being attacked to attack their attacker. 
-
-**Long Reach** allows attacking an enemy two squares (6'/2m) away. 
+Weapons can have one or more of the following **effects**:
+* A **counter-attack** is a reaction that allows a fighter being attacked to attack their attacker. 
 
 #### Unarmed
 Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage.
@@ -899,31 +900,34 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 Any short, one-handed blade. Examples: shiv, dagger, Shortsword
 
 * One-handed
+* Weight: 1
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
 | ----- | ------ | --------------------| -- | ---------------- | ------ |
 | 0     | 0  | Slash                   | 2  | 2 **Slashing**   | / |
 | 0     | 0  | Stab                    | 2  | 1 **Piercing**   | / |
 | 3     | +2 | Target weak-spot        | 3  | 3 **Piercing**   | / |
-| 3     | +2 | Artery cut              | 3  | 2 **Slashing**   | +1 **bleeding** to the target. |
+| 3     | +2 | Artery cut              | 3  | 2 **Slashing**   | +1 **bleeding** to the target (if it can bleed). |
 
 #### Long Blade
 Any long blade, including long one-handed blades. Examples: arming sword, bastard sword, Longsword
 
 * One-handed or two-handed
+* Weight: 2
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
 | ----- | ------ | --------------------| -- | ---------------- | ------ |
 | 0     | 0  | Slash                   | 2  | **2D4** **Slashing** | / |
 | 0     | 0  | Stab                    | 2  | **1D6** **Piercing** | / |
 | 3     | +2 | Mordhau-Strike          | 2  | **1D4** **Crushing** | / |
-| 4     | 0  | Fencer-Stance           | 3  | / | The fighter enters a defensive fencing stance. They gain +2 [melee defence](#melee-defence-agi) and **counter-attack** anyone attacking them with a **slash**. |
+| 4     | 0  | Fencer-Stance           | 3  | / | Self enters a defensive fencing stance. They gain +2 [melee defence](#melee-defence-agi) and can **counter-attack** with a **slash**. |
 
 #### Great Blade
 Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
 
 * Two-handed
 * Long Reach
+* Weight: 3
 
 | Skill | **Ob** | Attack              | AP | Damage      | Effect |
 | ----- | ------ | --------------------| -- | ----------- | ------ |
@@ -936,6 +940,7 @@ Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
 One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
 
 * One-handed
+* Weight: 2
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
 | ----- | ------ | --------------------| -- | ---------------- | ------ |
@@ -945,97 +950,155 @@ One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
 Two-handed axes. Examples: bearded axe, double-sided axe
 
 * Two-handed
+* Weight: 3
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
 | ----- | ------ | --------------------| -- | ---------------- | ------ |
 | 0     | 0  | Hack         | 2 | **3D6** **Slashing** and **2D3** **Crushing** | / |
-| 3     | +2 | Savage Slash | 2 | **2D6** **Slashing** | +2 **bleeding** to the target. |
+| 3     | +2 | Savage Slash | 2 | **2D6** **Slashing** | +2 **bleeding**  to the target (if it can bleed). |
 
 #### Spear
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 
 * One-handed or two-handed
+* Weight: 2
+* Prefer Range
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
 | ----- | ------ | --------------------| -- | ---------------- | ------ |
 | 0     | 0  | Stab                    | 2  | **1D8** **Piercing** | / |
-| 3     | +2 | Spear wall              | 3  | / | Whenever any enemy moves into a square adjacent to the fighter, the fighter can attack the enemy with a **stab**, even during the enemy's turn. |
+| 2     | +2 | Spear wall              | 3  | / | Whenever any character moves into a square adjacent to self, can attack that character with a **stab**. |
 
 #### Lance
 Any one or two-handed long piercing polearms. Examples: pike, lance
 
 * Two-handed
+* Weight: 4
 * Long Reach
+* Prefer Range
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
 | ----- | ------ | --------------------| -- | ---------------- | ------ |
 | 0     | 0  | Stab                    | 2  | **1D8** **Piercing**  | / |
-| 3     | 0  | Couched Lancing         | 3  | / | Requires the fighter to be mounted on horse-back (or similar creature). The fighter must move at least 15'/5m in a straight line, past the enemy, allowing them an attack dealing **3D10** **Piercing** damage to the enemy. |
+| 3     | 0  | Couched Lancing         | 3  | / | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target, allowing them an attack dealing **3D10** **Piercing** damage to the target. |
 
 #### Polearm
 Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 
 * Two-handed
+* Weight: 3
 * Long Reach
+* Prefer Range
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
 | ----- | ------ | --------------------| -- | ---------------- | ------ |
-| 0     | 0  | Slash                   | 2  | **2D6** **Slashing**   | / |
+| 0     | 0  | Slash                   | 2  | **3D4** **Slashing**  | / |
 | 0     | 0  | Stab                    | 2  | **1D8** **Piercing**  | / |
+| 4     | +2 | Cleave                  | 3  | **1D10** **Slashing** to two targets adjacent to each other and self. | / |
 
 #### Club
-.  Examples: wooden club
+Simple, improvised bludgeoning weapons. Examples: wooden club
+
+* One-handed
+* Weight: 2
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
 | ----- | ------ | --------------------| -- | ---------------- | ------ |
+| 0     | 0  | Clobber                 | 2  | **2D4** **Bludgeoning**  | / |
+| 3     | +2 | Knockout Blow           | 3  | **2D6** **Bludgeoning**  | / |
 
-#### Mace
-.  Examples: flanged mace, grand-mace
+#### Small Crusher
+One-handed, heavy crushing weapons. Examples: flanged mace, warhammer, flail, morning star
+
+* One-handed
+* Weight: 2
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
 | ----- | ------ | --------------------| -- | ---------------- | ------ |
+| 0     | 0  | Smash                   | 2  | **1D6** **Crushing**  | / |
 
-#### Hammer
-One-handed or two-handed crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target.  Examples: one-handed warhammer, two-handed polehammer
+#### Large Crusher
+Two-handed crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
+
+* Two-handed
+* Weight: 3
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
 | ----- | ------ | --------------------| -- | ---------------- | ------ |
+| 0     | 0  | Smash                   | 2  | **1D8** **Crushing**  | / |
+| 3     | +2 | Mighty Smash            | 3  | **1D10 + 2** **Crushing**  | +1 [exhaustion](#exhaustion) to self. +2 [exhaustion](#exhaustion) to target (if it can be winded). |
 
 #### Short-Bow
 A short distance ranged weapon, shooting arrows.
 
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
+* Two-handed
+* Weight: 1
+* **Range Only**
+
+| Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
+| ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
+| 0     | 0  | Loose                   | 2  | 24'/8m  | **3D3** **Piercing**  | / |
+| 0     | +2 | Loose                   | 2  | 48'/16m | **2D3** **Piercing**  | / |
+| 0     | +4 | Loose                   | 2  | 72'/24m | **1D3** **Piercing**  | / |
+| 4     | 0  | Double shot             | 3  | 24'/8m  | **3D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
+| 4     | +2 | Double shot             | 3  | 48'/16m | **2D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
+| 4     | +4 | Double shot             | 3  | 72'/24m | **1D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
 
 #### Longbow
 A long distance ranged weapon, shooting arrows.
 
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
+* Two-handed
+* Weight: 2
+* **Range Only**
+
+| Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
+| ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
+| 0     | 0  | Loose                   | 2  | 24'/8m  | **3D4** **Piercing**  | / |
+| 0     | +1 | Loose                   | 2  | 48'/16m | **2D4** **Piercing**  | / |
+| 0     | +3 | Loose                   | 2  | 72'/24m | **1D4** **Piercing**  | / |
 
 #### War-Bow
 A very deadly long distance ranged weapon, shooting arrows.
 
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
+* Two-handed
+* Weight: 2
+* **Range Only**
+
+| Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
+| ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
+| 0     | 0  | Loose                   | 3  | 24'/8m  | **3D6** **Piercing**  | +1 [exhaustion](#exhaustion) to self. |
+| 0     | +1 | Loose                   | 3  | 48'/16m | **2D6** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
+| 0     | +2 | Loose                   | 3  | 72'/24m | **1D6** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
 
 #### Crossbow
 A deadly medium distance ranged weapon, shooting quarrels.
 
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
+A long distance ranged weapon, shooting arrows.
 
-#### Siege-Crossbow
-A very deadly long distance ranged weapon, shooting quarrels.
+* Two-handed
+* Weight: 2
+* **Prefer Range**
 
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
+| ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
+| 0     | 0  | Loose                   | 3  | 24'/8m  | **3D6** **Piercing**  | / |
+| 0     | +1 | Loose                   | 3  | 48'/16m | **2D6** **Piercing**  | / |
+| 0     | +3 | Loose                   | 3  | 72'/24m | **2D4** **Piercing**  | / |
 
 #### Firearm
 A very deadly short to medium distance ranged weapon, shooting musket balls that can even penetrate armor.
 
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
+A long distance ranged weapon, shooting arrows.
+
+* Two-handed
+* Weight: 2
+* **Prefer Range**
+
+| Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
+| ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
+| 0     | 0  | Shoot                   | 3  | 24'/8m  | **3D6 + 4** **Piercing**  | / |
+| 0     | +3 | Shoot                   | 3  | 48'/16m | **2D6 + 3** **Piercing**  | / |
+| 0     | +5 | Shoot                   | 3  | 72'/24m | **2D6 + 2** **Piercing**  | / |
 
 ### Armor Types
 TODO
@@ -1161,7 +1224,7 @@ There may be attacks that are more difficult to perform, due to current circumst
 
 An example for a *difficult attack* would be targeting an opponent with a ranged weapon when the opponent is behind cover. 
 
-Another example would be attacking backwards, at an invisible enemy or with a broken arm, and so on.
+Another example would be attacking backwards, at an invisible target or with a broken arm, and so on.
 
 #### Easy Attack
 Some attacks may be easier to perform. An **easy attack** is [advantaged](#advantage--disadvantage).
