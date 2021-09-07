@@ -313,6 +313,8 @@ Only have a player make one test per scene/situation, as long as the scene/situa
 
 > For example, a **PC** is trying to sneak past two guards huddled around a campfire. If they succeed their [stealth](#stealth-agi) test, the **GM** lets them sneak all around the camp, without making them do multiple tests, as long as the situation doesn't change significantly. One of the guards getting up to take a pee behind a tree somewhere shouldn't be such a change, even if that happens to be the tree the **PC** is hiding behind. On the other hand, if the guards pick up torches and start actively looking for intruders, for whatever reason, then the situation changes significantly. Another [stealth](#stealth-agi) test would be warranted. 
 
+> A **PC** succeeds an [acrobatics](#acrobatics-agi) test to climb a wall. Thus, it is established that the **PC** *can* climb that wall. Whenever they attempt to climb that wall in the future, they simply succeed, with no test needed. Unless, of course, if the wall got taller since the last attempt. 
+
 Of course, how many tests are appropriate in a given situation is entirely the **GM**'s decision to make. 
 
 # Character
