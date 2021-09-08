@@ -156,6 +156,7 @@
       - [Adulthood](#adulthood)
       - [The Last Few Years](#the-last-few-years)
     - [Determine Name & Personality](#determine-name--personality)
+    - [Species, Sex & Appearance](#species-sex--appearance)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
   - [Major Fate Points](#major-fate-points)
@@ -188,6 +189,7 @@
     - [Amberite](#amberite)
     - [Ambersteel](#ambersteel)
     - [Runes](#runes)
+- [Credits](#credits)
 
 Version 0.1 "Kettgard"
 
@@ -1259,7 +1261,7 @@ If you don't feel inspired, the following sections can provide tips and randomiz
 The procedure of creating a character consists of the following steps:
 1. Determine life path. 
 2. Determine name & personality.
-3. Determine species, sex and appearance.
+3. Determine species, sex & appearance.
 4. Determine profession. 
 5. Determine **ambition**, **beliefs** & **instincts**. 
 6. Determine **attributes** & **skills**.
@@ -1288,20 +1290,18 @@ If you need inspiration, the following tables might help a spark along:
 TODO
 
 #### Adulthood
-| Range D12 | Adulthood | 
+| Range D10 | Adulthood | 
 | -------- | --------- |
 | 1 | You developed a passion for a craft and found a master willing to teach you his art. |
-| 2 | You commonly found yourself in illegal fighting pits, where you earned coin with with blood. |
+| 2 | You never quite found your place in the world and never found a passion for honest work. Instead, you took to a life of lowly crime, pickpocketing and extorting what you could. |
 | 3 | You spent much time with books and scrolls, reading about the world and its wonders. |
 | 4 | You were drafted into the military and remained in service for a few years. |
 | 5 | You went where the wind took you, doing lowly hireling pay when necessary and otherwise exploring and enjoying life as it came. |
-| 6 | You spent much time with books and scrolls, reading about the world and its wonders. |
-| 7 | You preferred life in the wilderniss and either took to the hermit's life or simply camped out in the woods as much as possible. |
-| 8 | You were wrongfully imprisoned for a crime you didn't commit. Or, perhaps, you did? |
-| 9 | You, by chance, met a mage, who sensed your lust for power. They taught you their knowledge, in secret, whenever you were available. |
-| 10 | You found yourself wanting to better the world. You helped others where possible and eventually picked up on the healing arts, perhaps even learning under a tutor. |
-| 11 | You were taught by a wealthy and successful merchant (perhaps your parent) and helped with running their business for a few years. |
-| 12 | You never quite found your place in the world and never found a passion for honest work. Instead, you took to a life of lowly crime, pickpocketing and extorting what you could. |
+| 6 | You preferred life in the wilderniss and either took to the hermit's life or simply camped out in the woods as much as possible. |
+| 7 | You were wrongfully imprisoned for a crime you didn't commit. Or, perhaps, you did? |
+| 8 | You, by chance, met a mage, who sensed your lust for power. They taught you their knowledge, in secret, whenever you were available. |
+| 9 | You found yourself wanting to better the world. You helped others where possible and eventually picked up on the healing arts, perhaps even learning under a tutor. |
+| 10 | You were taught by a wealthy and successful merchant (perhaps your parent) and helped with running their business for a few years. |
 
 #### The Last Few Years
 | Range D6 | The Last Few Years | 
@@ -1318,8 +1318,38 @@ Any interesting character should have an interesting name. Whether you set a nam
 
 If you can't come up with a name, you can ask your **GM** for inspiration, since they'll likely know the world and the culture(s) your character can stem from and what kinds of names are common there. 
 
-Perhaps more important than the name, is the personality that it represents. 
-TODO
+Perhaps more important than the name, is the personality that it represents. Think about what you want your character to be like - are they very sociable? Or perhaps a taciturn brute who'd rather let their actions speak? What ideals do they have? A virtue and perhaps a vice? How do they speak? Do they stutter? 
+
+| Range D10 | Virtue      | Vice       | Speech     |
+| --------- | ----------- | ---------- | ---------- |
+| 1         | Courageous  | Cowardly   | Blunt      |
+| 2         | Courteous   | Cruel      | Boisterous |
+| 3         | Disciplined | Greedy     | Formal     |
+| 4         | Honest      | Irascible  | Gravelly   |
+| 5         | Honorable   | Prejudiced | Mumbling   |
+| 6         | Humble      | Reckless   | Precise    |
+| 7         | Righteous   | Wasteful   | Rambling   |
+| 8         | Loyal       | Vengeful   | Dialect    |
+| 9         | Just        | Arrogant   | Stuttering |
+| 10        | Merciful    | Vain       | Rapid-fire |
+
+### Species, Sex & Appearance
+Species is a bit difficult to provide a randomization table for, because the world your **GM** is running, might have different species available, than could be anticipated here. For simplicity's sake, it is assumed you are generating a human here. 
+
+Gender is mostly a preference, but could also be decided by a coin flip. 
+
+| Range D10 | Physique    | Face       | Skin       | Hair     |
+| --------- | ----------- | ---------- | ---------- | -------- |
+| 1         | Athletic    | Bloated    | Scar       | Bald     |
+| 2         | Brawny      | Blunt      | Birthmark  | Braided  |
+| 3         | Corpulent   | Bony       | Makeup     | Curly    |
+| 4         | Delicate    | Chiseled   | Tattooed   | Cropped  |
+| 5         | Gaunt       | Delicate   | Weathered  | Frizzy   |
+| 6         | Hulking     | Elongated  | Perfect    | Long     |
+| 7         | Lanky       | Patrician  | Tanned     | Ponytail |
+| 8         | Stout       | Pinched    | War Paint  | Oily     |
+| 9         | Short       | Narrow     | Pale       | Wavy     |
+| 10        | Scrawny     | Broken     | Pierced    | Greased  |
 
 # Fate Points
 Fate points (**FP**) represent a meta-currency that *players* can earn and use to buy boons for their character or the group as a whole. 
@@ -1592,3 +1622,11 @@ In order to craft a **rune**:
 In order to invoke a **rune**:
 * A **complete success** of a [rune-using](#rune-using-agi) skill test will invoke the spell of the **rune** as expected.
 * A **partial success** or **complete failure** results in a [spell backfire](#spell-backfire). 
+
+# Credits
+**Ambersteel** is not a revolution of the RPG genre and it was never meant to be. It is an amalgam and consolidation of rules I found to my personal preference, in hopes of crafting a deep, yet intuitive system. 
+
+As such, I took inspiration from other systems I have read, played and enjoyed in the past:
+* **The Burning Wheel**, by Luke Crane and Dan Abram
+* **Zweihänder**, by Daniel D. Fox
+* **Knave**, by Ben Milton
