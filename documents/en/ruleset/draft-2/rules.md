@@ -479,7 +479,7 @@ A **PC** can only actively practice one **category of skills**. For every **cycl
 | Knowledge      | 3 Months |
 | Craftsmanship  | 2 Months |
 
-> A **PC** spends seven weeks practicing their [fighting](#fighting-str), while waiting for their comrade to recover from their [injuries](#injury). Being a physical skill, **fighting** the cycle for tests is 3 weeks. In this case, 2 tests can be made and their outcomes noted. 
+> A **PC** spends seven weeks practicing their [fighting](#fighting-str), while waiting for their comrade to recover from their [injuries](#injury). [Fighting](#fighting-str) being a physical skill, the cycle for tests is 3 weeks. In this case, 2 tests can be made and their outcomes noted. 
 
 #### Teaching
 Much like it is possible for a character to [practice](#practice) on their own, they can also be taught by another, who knows more than them. 
@@ -496,7 +496,11 @@ Both teacher and pupil must actively spend time together, furthering the pupil's
 ## Skill List
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
 
-For a human, a skill at level ten represents an absolute, almost god-like mastery of that skill. It is possible to go higher than that, but that should be extremely rare. Instead, the average skill a human could reasonably have in a skill they've been practicing for months, should be around two or three. Only years of experience allow for a four or five. Anything higher than five should be considered excellence. 
+Some skills have a list of **skill abilities** that a character unlocks, if they reach a certain level in that skill. A **skill ability** has one or more effects and one or more conditions that restrict when they're applicable. 
+
+Using a **skill ability** counts as an **action**. 
+
+For a human, a skill at level 10 represents absolute mastery. It is possible to go higher than that, but only with great effort. The average level a human could reasonably have in a skill they've been practicing for months, should be around 3 or 4. Only years of experience allow for a 5 or higher. Anything higher than 5 should be considered excellence. 
 
 ### Physical skills
 These skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
@@ -561,6 +565,11 @@ Gaining an animal's trust, directing and commanding it, as well as training it t
 
 #### Commanding (Will)
 Speaking commands others will respect and follow to the letter. 
+
+| Level | Name                 | **Ob** | Effect(s)          | Condition(s) |
+| ----- | -------------------- | ------ | ------------------ | ------------ |
+| 3     | Unquestionable Command | +2   | An ally of choice, gains **+1D6** on their next test. | Ally not in combat; Ally can hear the command. |
+| 4     | Spur                 | +2   | An ally of choice, gains +1 **AP**. | Ally in combat; Ally can hear the command. |
 
 #### Deception (Ora)
 Telling lies, acting in a way so as to deceive another character into believing something untruthful. 
