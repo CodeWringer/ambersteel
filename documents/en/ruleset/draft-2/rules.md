@@ -140,6 +140,15 @@
       - [Firearm](#firearm)
     - [Armor Types](#armor-types)
       - [Light Armor](#light-armor)
+      - [Medium Armor](#medium-armor)
+      - [Heavy Armor](#heavy-armor)
+      - [Amberite Plate](#amberite-plate)
+    - [Shield Types](#shield-types)
+      - [Buckler](#buckler)
+      - [Round Shield](#round-shield)
+      - [Heater Shield](#heater-shield)
+      - [Kite Shield](#kite-shield)
+      - [Amberite Shield](#amberite-shield)
   - [Character Creation](#character-creation)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
@@ -888,9 +897,11 @@ Money is generalized as **crowns**, with no regard for regional currencies. The 
 ### Carrying Capacity
 Characters have **item slots** that determine how much they can carry. How many **item slots** they have, is determined by their [strength](#strength-str). The number of **item slots** a character has is referred to as the **carrying capacity**. 
 
-Most things will take up one **slot**, which equals something around 5lb./2kg, but some particularly bulky items can take up more **slots**.
+Most things will take up one **slot**, which equals something around 5lb./2kg, but some particularly large and/or heavy items can take up more **slots**. How many **item slots** takes up, is referred to as **bulk**. 
 
-So, while most items, such as tools, a day's rations, or books take up only one item slot, armor and weapons typically take up more. 
+> An item with **bulk** 2 takes up 2 **item slots**. 
+
+So, while most items, such as tools, a day's rations, or books have only 1 **bulk**, armor and weapons typically have more. 
 
 100 [crowns](#money) can fit into one **slot**. 
 
@@ -917,7 +928,7 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 Any short, one-handed blade. Examples: shiv, dagger, Shortsword
 
 * One-handed
-* Item-Slots: 1
+* Bulk: 1
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
 | ----- | ------ | --------------------| -- | ---------------- | ------ |
@@ -930,7 +941,7 @@ Any short, one-handed blade. Examples: shiv, dagger, Shortsword
 Any long blade, including long one-handed blades. Examples: arming sword, bastard sword, Longsword
 
 * One-handed or two-handed
-* Item-Slots: 2
+* Bulk: 2
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
 | ----- | ------ | --------------------| -- | ---------------- | ------ |
@@ -944,7 +955,7 @@ Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
 
 * Two-handed
 * Long Reach
-* Item-Slots: 3
+* Bulk: 3
 
 | Skill | **Ob** | Attack              | AP | Damage      | Effect |
 | ----- | ------ | --------------------| -- | ----------- | ------ |
@@ -957,7 +968,7 @@ Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
 One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
 
 * One-handed
-* Item-Slots: 2
+* Bulk: 2
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
 | ----- | ------ | --------------------| -- | ---------------- | ------ |
@@ -967,7 +978,7 @@ One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
 Two-handed axes. Examples: bearded axe, double-sided axe
 
 * Two-handed
-* Item-Slots: 3
+* Bulk: 3
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
 | ----- | ------ | --------------------| -- | ---------------- | ------ |
@@ -978,7 +989,7 @@ Two-handed axes. Examples: bearded axe, double-sided axe
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 
 * One-handed or two-handed
-* Item-Slots: 2
+* Bulk: 2
 * Prefer Range
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
@@ -990,7 +1001,7 @@ Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 Any one or two-handed long piercing polearms. Examples: pike, lance
 
 * Two-handed
-* Item-Slots: 4
+* Bulk: 4
 * Long Reach
 * Prefer Range
 
@@ -1003,7 +1014,7 @@ Any one or two-handed long piercing polearms. Examples: pike, lance
 Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 
 * Two-handed
-* Item-Slots: 4
+* Bulk: 4
 * Long Reach
 * Prefer Range
 
@@ -1017,8 +1028,8 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 Simple, improvised bludgeoning weapons. Examples: wooden club
 
 * One-handed
-* Item-Slots: 2
-* Item-Slots: 2
+* Bulk: 2
+* Bulk: 2
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
 | ----- | ------ | --------------------| -- | ---------------- | ------ |
@@ -1029,7 +1040,7 @@ Simple, improvised bludgeoning weapons. Examples: wooden club
 One-handed, heavy crushing weapons. Examples: flanged mace, warhammer, flail, morning star
 
 * One-handed
-* Item-Slots: 2
+* Bulk: 2
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
 | ----- | ------ | --------------------| -- | ---------------- | ------ |
@@ -1039,7 +1050,7 @@ One-handed, heavy crushing weapons. Examples: flanged mace, warhammer, flail, mo
 Two-handed crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
 
 * Two-handed
-* Item-Slots: 3
+* Bulk: 3
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
 | ----- | ------ | --------------------| -- | ---------------- | ------ |
@@ -1050,7 +1061,7 @@ Two-handed crushing weapons with a dedicated *impact zone* on the weapon head wh
 A short distance ranged weapon, shooting arrows.
 
 * Two-handed
-* Item-Slots: 1
+* Bulk: 1
 * **Range Only**
 
 | Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
@@ -1066,7 +1077,7 @@ A short distance ranged weapon, shooting arrows.
 A long distance ranged weapon, shooting arrows.
 
 * Two-handed
-* Item-Slots: 2
+* Bulk: 2
 * **Range Only**
 
 | Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
@@ -1079,7 +1090,7 @@ A long distance ranged weapon, shooting arrows.
 A very deadly long distance ranged weapon, shooting arrows.
 
 * Two-handed
-* Item-Slots: 2
+* Bulk: 2
 * **Range Only**
 
 | Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
@@ -1094,7 +1105,7 @@ A deadly medium distance ranged weapon, shooting quarrels.
 A long distance ranged weapon, shooting arrows.
 
 * Two-handed
-* Item-Slots: 2
+* Bulk: 2
 * **Prefer Range**
 
 | Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
@@ -1109,7 +1120,7 @@ A very deadly short to medium distance ranged weapon, shooting musket balls that
 A long distance ranged weapon, shooting arrows.
 
 * Two-handed
-* Item-Slots: 2
+* Bulk: 2
 * **Prefer Range**
 
 | Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
@@ -1119,10 +1130,109 @@ A long distance ranged weapon, shooting arrows.
 | 0     | +5 | Shoot                   | 3  | 72'/24m | **2D6 + 2** **Piercing**  | / |
 
 ### Armor Types
-TODO
 
 #### Light Armor
-A set of light armor that doesn't impede the wearer by much.
+A set of light armor that doesn't impede the wearer by much. Commonly represents a gambeson or thick cloth vest. 
+
+* Bulk: 2
+
+| Reduce Damage     | 
+| ----------------- |
+| 4 **Slashing**    |
+| 3 **Bludgeoning** |
+| 2 **Crushing**    |
+
+#### Medium Armor
+A set of medium armor with a good balance of protection and weight. Commonly represents a gambeson underneath a mail hauberk. Optional mail mittens. Common headgear: arming cap, mail coif or any non-full helmet. 
+
+* Bulk: 3
+
+| Reduce Damage     | 
+| ----------------- |
+| 7 **Slashing**    |
+| 4 **Bludgeoning** |
+| 3 **Piercing**    |
+| 2 **Crushing**    |
+
+#### Heavy Armor
+A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Commonly represents a full suit of plate armor.  
+
+* Bulk: 4
+
+| Reduce Damage     | 
+| ----------------- |
+| 10 **Slashing**   |
+| 5 **Bludgeoning** |
+| 4 **Piercing**    |
+| 3 **Crushing**    |
+
+#### Amberite Plate
+A set of heavy armor with excellent protection, even against magical attacks, at the cost of encumbering the wearer greatly. Commonly represents a full suit of [Amberite](#amberite)-lined plate armor.  
+
+* Bulk: 4
+* Prevents magic-casting by the wearer
+
+| Reduce Damage     | 
+| ----------------- |
+| 10 **Slashing**   |
+| 5 **Bludgeoning** |
+| 4 **Piercing**    |
+| 3 **Crushing**    |
+| **3D4** Magical   |
+
+### Shield Types
+Shields are items that provide passive bonuses to [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi) and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon. 
+
+#### Buckler
+A small, round shield commonly held as far from the body as possible, to deflect small or stabbing weapons with ease. Helps only little against heavy blows, however. And don't expect to deflect arrows with this, either. 
+
+* Bulk: 1
+
+| Defensive Bonus |
+| --------------- |
+| +1 [melee defence](#melee-defence-agi).  |
+| +2 [melee defence](#melee-defence-agi) against **stabbing** attacks. |
+
+#### Round Shield
+A medium-sized, round shield made from tough wood and leather, which offers decent protection against most attacks, while not encumbering the wielder too much. 
+
+* Bulk: 2
+
+| Defensive Bonus |
+| --------------- |
+| +2 [melee defence](#melee-defence-agi).  |
+| +2 [ranged defence](#melee-defence-agi). |
+
+#### Heater Shield
+A tough and heavy metal shield, which offers great protection, while still being somewhat manageable to wield. 
+
+* Bulk: 3
+
+| Defensive Bonus |
+| --------------- |
+| +3 [melee defence](#melee-defence-agi).  |
+| +3 [ranged defence](#melee-defence-agi). |
+
+#### Kite Shield
+A large, kite-shaped shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight makes it difficult to react to attacks quickly, hoever. 
+
+* Bulk: 4
+
+| Defensive Bonus |
+| --------------- |
+| +4 [melee defence](#melee-defence-agi).  |
+| +4 [ranged defence](#melee-defence-agi). |
+
+#### Amberite Shield
+An [Amberite](#amberite)-lined heater shield, which offers great protection, even against magic, while still being somewhat manageable to wield. 
+
+* Bulk: 3
+
+| Defensive Bonus |
+| --------------- |
+| +3 [melee defence](#melee-defence-agi).  |
+| +3 [ranged defence](#melee-defence-agi). |
+| +3 [ranged defence](#melee-defence-agi) against magical attacks. |
 
 ## Character Creation
 TODO
@@ -1362,7 +1472,7 @@ Its surface is unnaturally smooth and covered in a fine, iridescent shine. Under
 
 **Abyssalite** is a hard and brittle mineral, prone to shattering if too much force is applied. This makes it difficult to shape. It is also fairly heavy, which makes it difficult to lug large amounts of it around. 
 
-A decent-sized **Abyssalite** chunk takes up two [item slots](#carrying-capacity) and grants one greater [spell intensity](#spell-intensity), but without costing any [exhaustion](#exhaustion). In order to use the **Abyssalite**, the caster must be touching it. 
+A decent-sized **Abyssalite** chunk has a [bulk](#carrying-capacity) of 2 and grants one greater [spell intensity](#spell-intensity), but without costing any [exhaustion](#exhaustion). In order to use the **Abyssalite**, the caster must be touching it. 
 
 ### Amberite
 As magic is amplified by [Abyssalite](#abyssalite), its antithesis is called **Amberite**, a metal which dulls the effects of magic and slows any magic flow nearby it. The material is also known to affect magic creatures and can cause great pain in magic-users. 
