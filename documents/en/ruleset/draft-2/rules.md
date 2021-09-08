@@ -888,11 +888,11 @@ Money is generalized as **crowns**, with no regard for regional currencies. The 
 ### Carrying Capacity
 Characters have **item slots** that determine how much they can carry. How many **item slots** they have, is determined by their [strength](#strength-str). The number of **item slots** a character has is referred to as the **carrying capacity**. 
 
-Most things will take up one slot, which equals something around 5lb./2kg, but some particularly bulky items can take up more slots.
+Most things will take up one **slot**, which equals something around 5lb./2kg, but some particularly bulky items can take up more **slots**.
 
 So, while most items, such as tools, a day's rations, or books take up only one item slot, armor and weapons typically take up more. 
 
-100 [crowns](#money) can fit into one slot. 
+100 [crowns](#money) can fit into one **slot**. 
 
 It is up to the **GM** to decide on when something is *too heavy* to carry for the character in question. 
 
