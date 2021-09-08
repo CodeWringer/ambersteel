@@ -179,7 +179,10 @@ Version 0.1 "Kettgard"
 # Introduction
 **Ambersteel** is a role-playing game, requiring a **game master** (henceforth referred to as the **GM**) and at least one **player** to play. 
 
-On the spectrum of narrative-driven, gamey and simulationist, **Ambersteel** aims for the region between gamey and narrative-driven. Tactical and lethal combat is where most of the gamey-ness stems from, with most other aspects being kept closer towards the narrative-driven end. 
+On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **Ambersteel** aims for the region between *game-y* and *narrative-driven*, while leaning more towards *game-y*:
+* Combat is a risky affair and requires tactical and strategic thinking, or the readiness to retreat, when things go awry. When a character suffers **injuries**, they are in *serious trouble*. 
+* Players are also expected to manage resources, such as their character's health and possessions. Character's are neither *damage sponges*, nor *item vacuums*. 
+* **PC** change and roleplaying are embedded into the rules. There are no classes or other arbitrary restrictions on what a character can do. **Attributes** and **skills** improve as they are used, incentivising experimentation. 
 
 While each player only controls a single character, the **GM** is in control of every single non-player character (**NPC**), the world and the story. A player character is abbreviated as **PC**. 
 
