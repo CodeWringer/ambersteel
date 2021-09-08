@@ -1288,11 +1288,30 @@ If you need inspiration, the following tables might help a spark along:
 TODO
 
 #### Adulthood
-TODO
-
+| Range D12 | Adulthood | 
+| -------- | --------- |
+| 1 | You developed a passion for a craft and found a master willing to teach you his art. |
+| 2 | You commonly found yourself in illegal fighting pits, where you earned coin with with blood. |
+| 3 | You spent much time with books and scrolls, reading about the world and its wonders. |
+| 4 | You were drafted into the military and remained in service for a few years. |
+| 5 | You went where the wind took you, doing lowly hireling pay when necessary and otherwise exploring and enjoying life as it came. |
+| 6 | You spent much time with books and scrolls, reading about the world and its wonders. |
+| 7 | You preferred life in the wilderniss and either took to the hermit's life or simply camped out in the woods as much as possible. |
+| 8 | You were wrongfully imprisoned for a crime you didn't commit. Or, perhaps, you did? |
+| 9 | You, by chance, met a mage, who sensed your lust for power. They taught you their knowledge, in secret, whenever you were available. |
+| 10 | You found yourself wanting to better the world. You helped others where possible and eventually picked up on the healing arts, perhaps even learning under a tutor. |
+| 11 | You were taught by a wealthy and successful merchant (perhaps your parent) and helped with running their business for a few years. |
+| 12 | You never quite found your place in the world and never found a passion for honest work. Instead, you took to a life of lowly crime, pickpocketing and extorting what you could. |
 
 #### The Last Few Years
-TODO
+| Range D6 | The Last Few Years | 
+| -------- | --------- |
+| 1 | You made an enemy you couldn't beat and were thus forced to leave town. Since then, you've been on the run. |
+| 2 | You've been given an important task to carry out in secret. A piece of parchment holds your orders, but the task is simply too great for you to complete on your own. |
+| 3 | You've found yourself with an insatiable curiosity and decided to go see the world and its wonders. |
+| 4 | You decided to go on a pilgrimage, but were distracted from your path. |
+| 5 | You swore an oath and intend to keep it. You swore to rescue someone, or bring honor to your clan, or perhaps to bring justice to a known criminal. |
+| 6 | You lost someone or something you held dear. Now, you're on a quest to get it back, or your revenge. |
 
 ### Determine Name & Personality
 Any interesting character should have an interesting name. Whether you set a name or personality first, is entirely up to you. Although, you might prefer to delay this step until much later, once you've determined the other aspects of your character. Whichever you find easier is fine. 
