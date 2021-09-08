@@ -897,7 +897,7 @@ Money is generalized as **crowns**, with no regard for regional currencies. The 
 ### Carrying Capacity
 Characters have **item slots** that determine how much they can carry. How many **item slots** they have, is determined by their [strength](#strength-str). The number of **item slots** a character has is referred to as the **carrying capacity**. 
 
-Most things will take up one **slot**, which equals something around 5lb./2kg, but some particularly large and/or heavy items can take up more **slots**. How many **item slots** takes up, is referred to as **bulk**. 
+Most things will take up one **slot**, which equals something around 5lb./2kg, but some particularly large and/or heavy items can take up more **slots**. How many **slots** an item takes up, is referred to as **bulk**. 
 
 > An item with **bulk** 2 takes up 2 **item slots**. 
 
