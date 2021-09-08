@@ -150,6 +150,12 @@
       - [Kite Shield](#kite-shield)
       - [Amberite Shield](#amberite-shield)
   - [Character Creation](#character-creation)
+    - [Determine Life Path](#determine-life-path)
+      - [Origin](#origin)
+      - [Childhood](#childhood)
+      - [Adulthood](#adulthood)
+      - [The Last Few Years](#the-last-few-years)
+    - [Determine Name & Personality](#determine-name--personality)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
   - [Major Fate Points](#major-fate-points)
@@ -1244,6 +1250,56 @@ An [Amberite](#amberite)-lined heater shield, which offers great protection, eve
 | +3 [ranged defence](#melee-defence-agi) against magical attacks. |
 
 ## Character Creation
+Imagine for the longest time of their life, your character has led an ordinary existence, until one day, something life-changing happened. Perhaps something terrible, perhaps something wonderful, but something significant that has forced them out of their comfort zone into a world full of adventure. 
+
+Creating an interesting and life-like character is a challenging, but ultimately, very rewarding task. Thinking of their existence up to the point they start adventuring, can really help with paving the path of their future and give you a good idea of what they're like, and why.
+
+If you don't feel inspired, the following sections can provide tips and randomization tables that allow you write up a character more quickly. 
+
+The procedure of creating a character consists of the following steps:
+1. Determine life path. 
+2. Determine name & personality.
+3. Determine species, sex and appearance.
+4. Determine profession. 
+5. Determine **ambition**, **beliefs** & **instincts**. 
+6. Determine **attributes** & **skills**.
+7. Determine **possessions**. 
+
+### Determine Life Path
+Where and when does the story of your character begin? Under what circumstances are they born and how were they raised? Until adulthood, did they lead a life of carelessness or did they have to fight for every scrap of food? How did they lead their life up until the point the picked up adventuring? 
+
+Answering these questions will help you figure out what your character could be like, as a person and what kinds of **ambitions**, **beliefs** and **instincts** they might develop. 
+
+If you need inspiration, the following tables might help a spark along:
+#### Origin
+| Range D6 | Origin | 
+| -------- | ------ |
+| 1 | You were born into the life of a noble and lived a pampered life until you could walk. |
+| 2 | You were born as the only child of a successful merchant. |
+| 3 | You were found as an orphaned infant and grew up in the hands of a kind foster family. |
+| 4 | You were found as an orphaned infant and raised at a local orphanage. |
+| 5 | You were born as the fifth child of a poor farmer. |
+| 6 | You were born to a skiled craftsman. |
+
+#### Childhood
+| Range D6 | Childhood | 
+| -------- | --------- |
+| 1 | . |
+TODO
+
+#### Adulthood
+TODO
+
+
+#### The Last Few Years
+TODO
+
+### Determine Name & Personality
+Any interesting character should have an interesting name. Whether you set a name or personality first, is entirely up to you. Although, you might prefer to delay this step until much later, once you've determined the other aspects of your character. Whichever you find easier is fine. 
+
+If you can't come up with a name, you can ask your **GM** for inspiration, since they'll likely know the world and the culture(s) your character can stem from and what kinds of names are common there. 
+
+Perhaps more important than the name, is the personality that it represents. 
 TODO
 
 # Fate Points
