@@ -566,10 +566,10 @@ Gaining an animal's trust, directing and commanding it, as well as training it t
 #### Commanding (Will)
 Speaking commands others will respect and follow to the letter. 
 
-| Level | Name                 | **Ob** | Effect(s)          | Condition(s) |
-| ----- | -------------------- | ------ | ------------------ | ------------ |
-| 3     | Unquestionable Command | +2   | An ally of choice, gains **+1D6** on their next test. | Ally not in combat; Ally can hear the command. |
-| 4     | Spur                 | +2   | An ally of choice, gains +1 **AP**. | Ally in combat; Ally can hear the command. |
+| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
+| 3     | Unquestionable Command | 2 | +2 | An ally of choice, gains **+1D6** on their next test. | Ally not in combat; Ally can hear the command. |
+| 4     | Spur                 | 2 | +2 | An ally of choice, gains +1 **AP**. | Ally in combat; Ally can hear the command. |
 
 #### Deception (Ora)
 Telling lies, acting in a way so as to deceive another character into believing something untruthful. 
