@@ -1085,12 +1085,12 @@ A short distance ranged weapon, shooting arrows.
 
 | Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
 | ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
-| 0     | 0  | Loose                   | 2  | 24'/8m  | **3D3** **Piercing**  | / |
-| 0     | +2 | Loose                   | 2  | 48'/16m | **2D3** **Piercing**  | / |
-| 0     | +4 | Loose                   | 2  | 72'/24m | **1D3** **Piercing**  | / |
-| 4     | 0  | Double shot             | 3  | 24'/8m  | **3D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
-| 4     | +2 | Double shot             | 3  | 48'/16m | **2D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
-| 4     | +4 | Double shot             | 3  | 72'/24m | **1D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
+| 0     | 0  | Loose                   | 2  | 30'/10m  | **3D3** **Piercing**  | / |
+| 0     | +2 | Loose                   | 2  | 60'/20m  | **2D3** **Piercing**  | / |
+| 0     | +4 | Loose                   | 2  | 90'/30m  | **1D3** **Piercing**  | / |
+| 4     | 0  | Double shot             | 3  | 30'/10m  | **3D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
+| 4     | +2 | Double shot             | 3  | 60'/20m  | **2D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
+| 4     | +4 | Double shot             | 3  | 90'/30m  | **1D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
 
 #### Longbow
 A long distance ranged weapon, shooting arrows.
@@ -1101,9 +1101,9 @@ A long distance ranged weapon, shooting arrows.
 
 | Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
 | ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
-| 0     | 0  | Loose                   | 2  | 24'/8m  | **3D4** **Piercing**  | / |
-| 0     | +1 | Loose                   | 2  | 48'/16m | **2D4** **Piercing**  | / |
-| 0     | +3 | Loose                   | 2  | 72'/24m | **1D4** **Piercing**  | / |
+| 0     | 0  | Loose                   | 2  | 30'/10m  | **3D4** **Piercing**  | / |
+| 0     | +1 | Loose                   | 2  | 60'/20m  | **2D4** **Piercing**  | / |
+| 0     | +3 | Loose                   | 2  | 90'/30m  | **1D4** **Piercing**  | / |
 
 #### War-Bow
 A very deadly long distance ranged weapon, shooting arrows.
@@ -1114,9 +1114,9 @@ A very deadly long distance ranged weapon, shooting arrows.
 
 | Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
 | ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
-| 0     | 0  | Loose                   | 3  | 24'/8m  | **3D6** **Piercing**  | +1 [exhaustion](#exhaustion) to self. |
-| 0     | +1 | Loose                   | 3  | 48'/16m | **2D6** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
-| 0     | +2 | Loose                   | 3  | 72'/24m | **1D6** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
+| 0     | 0  | Loose                   | 3  | 30'/10m  | **3D6** **Piercing**  | +1 [exhaustion](#exhaustion) to self. |
+| 0     | +1 | Loose                   | 3  | 60'/20m  | **2D6** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
+| 0     | +2 | Loose                   | 3  | 90'/30m  | **1D6** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
 
 #### Crossbow
 A deadly medium distance ranged weapon, shooting quarrels.
@@ -1129,9 +1129,9 @@ A long distance ranged weapon, shooting arrows.
 
 | Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
 | ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
-| 0     | 0  | Loose                   | 3  | 24'/8m  | **3D6** **Piercing**  | / |
-| 0     | +1 | Loose                   | 3  | 48'/16m | **2D6** **Piercing**  | / |
-| 0     | +3 | Loose                   | 3  | 72'/24m | **2D4** **Piercing**  | / |
+| 0     | 0  | Loose                   | 3  | 30'/10m  | **3D6** **Piercing**  | / |
+| 0     | +1 | Loose                   | 3  | 60'/20m  | **2D6** **Piercing**  | / |
+| 0     | +3 | Loose                   | 3  | 90'/30m  | **2D4** **Piercing**  | / |
 
 #### Firearm
 A very deadly short to medium distance ranged weapon, shooting musket balls that can even penetrate armor.
@@ -1144,9 +1144,9 @@ A long distance ranged weapon, shooting arrows.
 
 | Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
 | ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
-| 0     | 0  | Shoot                   | 3  | 24'/8m  | **3D6 + 4** **Piercing**  | / |
-| 0     | +3 | Shoot                   | 3  | 48'/16m | **2D6 + 3** **Piercing**  | / |
-| 0     | +5 | Shoot                   | 3  | 72'/24m | **2D6 + 2** **Piercing**  | / |
+| 0     | 0  | Shoot                   | 3  | 30'/10m  | **3D6 + 4** **Piercing**  | / |
+| 0     | +3 | Shoot                   | 3  | 60'/20m  | **2D6 + 3** **Piercing**  | / |
+| 0     | +5 | Shoot                   | 3  | 90'/30m  | **2D6 + 2** **Piercing**  | / |
 
 ### Armor Types
 
@@ -1619,8 +1619,8 @@ Injuries inflicted are of the [burning](#burning) damage type.
 | 2  | 2D3 **Burning** | 3'/1m  | A moderate torch fire erupts and stays in the mage's hand. Or a torch in immediate proximity of the mage is extinguished. |
 | 3  | 3D3 **Burning** | 15'/5m | A ball of fire forms in the mage's hand, ready to be flung at a nearby spot, dealing its damage in a 6'/2m radius. Or a decent-sized flame is extinguished nearby. |
 | 4  | 4D3 **Burning** | 15'/5m | A static wall or column of flame erupts in a nearby spot of the mage's choosing, covering up to a 12'/4m square. Alternatively, a nearby flame (wall) is redirected. |
-| 5  | 5D3 **Burning** | 24'/8m | Flame shoots out of the mage's hand in a steady stream, covering a moderate distance and causing its damage in a straight line. Everything caught in the line takes the damage. Or another mage's stream of flame is redirected. |
-| 6+ | ND3 **Burning** | 24'/8m | N = spell intensity; Causes a spot of the mage's choosing at moderate distance to explode, causing its damage in a radius of 15'/5m. |
+| 5  | 5D3 **Burning** | 30'/10m | Flame shoots out of the mage's hand in a steady stream, covering a moderate distance and causing its damage in a straight line. Everything caught in the line takes the damage. Or another mage's stream of flame is redirected. |
+| 6+ | ND3 **Burning** | 30'/10m | N = spell intensity; Causes a spot of the mage's choosing at moderate distance to explode, causing its damage in a radius of 15'/5m. |
 
 ### Cryomancy
 The summoning and control of ice. Besides the frostbite, cryomancer's can inflict [exhaustion](#exhaustion) on opponents, or freeze things, so they're harder to break. 
@@ -1632,9 +1632,9 @@ Injuries inflicted are of the [freezing](#freezing) damage type.
 | 1  | 0   | 0   | 0     | Any freezable liquid in the mage's hand immediately freezes. Doesn't work on living things. So no freezing of the blood in someone's veins, while they still live! |
 | 2  | 1D3 **Freezing** | 1   | 3'/1m | A spot of the mage's choosing, within hand's reach, freezes over. |
 | 3  | 1D3 **Freezing** | 1D3 | 15'/5m | An ice-shard forms from whatever liquid is in the mage's hands. It can be shot at a nearby spot of the mage's choosing. The impacted spot freezes over. |
-| 4  | 2D3 **Freezing** | 2D3 | 24'/8m | A large ice-shard forms in the mage's hands, without requiring any liquid. It can be shot at a moderately distant spot of the mage's choosing. The impacted spot freezes over. |
-| 5  | 2D3 **Freezing** | 1D6 | 24'/8m | A large area of the mage's choosing, at moderate distance from the mage, freezes over. |
-| 6+ | N-3 D3 **Freezing** | 1D6 + N-5 | 24'/8m | N = spell intensity; A torrent of ice and snow forms in a large area of the mage's choosing, at moderate distance. Anything within it, freezes over. |
+| 4  | 2D3 **Freezing** | 2D3 | 30'/10m | A large ice-shard forms in the mage's hands, without requiring any liquid. It can be shot at a moderately distant spot of the mage's choosing. The impacted spot freezes over. |
+| 5  | 2D3 **Freezing** | 1D6 | 30'/10m | A large area of the mage's choosing, at moderate distance from the mage, freezes over. |
+| 6+ | N-3 D3 **Freezing** | 1D6 + N-5 | 30'/10m | N = spell intensity; A torrent of ice and snow forms in a large area of the mage's choosing, at moderate distance. Anything within it, freezes over. |
 
 ### Restoration
 The mending of injuries and treatment of diseases. 
