@@ -152,11 +152,15 @@
   - [Character Creation](#character-creation)
     - [Determine Life Path](#determine-life-path)
       - [Origin](#origin)
-      - [Childhood](#childhood)
-      - [Adulthood](#adulthood)
+      - [Youth](#youth)
       - [The Last Few Years](#the-last-few-years)
     - [Determine Name & Personality](#determine-name--personality)
     - [Species, Sex & Appearance](#species-sex--appearance)
+  - [Ambition, Beliefs & Instincts](#ambition-beliefs--instincts)
+  - [Attributes & Skills](#attributes--skills)
+    - [Manual Attribute Assignment](#manual-attribute-assignment)
+    - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
+  - [Possessions](#possessions)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
   - [Major Fate Points](#major-fate-points)
@@ -351,7 +355,7 @@ A character is a representation of a sentient creature in the game world. They'r
 ## Attributes
 Attributes describe a character's basic, inherent abilities. 
 
-The value of an attribute indicates the number of **D6** to roll for a test of that attribute. Attribute values typically range from two to five for human characters. 
+The value of an attribute indicates the number of **D6** to roll for a test of that attribute. Attribute values typically range from 2 to 6 for ordinary human characters. 
 
 ### Physical Attributes
 These numbers represent a character's basic physical abilities. 
@@ -372,7 +376,7 @@ Also governs the ability to perceive under difficult conditions such as dim ligh
 #### Strength [Str]
 Governs a character's strength - the ability to lift, throw and break heavy and sturdy things. Such as skulls. Also governs the [carrying capacity](#carrying-capacity) of a character. 
 
-Each point in strength raises the [carrying capacity](#carrying-capacity) of the character by three. 
+Each point in strength raises the [carrying capacity](#carrying-capacity) of the character by 3. 
 
 #### Toughness [Tough]
 Governs the [injury threshold](#injury) of a character. 
@@ -393,8 +397,6 @@ For every point in arcana, a character raises their [maximum spell intensity](#m
 
 #### Intelligence [Int]
 Governs a character's ability to reason and analyze. 
-
-Also affects a character's speed of learning. 
 
 #### Wisdom [Wis]
 Governs a character's understanding of and ability to recall knowledge. 
@@ -1262,10 +1264,9 @@ The procedure of creating a character consists of the following steps:
 1. Determine life path. 
 2. Determine name & personality.
 3. Determine species, sex & appearance.
-4. Determine profession. 
-5. Determine **ambition**, **beliefs** & **instincts**. 
-6. Determine **attributes** & **skills**.
-7. Determine **possessions**. 
+4. Determine **ambition**, **beliefs** & **instincts**. 
+5. Determine **attributes** & **skills**.
+6. Determine **possessions**. 
 
 ### Determine Life Path
 Where and when does the story of your character begin? Under what circumstances are they born and how were they raised? Until adulthood, did they lead a life of carelessness or did they have to fight for every scrap of food? How did they lead their life up until the point the picked up adventuring? 
@@ -1276,22 +1277,16 @@ If you need inspiration, the following tables might help a spark along:
 #### Origin
 | Range D6 | Origin | 
 | -------- | ------ |
-| 1 | You were born into the life of a noble and lived a pampered life until you could walk. |
-| 2 | You were born as the only child of a successful merchant. |
+| 1 | You were born into the life of a noble. |
+| 2 | You were born as the only child of a merchant. |
 | 3 | You were found as an orphaned infant and grew up in the hands of a kind foster family. |
-| 4 | You were found as an orphaned infant and raised at a local orphanage. |
-| 5 | You were born as the fifth child of a poor farmer. |
-| 6 | You were born to a skiled craftsman. |
+| 4 | You were found as an abandoned infant at the doors to an orphanage. |
+| 5 | You were born as the fifth child of a farmer. |
+| 6 | You were born to a craftsman. |
 
-#### Childhood
-| Range D6 | Childhood | 
-| -------- | --------- |
-| 1 | . |
-TODO
-
-#### Adulthood
-| Range D10 | Adulthood | 
-| -------- | --------- |
+#### Youth
+| Range D10 | Youth | 
+| --------- | --------- |
 | 1 | You developed a passion for a craft and found a master willing to teach you his art. |
 | 2 | You never quite found your place in the world and never found a passion for honest work. Instead, you took to a life of lowly crime, pickpocketing and extorting what you could. |
 | 3 | You spent much time with books and scrolls, reading about the world and its wonders. |
@@ -1336,7 +1331,7 @@ Perhaps more important than the name, is the personality that it represents. Thi
 ### Species, Sex & Appearance
 Species is a bit difficult to provide a randomization table for, because the world your **GM** is running, might have different species available, than could be anticipated here. For simplicity's sake, it is assumed you are generating a human here. 
 
-Gender is mostly a preference, but could also be decided by a coin flip. 
+Gender is personal preference, but could also be decided by a coin flip. 
 
 | Range D10 | Physique    | Face       | Skin       | Hair     |
 | --------- | ----------- | ---------- | ---------- | -------- |
@@ -1350,6 +1345,94 @@ Gender is mostly a preference, but could also be decided by a coin flip.
 | 8         | Stout       | Pinched    | War Paint  | Oily     |
 | 9         | Short       | Narrow     | Pale       | Wavy     |
 | 10        | Scrawny     | Broken     | Pierced    | Greased  |
+
+## Ambition, Beliefs & Instincts
+At the core of every character stands their [ambition](#ambition), which is the primary force driving them. A good **ambition** should last you a long time and give the **GM** a hint what kind of story you want to explore with your character. 
+
+Talk to your **GM** about the **ambition** you want your character to have. On the one hand, it allows them to determine the kind of story you want to explore and they can also be the arbiter in whether the **ambition** is a suitable long-term goal. 
+
+Keep in mind the **ambition** you can randomly determine here is kept most basic and generic. Work with your **GM** to fill in the details. 
+
+| Range D10 | Ambition           | 
+| --------- | ------------------ | 
+| 1         | Revenge            | 
+| 2         | Pilgrimage         | 
+| 3         | Wealth             | 
+| 4         | Power              | 
+| 5         | Fame/Glory         | 
+| 6         | Knowledge          | 
+| 7         | Family & Belonging | 
+| 8         | Atonement          | 
+| 9         | World Betterment   | 
+| 10        | Fire               | 
+
+Now, the time to determine your three [beliefs](#beliefs) has come. Yet again, your **GM** is integral in finding them. However, the other **PC**s are also of interest now. You can have **beliefs** whose subject is one of the other **PC**s. You could have the game begin with two or more of the **PC**s knowing each other. 
+
+A good **belief** has a *subject* and a well-defined *goal*. It doesn't necessarily matter if the goal is attainable, though. Unlike an **ambition**, a **belief** doesn't have to be long-term, at all. If it comes up during play, you could achieve your **belief** within the first session. On the other hand, some **beliefs** never come to fruition. 
+
+> Two **PC**s begin the game knowing each other. One starts with a background as a criminal, the other as a former monk. The former monk has a **belief** stating "Stealing isn't right! I will help my friend pick up honest work!" The thief, on the other hand has the **belief** "My friend has my back, but they really need to start looking after themselves! I will teach them to be more like me." 
+> 
+> These two **beliefs** allow these characters to come into conflict, despite their good intentions. How it will play out, no one can say. And that makes for an interesting conflict!
+
+Lastly, you need three [instincts](#instincts) for your character. Ideally, at least one of them should allow your **GM** getting your **PC** into *trouble*. 
+
+## Attributes & Skills
+There are two methods for determining your character's attributes: manual and semi-random. 
+
+Please keep in mind the values here are for a human. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your **GM** is running. 
+
+11 attributes 42 total
+
+### Manual Attribute Assignment
+* You can spend 20 points on your attributes. 
+* All attributes start at level 2. 
+* No attribute may have a level less than 2 nor higher than 6.
+* Only two attributes may have a level of 6. 
+
+> Player *A.* chooses manual attribute assignment - they know what kind of character they'd like to build. 
+> 
+> They pick two attributes they want to focus on. Let's say they picked **strength** and **toughness** - a good choice for a front-line fighter and ardent protector. 
+>
+> This means they already spent 8 points and have 12 left. 
+>
+> They put some emphasis on **endurance** - also good for a fighter - and place it at level 4. They have 8 points left. 
+> 
+> They level up, **oratory** and **will** - they plan on intimidating foes, while being unyielding, themselves. Those attributes are also at level 4, each. Thus, there are 4 points left. 
+>
+> The last 4 points are then spread out across **agility**, **perception**, **intelligence** and **empathy**, which are each now at level 3. 
+>
+> Thus, **arcana** and **wisdom** are left at level 2, with no more points left over to raise these attributes. 
+
+### Semi-Random Attribute Assignment
+* Roll 11 **D6**
+* Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
+* If there are more than 2 6s, start lowering their value by one, starting from the left or the right, until there are only 2 6s left. 
+* Count up the total of your values and subtract that from 42. 
+  * If the number is negative, that's the number of levels you'll have to go down. 
+  * If the number is positive, that's the number of levels you'll have to go up. 
+* Starting from the left or right, start adjusting each value, until your attribute level total is at 42. **But** don't adjust 6s, 2s or 1s. 
+  * If your levels have to go down, subtract one from each value.
+  * If your levels have to go up, add one to each value.
+* Any 1s left have to be turned into 2s. Repeat the process of bringing values down, in order to reach a total of 42. 
+
+> Player *B.* prefers the semi-random assignment method. Thus, they roll 11 **D6** with the following results: 1, 6, 4, 5, 5, 4, 5, 3, 6, 3, 6
+>
+> They lower their right-most 6, so they have only 2 6s: 1, 6, 4, 5, 5, 4, 5, 3, 6, 3, 5
+> 
+> Their level total is currently 47 and their difference is -5. That means five values will need to be lowered. 
+>
+> Starting from the left, they start lowering the values, one by one: 1, 6, 3, 4, 4, 3, 4, 3, 6, 3, 5
+> 
+> Now, the 1 must be turned into a 2: 2, 6, 3, 4, 4, 3, 4, 3, 6, 3, 5
+> 
+> The new total would now be 43, which is one point too many. One value must be lowered to compensate. Player *B.* decides to start from the right, this time, arriving at the final values: 2: 2, 6, 3, 4, 4, 3, 4, 3, 6, 3, 4
+> 
+> Thus, their final attribute levels are: 2 **agility**, 6 **endurance**, 3 **perception**, 4 **strength**, 4 **toughness**, 3 **arcana**, 4 **intelligence**, 3 **wisdom**, 6 **empathy**, 3 **oratory** and 4 **will**.
+> 
+> Perhaps this could be a very socially orientated character? With an **empathy** of 6, they'd make for a skilled diplomat, shrewd negotiator and attentive inquisitor. On the other hand, with an **endurance** of 6 and **arcana** of 3, they could become a very enduring mage. Perhaps that could be decided by a dice roll, too..?
+
+## Possessions
+TODO
 
 # Fate Points
 Fate points (**FP**) represent a meta-currency that *players* can earn and use to buy boons for their character or the group as a whole. 
