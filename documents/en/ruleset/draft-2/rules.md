@@ -1350,7 +1350,9 @@ Gender is personal preference, but could also be decided by a coin flip.
 | 10        | Scrawny     | Broken     | Pierced    | Greased  |
 
 ## Choosing Ambition, Beliefs & Instincts
-As described in the [section with the same name](#ambition-beliefs--instincts)
+As described in the [section with the same name](#ambition-beliefs--instincts), what your character believes in and what drives them onward, is key in playing them. Don't worry too much about your first **beliefs** and **instincts**, they're expected to change frequently, anyway. 
+
+Only your **ambition** will require some thought beforehand, but even so, you don't have to plan your character's future, at all. That is the **GM**'s job, after all. But keep in mind your character's **ambition** tells your **GM**, what kind of stories you'd like to explore and what's more, how your character will fit into them. 
 
 ### Choosing an Ambition
 At the core of every character stands their [ambition](#ambition), which is the primary force driving them. A good **ambition** should last you a long time and give the **GM** a hint what kind of story you want to explore with your character. 
