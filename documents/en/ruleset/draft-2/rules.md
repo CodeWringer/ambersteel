@@ -1391,8 +1391,6 @@ There are two methods for determining your character's attributes: manual and se
 
 Please keep in mind the values here are for a human. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your **GM** is running. 
 
-11 attributes 42 total
-
 ### Manual Attribute Assignment
 * You can spend 20 points on your attributes. 
 * All attributes start at level 2. 
@@ -1405,9 +1403,9 @@ Please keep in mind the values here are for a human. Other species may have modi
 >
 > This means they already spent 8 points and have 12 left. 
 >
-> They put some emphasis on **endurance** - also good for a fighter - and place it at level 4. They have 8 points left. 
+> They put some emphasis on **endurance** - also good for a fighter - and place it at level 4. They have 10 points left. 
 > 
-> They level up, **oratory** and **will** - they plan on intimidating foes, while being unyielding, themselves. Those attributes are also at level 4, each. Thus, there are 4 points left. 
+> They level up **oratory** and **will** - they plan on intimidating foes, while being unyielding, themselves. Those attributes are at level 5, each. Thus, there are 4 points left. 
 >
 > The last 4 points are then spread out across **agility**, **perception**, **intelligence** and **empathy**, which are each now at level 3. 
 >
