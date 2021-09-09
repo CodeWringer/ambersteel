@@ -156,7 +156,10 @@
       - [The Last Few Years](#the-last-few-years)
     - [Determine Name & Personality](#determine-name--personality)
     - [Species, Sex & Appearance](#species-sex--appearance)
-  - [Ambition, Beliefs & Instincts](#ambition-beliefs--instincts)
+  - [Choosing Ambition, Beliefs & Instincts](#choosing-ambition-beliefs--instincts)
+    - [Choosing an Ambition](#choosing-an-ambition)
+    - [Choosing Beliefs](#choosing-beliefs)
+    - [Choosing Instincts](#choosing-instincts)
   - [Attributes & Skills](#attributes--skills)
     - [Manual Attribute Assignment](#manual-attribute-assignment)
     - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
@@ -1346,10 +1349,13 @@ Gender is personal preference, but could also be decided by a coin flip.
 | 9         | Short       | Narrow     | Pale       | Wavy     |
 | 10        | Scrawny     | Broken     | Pierced    | Greased  |
 
-## Ambition, Beliefs & Instincts
+## Choosing Ambition, Beliefs & Instincts
+As described in the [section with the same name](#ambition-beliefs--instincts)
+
+### Choosing an Ambition
 At the core of every character stands their [ambition](#ambition), which is the primary force driving them. A good **ambition** should last you a long time and give the **GM** a hint what kind of story you want to explore with your character. 
 
-Talk to your **GM** about the **ambition** you want your character to have. On the one hand, it allows them to determine the kind of story you want to explore and they can also be the arbiter in whether the **ambition** is a suitable long-term goal. 
+Talk to your **GM** about the **ambition** you want your character to have. On the one hand, it allows them to determine the kind of story you want to explore and on the other hand they can guage whether the **ambition** is a suitable long-term goal. 
 
 Keep in mind the **ambition** you can randomly determine here is kept most basic and generic. Work with your **GM** to fill in the details. 
 
@@ -1366,6 +1372,7 @@ Keep in mind the **ambition** you can randomly determine here is kept most basic
 | 9         | World Betterment   | 
 | 10        | Fire               | 
 
+### Choosing Beliefs
 Now, the time to determine your three [beliefs](#beliefs) has come. Yet again, your **GM** is integral in finding them. However, the other **PC**s are also of interest now. You can have **beliefs** whose subject is one of the other **PC**s. You could have the game begin with two or more of the **PC**s knowing each other. 
 
 A good **belief** has a *subject* and a well-defined *goal*. It doesn't necessarily matter if the goal is attainable, though. Unlike an **ambition**, a **belief** doesn't have to be long-term, at all. If it comes up during play, you could achieve your **belief** within the first session. On the other hand, some **beliefs** never come to fruition. 
@@ -1374,6 +1381,7 @@ A good **belief** has a *subject* and a well-defined *goal*. It doesn't necessar
 > 
 > These two **beliefs** allow these characters to come into conflict, despite their good intentions. How it will play out, no one can say. And that makes for an interesting conflict!
 
+### Choosing Instincts
 Lastly, you need three [instincts](#instincts) for your character. Ideally, at least one of them should allow your **GM** getting your **PC** into *trouble*. 
 
 ## Attributes & Skills
