@@ -907,14 +907,17 @@ How much **damage** is resisted, depends on the specifics of the creature or cha
 A character may have things on their persion, such as worn equipment, as well as the things they *own*. 
 
 ### Money
-Money is generalized as **crowns**, with no regard for regional currencies. The following table gives a brief overview of the value of crowns. 
+Money is generalized as **crowns**, with no regard for regional currencies. The following table gives a brief overview of the value of **crowns**. 
+
+Keep in mind most of the really expensive things are usually paid for not in **crowns**, but rather in favors, fealty or rare items. 
+
 | Cost Range | Goods                      | Services                   |
 | ---------- | -------------------------- | -------------------------- |
 | 1-10       | Unprocessed foods; Very common things | Simple Lodgings; Sending a message a short distance with a messenger; Peasant's and hireling pay |
 | 10-50      | Low to medium quality alcoholic drinks; A proper, warm meal; Simple tools and items; Simple weapons, like a dagger or woodcutter's axe; Plain clothes or cloth; Farm animals; Somewhat common things | Lodgings in a private room; Private services; Simple equipment repairs; Travel by carriage or stagecoach; A simple guard's pay |
 | 50-100     | Light armor; Decorated clothes; Weapons; Shields; Fine drinks; Lordly meals; Decorative silver things; Low-quality gems; Horses; Books and Scriptures; Uncommon things | Medical services; An elite guard's pay |
-| 100-500    | Medium to heavy armor; Well-made weapons; Decorative gold things; High-quality gems; Carefully bred war-steeds; Rare things |  |
-| 500-1000   | Decorated armor; Decorated well-made weapons; [Magic runes](#runes); Very rare things |  |
+| 100-500    | Medium to heavy armor; Well-made weapons; Decorative gold things; High-quality gems; Carefully bred war-steeds; Small building in a large city; Rare things |  |
+| 500-1000   | Decorated armor; Decorated well-made weapons; Large building in a large city; [Magic runes](#runes); Very rare things |  |
 
 ### Carrying Capacity
 Characters have **item slots** that determine how much they can carry. How many **item slots** they have, is determined by their [strength](#strength-str). The number of **item slots** a character has is referred to as the **carrying capacity**. 
@@ -925,7 +928,9 @@ Most things will take up one **slot**, which equals something around 5lb./2kg, b
 
 So, while most items, such as tools, a day's rations, or books have only 1 **bulk**, armor and weapons typically have more. 
 
-100 [crowns](#money) can fit into one **slot**. 
+Up to 100 [crowns](#money) can fit into one **slot**. 
+
+> A **PC** has 56 **crowns**, those all go into 1 **slot**. Their ally is significantly wealthier, with 314 **crowns**, which take up 3 **item slots**.
 
 It is up to the **GM** to decide on when something is *too heavy* to carry for the character in question. 
 
@@ -1152,6 +1157,7 @@ A long distance ranged weapon, shooting arrows.
 | 0     | +5 | Shoot                   | 3  | 90'/30m  | **2D6 + 2** **Piercing**  | / |
 
 ### Armor Types
+Armor reduces damage to its wearer by a flat amount. By how much, is specific to each armor type. Some armors can have special protections or effects. 
 
 #### Light Armor
 A set of light armor that doesn't impede the wearer by much. Commonly represents a gambeson or thick cloth vest. 
@@ -1440,7 +1446,13 @@ Please keep in mind the values here are for a human. Other species may have modi
 > Perhaps this could be a very socially orientated character? With an **empathy** of 6, they'd make for a skilled diplomat, shrewd negotiator and attentive inquisitor. On the other hand, with an **endurance** of 6 and **arcana** of 3, they could become a very enduring mage. Perhaps that could be decided by a dice roll, too..?
 
 ## Possessions
-TODO
+You can add things your character starts the game with. It is best to start with weapon(s), armor, shield and necessities, like food rations and torches. 
+
+However, there some limitations:
+* Max 20 **bulk** total.
+* Only one armor.
+* Only one weapon of **bulk** 3+ OR two weapons of **bulk** 1 or **bulk** 2.
+* Only one shield.
 
 # Fate Points
 Fate points (**FP**) represent a meta-currency that *players* can earn and use to buy boons for their character or the group as a whole. 
