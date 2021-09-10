@@ -156,14 +156,14 @@
       - [The Last Few Years](#the-last-few-years)
     - [Determine Name & Personality](#determine-name--personality)
     - [Species, Sex & Appearance](#species-sex--appearance)
-  - [Choosing Ambition, Beliefs & Instincts](#choosing-ambition-beliefs--instincts)
-    - [Choosing an Ambition](#choosing-an-ambition)
-    - [Choosing Beliefs](#choosing-beliefs)
-    - [Choosing Instincts](#choosing-instincts)
-  - [Attributes & Skills](#attributes--skills)
-    - [Manual Attribute Assignment](#manual-attribute-assignment)
-    - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
-  - [Possessions](#possessions)
+    - [Choosing Ambition, Beliefs & Instincts](#choosing-ambition-beliefs--instincts)
+      - [Choosing an Ambition](#choosing-an-ambition)
+      - [Choosing Beliefs](#choosing-beliefs)
+      - [Choosing Instincts](#choosing-instincts)
+    - [Attributes & Skills](#attributes--skills)
+      - [Manual Attribute Assignment](#manual-attribute-assignment)
+      - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
+    - [Possessions](#possessions)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
   - [Major Fate Points](#major-fate-points)
@@ -1355,12 +1355,12 @@ Gender is personal preference, but could also be decided by a coin flip.
 | 9         | Short       | Narrow     | Pale       | Wavy     |
 | 10        | Scrawny     | Broken     | Pierced    | Greased  |
 
-## Choosing Ambition, Beliefs & Instincts
+### Choosing Ambition, Beliefs & Instincts
 As described in the [section with the same name](#ambitions-beliefs--instincts), what your character believes in and what drives them onward, is key in playing them. Don't worry too much about your first **beliefs** and **instincts**, they're expected to change frequently, anyway. 
 
 Only your **ambition** will require some thought beforehand, but even so, you don't have to plan your character's future, at all. That is the **GM**'s job, after all. But keep in mind your character's **ambition** tells your **GM**, what kind of stories you'd like to explore and what's more, how your character will fit into them. 
 
-### Choosing an Ambition
+#### Choosing an Ambition
 At the core of every character stands their [ambition](#ambition), which is the primary force driving them. A good **ambition** should last you a long time and give the **GM** a hint what kind of story you want to explore with your character. 
 
 Talk to your **GM** about the **ambition** you want your character to have. On the one hand, it allows them to determine the kind of story you want to explore and on the other hand they can guage whether the **ambition** is a suitable long-term goal. 
@@ -1380,7 +1380,7 @@ Keep in mind the **ambition** you can randomly determine here is kept most basic
 | 9         | World Betterment   | 
 | 10        | Fire               | 
 
-### Choosing Beliefs
+#### Choosing Beliefs
 Now, the time to determine your three [beliefs](#beliefs) has come. Yet again, your **GM** is integral in finding them. However, the other **PC**s are also of interest now. You can have **beliefs** whose subject is one of the other **PC**s. You could have the game begin with two or more of the **PC**s knowing each other. 
 
 A good **belief** has a *subject* and a well-defined *goal*. It doesn't necessarily matter if the goal is attainable, though. Unlike an **ambition**, a **belief** doesn't have to be long-term, at all. If it comes up during play, you could achieve your **belief** within the first session. On the other hand, some **beliefs** never come to fruition. 
@@ -1389,15 +1389,15 @@ A good **belief** has a *subject* and a well-defined *goal*. It doesn't necessar
 > 
 > These two **beliefs** allow these characters to come into conflict, despite their good intentions. How it will play out, no one can say. And that makes for an interesting conflict!
 
-### Choosing Instincts
+#### Choosing Instincts
 Lastly, you need three [instincts](#instincts) for your character. Ideally, at least one of them should allow your **GM** getting your **PC** into *trouble*. 
 
-## Attributes & Skills
+### Attributes & Skills
 There are two methods for determining your character's attributes: manual and semi-random. 
 
 Please keep in mind the values here are for a human. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your **GM** is running. 
 
-### Manual Attribute Assignment
+#### Manual Attribute Assignment
 * You can spend 20 points on your attributes. 
 * All attributes start at level 2. 
 * No attribute may have a level less than 2 nor higher than 6.
@@ -1417,7 +1417,7 @@ Please keep in mind the values here are for a human. Other species may have modi
 >
 > Thus, **arcana** and **wisdom** are left at level 2, with no more points left over to raise these attributes. 
 
-### Semi-Random Attribute Assignment
+#### Semi-Random Attribute Assignment
 * Roll 11 **D6**
 * Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
 * If there are more than 2 6s, start lowering their value by one, starting from the left or the right, until there are only 2 6s left. 
@@ -1445,7 +1445,7 @@ Please keep in mind the values here are for a human. Other species may have modi
 > 
 > Perhaps this could be a very socially orientated character? With an **empathy** of 6, they'd make for a skilled diplomat, shrewd negotiator and attentive inquisitor. On the other hand, with an **endurance** of 6 and **arcana** of 3, they could become a very enduring mage. Perhaps that could be decided by a dice roll, too..?
 
-## Possessions
+### Possessions
 You can add things your character starts the game with. It is best to start with weapon(s), armor, shield and necessities, like food rations and torches. 
 
 However, there some limitations:
