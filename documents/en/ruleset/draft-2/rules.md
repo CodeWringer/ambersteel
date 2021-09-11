@@ -160,9 +160,10 @@
       - [Choosing an Ambition](#choosing-an-ambition)
       - [Choosing Beliefs](#choosing-beliefs)
       - [Choosing Instincts](#choosing-instincts)
-    - [Attributes & Skills](#attributes--skills)
+    - [Choosing Attributes](#choosing-attributes)
       - [Manual Attribute Assignment](#manual-attribute-assignment)
       - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
+    - [Choosing Skills](#choosing-skills)
     - [Possessions](#possessions)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
@@ -1392,7 +1393,7 @@ A good **belief** has a *subject* and a well-defined *goal*. It doesn't necessar
 #### Choosing Instincts
 Lastly, you need three [instincts](#instincts) for your character. Ideally, at least one of them should allow your **GM** getting your **PC** into *trouble*. 
 
-### Attributes & Skills
+### Choosing Attributes
 There are two methods for determining your character's attributes: manual and semi-random. 
 
 Please keep in mind the values here are for a human. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your **GM** is running. 
@@ -1444,6 +1445,13 @@ Please keep in mind the values here are for a human. Other species may have modi
 > Thus, their final attribute levels are: 2 **agility**, 6 **endurance**, 3 **perception**, 4 **strength**, 4 **toughness**, 3 **arcana**, 4 **intelligence**, 3 **wisdom**, 6 **empathy**, 3 **oratory** and 4 **will**.
 > 
 > Perhaps this could be a very socially orientated character? With an **empathy** of 6, they'd make for a skilled diplomat, shrewd negotiator and attentive inquisitor. On the other hand, with an **endurance** of 6 and **arcana** of 3, they could become a very enduring mage. Perhaps that could be decided by a dice roll, too..?
+
+### Choosing Skills
+You can spend 15 points to *learn* skills and raise their level, with the following limitations:
+* No skill can be at level 6+
+* Max of 7 skills. 
+* No skills can be set to *learning*.
+* Skills must relate to background. 
 
 ### Possessions
 You can add things your character starts the game with. It is best to start with weapon(s), armor, shield and necessities, like food rations and torches. 
