@@ -201,6 +201,8 @@
 
 Version 0.1 "Kettgard"
 
+A role-playing game by Nicolas Haase
+
 # Introduction
 **Ambersteel** is a role-playing game, requiring a **game master** (henceforth referred to as the **GM**) and at least one **player** to play. 
 
