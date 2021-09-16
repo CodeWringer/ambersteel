@@ -92,7 +92,7 @@
       - [Bow-Making (Agi)](#bow-making-agi)
       - [Carpentry (Agi)](#carpentry-agi)
       - [Clothesmaking (Agi)](#clothesmaking-agi)
-      - [Cooking (Dex + Perc + Wis)](#cooking-dex--perc--wis)
+      - [Cooking (Emp)](#cooking-emp)
       - [Engineering (Int)](#engineering-int)
       - [Fishing (End)](#fishing-end)
       - [Fletching (Agi)](#fletching-agi)
@@ -165,6 +165,7 @@
       - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
     - [Choosing Skills](#choosing-skills)
     - [Possessions](#possessions)
+    - [Determine Hit Points and Carrying Capacity](#determine-hit-points-and-carrying-capacity)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
   - [Major Fate Points](#major-fate-points)
@@ -197,6 +198,7 @@
     - [Amberite](#amberite)
     - [Ambersteel](#ambersteel)
     - [Runes](#runes)
+- [Game Mastery](#game-mastery)
 - [Credits](#credits)
 
 Version 0.1 "Kettgard"
@@ -467,21 +469,23 @@ A skill in learning can only be tested with their related [attribute](#attribute
 
 The outcome of a test gets noted on the skill it was made for, not the attribute actually used for the test. 
 
+**Forking** learning skills is not allowed. **Forking** into learning skills isn't allowed, either. 
+
 ### Advancing Skills
 Whenever a **PC** uses a skill in a [test](#tests), the outcome must be noted. 
 
 Advancing a skill requires:
-* 2 + N * 2 **complete successess**.
-* 4 + N * 3 **partial successess** or **complete failures**.
+* (N * 2) + 2 **complete successess**.
+* (N * 3) + 4 **partial successess** or **complete failures**.
 * Where *N* is the current level of the skill. 
 
 > A character has a [nature](#nature-int) skill at level 1. 
 > 
-> To advance their skill to level 2, they would need 2 + 1 * 2 = 4 **complete successes** and 4 + 1 * 3 = 7 **partial successess** or **complete failures**
+> To advance their skill to level 2, they would need (1 * 2) + 2 = 4 **complete successes** and (1 * 3) + 4 = 7 **partial successess** or **complete failures**
 
 > A character has a [medicine](#medicine-int) skill at level 4. 
 > 
-> To advance their skill to level 5, they would need 2 + 4 * 2 = 10 **complete successes** and 4 + 4 * 3 = 16 **partial successess** or **complete failures**
+> To advance their skill to level 5, they would need (4 * 2) + 2 = 10 **complete successes** and (4 * 3) + 4 = 16 **partial successess** or **complete failures**
 
 #### Practice
 It is possible to advance skills *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice a skill of choice. 
@@ -688,7 +692,7 @@ The ability to shape wood to craft predominantly wooden things.
 #### Clothesmaking (Agi)
 The ability to make comfortable, well-fitting and decorated clothes. 
 
-#### Cooking (Dex + Perc + Wis)
+#### Cooking (Emp)
 The ability to cook well. Poor cooks are prone to losing ingredients due to burning them or overcooking them to the point of inedibility. 
 
 #### Engineering (Int)
@@ -786,14 +790,14 @@ An **Inj.** can be properly **treated** via [surgery](#surgery-int):
 * If the attempt at is a complete failure, the **Inj.** becomes permanent. It cannot be **treated** via [surgery](#surgery-int) anymore. 
 * Only one [surgery](#surgery-int) attempt can be made every 24 hours. 
 
-All currently **treated** **Inj.** can be removed/recovered from, by spending **ND4** weeks in recovery, where *N* is the current number of **treated** **Inj.** 
+All currently **treated** **Inj.** can be removed/recovered from, by spending **ND4** weeks in uninterrupted, active recovery, where *N* is the current number of **treated** **Inj.** Active recovery implies spending the vast majority of the day in bed or at least avoiding physical or mental strains. 
 
 #### List of Injuries
-How many times a **debility** can be suffered, can be limited. In the table below, the *max* is the maximum number of times the **debility** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **debility**, pick the next **debility** below it, instead. 
+How many times an **injury** can be suffered, can be limited. In the table below, the *max* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead. 
 
 | Range D100 | Injury              | Max | Description                      |
 | ---------  | ------------------- | --- | -------------------------------- |
-| 0 - 5      | Cosmic Fortune      | /   | Luck is with you! You suffer no **debility**! |
+| 0 - 5      | Cosmic Fortune      | /   | Luck is with you! You suffer no **injury**! |
 | 6 - 10     | Butchered Arm       | 2   | -1 [Agility](#agility-agi); Actions and equipment requiring two hands cannot be used. If incurred twice, any actions requiring arm movement is impossible. |
 | 11 - 15    | Broken Leg          | 2   | -1 [Agility](#agility-agi); Max movement of 3'/1m; If incurred twice, actions involving movement are impossible. |
 | 16 - 19    | Skull Fracture      | 1   | -1 [Intelligence](#intelligence-int); -1 [Wisdom](#wisdom-wis) |
@@ -807,7 +811,7 @@ How many times a **debility** can be suffered, can be limited. In the table belo
 | 61 - 66    | Knocked Senseless   | /   | -1 [Perception](#perception-perc) |
 | 67 - 72    | Torn Tendon         | /   | -1 [Strength](#strength-str) | 
 | 73 - 79    | Mental Trauma       | /   | -1 [Will](#will-will) | 
-| 80 - 94    | Tremors             | /   | -1 [Arcana](#arcana-arc); [Agility](#agility-agi) | 
+| 80 - 94    | Tremors             | /   | -1 [Arcana](#arcana-arc); -1 [Agility](#agility-agi) | 
 | 95 - 100   | Cosmic Misfortune   | 1   | [Disadvantage](#advantage--disadvantage) on all tests. | 
 
 ### Exhaustion
@@ -865,7 +869,7 @@ Any illness, that when treated has its duration reduced, can only have its durat
 | ---------- | ------------ | ------------- | ----------- | --------- |
 | 0 - 7 | Strength Sap | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D3** [strength](#strength-str); **-1D3** [agility](#agility-agi); Max 6'/2m movement distance. | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
 | 8 - 15 | Lung Fever | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D3 + 1)** [endurance](#endurance-end). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
-| 16 - 23 | Bleeder's Curse | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [dazed](#dazed). | [medicine](#medicine-int); Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
+| 16 - 23 | Water's Curse | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [dazed](#dazed). | [medicine](#medicine-int); Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
 | 24 - 31 | Jazz-Hands | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D3** [agility](#agility-agi); **-1D4** [arcana](#arcana-arc). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
 | 32 - 39 | Brain Rot | **2D10** Days | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D3** [intelligence](#intelligence-int); **-1D3** [wisdom](#wisdom-wis). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
 | 40 - 47 | Feeble Tounge | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D3** [oratory](#oratory-ora). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
@@ -1279,6 +1283,7 @@ The procedure of creating a character consists of the following steps:
 4. Determine **ambition**, **beliefs** & **instincts**. 
 5. Determine **attributes** & **skills**.
 6. Determine **possessions**. 
+7. Determine **HP** and **carrying capacity**
 
 ### Determine Life Path
 Where and when does the story of your character begin? Under what circumstances are they born and how were they raised? Until adulthood, did they lead a life of carelessness or did they have to fight for every scrap of food? How did they lead their life up until the point the picked up adventuring? 
@@ -1463,6 +1468,9 @@ However, there some limitations:
 * Only one armor.
 * Only one weapon of **bulk** 3+ OR two weapons of **bulk** 1 or **bulk** 2.
 * Only one shield.
+
+### Determine Hit Points and Carrying Capacity
+
 
 # Fate Points
 Fate points (**FP**) represent a meta-currency that *players* can earn and use to buy boons for their character or the group as a whole. 
@@ -1735,6 +1743,9 @@ In order to craft a **rune**:
 In order to invoke a **rune**:
 * A **complete success** of a [rune-using](#rune-using-agi) skill test will invoke the spell of the **rune** as expected.
 * A **partial success** or **complete failure** results in a [spell backfire](#spell-backfire). 
+
+# Game Mastery
+
 
 # Credits
 **Ambersteel** is not a revolution of the RPG genre and it was never meant to be. It is an amalgam and consolidation of rules I found to my personal preference, in hopes of crafting a deep, yet intuitive system. 
