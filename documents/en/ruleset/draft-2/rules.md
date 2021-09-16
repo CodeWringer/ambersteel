@@ -164,8 +164,9 @@
       - [Manual Attribute Assignment](#manual-attribute-assignment)
       - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
     - [Choosing Skills](#choosing-skills)
-    - [Possessions](#possessions)
-    - [Determine Hit Points and Carrying Capacity](#determine-hit-points-and-carrying-capacity)
+    - [Carrying Capactity & Possessions](#carrying-capactity--possessions)
+    - [Determine Max HP & Max Inj](#determine-max-hp--max-inj)
+    - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
 - [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
   - [Major Fate Points](#major-fate-points)
@@ -929,7 +930,7 @@ Keep in mind most of the really expensive things are usually paid for not in **c
 ### Carrying Capacity
 Characters have **item slots** that determine how much they can carry. How many **item slots** they have, is determined by their [strength](#strength-str). The number of **item slots** a character has is referred to as the **carrying capacity**. 
 
-Most things will take up one **slot**, which equals something around 5lb./2kg, but some particularly large and/or heavy items can take up more **slots**. How many **slots** an item takes up, is referred to as **bulk**. 
+Most things will take up one **slot**, which equals something around 5lb/2kg, but some particularly large and/or heavy items can take up more **slots**. How many **slots** an item takes up, is referred to as **bulk**. 
 
 > An item with **bulk** 2 takes up 2 **item slots**. 
 
@@ -937,17 +938,17 @@ So, while most items, such as tools, a day's rations, or books have only 1 **bul
 
 Up to 100 [crowns](#money) can fit into one **slot**. 
 
-> A **PC** has 56 **crowns**, those all go into 1 **slot**. Their ally is significantly wealthier, with 314 **crowns**, which take up 3 **item slots**.
+> A **PC** has 56 **crowns**, those all go into 1 **slot**. Their ally is significantly wealthier, with 314 **crowns**, which take up 4 **item slots**.
 
 It is up to the **GM** to decide on when something is *too heavy* to carry for the character in question. 
 
 ### Weapon Types
-Weapons can have one or more of the following **weapon attributes**:
+Weapons can have the following **weapon attributes**:
 * **Long Reach**: Allows attacking a target two squares (6'/2m) away. 
 * **Range Only**: Implies a weapon cannot be used against any targets adjacent to self. 
 * **Prefer Range**: +2 **Ob** to using the weapon against an adjacent target. 
 
-Weapons can have one or more of the following **effects**:
+Weapons can have the following **effects**:
 * A **counter-attack** is a reaction that allows a fighter being attacked to attack their attacker. 
 
 #### Unarmed
@@ -955,7 +956,7 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 
 | Skill | **Ob** | Attack              | AP | Damage            | Effect |
 | ----- | ------ | --------------------| -- | ----------------- | ------ |
-| 0     | 0  | Punch, kick, headbutt   | 2  | 2 **Bludgeoning** | / |
+| 0     | 0  | Punch, kick, headbutt   | 2  | N + 2 **Bludgeoning**, where N = [strength](#strength-str) | / |
 | 1     | 0  | Grapple                 | 2  | /                 | Requires a successful opposed [strength](#strength-str) test. If **completely successful** The target is unable to move and suffers -1 [melee defence](#melee-defence-agi) while grappled. Someone grappled can attempt to break free with an opposed [strength](#strength-str) test, on their turn. |
 
 #### Short Blade
@@ -982,7 +983,7 @@ Any long blade, including long one-handed blades. Examples: arming sword, bastar
 | 0     | 0  | Slash                   | 2  | **2D4** **Slashing** | / |
 | 0     | 0  | Stab                    | 2  | **1D6** **Piercing** | / |
 | 3     | +2 | Mordhau-Strike          | 2  | **1D4** **Crushing** | / |
-| 4     | 0  | Fencer-Stance           | 3  | / | Self enters a defensive fencing stance. They gain +2 [melee defence](#melee-defence-agi) and can **counter-attack** with a **slash**. |
+| 4     | 0  | Fencer-Stance           | 3  | / | Enter a defensive fencing stance. Gain +2 [melee defence](#melee-defence-agi) and can **counter-attack** with a **slash**. |
 
 #### Great Blade
 Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
@@ -1042,7 +1043,7 @@ Any one or two-handed long piercing polearms. Examples: pike, lance
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
 | ----- | ------ | --------------------| -- | ---------------- | ------ |
 | 0     | 0  | Stab                    | 2  | **1D8** **Piercing**  | / |
-| 3     | 0  | Couched Lancing         | 3  | / | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target, allowing them an attack dealing **3D10** **Piercing** damage to the target. |
+| 3     | 0  | Couched Lancing         | 3  | / | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target, allowing an attack dealing **3D10** **Piercing** damage to the target. |
 
 #### Polearm
 Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
@@ -1226,7 +1227,7 @@ A small, round shield commonly held as far from the body as possible, to deflect
 | Defensive Bonus |
 | --------------- |
 | +1 [melee defence](#melee-defence-agi).  |
-| +2 [melee defence](#melee-defence-agi) against **stabbing** attacks. |
+| +3 [melee defence](#melee-defence-agi) against **stabbing** attacks. |
 
 #### Round Shield
 A medium-sized, round shield made from tough wood and leather, which offers decent protection against most attacks, while not encumbering the wielder too much. 
@@ -1252,6 +1253,7 @@ A tough and heavy metal shield, which offers great protection, while still being
 A large, kite-shaped shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight makes it difficult to react to attacks quickly, hoever. 
 
 * Bulk: 4
+* +1 [exhaustion](#exhaustion) while wielded
 
 | Defensive Bonus |
 | --------------- |
@@ -1277,13 +1279,15 @@ Creating an interesting and life-like character is a challenging, but ultimately
 If you don't feel inspired, the following sections can provide tips and randomization tables that allow you write up a character more quickly. 
 
 The procedure of creating a character consists of the following steps:
-1. Determine life path. 
-2. Determine name & personality.
-3. Determine species, sex & appearance.
-4. Determine **ambition**, **beliefs** & **instincts**. 
-5. Determine **attributes** & **skills**.
-6. Determine **possessions**. 
-7. Determine **HP** and **carrying capacity**
+1. [Determine life path](#determine-life-path). 
+2. [Determine name & personality](#determine-name--personality).
+3. [Determine species, sex & appearance](#species-sex--appearance).
+4. [Determine **ambition**, **beliefs** & **instincts**](#choosing-ambition-beliefs--instincts). 
+5. [Determine **attributes**](#choosing-attributes).
+6. [Determine **skills**](#choosing-skills).
+7. [Determine **carrying capacity** and **possessions**](#carrying-capactity--possessions).
+8. [Determine **Max HP** and **Max Inj.**](#determine-max-hp--max-inj)
+9. [Determine exhaustion threshold](#determine-exhaustion-threshold).
 
 ### Determine Life Path
 Where and when does the story of your character begin? Under what circumstances are they born and how were they raised? Until adulthood, did they lead a life of carelessness or did they have to fight for every scrap of food? How did they lead their life up until the point the picked up adventuring? 
@@ -1460,7 +1464,9 @@ You can spend 15 points to *learn* skills and raise their level, with the follow
 * No skills can be set to *learning*.
 * Skills must relate to background. 
 
-### Possessions
+### Carrying Capactity & Possessions
+First, determine your character's maximum [carrying capacity](#carrying-capacity). Refer to the [strength](#strength-str) attribute to do so. 
+
 You can add things your character starts the game with. It is best to start with weapon(s), armor, shield and necessities, like food rations and torches. 
 
 However, there some limitations:
@@ -1469,8 +1475,11 @@ However, there some limitations:
 * Only one weapon of **bulk** 3+ OR two weapons of **bulk** 1 or **bulk** 2.
 * Only one shield.
 
-### Determine Hit Points and Carrying Capacity
+### Determine Max HP & Max Inj
+Determine your character's **max HP** and **max Inj**, by referring to the [toughness](#toughness-tough) attribute. 
 
+### Determine Exhaustion Threshold
+Determine your character's [exhaustion threshold](#exhaustion), by referring to the [endurance](#endurance-end) attribute. 
 
 # Fate Points
 Fate points (**FP**) represent a meta-currency that *players* can earn and use to buy boons for their character or the group as a whole. 

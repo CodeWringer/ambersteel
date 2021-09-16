@@ -75,6 +75,8 @@ Maximum Spell Intensity: ______
 # Bodily Limits
 Exhaustion Threshold: ______
 
+Current Exhaustion: ______
+
 Maximum Hit Points (Max HP): ______
 
 Current Hit Points (HP): ______
@@ -93,9 +95,13 @@ Injury Limit: ______
 |___________________|__________________________|___|___|_____|
 |___________________|__________________________|___|___|_____|
 
-| Name         | Duration      | Effect      | Treatment |
-| ------------ | ------------- | ----------- | --------- |
+| Illness      | Duration      | Effect      |
+| ------------ | ------------- | ----------- |
 |__________________________|______|__________________________|
+
+Bleeding: ______
+
+Poisoned: ______
 
 # Possessions
 Carrying Capacity: ______
