@@ -41,6 +41,76 @@
     - [Advancing Skills](#advancing-skills)
       - [Practice](#practice)
       - [Teaching](#teaching)
+  - [Ambitions, Beliefs & Instincts](#ambitions-beliefs--instincts)
+    - [Ambition](#ambition)
+    - [Beliefs](#beliefs)
+    - [Instincts](#instincts)
+  - [Health & Exhaustion](#health--exhaustion)
+    - [Injury](#injury)
+    - [Exhaustion](#exhaustion)
+    - [Status Effects](#status-effects)
+      - [Dazed](#dazed)
+      - [Grappled](#grappled)
+      - [Death's Door](#deaths-door)
+    - [Illness](#illness)
+    - [Damage Types](#damage-types)
+    - [Damage Over Time](#damage-over-time)
+    - [Damage Resistances](#damage-resistances)
+  - [Possessions & Equipment](#possessions--equipment)
+    - [Money](#money)
+    - [Carrying Capacity](#carrying-capacity)
+  - [Character Creation](#character-creation)
+    - [Determine Life Path](#determine-life-path)
+      - [Origin](#origin)
+      - [Youth](#youth)
+      - [The Last Few Years](#the-last-few-years)
+    - [Determine Name & Personality](#determine-name--personality)
+    - [Species, Sex & Appearance](#species-sex--appearance)
+    - [Choosing Ambition, Beliefs & Instincts](#choosing-ambition-beliefs--instincts)
+      - [Choosing an Ambition](#choosing-an-ambition)
+      - [Choosing Beliefs](#choosing-beliefs)
+      - [Choosing Instincts](#choosing-instincts)
+    - [Choosing Attributes](#choosing-attributes)
+      - [Manual Attribute Assignment](#manual-attribute-assignment)
+      - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
+    - [Choosing Skills](#choosing-skills)
+    - [Carrying Capactity & Possessions](#carrying-capactity--possessions)
+    - [Determine Max HP & Max Inj](#determine-max-hp--max-inj)
+    - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
+- [Fate Points](#fate-points)
+  - [Minor Fate Points](#minor-fate-points)
+  - [Major Fate Points](#major-fate-points)
+  - [Ambition Fate Points](#ambition-fate-points)
+  - [Hand of Fate](#hand-of-fate)
+- [Combat](#combat)
+  - [Who Acts When](#who-acts-when)
+  - [Combat Actions](#combat-actions)
+  - [How to Attack](#how-to-attack)
+    - [Types of Attack](#types-of-attack)
+      - [Aimed Attack](#aimed-attack)
+      - [Difficult Attack](#difficult-attack)
+      - [Easy Attack](#easy-attack)
+      - [Execution Attack](#execution-attack)
+- [Magic](#magic)
+  - [Spell Intensity](#spell-intensity)
+  - [Maximum Spell Intensity](#maximum-spell-intensity)
+  - [Spell Backfire](#spell-backfire)
+  - [Casting Magic](#casting-magic)
+  - [Magic Schools](#magic-schools)
+    - [Pyromancy](#pyromancy)
+    - [Cryomancy](#cryomancy)
+    - [Restoration](#restoration)
+    - [Alteration](#alteration)
+    - [Illusion](#illusion)
+    - [Soul-Binding](#soul-binding)
+    - [Counter-Magic](#counter-magic)
+  - [Magic Things](#magic-things)
+    - [Abyssalite](#abyssalite)
+    - [Amberite](#amberite)
+    - [Ambersteel](#ambersteel)
+    - [Runes](#runes)
+- [Game Mastery](#game-mastery)
+- [Appendix](#appendix)
   - [Skill List](#skill-list)
     - [Physical skills](#physical-skills)
       - [Acrobatics (Agi)](#acrobatics-agi)
@@ -101,106 +171,37 @@
       - [Masonry (Str)](#masonry-str)
       - [Rune Carving (Arc)](#rune-carving-arc)
       - [Weapon smithing (Str)](#weapon-smithing-str)
-  - [Ambitions, Beliefs & Instincts](#ambitions-beliefs--instincts)
-    - [Ambition](#ambition)
-    - [Beliefs](#beliefs)
-    - [Instincts](#instincts)
-  - [Health & Exhaustion](#health--exhaustion)
-    - [Injury](#injury)
-      - [List of Injuries](#list-of-injuries)
-    - [Exhaustion](#exhaustion)
-    - [Status Effects](#status-effects)
-      - [Dazed](#dazed)
-      - [Grappled](#grappled)
-      - [Death's Door](#deaths-door)
-    - [Illness](#illness)
-      - [List of Illnesses](#list-of-illnesses)
-    - [Damage Types](#damage-types)
-    - [Damage Over Time](#damage-over-time)
-    - [Damage Resistances](#damage-resistances)
-  - [Possessions & Equipment](#possessions--equipment)
-    - [Money](#money)
-    - [Carrying Capacity](#carrying-capacity)
-    - [Weapon Types](#weapon-types)
-      - [Unarmed](#unarmed)
-      - [Short Blade](#short-blade)
-      - [Long Blade](#long-blade)
-      - [Great Blade](#great-blade)
-      - [Axe](#axe)
-      - [Great Axe](#great-axe)
-      - [Spear](#spear)
-      - [Lance](#lance)
-      - [Polearm](#polearm)
-      - [Club](#club)
-      - [Small Crusher](#small-crusher)
-      - [Large Crusher](#large-crusher)
-      - [Short-Bow](#short-bow)
-      - [Longbow](#longbow)
-      - [War-Bow](#war-bow)
-      - [Crossbow](#crossbow)
-      - [Firearm](#firearm)
-    - [Armor Types](#armor-types)
-      - [Light Armor](#light-armor)
-      - [Medium Armor](#medium-armor)
-      - [Heavy Armor](#heavy-armor)
-      - [Amberite Plate](#amberite-plate)
-    - [Shield Types](#shield-types)
-      - [Buckler](#buckler)
-      - [Round Shield](#round-shield)
-      - [Heater Shield](#heater-shield)
-      - [Kite Shield](#kite-shield)
-      - [Amberite Shield](#amberite-shield)
-  - [Character Creation](#character-creation)
-    - [Determine Life Path](#determine-life-path)
-      - [Origin](#origin)
-      - [Youth](#youth)
-      - [The Last Few Years](#the-last-few-years)
-    - [Determine Name & Personality](#determine-name--personality)
-    - [Species, Sex & Appearance](#species-sex--appearance)
-    - [Choosing Ambition, Beliefs & Instincts](#choosing-ambition-beliefs--instincts)
-      - [Choosing an Ambition](#choosing-an-ambition)
-      - [Choosing Beliefs](#choosing-beliefs)
-      - [Choosing Instincts](#choosing-instincts)
-    - [Choosing Attributes](#choosing-attributes)
-      - [Manual Attribute Assignment](#manual-attribute-assignment)
-      - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
-    - [Choosing Skills](#choosing-skills)
-    - [Carrying Capactity & Possessions](#carrying-capactity--possessions)
-    - [Determine Max HP & Max Inj](#determine-max-hp--max-inj)
-    - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
-- [Fate Points](#fate-points)
-  - [Minor Fate Points](#minor-fate-points)
-  - [Major Fate Points](#major-fate-points)
-  - [Ambition Fate Points](#ambition-fate-points)
-  - [Hand of Fate](#hand-of-fate)
-- [Combat](#combat)
-  - [Who Acts When](#who-acts-when)
-  - [Combat Actions](#combat-actions)
-  - [How to Attack](#how-to-attack)
-    - [Types of Attack](#types-of-attack)
-      - [Aimed Attack](#aimed-attack)
-      - [Difficult Attack](#difficult-attack)
-      - [Easy Attack](#easy-attack)
-      - [Execution Attack](#execution-attack)
-- [Magic](#magic)
-  - [Spell Intensity](#spell-intensity)
-  - [Maximum Spell Intensity](#maximum-spell-intensity)
-  - [Spell Backfire](#spell-backfire)
-  - [Casting Magic](#casting-magic)
-  - [Magic Schools](#magic-schools)
-    - [Pyromancy](#pyromancy)
-    - [Cryomancy](#cryomancy)
-    - [Restoration](#restoration)
-    - [Alteration](#alteration)
-    - [Illusion](#illusion)
-    - [Soul-Binding](#soul-binding)
-    - [Counter-Magic](#counter-magic)
-  - [Magic Things](#magic-things)
-    - [Abyssalite](#abyssalite)
-    - [Amberite](#amberite)
-    - [Ambersteel](#ambersteel)
-    - [Runes](#runes)
-- [Game Mastery](#game-mastery)
+  - [Weapon Types](#weapon-types)
+    - [Unarmed](#unarmed)
+    - [Short Blade](#short-blade)
+    - [Long Blade](#long-blade)
+    - [Great Blade](#great-blade)
+    - [Axe](#axe)
+    - [Great Axe](#great-axe)
+    - [Spear](#spear)
+    - [Lance](#lance)
+    - [Polearm](#polearm)
+    - [Club](#club)
+    - [Small Crusher](#small-crusher)
+    - [Large Crusher](#large-crusher)
+    - [Short-Bow](#short-bow)
+    - [Longbow](#longbow)
+    - [War-Bow](#war-bow)
+    - [Crossbow](#crossbow)
+    - [Firearm](#firearm)
+  - [Armor Types](#armor-types)
+    - [Light Armor](#light-armor)
+    - [Medium Armor](#medium-armor)
+    - [Heavy Armor](#heavy-armor)
+    - [Amberite Plate](#amberite-plate)
+  - [Shield Types](#shield-types)
+    - [Buckler](#buckler)
+    - [Round Shield](#round-shield)
+    - [Heater Shield](#heater-shield)
+    - [Kite Shield](#kite-shield)
+    - [Amberite Shield](#amberite-shield)
+  - [List of Injuries](#list-of-injuries)
+  - [List of Illnesses](#list-of-illnesses)
 - [Credits](#credits)
 
 Version 0.1 "Kettgard"
@@ -586,209 +587,6 @@ Both teacher and pupil must actively spend time together, furthering the pupil's
 | Knowledge      | 2 Months |
 | Craftsmanship  | 1 Months |
 
-## Skill List
-The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
-
-Some skills have a list of **skill abilities** that a character unlocks, if they reach a certain level in that skill. A **skill ability** has one or more effects and one or more conditions that restrict when they're applicable. 
-
-Using a **skill ability** counts as an **action**. 
-
-For a human, a skill at level 10 represents absolute mastery. It is possible to go higher than that, but only with great effort. The average level a human could reasonably have in a skill they've been practicing for months, should be around 3 or 4. Only years of experience allow for a 5 or higher. Anything higher than 5 should be considered excellence. 
-
-### Physical skills
-These skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
-
-#### Acrobatics (Agi)
-Performing acrobatic feats, such as jumping and climbing, without inuring oneself in the process. 
-
-#### Instrument-Playing < instrument > (Agi)
-Playing an instrument of choice. 
-
-The instrument in question must be noted. 
-
-#### Melee Defence (Agi)
-Skill at defending oneself in close-combat. 
-
-#### Fighting (Str)
-General fighting expertise. 
-
-#### Ranged Defence (Agi)
-Skill at evading projectiles. 
-
-#### Stealth (Agi)
-Moving silently and performing actions undetected. 
-
-#### Swimming (End)
-Swimming, as opposed to drowning. 
-
-#### Thievery (Agi)
-Pickpocketing and lockpicking. 
-
-#### Observation (Perc)
-Actively looking out for and detecting hidden things or characters. 
-
-#### Path-finding (Perc)
-Orienting oneself in the world. 
-
-Finding and following tracks. 
-
-#### Riding (Emp)
-Riding and controling a mount.
-
-#### Rune-Using (Agi)
-Skill at using [magic runes](#runes). 
-
-#### Sailing (Str)
-Steering and maintaining a naval vessel. 
-
-#### Shield (End)
-Expertise at defending oneself using a shield. 
-
-#### Weapon < weapon type > (Str/Agi)
-Expertise at handling a weapon of a specific type. 
-
-#### Weapon-Throwing < weapon type > (Str/Agi)
-Expertise at throwing weapons of a specific type. 
-
-### Social Skills
-These skills have a dominant social aspect and are strongly related to a character's *social attributes*. 
-
-#### Animal Handling (Emp)
-Gaining an animal's trust, directing and commanding it, as well as training it to obey commands. 
-
-#### Commanding (Will)
-Speaking commands others will respect and follow to the letter. 
-
-| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 3     | Unquestionable Command | 2 | +2 | An ally of choice, gains **+1D6** on their next test. | Ally not in combat; Ally can hear the command. |
-| 4     | Spur                 | 2 | +2 | An ally of choice, gains +1 **AP**. | Ally in combat; Ally can hear the command. |
-
-#### Deception (Ora)
-Telling lies, acting in a way so as to deceive another character into believing something untruthful. 
-
-#### Intimidation (Will)
-Intimidating another character into doing something. 
-
-This should also in large part be based on appearance, strength and reputation. 
-
-#### Persuasion (Emp)
-Persuading another character to think differently about something. 
-
-### Knowledge
-These skills have a dominant mental aspect and are strongly related to a character's *mental attributes*. 
-
-#### Architecture (Int)
-Analysing and planning buildings. Discerning weak points in a structure. 
-
-#### Alchemy (Arc)
-The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
-
-#### Brewing (Wis)
-The brewing of alcoholic beverages. 
-
-#### Geography (Int)
-Knowledge about the geography of the world. Used to recall the location of places in relation to each other. 
-
-#### Heraldry (Int)
-The ability to tell noble houses apart and to know their heraldry. 
-
-#### History < subject > (Wis)
-Knowledge about past events and locations. 
-
-Specific historical knowledge should be noted. 
-
-#### Language < language > (Int)
-Speaking and understanding a specific language. The language in question must be noted. 
-
-#### Law and politics (Int)
-The ability to understand laws and politics, as well as the ability to direct politics. 
-
-#### Leatherworking (Agi)
-Producing crafts with leather as the primary material. 
-
-#### Magic School < School > (Arc)
-Knowledge and experience in a specific [magic school](#magic-schools). 
-
-#### Mathematics (Int)
-The ability to work with numbers. Useful for anyone handling large sums of money, but also for engineers and architects. 
-
-#### Mechanics (Int)
-Understanding, designing and maintaining complex mechanical machines and devices. 
-
-#### Nature (Int)
-The ability to tell flora and fauna apart and to know of their attributes, such as what is edible or poisonous or how to hunt a deer, and so on. 
-
-#### Mysticism and Religion (Wis)
-Knowledge about religions, legends and myths. May be used to recall knowledge about mythical creatures, artifacts and locations, as well as understand the local religion more easily. 
-
-#### Medicine (Int)
-Diagnosing and treating injuries and non-magical afflictions. 
-
-Implies an understanding of anatomy, whereas past experiences with the creatures treated should be noted. 
-
-#### Reading and Writing < language > (Int)
-The ability to both read and write in a specific language. 
-
-The language in question must be noted in addition to this skill. 
-
-#### Surgery (Int)
-The ability to invasively treat ailments without making things worse for the patient. 
-
-#### Tanning/Skinning (Agi)
-Taking the hide off a creature undamaged. 
-
-#### Warfare (Wis)
-The ability to understand and direct large-scale combat movements, as well as understanding what makes defences effective and how to circumvent them. Also governs knowledge about sieges and siege equipment. 
-
-#### Woodcrafting (Agi)
-General working with wood, where particular knowledge isn't required. 
-
-### Craftsmanship
-All craftsmanship requires a mix of physical and mental attributes, for the purpose of creating a wide variety of things.
-
-#### Armor smithing (Str)
-The ability to make armor from metal. 
-
-#### Artistry (Emp)
-The ability to paint and draw well, as well as a general sense of aesthetics. 
-
-#### Blacksmithing (Str)
-The ability to create every-day items from metal. 
-
-#### Bow-Making (Agi)
-The ability to craft bows and crossbows. 
-
-#### Carpentry (Agi)
-The ability to shape wood to craft predominantly wooden things. 
-
-#### Clothesmaking (Agi)
-The ability to make comfortable, well-fitting and decorated clothes. 
-
-#### Cooking (Emp)
-The ability to cook well. Poor cooks are prone to losing ingredients due to burning them or overcooking them to the point of inedibility. 
-
-#### Engineering (Int)
-The ability to plan and construct complex mechanisms and devices. 
-
-#### Fishing (End)
-The ability to efficiently catch fish. 
-
-#### Fletching (Agi)
-The ability to efficiently craft arrows, bolts and javelins. 
-
-#### Leatherworking (Agi)
-The ability to create leather objects. 
-
-#### Masonry (Str)
-The ability to shape stone to craft predominantly stone-based things. 
-
-#### Rune Carving (Arc)
-The ability to carve [magic runes](#runes).
-
-#### Weapon smithing (Str)
-The ability to make weapons from metal. 
-
 ## Ambitions, Beliefs & Instincts
 While all characters are expected to have *ambitions*, *beliefs* and *instincts*, **PC**s are special, because for them, these concepts are cemented through rules and mechanics. 
 
@@ -865,28 +663,6 @@ An **Inj.** can be properly **treated** via [surgery](#surgery-int):
 
 All currently **treated** **Inj.** can be removed/recovered from, by spending **ND4** weeks in uninterrupted, active recovery, where *N* is the current number of **treated** **Inj.** Active recovery implies spending the vast majority of the day in bed or at least avoiding physical or mental strains. 
 
-#### List of Injuries
-How many times an **injury** can be suffered, can be limited. In the table below, the *max* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead. 
-
-| Range D100 | Injury              | Max | Description                      |
-| ---------  | ------------------- | --- | -------------------------------- |
-| 0 - 5      | Cosmic Fortune      | /   | Luck is with you! You suffer no **injury**! |
-| 6 - 10     | Butchered Arm       | 2   | -1 [Agility](#agility-agi); Actions and equipment requiring two hands cannot be used. If incurred twice, any actions requiring arm movement is impossible. |
-| 11 - 15    | Broken Leg          | 2   | -1 [Agility](#agility-agi); Max movement of 3'/1m; If incurred twice, actions involving movement are impossible. |
-| 16 - 19    | Skull Fracture      | 1   | -1 [Intelligence](#intelligence-int); -1 [Wisdom](#wisdom-wis) |
-| 20 - 24    | Concussion          | /   | -1 [Intelligence](#intelligence-int); -1 [Perception](#perception-perc) |
-| 25 - 30    | Punctured Lung      | /   | -1 [Endurance](#endurance-end) |
-| 31 - 36    | Infection           | 1   | -1 [Toughness](#toughness-tough); Within a day, the character will contract an [illness](#illness). This will happen, even if the **Inj.** is treated. |
-| 37 - 42    | Fractured Rib       | /   | -1 [Toughness](#toughness-tough) | 
-| 43 - 48    | Nasty Wound         | /   | +1 [Bleeding](#bleeding) |
-| 49 - 54    | Broken Nose         | 1   | -1 [Perception](#perception-perc); Cannot smell; |
-| 55 - 60    | Maimed Ear          | /   | -1 [Perception](#perception-perc); Cannot hear; | 
-| 61 - 66    | Knocked Senseless   | /   | -1 [Perception](#perception-perc) |
-| 67 - 72    | Torn Tendon         | /   | -1 [Strength](#strength-str) | 
-| 73 - 79    | Mental Trauma       | /   | -1 [Will](#will-will) | 
-| 80 - 94    | Tremors             | /   | -1 [Arcana](#arcana-arc); -1 [Agility](#agility-agi) | 
-| 95 - 100   | Cosmic Misfortune   | 1   | [Disadvantage](#advantage--disadvantage) on all tests. | 
-
 ### Exhaustion
 Exhaustion is the measure of a character's maximum physical and mental strain they can endure. 
 
@@ -935,24 +711,6 @@ Most illnesses have a duration, during which their effects are active and after 
 Treatment of an illness is possible through [medicine](#medicine-int) or [surgery](#surgery-int). Which skill is required, will be noted on the illness. Treatment will often be able to reduce the ill-effects and sometimes to remove the illness, altogether. A treatment attempt can only be made once every 24 hours. 
 
 Any illness, that when treated has its duration reduced, can only have its duration reduced once. If a treatment would also suspend any ill-effects, that would still be applicable. That way, treating an illness which already had its duration reduced can still be useful. 
-
-#### List of Illnesses
-
-| Range D100 | Name         | Duration      | Effect      | Treatment |
-| ---------- | ------------ | ------------- | ----------- | --------- |
-| 0 - 7 | Strength Sap | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D3** [strength](#strength-str); **-1D3** [agility](#agility-agi); Max 6'/2m movement distance. | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
-| 8 - 15 | Lung Fever | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D3 + 1)** [endurance](#endurance-end). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
-| 16 - 23 | Water's Curse | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [dazed](#dazed). | [medicine](#medicine-int); Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
-| 24 - 31 | Jazz-Hands | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D3** [agility](#agility-agi); **-1D4** [arcana](#arcana-arc). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
-| 32 - 39 | Brain Rot | **2D10** Days | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D3** [intelligence](#intelligence-int); **-1D3** [wisdom](#wisdom-wis). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
-| 40 - 47 | Feeble Tounge | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D3** [oratory](#oratory-ora). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
-| 48 - 55 | Wound Fever | Until cured | [Injuries](#injury) of the victim refuse any treatment. Any **Inj.** of the victim can be **patched up**, but not **treated**. | [medicine](#medicine-int); Reduces the duration by **1D10** days. |
-| 56 - 63 | Filth Fever | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D3** [oratory](#oratory-ora); **-1D3** [endurance](#endurance-end). | [medicine](#medicine-int); Removes the illness on the next day. |
-| 64 - 71 | Amber Curse | **2D10** Days | The victim finds it difficult to feel the flow of magic through their body. **-1D4** [arcana](#arcana-arc); **-1D3** to any magic skills and [rune-using](#rune-using-agi). | Conventional methods cannot treat this illness. |
-| 72 - 79 | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D3** [will](#will-will). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
-| 80 - 87 | Rot Plague | **4D10** Days | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D3** [endurance](#endurance-end); **-(1D3 + 1)** [toughness](#toughness-tough). | [surgery](#surgery-int); The ill-effects are suspended for 24 hours. |
-| 88 - 95 | Organ Mold | Until cured | Causes an [injury](#injury) every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
-| 95 - 100 | Red Death | Until cured | The victim starts bleeding from all of their orifices, with no end in sight. Causes 1 **bleeding** every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
 
 ### Damage Types
 All damage inflicted, is inflicted with a certain type of damage. 
@@ -1013,335 +771,6 @@ Up to 100 [crowns](#money) can fit into one **slot**.
 > A **PC** has 56 **crowns**, those all go into 1 **slot**. Their ally is significantly wealthier, with 314 **crowns**, which take up 4 **item slots**.
 
 It is up to the **GM** to decide on when something is *too heavy* to carry for the character in question. 
-
-### Weapon Types
-Weapons can have the following **weapon attributes**:
-* **Long Reach**: Allows attacking a target two squares (6'/2m) away. 
-* **Range Only**: Implies a weapon cannot be used against any targets adjacent to self. 
-* **Prefer Range**: +2 **Ob** to using the weapon against an adjacent target. 
-
-Weapons can have the following **effects**:
-* A **counter-attack** is a reaction that allows a fighter being attacked to attack their attacker. 
-
-#### Unarmed
-Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage.
-
-| Skill | **Ob** | Attack              | AP | Damage            | Effect |
-| ----- | ------ | --------------------| -- | ----------------- | ------ |
-| 0     | 0  | Punch, kick, headbutt   | 2  | N + 2 **Bludgeoning**, where N = [strength](#strength-str) | / |
-| 1     | 0  | Grapple                 | 2  | /                 | Requires a successful opposed [strength](#strength-str) test. If **completely successful** The target is unable to move and suffers -1 [melee defence](#melee-defence-agi) while grappled. Someone grappled can attempt to break free with an opposed [strength](#strength-str) test, on their turn. |
-
-#### Short Blade
-Any short, one-handed blade. Examples: shiv, dagger, Shortsword
-
-* One-handed
-* Bulk: 1
-
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
-| 0     | 0  | Slash                   | 2  | 2 **Slashing**   | / |
-| 0     | 0  | Stab                    | 2  | 1 **Piercing**   | / |
-| 3     | +2 | Target weak-spot        | 3  | 3 **Piercing**   | / |
-| 3     | +2 | Artery cut              | 3  | 2 **Slashing**   | +1 **bleeding** to the target (if it can bleed). |
-
-#### Long Blade
-Any long blade, including long one-handed blades. Examples: arming sword, bastard sword, Longsword
-
-* One-handed or two-handed
-* Bulk: 2
-
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
-| 0     | 0  | Slash                   | 2  | **2D4** **Slashing** | / |
-| 0     | 0  | Stab                    | 2  | **1D6** **Piercing** | / |
-| 3     | +2 | Mordhau-Strike          | 2  | **1D4** **Crushing** | / |
-| 4     | 0  | Fencer-Stance           | 3  | / | Enter a defensive fencing stance. Gain +2 [melee defence](#melee-defence-agi) and can **counter-attack** with a **slash**. |
-
-#### Great Blade
-Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
-
-* Two-handed
-* Long Reach
-* Bulk: 3
-
-| Skill | **Ob** | Attack              | AP | Damage      | Effect |
-| ----- | ------ | --------------------| -- | ----------- | ------ |
-| 0     | 0  | Slash                   | 2  | **2D6** **Slashing** | / |
-| 0     | 0  | Stab                    | 2  | **1D6 + 1** **Piercing** | / |
-| 3     | +2 | Mordhau-Strike          | 3  | **1D6** **Crushing** | / |
-| 4     | +1 | Heavy Blow              | 3  | **1D6** **Slashing** and **1D4** **Crushing** | +1 [exhaustion](#exhaustion) to self. |
-
-#### Axe
-One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
-
-* One-handed
-* Bulk: 2
-
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
-| 0     | 0  | Hack | 2 | **2D6** **Slashing** and **1D3** **Crushing** | / |
-
-#### Great Axe
-Two-handed axes. Examples: bearded axe, double-sided axe
-
-* Two-handed
-* Bulk: 3
-
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
-| 0     | 0  | Hack         | 2 | **3D6** **Slashing** and **2D3** **Crushing** | / |
-| 3     | +2 | Savage Slash | 2 | **2D6** **Slashing** | +2 **bleeding**  to the target (if it can bleed). |
-
-#### Spear
-Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
-
-* One-handed or two-handed
-* Bulk: 2
-* Prefer Range
-
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
-| 0     | 0  | Stab                    | 2  | **1D8** **Piercing** | / |
-| 2     | +2 | Spear wall              | 3  | / | Whenever any character moves into a square adjacent to self, can attack that character with a **stab**. |
-
-#### Lance
-Any one or two-handed long piercing polearms. Examples: pike, lance
-
-* Two-handed
-* Bulk: 4
-* Long Reach
-* Prefer Range
-
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
-| 0     | 0  | Stab                    | 2  | **1D8** **Piercing**  | / |
-| 3     | 0  | Couched Lancing         | 3  | / | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target, allowing an attack dealing **3D10** **Piercing** damage to the target. |
-
-#### Polearm
-Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
-
-* Two-handed
-* Bulk: 4
-* Long Reach
-* Prefer Range
-
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
-| 0     | 0  | Slash                   | 2  | **3D4** **Slashing**  | / |
-| 0     | 0  | Stab                    | 2  | **1D8** **Piercing**  | / |
-| 4     | +2 | Cleave                  | 3  | **1D10** **Slashing** to two targets adjacent to each other and self. | / |
-
-#### Club
-Simple, improvised bludgeoning weapons. Examples: wooden club
-
-* One-handed
-* Bulk: 2
-* Bulk: 2
-
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
-| 0     | 0  | Clobber                 | 2  | **2D4** **Bludgeoning**  | / |
-| 3     | +2 | Knockout Blow           | 3  | **2D6** **Bludgeoning**  | / |
-
-#### Small Crusher
-One-handed, heavy crushing weapons. Examples: flanged mace, warhammer, flail, morning star
-
-* One-handed
-* Bulk: 2
-
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
-| 0     | 0  | Smash                   | 2  | **1D6** **Crushing**  | / |
-
-#### Large Crusher
-Two-handed crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
-
-* Two-handed
-* Bulk: 3
-
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
-| 0     | 0  | Smash                   | 2  | **1D8** **Crushing**  | / |
-| 3     | +2 | Mighty Smash            | 3  | **1D10 + 2** **Crushing**  | +1 [exhaustion](#exhaustion) to self. +2 [exhaustion](#exhaustion) to target (if it can be winded). |
-
-#### Short-Bow
-A short distance ranged weapon, shooting arrows.
-
-* Two-handed
-* Bulk: 1
-* **Range Only**
-
-| Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
-| ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
-| 0     | 0  | Loose                   | 2  | 30'/10m  | **3D3** **Piercing**  | / |
-| 0     | +2 | Loose                   | 2  | 60'/20m  | **2D3** **Piercing**  | / |
-| 0     | +4 | Loose                   | 2  | 90'/30m  | **1D3** **Piercing**  | / |
-| 4     | 0  | Double shot             | 3  | 30'/10m  | **3D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
-| 4     | +2 | Double shot             | 3  | 60'/20m  | **2D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
-| 4     | +4 | Double shot             | 3  | 90'/30m  | **1D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
-
-#### Longbow
-A long distance ranged weapon, shooting arrows.
-
-* Two-handed
-* Bulk: 2
-* **Range Only**
-
-| Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
-| ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
-| 0     | 0  | Loose                   | 2  | 30'/10m  | **3D4** **Piercing**  | / |
-| 0     | +1 | Loose                   | 2  | 60'/20m  | **2D4** **Piercing**  | / |
-| 0     | +3 | Loose                   | 2  | 90'/30m  | **1D4** **Piercing**  | / |
-
-#### War-Bow
-A very deadly long distance ranged weapon, shooting arrows.
-
-* Two-handed
-* Bulk: 2
-* **Range Only**
-
-| Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
-| ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
-| 0     | 0  | Loose                   | 3  | 30'/10m  | **3D6** **Piercing**  | +1 [exhaustion](#exhaustion) to self. |
-| 0     | +1 | Loose                   | 3  | 60'/20m  | **2D6** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
-| 0     | +2 | Loose                   | 3  | 90'/30m  | **1D6** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
-
-#### Crossbow
-A deadly medium distance ranged weapon, shooting quarrels.
-
-A long distance ranged weapon, shooting arrows.
-
-* Two-handed
-* Bulk: 2
-* **Prefer Range**
-
-| Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
-| ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
-| 0     | 0  | Loose                   | 3  | 30'/10m  | **3D6** **Piercing**  | / |
-| 0     | +1 | Loose                   | 3  | 60'/20m  | **2D6** **Piercing**  | / |
-| 0     | +3 | Loose                   | 3  | 90'/30m  | **2D4** **Piercing**  | / |
-
-#### Firearm
-A very deadly short to medium distance ranged weapon, shooting musket balls that can even penetrate armor.
-
-A long distance ranged weapon, shooting arrows.
-
-* Two-handed
-* Bulk: 2
-* **Prefer Range**
-
-| Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
-| ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
-| 0     | 0  | Shoot                   | 3  | 30'/10m  | **3D6 + 4** **Piercing**  | / |
-| 0     | +3 | Shoot                   | 3  | 60'/20m  | **2D6 + 3** **Piercing**  | / |
-| 0     | +5 | Shoot                   | 3  | 90'/30m  | **2D6 + 2** **Piercing**  | / |
-
-### Armor Types
-Armor reduces damage to its wearer by a flat amount. By how much, is specific to each armor type. Some armors can have special protections or effects. 
-
-#### Light Armor
-A set of light armor that doesn't impede the wearer by much. Commonly represents a gambeson or thick cloth vest. 
-
-* Bulk: 2
-
-| Reduce Damage     | 
-| ----------------- |
-| 4 **Slashing**    |
-| 3 **Bludgeoning** |
-| 2 **Crushing**    |
-
-#### Medium Armor
-A set of medium armor with a good balance of protection and weight. Commonly represents a gambeson underneath a mail hauberk. Optional mail mittens. Common headgear: arming cap, mail coif or any non-full helmet. 
-
-* Bulk: 3
-
-| Reduce Damage     | 
-| ----------------- |
-| 7 **Slashing**    |
-| 4 **Bludgeoning** |
-| 3 **Piercing**    |
-| 2 **Crushing**    |
-
-#### Heavy Armor
-A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Commonly represents a full suit of plate armor.  
-
-* Bulk: 4
-
-| Reduce Damage     | 
-| ----------------- |
-| 10 **Slashing**   |
-| 5 **Bludgeoning** |
-| 4 **Piercing**    |
-| 3 **Crushing**    |
-
-#### Amberite Plate
-A set of heavy armor with excellent protection, even against magical attacks, at the cost of encumbering the wearer greatly. Commonly represents a full suit of [Amberite](#amberite)-lined plate armor.  
-
-* Bulk: 4
-* Prevents magic-casting by the wearer
-
-| Reduce Damage     | 
-| ----------------- |
-| 10 **Slashing**   |
-| 5 **Bludgeoning** |
-| 4 **Piercing**    |
-| 3 **Crushing**    |
-| **3D4** Magical   |
-
-### Shield Types
-Shields are items that provide passive bonuses to [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi) and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon. 
-
-#### Buckler
-A small, round shield commonly held as far from the body as possible, to deflect small or stabbing weapons with ease. Helps only little against heavy blows, however. And don't expect to deflect arrows with this, either. 
-
-* Bulk: 1
-
-| Defensive Bonus |
-| --------------- |
-| +1 [melee defence](#melee-defence-agi).  |
-| +3 [melee defence](#melee-defence-agi) against **stabbing** attacks. |
-
-#### Round Shield
-A medium-sized, round shield made from tough wood and leather, which offers decent protection against most attacks, while not encumbering the wielder too much. 
-
-* Bulk: 2
-
-| Defensive Bonus |
-| --------------- |
-| +2 [melee defence](#melee-defence-agi).  |
-| +2 [ranged defence](#melee-defence-agi). |
-
-#### Heater Shield
-A tough and heavy metal shield, which offers great protection, while still being somewhat manageable to wield. 
-
-* Bulk: 3
-
-| Defensive Bonus |
-| --------------- |
-| +3 [melee defence](#melee-defence-agi).  |
-| +3 [ranged defence](#melee-defence-agi). |
-
-#### Kite Shield
-A large, kite-shaped shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight makes it difficult to react to attacks quickly, hoever. 
-
-* Bulk: 4
-* +1 [exhaustion](#exhaustion) while wielded
-
-| Defensive Bonus |
-| --------------- |
-| +4 [melee defence](#melee-defence-agi).  |
-| +4 [ranged defence](#melee-defence-agi). |
-
-#### Amberite Shield
-An [Amberite](#amberite)-lined heater shield, which offers great protection, even against magic, while still being somewhat manageable to wield. 
-
-* Bulk: 3
-
-| Defensive Bonus |
-| --------------- |
-| +3 [melee defence](#melee-defence-agi).  |
-| +3 [ranged defence](#melee-defence-agi). |
-| +3 [ranged defence](#melee-defence-agi) against magical attacks. |
 
 ## Character Creation
 Imagine for the longest time of their life, your character has led an ordinary existence, until one day, something life-changing happened. Perhaps something terrible, perhaps something wonderful, but something significant that has forced them out of their comfort zone into a world full of adventure. 
@@ -1827,6 +1256,577 @@ In order to invoke a **rune**:
 
 # Game Mastery
 
+# Appendix
+
+## Skill List
+The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
+
+Some skills have a list of **skill abilities** that a character unlocks, if they reach a certain level in that skill. A **skill ability** has one or more effects and one or more conditions that restrict when they're applicable. 
+
+Using a **skill ability** counts as an **action**. 
+
+For a human, a skill at level 10 represents absolute mastery. It is possible to go higher than that, but only with great effort. The average level a human could reasonably have in a skill they've been practicing for months, should be around 3 or 4. Only years of experience allow for a 5 or higher. Anything higher than 5 should be considered excellence. 
+
+### Physical skills
+These skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
+
+#### Acrobatics (Agi)
+Performing acrobatic feats, such as jumping and climbing, without inuring oneself in the process. 
+
+#### Instrument-Playing < instrument > (Agi)
+Playing an instrument of choice. 
+
+The instrument in question must be noted. 
+
+#### Melee Defence (Agi)
+Skill at defending oneself in close-combat. 
+
+#### Fighting (Str)
+General fighting expertise. 
+
+#### Ranged Defence (Agi)
+Skill at evading projectiles. 
+
+#### Stealth (Agi)
+Moving silently and performing actions undetected. 
+
+#### Swimming (End)
+Swimming, as opposed to drowning. 
+
+#### Thievery (Agi)
+Pickpocketing and lockpicking. 
+
+#### Observation (Perc)
+Actively looking out for and detecting hidden things or characters. 
+
+#### Path-finding (Perc)
+Orienting oneself in the world. 
+
+Finding and following tracks. 
+
+#### Riding (Emp)
+Riding and controling a mount.
+
+#### Rune-Using (Agi)
+Skill at using [magic runes](#runes). 
+
+#### Sailing (Str)
+Steering and maintaining a naval vessel. 
+
+#### Shield (End)
+Expertise at defending oneself using a shield. 
+
+#### Weapon < weapon type > (Str/Agi)
+Expertise at handling a weapon of a specific type. 
+
+#### Weapon-Throwing < weapon type > (Str/Agi)
+Expertise at throwing weapons of a specific type. 
+
+### Social Skills
+These skills have a dominant social aspect and are strongly related to a character's *social attributes*. 
+
+#### Animal Handling (Emp)
+Gaining an animal's trust, directing and commanding it, as well as training it to obey commands. 
+
+#### Commanding (Will)
+Speaking commands others will respect and follow to the letter. 
+
+| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
+| 3     | Unquestionable Command | 2 | +2 | An ally of choice, gains **+1D6** on their next test. | Ally not in combat; Ally can hear the command. |
+| 4     | Spur                 | 2 | +2 | An ally of choice, gains +1 **AP**. | Ally in combat; Ally can hear the command. |
+
+#### Deception (Ora)
+Telling lies, acting in a way so as to deceive another character into believing something untruthful. 
+
+#### Intimidation (Will)
+Intimidating another character into doing something. 
+
+This should also in large part be based on appearance, strength and reputation. 
+
+#### Persuasion (Emp)
+Persuading another character to think differently about something. 
+
+### Knowledge
+These skills have a dominant mental aspect and are strongly related to a character's *mental attributes*. 
+
+#### Architecture (Int)
+Analysing and planning buildings. Discerning weak points in a structure. 
+
+#### Alchemy (Arc)
+The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
+
+#### Brewing (Wis)
+The brewing of alcoholic beverages. 
+
+#### Geography (Int)
+Knowledge about the geography of the world. Used to recall the location of places in relation to each other. 
+
+#### Heraldry (Int)
+The ability to tell noble houses apart and to know their heraldry. 
+
+#### History < subject > (Wis)
+Knowledge about past events and locations. 
+
+Specific historical knowledge should be noted. 
+
+#### Language < language > (Int)
+Speaking and understanding a specific language. The language in question must be noted. 
+
+#### Law and politics (Int)
+The ability to understand laws and politics, as well as the ability to direct politics. 
+
+#### Leatherworking (Agi)
+Producing crafts with leather as the primary material. 
+
+#### Magic School < School > (Arc)
+Knowledge and experience in a specific [magic school](#magic-schools). 
+
+#### Mathematics (Int)
+The ability to work with numbers. Useful for anyone handling large sums of money, but also for engineers and architects. 
+
+#### Mechanics (Int)
+Understanding, designing and maintaining complex mechanical machines and devices. 
+
+#### Nature (Int)
+The ability to tell flora and fauna apart and to know of their attributes, such as what is edible or poisonous or how to hunt a deer, and so on. 
+
+#### Mysticism and Religion (Wis)
+Knowledge about religions, legends and myths. May be used to recall knowledge about mythical creatures, artifacts and locations, as well as understand the local religion more easily. 
+
+#### Medicine (Int)
+Diagnosing and treating injuries and non-magical afflictions. 
+
+Implies an understanding of anatomy, whereas past experiences with the creatures treated should be noted. 
+
+#### Reading and Writing < language > (Int)
+The ability to both read and write in a specific language. 
+
+The language in question must be noted in addition to this skill. 
+
+#### Surgery (Int)
+The ability to invasively treat ailments without making things worse for the patient. 
+
+#### Tanning/Skinning (Agi)
+Taking the hide off a creature undamaged. 
+
+#### Warfare (Wis)
+The ability to understand and direct large-scale combat movements, as well as understanding what makes defences effective and how to circumvent them. Also governs knowledge about sieges and siege equipment. 
+
+#### Woodcrafting (Agi)
+General working with wood, where particular knowledge isn't required. 
+
+### Craftsmanship
+All craftsmanship requires a mix of physical and mental attributes, for the purpose of creating a wide variety of things.
+
+#### Armor smithing (Str)
+The ability to make armor from metal. 
+
+#### Artistry (Emp)
+The ability to paint and draw well, as well as a general sense of aesthetics. 
+
+#### Blacksmithing (Str)
+The ability to create every-day items from metal. 
+
+#### Bow-Making (Agi)
+The ability to craft bows and crossbows. 
+
+#### Carpentry (Agi)
+The ability to shape wood to craft predominantly wooden things. 
+
+#### Clothesmaking (Agi)
+The ability to make comfortable, well-fitting and decorated clothes. 
+
+#### Cooking (Emp)
+The ability to cook well. Poor cooks are prone to losing ingredients due to burning them or overcooking them to the point of inedibility. 
+
+#### Engineering (Int)
+The ability to plan and construct complex mechanisms and devices. 
+
+#### Fishing (End)
+The ability to efficiently catch fish. 
+
+#### Fletching (Agi)
+The ability to efficiently craft arrows, bolts and javelins. 
+
+#### Leatherworking (Agi)
+The ability to create leather objects. 
+
+#### Masonry (Str)
+The ability to shape stone to craft predominantly stone-based things. 
+
+#### Rune Carving (Arc)
+The ability to carve [magic runes](#runes).
+
+#### Weapon smithing (Str)
+The ability to make weapons from metal. 
+
+## Weapon Types
+Weapons can have the following **weapon attributes**:
+* **Long Reach**: Allows attacking a target two squares (6'/2m) away. 
+* **Range Only**: Implies a weapon cannot be used against any targets adjacent to self. 
+* **Prefer Range**: +2 **Ob** to using the weapon against an adjacent target. 
+
+Weapons can have the following **effects**:
+* A **counter-attack** is a reaction that allows a fighter being attacked to attack their attacker. 
+
+### Unarmed
+Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage.
+
+| Skill | **Ob** | Attack              | AP | Damage            | Effect |
+| ----- | ------ | --------------------| -- | ----------------- | ------ |
+| 0     | 0  | Punch, kick, headbutt   | 2  | N + 2 **Bludgeoning**, where N = [strength](#strength-str) | / |
+| 1     | 0  | Grapple                 | 2  | /                 | Requires a successful opposed [strength](#strength-str) test. If **completely successful** The target is unable to move and suffers -1 [melee defence](#melee-defence-agi) while grappled. Someone grappled can attempt to break free with an opposed [strength](#strength-str) test, on their turn. |
+
+### Short Blade
+Any short, one-handed blade. Examples: shiv, dagger, Shortsword
+
+* One-handed
+* Bulk: 1
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| 0     | 0  | Slash                   | 2  | 2 **Slashing**   | / |
+| 0     | 0  | Stab                    | 2  | 1 **Piercing**   | / |
+| 3     | +2 | Target weak-spot        | 3  | 3 **Piercing**   | / |
+| 3     | +2 | Artery cut              | 3  | 2 **Slashing**   | +1 **bleeding** to the target (if it can bleed). |
+
+### Long Blade
+Any long blade, including long one-handed blades. Examples: arming sword, bastard sword, Longsword
+
+* One-handed or two-handed
+* Bulk: 2
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| 0     | 0  | Slash                   | 2  | **2D4** **Slashing** | / |
+| 0     | 0  | Stab                    | 2  | **1D6** **Piercing** | / |
+| 3     | +2 | Mordhau-Strike          | 2  | **1D4** **Crushing** | / |
+| 4     | 0  | Fencer-Stance           | 3  | / | Enter a defensive fencing stance. Gain +2 [melee defence](#melee-defence-agi) and can **counter-attack** with a **slash**. |
+
+### Great Blade
+Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
+
+* Two-handed
+* Long Reach
+* Bulk: 3
+
+| Skill | **Ob** | Attack              | AP | Damage      | Effect |
+| ----- | ------ | --------------------| -- | ----------- | ------ |
+| 0     | 0  | Slash                   | 2  | **2D6** **Slashing** | / |
+| 0     | 0  | Stab                    | 2  | **1D6 + 1** **Piercing** | / |
+| 3     | +2 | Mordhau-Strike          | 3  | **1D6** **Crushing** | / |
+| 4     | +1 | Heavy Blow              | 3  | **1D6** **Slashing** and **1D4** **Crushing** | +1 [exhaustion](#exhaustion) to self. |
+
+### Axe
+One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
+
+* One-handed
+* Bulk: 2
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| 0     | 0  | Hack | 2 | **2D6** **Slashing** and **1D3** **Crushing** | / |
+
+### Great Axe
+Two-handed axes. Examples: bearded axe, double-sided axe
+
+* Two-handed
+* Bulk: 3
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| 0     | 0  | Hack         | 2 | **3D6** **Slashing** and **2D3** **Crushing** | / |
+| 3     | +2 | Savage Slash | 2 | **2D6** **Slashing** | +2 **bleeding**  to the target (if it can bleed). |
+
+### Spear
+Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
+
+* One-handed or two-handed
+* Bulk: 2
+* Prefer Range
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| 0     | 0  | Stab                    | 2  | **1D8** **Piercing** | / |
+| 2     | +2 | Spear wall              | 3  | / | Whenever any character moves into a square adjacent to self, can attack that character with a **stab**. |
+
+### Lance
+Any one or two-handed long piercing polearms. Examples: pike, lance
+
+* Two-handed
+* Bulk: 4
+* Long Reach
+* Prefer Range
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| 0     | 0  | Stab                    | 2  | **1D8** **Piercing**  | / |
+| 3     | 0  | Couched Lancing         | 3  | / | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target, allowing an attack dealing **3D10** **Piercing** damage to the target. |
+
+### Polearm
+Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
+
+* Two-handed
+* Bulk: 4
+* Long Reach
+* Prefer Range
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| 0     | 0  | Slash                   | 2  | **3D4** **Slashing**  | / |
+| 0     | 0  | Stab                    | 2  | **1D8** **Piercing**  | / |
+| 4     | +2 | Cleave                  | 3  | **1D10** **Slashing** to two targets adjacent to each other and self. | / |
+
+### Club
+Simple, improvised bludgeoning weapons. Examples: wooden club
+
+* One-handed
+* Bulk: 2
+* Bulk: 2
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| 0     | 0  | Clobber                 | 2  | **2D4** **Bludgeoning**  | / |
+| 3     | +2 | Knockout Blow           | 3  | **2D6** **Bludgeoning**  | / |
+
+### Small Crusher
+One-handed, heavy crushing weapons. Examples: flanged mace, warhammer, flail, morning star
+
+* One-handed
+* Bulk: 2
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| 0     | 0  | Smash                   | 2  | **1D6** **Crushing**  | / |
+
+### Large Crusher
+Two-handed crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
+
+* Two-handed
+* Bulk: 3
+
+| Skill | **Ob** | Attack              | AP | Damage           | Effect |
+| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| 0     | 0  | Smash                   | 2  | **1D8** **Crushing**  | / |
+| 3     | +2 | Mighty Smash            | 3  | **1D10 + 2** **Crushing**  | +1 [exhaustion](#exhaustion) to self. +2 [exhaustion](#exhaustion) to target (if it can be winded). |
+
+### Short-Bow
+A short distance ranged weapon, shooting arrows.
+
+* Two-handed
+* Bulk: 1
+* **Range Only**
+
+| Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
+| ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
+| 0     | 0  | Loose                   | 2  | 30'/10m  | **3D3** **Piercing**  | / |
+| 0     | +2 | Loose                   | 2  | 60'/20m  | **2D3** **Piercing**  | / |
+| 0     | +4 | Loose                   | 2  | 90'/30m  | **1D3** **Piercing**  | / |
+| 4     | 0  | Double shot             | 3  | 30'/10m  | **3D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
+| 4     | +2 | Double shot             | 3  | 60'/20m  | **2D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
+| 4     | +4 | Double shot             | 3  | 90'/30m  | **1D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
+
+### Longbow
+A long distance ranged weapon, shooting arrows.
+
+* Two-handed
+* Bulk: 2
+* **Range Only**
+
+| Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
+| ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
+| 0     | 0  | Loose                   | 2  | 30'/10m  | **3D4** **Piercing**  | / |
+| 0     | +1 | Loose                   | 2  | 60'/20m  | **2D4** **Piercing**  | / |
+| 0     | +3 | Loose                   | 2  | 90'/30m  | **1D4** **Piercing**  | / |
+
+### War-Bow
+A very deadly long distance ranged weapon, shooting arrows.
+
+* Two-handed
+* Bulk: 2
+* **Range Only**
+
+| Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
+| ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
+| 0     | 0  | Loose                   | 3  | 30'/10m  | **3D6** **Piercing**  | +1 [exhaustion](#exhaustion) to self. |
+| 0     | +1 | Loose                   | 3  | 60'/20m  | **2D6** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
+| 0     | +2 | Loose                   | 3  | 90'/30m  | **1D6** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
+
+### Crossbow
+A deadly medium distance ranged weapon, shooting quarrels.
+
+A long distance ranged weapon, shooting arrows.
+
+* Two-handed
+* Bulk: 2
+* **Prefer Range**
+
+| Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
+| ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
+| 0     | 0  | Loose                   | 3  | 30'/10m  | **3D6** **Piercing**  | / |
+| 0     | +1 | Loose                   | 3  | 60'/20m  | **2D6** **Piercing**  | / |
+| 0     | +3 | Loose                   | 3  | 90'/30m  | **2D4** **Piercing**  | / |
+
+### Firearm
+A very deadly short to medium distance ranged weapon, shooting musket balls that can even penetrate armor.
+
+* Two-handed
+* Bulk: 2
+* **Prefer Range**
+
+| Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
+| ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
+| 0     | 0  | Shoot                   | 3  | 30'/10m  | **3D6 + 4** **Piercing**  | / |
+| 0     | +3 | Shoot                   | 3  | 60'/20m  | **2D6 + 3** **Piercing**  | / |
+| 0     | +5 | Shoot                   | 3  | 90'/30m  | **2D6 + 2** **Piercing**  | / |
+
+## Armor Types
+Armor reduces damage to its wearer by a flat amount. By how much, is specific to each armor type. Some armors can have special protections or effects. 
+
+### Light Armor
+A set of light armor that doesn't impede the wearer by much. Commonly represents a gambeson or thick cloth vest. 
+
+* Bulk: 2
+
+| Reduce Damage     | 
+| ----------------- |
+| 4 **Slashing**    |
+| 3 **Bludgeoning** |
+| 2 **Crushing**    |
+
+### Medium Armor
+A set of medium armor with a good balance of protection and weight. Commonly represents a gambeson underneath a mail hauberk. Optional mail mittens. Common headgear: arming cap, mail coif or any non-full helmet. 
+
+* Bulk: 3
+
+| Reduce Damage     | 
+| ----------------- |
+| 7 **Slashing**    |
+| 4 **Bludgeoning** |
+| 3 **Piercing**    |
+| 2 **Crushing**    |
+
+### Heavy Armor
+A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Commonly represents a full suit of plate armor.  
+
+* Bulk: 4
+
+| Reduce Damage     | 
+| ----------------- |
+| 10 **Slashing**   |
+| 5 **Bludgeoning** |
+| 4 **Piercing**    |
+| 3 **Crushing**    |
+
+### Amberite Plate
+A set of heavy armor with excellent protection, even against magical attacks, at the cost of encumbering the wearer greatly. Commonly represents a full suit of [Amberite](#amberite)-lined plate armor.  
+
+* Bulk: 4
+* Prevents magic-casting by the wearer
+
+| Reduce Damage     | 
+| ----------------- |
+| 10 **Slashing**   |
+| 5 **Bludgeoning** |
+| 4 **Piercing**    |
+| 3 **Crushing**    |
+| **3D4** Magical   |
+
+## Shield Types
+Shields are items that provide passive bonuses to [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi) and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon. 
+
+### Buckler
+A small, round shield commonly held as far from the body as possible, to deflect small or stabbing weapons with ease. Helps only little against heavy blows, however. And don't expect to deflect arrows with this, either. 
+
+* Bulk: 1
+
+| Defensive Bonus |
+| --------------- |
+| +1 [melee defence](#melee-defence-agi).  |
+| +3 [melee defence](#melee-defence-agi) against **stabbing** attacks. |
+
+### Round Shield
+A medium-sized, round shield made from tough wood and leather, which offers decent protection against most attacks, while not encumbering the wielder too much. 
+
+* Bulk: 2
+
+| Defensive Bonus |
+| --------------- |
+| +2 [melee defence](#melee-defence-agi).  |
+| +2 [ranged defence](#melee-defence-agi). |
+
+### Heater Shield
+A tough and heavy metal shield, which offers great protection, while still being somewhat manageable to wield. 
+
+* Bulk: 3
+
+| Defensive Bonus |
+| --------------- |
+| +3 [melee defence](#melee-defence-agi).  |
+| +3 [ranged defence](#melee-defence-agi). |
+
+### Kite Shield
+A large, kite-shaped shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight makes it difficult to react to attacks quickly, hoever. 
+
+* Bulk: 4
+* +1 [exhaustion](#exhaustion) while wielded
+
+| Defensive Bonus |
+| --------------- |
+| +4 [melee defence](#melee-defence-agi).  |
+| +4 [ranged defence](#melee-defence-agi). |
+
+### Amberite Shield
+An [Amberite](#amberite)-lined heater shield, which offers great protection, even against magic, while still being somewhat manageable to wield. 
+
+* Bulk: 3
+
+| Defensive Bonus |
+| --------------- |
+| +3 [melee defence](#melee-defence-agi).  |
+| +3 [ranged defence](#melee-defence-agi). |
+| +3 [ranged defence](#melee-defence-agi) against magical attacks. |
+
+## List of Injuries
+How many times an **injury** can be suffered, can be limited. In the table below, the *max* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead. 
+
+| Range D100 | Injury              | Max | Description                      |
+| ---------  | ------------------- | --- | -------------------------------- |
+| 0 - 5      | Cosmic Fortune      | /   | Luck is with you! You suffer no **injury**! |
+| 6 - 10     | Butchered Arm       | 2   | -1 [Agility](#agility-agi); Actions and equipment requiring two hands cannot be used. If incurred twice, any actions requiring arm movement is impossible. |
+| 11 - 15    | Broken Leg          | 2   | -1 [Agility](#agility-agi); Max movement of 3'/1m; If incurred twice, actions involving movement are impossible. |
+| 16 - 19    | Skull Fracture      | 1   | -1 [Intelligence](#intelligence-int); -1 [Wisdom](#wisdom-wis) |
+| 20 - 24    | Concussion          | /   | -1 [Intelligence](#intelligence-int); -1 [Perception](#perception-perc) |
+| 25 - 30    | Punctured Lung      | /   | -1 [Endurance](#endurance-end) |
+| 31 - 36    | Infection           | 1   | -1 [Toughness](#toughness-tough); Within a day, the character will contract an [illness](#illness). This will happen, even if the **Inj.** is treated. |
+| 37 - 42    | Fractured Rib       | /   | -1 [Toughness](#toughness-tough) | 
+| 43 - 48    | Nasty Wound         | /   | +1 [Bleeding](#bleeding) |
+| 49 - 54    | Broken Nose         | 1   | -1 [Perception](#perception-perc); Cannot smell; |
+| 55 - 60    | Maimed Ear          | /   | -1 [Perception](#perception-perc); Cannot hear; | 
+| 61 - 66    | Knocked Senseless   | /   | -1 [Perception](#perception-perc) |
+| 67 - 72    | Torn Tendon         | /   | -1 [Strength](#strength-str) | 
+| 73 - 79    | Mental Trauma       | /   | -1 [Will](#will-will) | 
+| 80 - 94    | Tremors             | /   | -1 [Arcana](#arcana-arc); -1 [Agility](#agility-agi) | 
+| 95 - 100   | Cosmic Misfortune   | 1   | [Disadvantage](#advantage--disadvantage) on all tests. | 
+
+## List of Illnesses
+
+| Range D100 | Name         | Duration      | Effect      | Treatment |
+| ---------- | ------------ | ------------- | ----------- | --------- |
+| 0 - 7 | Strength Sap | **1D10 + 3** Days | The muscles atrophy, despite any physical exercise. If not treated quickly, the victim will quickly find themselves unable to move, at all. **-1D3** [strength](#strength-str); **-1D3** [agility](#agility-agi); Max 6'/2m movement distance. | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
+| 8 - 15 | Lung Fever | **1D10 + 1** Days | The victim finds themselves easily winded, even by simple acts, such as walking to the privy at night. **-(1D3 + 1)** [endurance](#endurance-end). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
+| 16 - 23 | Water's Curse | **1D10 + 1** Days | The victim sweats uncontrollably and has watery stools, thus dehydrating rapidly and losing consciousness frequently. **-1D4** [toughness](#toughness-tough); [dazed](#dazed). | [medicine](#medicine-int); Reduces the duration by **1D10** days and suspends the ill-effects for 24 hours. |
+| 24 - 31 | Jazz-Hands | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D3** [agility](#agility-agi); **-1D4** [arcana](#arcana-arc). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
+| 32 - 39 | Brain Rot | **2D10** Days | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D3** [intelligence](#intelligence-int); **-1D3** [wisdom](#wisdom-wis). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
+| 40 - 47 | Feeble Tounge | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D3** [oratory](#oratory-ora). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
+| 48 - 55 | Wound Fever | Until cured | [Injuries](#injury) of the victim refuse any treatment. Any **Inj.** of the victim can be **patched up**, but not **treated**. | [medicine](#medicine-int); Reduces the duration by **1D10** days. |
+| 56 - 63 | Filth Fever | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D3** [oratory](#oratory-ora); **-1D3** [endurance](#endurance-end). | [medicine](#medicine-int); Removes the illness on the next day. |
+| 64 - 71 | Amber Curse | **2D10** Days | The victim finds it difficult to feel the flow of magic through their body. **-1D4** [arcana](#arcana-arc); **-1D3** to any magic skills and [rune-using](#rune-using-agi). | Conventional methods cannot treat this illness. |
+| 72 - 79 | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D3** [will](#will-will). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
+| 80 - 87 | Rot Plague | **4D10** Days | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D3** [endurance](#endurance-end); **-(1D3 + 1)** [toughness](#toughness-tough). | [surgery](#surgery-int); The ill-effects are suspended for 24 hours. |
+| 88 - 95 | Organ Mold | Until cured | Causes an [injury](#injury) every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
+| 95 - 100 | Red Death | Until cured | The victim starts bleeding from all of their orifices, with no end in sight. Causes 1 **bleeding** every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
 
 # Credits
 **Ambersteel** is not a revolution of the RPG genre and it was never meant to be. It is an amalgam and consolidation of rules I found to my personal preference, in hopes of crafting a deep, yet intuitive system. 
