@@ -430,18 +430,45 @@ Governs a character's ability to withstand persuasion, intimidation, charm or te
 ### Advancing Attributes
 Whenever a **PC** uses an attribute in a [test](#tests), the outcome must be noted. 
 
-Advancing an attribute requires:
+Advancing an **attribute** requires:
 * N * N / 2 (rounded up) **complete successess**.
 * N * N **partial successess** or **complete failures**.
-* Where *N* is the current level of the attribute. 
+* Where *N* is the current level of the **attribute**. 
 
-> A character has a [strength](#strength-str) attribute at level 1. 
+> A character has a [strength](#strength-str) **attribute** at level 1. 
 > 
-> To advance their attribute to level 2, they would need 2 * 2 / 2 = 2 **complete successes** and 2 * 2 = 4 **partial successess** or **complete failures**
+> To advance their **attribute** to level 2, they would need 2 * 2 / 2 = 2 **complete successes** and 2 * 2 = 4 **partial successess** or **complete failures**
 
-> A character has a [will](#will-will) attribute at level 3. 
+> A character has a [will](#will-will) **attribute** at level 3. 
 > 
-> To advance their attribute to level 4, they would need 3 * 3 / 2 = 5 **complete successes** and 3 * 3 = 9 **partial successess** or **complete failures**
+> To advance their **attribute** to level 4, they would need 3 * 3 / 2 = 5 **complete successes** and 3 * 3 = 9 **partial successess** or **complete failures**
+
+For your convenience, the following table contains the precalculated requirements to advance an **attribute** level. 
+* In the table, 'Level' is the character's *current level* in the **attribute**. 
+* Note it is possible to go past level 20, but you shouldn't hope for it. 
+
+| Level | Successes | Failures |
+| --- | --- | --- |
+| 1   | 1   | 1   |
+| 2   | 2   | 4   |
+| 3   | 5   | 9   |
+| 4   | 8   | 16  |
+| 5   | 13  | 25  |
+| 6   | 18  | 36  |
+| 7   | 25  | 49  |
+| 8   | 32  | 64  |
+| 9   | 41  | 81  |
+| 10  | 50  | 100 |
+| 11  | 61  | 121 |
+| 12  | 72  | 144 |
+| 13  | 85  | 169 |
+| 14  | 98  | 196 |
+| 15  | 113 | 225 |
+| 16  | 128 | 256 |
+| 17  | 145 | 289 |
+| 18  | 162 | 324 |
+| 19  | 181 | 361 |
+| 20  | 200 | 400 |
 
 #### Practicing Attributes
 It is possible to advance attributes *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice an attribute of choice. 
@@ -491,20 +518,47 @@ The outcome of a test gets noted on the skill it was made for, not the attribute
 **Forking** learning skills is not allowed. **Forking** into learning skills isn't allowed, either. 
 
 ### Advancing Skills
-Whenever a **PC** uses a skill in a [test](#tests), the outcome must be noted. 
+Whenever a **PC** uses a **skill** in a [test](#tests), the outcome must be noted. 
 
-Advancing a skill requires:
+Advancing a **skill** requires:
 * N * N / 2 (rounded up) **complete successess**.
 * N * N **partial successess** or **complete failures**.
 * Where *N* is the current level of the attribute. 
 
-> A character has a [nature](#nature-int) skill at level 1. 
+> A character has a [nature](#nature-int) **skill** at level 1. 
 > 
-> To advance their skill to level 2, they would need 1 * 1 / 2 (rounded up) = 1 **complete successes** and 1 * 1 = 1 **partial successess** or **complete failures**
+> To advance their **skill** to level 2, they would need 1 * 1 / 2 (rounded up) = 1 **complete successes** and 1 * 1 = 1 **partial successess** or **complete failures**
 
-> A character has a [medicine](#medicine-int) skill at level 5. 
+> A character has a [medicine](#medicine-int) **skill** at level 5. 
 > 
-> To advance their skill to level 6, they would need 5 * 5 / 2 (rounded up) = 13 **complete successes** and 5 * 5 = 25 **partial successess** or **complete failures**
+> To advance their **skill** to level 6, they would need 5 * 5 / 2 (rounded up) = 13 **complete successes** and 5 * 5 = 25 **partial successess** or **complete failures**
+
+For your convenience, the following table contains the precalculated requirements to advance a **skill** level. 
+* In the table, 'Level' is the character's *current level* in the **skill**. 
+* Note it is possible to go past level 20, but you shouldn't hope for it. 
+
+| Level | Successes | Failures |
+| --- | --- | --- |
+| 1   | 1   | 1   |
+| 2   | 2   | 4   |
+| 3   | 5   | 9   |
+| 4   | 8   | 16  |
+| 5   | 13  | 25  |
+| 6   | 18  | 36  |
+| 7   | 25  | 49  |
+| 8   | 32  | 64  |
+| 9   | 41  | 81  |
+| 10  | 50  | 100 |
+| 11  | 61  | 121 |
+| 12  | 72  | 144 |
+| 13  | 85  | 169 |
+| 14  | 98  | 196 |
+| 15  | 113 | 225 |
+| 16  | 128 | 256 |
+| 17  | 145 | 289 |
+| 18  | 162 | 324 |
+| 19  | 181 | 361 |
+| 20  | 200 | 400 |
 
 #### Practice
 It is possible to advance skills *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice a skill of choice. 
