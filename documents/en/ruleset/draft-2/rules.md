@@ -33,6 +33,7 @@
       - [Oratory [Ora]](#oratory-ora)
       - [Will [Will]](#will-will)
     - [Advancing Attributes](#advancing-attributes)
+      - [Practicing Attributes](#practicing-attributes)
   - [Skills](#skills)
     - [Skill Forking](#skill-forking)
     - [Intent & Action](#intent--action)
@@ -362,9 +363,13 @@ Of course, how many tests are appropriate in a given situation is entirely the *
 A character is a representation of a sentient creature in the game world. They're an amalgam of [attributes](#attributes), [skills](#skills), [ambitions, beliefs & instincts](#ambitions-beliefs--instincts) and of course their [possessions](#possessions--equipment). 
 
 ## Attributes
-Attributes describe a character's basic, inherent abilities. 
+**Attributes** describe a character's basic, inherent abilities. 
 
-The value of an attribute indicates the number of **D6** to roll for a test of that attribute. Attribute values typically range from 2 to 6 for ordinary human characters. 
+The value of an attribute indicates the number of **D6** to roll for a test of that attribute. Attribute values typically range from 2 to 5 for ordinary human characters. 
+
+**Attributes** [advance](#advancing-attributes), as they're tested. It is also possible to [practice](#practicing-attributes) **attributes**. It is **not** possible to teach **attributes**, however. 
+
+Unlike [skills](#skills), it is not possible to [fork](#skill-forking) **attributes**. 
 
 ### Physical Attributes
 These numbers represent a character's basic physical abilities. 
@@ -438,30 +443,43 @@ Advancing an attribute requires:
 > 
 > To advance their attribute to level 4, they would need 3 * 3 / 2 = 5 **complete successes** and 3 * 3 = 9 **partial successess** or **complete failures**
 
+#### Practicing Attributes
+It is possible to advance attributes *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice an attribute of choice. 
+
+A **PC** can only actively practice one **attribute**. Furthermore, a **PC** can not both be actively practicing an **attribute** *and* a **skill**. They must choose - either practice an **attribute** *or* a **skill**. 
+
+For every **cycle** that passes of active practice, the **PC** can roll a [test](#tests) for the chosen **attribute**. 
+
+A **cycle** is 2 Months, regardless of attribute being practiced. 
+
+> A **PC** spends a year practicing their [arcana](#arcana-arc), while the **GM** prepares the next story arc. In this case, 5 tests can be made and their outcomes noted. 
+
 ## Skills
-A skill is any acquired knowledge and experience regarding a specific subject. 
+A **skill** is any acquired knowledge and experience regarding a specific subject. 
 
-All of a character's skills have a value attached to them, which indicates the number of **D6** to use when testing that skill. 
+All of a character's **skills** have a value attached to them, which indicates the number of **D6** to use when testing that **skill**. 
 
-Skills can be improved over time. Every time a roll for a skill is made, the outcome will be noted. Whenever a certain threshold of successes and failures is passed, the skill improves. Both a certain number of successes *and* a certain number of failures must be accumulated to grow a skill. 
+**Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practice) and [teach](#teaching) **skills**. 
+
+It is also possible to [fork](#skill-forking) **skills**, granting more dice to roll in a test. 
 
 ### Skill Forking
-For every skill a character knows (= is not currently still learning), and they are currently testing a skill that is thematically related, they can **fork** that skill into their test, granting them **+1D6** for their test. 
+For every **skill** a character knows (= is not currently still learning), and they are currently testing a **skill** that is thematically related, they can **fork** that **skill** into their test, granting them **+1D6** for their test. 
 
-> Imagine a large forked rivermouth. One of the forks feeding into it is also a large river, which represents the skill primarily being tested. The other, smaller forks of the river represent the supporting skills. They all combine together at the rivermouth. A primary and supporting skills flow together into the test! 
+> Imagine a large forked rivermouth. One of the forks feeding into it is also a large river, which represents the **skill** primarily being tested. The other, smaller forks of the river represent the supporting **skills**. They all combine together at the rivermouth. A primary and supporting **skills** flow together into the test! 
 
-> For example, if a character is testing their [thievery](#thievery-dex--perc--spd) skill at level three and they also know [stealth](#stealth-dex--spd--int), they can **fork** their stealth skill into their thievery test. Any number of skills can be **forked** into a test, but each **fork** only grants **+1D6**. For the thievery test above, it doesn't matter if the character is at stealth level one or five or nine-thousand. They only get a **+1D6** to their thievery test. So in this case, if the **GM** agrees, the player gets to roll **4D6** for their test. 
+> For example, if a character is testing their [thievery](#thievery-dex--perc--spd) **skill** at level three and they also know [stealth](#stealth-dex--spd--int), they can **fork** their stealth **skill** into their thievery test. Any number of **skills** can be **forked** into a test, but each **fork** only grants **+1D6**. For the thievery test above, it doesn't matter if the character is at stealth level one or five or nine-thousand. They only get a **+1D6** to their thievery test. So in this case, if the **GM** agrees, the player gets to roll **4D6** for their test. 
 
-Which skills can be **forked** into a particular test is up to the **GM**. If a player is performing a test, they can lobby for the use of the skills they want to **fork** into their particular test, but ultimately, if the **GM** says no, that decision is final. 
+Which **skills** can be **forked** into a particular test is up to the **GM**. If a player is performing a test, they can lobby for the use of the **skills** they want to **fork** into their particular test, but ultimately, if the **GM** says no, that decision is final. 
 
-> Back to the thievery example. Let's assume a **PC** is trying to quickly unlock a door using their [thievery](#thievery-dex--perc--spd), because they're being chased by guards and desperately need to get away. They could argue to fork their [stealth](#stealth-dex--spd--int) skill into the test, but ultimately, what use is stealth when you've already been detected? Unless you can make yourself *unseen* somehow, the **GM** should rule that stealth cannot apply in that situation. 
+> Back to the thievery example. Let's assume a **PC** is trying to quickly unlock a door using their [thievery](#thievery-dex--perc--spd), because they're being chased by guards and desperately need to get away. They could argue to fork their [stealth](#stealth-dex--spd--int) **skill** into the test, but ultimately, what use is stealth when you've already been detected? Unless you can make yourself *unseen* somehow, the **GM** should rule that stealth cannot apply in that situation. 
 
 ### Intent & Action
 The players drive the story and the action. When deciding on what to do, make sure you state the **intent** of your action, like "I will make that person work for us!". 
 
 Then, the **GM** will need to know how you aim to follow up on your intent. Describe the **action** you will take. The clearer, the better. "I will tell them of our exploits and how well we get paid!", is a good response and allows the **GM** to conclude you're trying to [persuade](#persuasion-emp) the other character. Even better would be something like "I will *persuade* them by telling them of our exploits and how well we get paid!" That leaves no room for doubt *how* you wish to achieve your goal. 
 
-Of course, how appropriate a certain skill is for the resolution of a given situation, is ultimately up to the **GM** and the specifics of the situation itself. 
+Of course, how appropriate a certain **skill** is for the resolution of a given situation, is ultimately up to the **GM** and the specifics of the situation itself. 
 
 ### Learning Skills
 Whenever asked to test a skill a **PC** does not yet know, it will be added or progressed in the *currently learning* section of the character sheet. 
@@ -476,29 +494,29 @@ The outcome of a test gets noted on the skill it was made for, not the attribute
 Whenever a **PC** uses a skill in a [test](#tests), the outcome must be noted. 
 
 Advancing a skill requires:
-* (N * 2) + 2 **complete successess**.
-* (N * 3) + 4 **partial successess** or **complete failures**.
-* Where *N* is the current level of the skill. 
+* N * N / 2 (rounded up) **complete successess**.
+* N * N **partial successess** or **complete failures**.
+* Where *N* is the current level of the attribute. 
 
 > A character has a [nature](#nature-int) skill at level 1. 
 > 
-> To advance their skill to level 2, they would need (1 * 2) + 2 = 4 **complete successes** and (1 * 3) + 4 = 7 **partial successess** or **complete failures**
+> To advance their skill to level 2, they would need 1 * 1 / 2 (rounded up) = 1 **complete successes** and 1 * 1 = 1 **partial successess** or **complete failures**
 
-> A character has a [medicine](#medicine-int) skill at level 4. 
+> A character has a [medicine](#medicine-int) skill at level 5. 
 > 
-> To advance their skill to level 5, they would need (4 * 2) + 2 = 10 **complete successes** and (4 * 3) + 4 = 16 **partial successess** or **complete failures**
+> To advance their skill to level 6, they would need 5 * 5 / 2 (rounded up) = 13 **complete successes** and 5 * 5 = 25 **partial successess** or **complete failures**
 
 #### Practice
 It is possible to advance skills *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice a skill of choice. 
 
-A **PC** can only actively practice one **category of skills**. For every **cycle** that passes of active practice, the **PC** can roll a [test](#tests) of a skill of the corresponding category. 
+A **PC** can only actively practice one **category of skills**. For every **cycle** that passes of active practice, the **PC** can roll a [test](#tests) of a skill of the corresponding category. Furthermore, a **PC** can not both be actively practicing a **skill** *and* an **attribute**. They must choose - either practice a **skill** *or* an **attribute**. 
 
 | Skill Category | Cycle    |
 | -------------- | -------- |
+| Social         | 2 Weeks  |
 | Physical       | 3 Weeks  |
-| Social         | 2 Week   |
-| Knowledge      | 3 Months |
-| Craftsmanship  | 2 Months |
+| Craftsmanship  | 1 Month  |
+| Knowledge      | 2 Months |
 
 > A **PC** spends seven weeks practicing their [fighting](#fighting-str), while waiting for their comrade to recover from their [injuries](#injury). [Fighting](#fighting-str) being a physical skill, the cycle for tests is 3 weeks. In this case, 2 tests can be made and their outcomes noted. 
 
