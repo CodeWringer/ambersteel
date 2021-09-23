@@ -235,7 +235,6 @@ In some places, where distances are concerned, both feet and meters are noted as
 **Ambersteel** uses a **dice pool** system of **six-sided dice** (henceforth referred to as **D6**) to resolve [tests](#tests). *Dice pool* means a variable number of dice will be rolled, based on a character's [attributes](#attributes), [skills](#skills), boons and circumstance of the situation they're in. 
 
 The following types of dice come into play:
-* **D2** - two-sided dice; or a coin
 * **D3** - three-sided dice
 * **D4** - four-sided dice
 * **D6** - six-sided dice
@@ -1042,7 +1041,7 @@ There are no limits to how many of a given card a player can own, but they may o
 When diplomacy fails, hostilities ensue. 
 
 ## Who Acts When
-At the beginning of every combat encounter, the involved parties (= groups) must roll for initiative. In order to determine which party gets to act first, each party rolls a **1D6**. The party rolling the higher number, goes first. If there is a tie, roll a **1D2**. If the player party is involved, a one means they get to go first. 
+At the beginning of every combat encounter, the involved parties (= groups) must roll for initiative. In order to determine which party gets to act first, each party rolls a **D6**. The party rolling the higher number, goes first. If there is a tie, roll another **D6**. If the player party is involved, a *4*, *5* and *6* means they get to go first. 
 
 The involved parties act one after another. After all involed parties have had their **turn** to act, a **combat round** has passed. All members of a party act at the same time, during the party's turn. 
 
