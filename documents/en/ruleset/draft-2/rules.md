@@ -15,7 +15,6 @@
     - [Providing Assistance](#providing-assistance)
       - [Helpers Learn](#helpers-learn)
     - [Time](#time)
-    - [Fewer Tests Are Better](#fewer-tests-are-better)
 - [Character](#character)
   - [Attributes](#attributes)
     - [Physical Attributes](#physical-attributes)
@@ -110,6 +109,20 @@
     - [Ambersteel](#ambersteel)
     - [Runes](#runes)
 - [Game Mastery](#game-mastery)
+  - [The Role of a Game Master](#the-role-of-a-game-master)
+    - [Your World](#your-world)
+    - [Your Game](#your-game)
+      - [To Rule or Not To Rule](#to-rule-or-not-to-rule)
+      - [Challenging Your Players](#challenging-your-players)
+        - [**Challenge your PCs' abilities during combat**](#challenge-your-pcs-abilities-during-combat)
+        - [**Challenge your PCs' abilities out of combat**](#challenge-your-pcs-abilities-out-of-combat)
+        - [**Fewer Tests Are Better**](#fewer-tests-are-better)
+        - [**Limit Resources**](#limit-resources)
+        - [**Encourage Your Players To Be Creative**](#encourage-your-players-to-be-creative)
+        - [**Bring NPCs To Life**](#bring-npcs-to-life)
+        - [**Threaten Your PC's**](#threaten-your-pcs)
+        - [**Allow World-Change**](#allow-world-change)
+    - [Your Players](#your-players)
 - [Appendix](#appendix)
   - [Skill List](#skill-list)
     - [Physical skills](#physical-skills)
@@ -204,7 +217,7 @@
   - [List of Illnesses](#list-of-illnesses)
 - [Credits](#credits)
 
-Version 0.1 "Kettgard"
+Version 0.2 "Kettgard"
 
 A role-playing game by Nicolas Haase
 
@@ -347,17 +360,6 @@ While the **GM** decides on how much time a given test will need, the following 
 * A matter of minutes: inspecting an environment, quickly skimming the contents of a book, persuading someone in conversation, first aid. 
 * A matter of hours: Simple crafts, surgery, scrutinizing an environment, researching something simple/not obscure, engaging in lengthy and difficult negotiations.
 * A matter of days and months: Complex crafts and artistry, researching a complex or obscure subject. 
-
-### Fewer Tests Are Better
-This section is primarily directed at the **GM**. The short of it goes as follows: 
-
-Only have a player make one test per scene/situation, as long as the scene/situation doesn't change significantly. 
-
-> For example, a **PC** is trying to sneak past two guards huddled around a campfire. If they succeed their [stealth](#stealth-agi) test, the **GM** lets them sneak all around the camp, without making them do multiple tests, as long as the situation doesn't change significantly. One of the guards getting up to take a pee behind a tree somewhere shouldn't be such a change, even if that happens to be the tree the **PC** is hiding behind. On the other hand, if the guards pick up torches and start actively looking for intruders, for whatever reason, then the situation changes significantly. Another [stealth](#stealth-agi) test would be warranted. 
-
-> A **PC** succeeds an [acrobatics](#acrobatics-agi) test to climb a wall. Thus, it is established that the **PC** *can* climb that wall. Whenever they attempt to climb that wall in the future, they simply succeed, with no test needed. Unless, of course, if the wall got taller since the last attempt. 
-
-Of course, how many tests are appropriate in a given situation is entirely the **GM**'s decision to make. 
 
 # Character
 A character is a representation of a sentient creature in the game world. They're an amalgam of [attributes](#attributes), [skills](#skills), [ambitions, beliefs & instincts](#ambitions-beliefs--instincts) and of course their [possessions](#possessions--equipment). 
@@ -680,7 +682,7 @@ Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the
 Characters can have one or more **status effect(s)** affecting them. A **status effect** can have positive or negative effects on the character. 
 
 #### Dazed
-A **dazed** character begins their turn with -2 **AP**. 
+A **dazed** character begins their turn with -2 **AP** and can run at most only half the distance they normally could. 
 
 #### Grappled
 A **grappled** character is unable to move and suffers -1 [melee defence](#melee-defence-agi), for as long as they are **grappled**. A **grappled** character can break free, by **completely succeeding** a [strength](#strength-str) test against the other character grappling them. 
@@ -1254,8 +1256,152 @@ In order to invoke a **rune**:
 * A **partial success** or **complete failure** results in a [spell backfire](#spell-backfire). 
 
 # Game Mastery
+This section is directed at (and somewhat reserved for) the Game Master (**GM**) - the one person at the table who everyone agrees has the authority and burden to run the game. 
+
+## The Role of a Game Master
+As the **GM**, you are the one person at the table playing a different game than the others. Instead of controlling a single character in a given world, you control the entire world and determine what the characters get to do. It is *your world* and *your game*. The other people at the table are *your players*. 
+
+### Your World
+While **Ambersteel** is best suited to a medieval-fantasy world, it doesn't dictate the type of world you have to employ. 
+
+You are encouraged to craft your own world to play in. You decide what species (like humans) exist, what nations and cultures vow for supremacy and what fantastical landscapes exist. Is magic prevalent? What types of magic exist? You decide. This world, is yours. 
+
+Your players can aid in crafting the world. Usually during play, rather than outside of it. If you allow them to change your world through their actions, it becomes a much more dynamic and almost life-like beast. 
+
+### Your Game
+There is an *unspoken social contract* between you, the **GM** and your players. Everyone at the table agrees that you get to call the shots. You present every scenario and the challenges that go with it. The players have to come up with the answers and solutions. 
+
+The rules are also in your hands. If you find one of the **Ambersteel** rules to not be to your liking or simply not work in your game, change it, so that it fits your game. This is called *house-ruling* - introducing unofficial rules that are only in effect at your table. 
+
+Keep in mind that with this authority, also comes responsibility. It is your task, to entertain your players. Not like a comedian or a singer, but something more varied and complex than that. You agree to keep your players interested and engaged in your game. You agree to weave their characters into stories of which you'll have no idea where they'll go. 
+
+And you agree to mediate and moderate. When players fight, in-person, then there may be a time when you, as the one running the game have to step in and find a resolution. Either you can find a way for them to reconcile, or someone may have to leave the game. 
+
+When players keep talking over each other, it is your responsibility to moderate. Have them take turns when speaking. Make sure everyone who has something to say, gets to. 
+
+Even if all of these and the following points may sound very dogmatic, see them more as well-intentioned advice, than hard rules for you to follow. Find your style and develop it as you like. 
+
+#### To Rule or Not To Rule
+The rules serve to facilitate the resolution of uncertain outcomes, to add tension and drama and introduce challenges for the players to deal with. 
+
+Obviously, as the **GM**, you have to know the rules well, in order to keep the game paced well. Keep in mind, however, that the rules can also get in the way of *your game's* pacing. 
+
+Rules discussions and looking up rules is best kept for later. Keep the game flowing or else risk losing the interest of your players! That means making a ruling now, based on what you *think* might be the right call in the given situation. Then, later, when the players are busy, or when you're taking a break, you can look up what the right rule might have been. 
+
+When a player tries to argue a ruling, they're violating the unspoken social contract. Tell them it's time to move on and address their questions and concerns after the session. 
+
+#### Challenging Your Players
+You have two means of challenging (= engaging) your players: *mechanical challenges* and *narrative challenges*. 
+
+Mechanical challenges are your *game-y* tools to engage your players. You engage them, by challenging their characters. You put tests or limitations before them, which have to be overcome mechanically. Dice are usually involved. 
+
+You should be intimately familiar with the [tests](#tests) section. When to use what type of test can not be cast in a sure-fire ruleset, and rather requires you to develop a sense for it. **Creative tests** allow your players the most freedom and should thus be the most interesting way for them to resolve a mechanical challenge. But over-use this type of test and your players might start feeling irritated and mentally exhausted too quickly. 
+
+[Injuries](#injury) and [illnesses](#illness) involve mechanical hurdles for the **PC**s to overcome. The solution is presented in the rules. If you're injured or ill, seek medical aid and spend time resting. While some of the player party may be incapacitated, the other half can roll some dice to have their character [practice their skills](#practice) or [practice their attributes](#practicing-attributes). Of course, these aren't terribly interesting mechanical challenges, because they leave little room for interpretation. 
+
+##### **Challenge your PCs' abilities during combat**
+More interesting scenarios come from challenging your **PC**s' abilities. Present the close-quarters warrior with an opponent who's out of reach. Have the blood-letting fanatic deal with a foe that can't bleed. Present the mage with an opponent clad in [Amberite](#amberite). But always keep in mind one thing - the foes your players engage should have weaknesses and they should not be unbeatable, unless you make it **very** clear to the players their characters couldn't win a straight fight. 
+
+Also try to occasionally have foes that target the **PC** they counter, but also make sure one of the other **PC**s can counter them, in turn. 
+
+> The player party's mage is ambushed by an [Amberite](#amberite)-clad fanatic. The mage shoots fire at their assailant, but finds the fire dissipate into nothing more than hot smoke right before the fanatic's eyes. But the mage's ally, a halberd-wielding ex-footsoldier jumps in and lands a devastating blow, severly injuring the fanatic. 
+> 
+> The wounded fanatic cannot fight on and attempts to flee. The **PC**s can now attempt to attack the fleeing fanatic with conventional means, or let them go. The mage alone might not have had such an easy time of it. But thanks to their ally, they didn't have to fear that foe. 
+
+Even more interesting fights can occur, if you involve the environment, as well. Introduce both hazards and tools for the **PC**s to be threatened by, or to exploit. These are just some examples of interactive combat environments: 
+* An illegal gunpowder storage. Any careless use of fire could cause a cascade of explosions. Be mindful to not straight-up wipe out the **PC**s if the gunpowder does get set on fire. They should be harmed, but give them a chance to recover or flee from that blunder. 
+* A giant cave, full of giant spider webs. If anyone should be unfortunate enough to stumble or be knocked into a web, a giant spider descends from the shadowy corners of the ceiling and begins to threaten that chracter, specifically. If that happens to be a **PC**, their allies have to think quick, to get them free, but also keep their original opponents on their toes. On the other hand, the **PC**s can attempt to knock their foes into the webs. 
+* A burning house, with the **PC**s and their opponents in the thick of it. At the start of every turn, a burning piece of debris falls from the ceiling and you randomly determine where it lands. Could be on a **PC**, could be on one of their opponents. Or it could be in front of and barring their only exit - an open window leading to safety. 
+* A rickety, old bridge, which could collapse if too much force was applied to its support beams. The **PC**s could exploit this to collapse the bridge on purpose. Or their opponents could attempt the same, to put time-pressure on the players. 
+
+##### **Challenge your PCs' abilities out of combat**
+Outside of combat, you can challenge your **PC**s' skills. Present opportunities for the **PC**s to [learn new things](#advancing-skills). Present them with tests for skills they don't have. But do so sparingly. It is frustrated for a player to never get to play to their character's strengths. Give players that satisfaction of having *the right skill at the right time*. 
+
+When it comes to skill tests, it is prudent to be wary of *test band-wagon'ing*. When you ask a specific player (or rather, their character) to do a test in a certain skill or attribute and if they fail, another player jumps in and asks, if they can try, consider well how you answer. 
+
+If you allow it, you make the player you first asked feel less special and important. After all, you must have had a good reason why *only their character* could do the test, to begin with. If you found that only that one **PC** had a chance at even attempting the test, you shouldn't allow other **PC**s to make the test. 
+
+> A classic example is asking one of your players to test their character's [perception](#perception-perc). They fail and the other players immediately ask if they can try, as well. If they could, you shouldn't have asked just the one player, but instead asked all of them to begin with. 
+> 
+> But if you think only their character could have succeeded that test, you shouldn't allow the others to try. 
+
+On the other hand, you should only have such specifically targeted tests, if failure doesn't result in a dead-end for the **PC**s. Try to aim more towards tests that can result in the players being informed of a potential challenge ahead of time. 
+
+> For example, a sneaky **PC** might have successfully infiltrated a palace, where they aim to gather intelligence on their political enemies. The **GM** asks them to do a [perception](#perception-perc) test, which they succeed. As a result, the **GM** informs the player, that their character overhears voices from a room next door. 
+> 
+> The **PC** walks up to the door leading to the other room, and eavedrops. They overhear two men talking about increased patrols and sightings of an intruder. The player decides, based on that information, to leave the palace early, as things are getting too risky for them to stay. 
+> 
+> Had the **PC** failed their test, the **GM** would have told them to move on. Perhaps even given them a different piece of information, like hearing noises outside the room they're in, but without a clear direction. The player might not think much of it, and decide to stay. That's when the guards walk in and surprise the **PC**. They can still make their get-away, albeit with more running in blind panic, than sneaking calmly. 
+
+##### **Fewer Tests Are Better**
+Only have a player make one test per scene/situation, as long as the scene/situation doesn't change significantly. 
+
+> For example, a **PC** is trying to sneak past two guards huddled around a campfire. If they succeed their [stealth](#stealth-agi) test, the **GM** lets them sneak all around the camp, without making them do multiple tests, as long as the situation doesn't change significantly. One of the guards getting up to take a pee behind a tree somewhere shouldn't be such a change, even if that happens to be the tree the **PC** is hiding behind. On the other hand, if the guards pick up torches and start actively looking for intruders, for whatever reason, then the situation changes significantly. Another [stealth](#stealth-agi) test would be warranted. 
+
+> A **PC** succeeds an [acrobatics](#acrobatics-agi) test to climb a wall. Thus, it is established that the **PC** *can* climb that wall. Whenever they attempt to climb that wall in the future, they simply succeed, with no test needed. Unless, of course, if the wall got taller since the last attempt. 
+
+Of course, how many tests are appropriate in a given situation is entirely at your discretion. 
+
+##### **Limit Resources**
+Also keep in mind that the [item slots](#carrying-capacity) system exists to create mechanical challenges. Limit the **PC**'s access to the resources they tend to hoard. 
+
+Although your players could also be clever and find narrative solutions to their lack of *item vaccuuming*. If they can afford one or two carriages with the horses and drivers, perhaps even guards, they should be allowed to transport a lot more stuff around. Within the confines of their solution, of course. Those wagons full of ammunition, medical supplies and spare daggers will have to stay outside the cave/dungeon/ruin/etc. - unless your players can find a solution for that, too. 
+
+Possessions in the form of coin and steel are not the only type of resource you can give your **PC**s. Keep in mind that servants, hirelings, close friends and family are *also a resource*. **PC**s can refer to them, when they have need of information, coin or political support. 
+
+##### **Encourage Your Players To Be Creative**
+And that brings us to narrative challenges. These are the challenges you present your players, moreso than their characters. 
+
+Still bordering on *game-y*, the [ambitions, beliefs and instincts](#ambitions-beliefs--instincts) and [fate points](#fate-points) systems reward players for role-playing well and for playing to their character's strengths. 
+
+Make sure to regularly challenge **each** **PC**'s **beliefs** and **instincts**. This keeps the players on their toes and puts pressure on them, when they have to make a difficult call. Will they play to their character's belief - and get them in trouble - or do they refuse and thus violate the belief? This is also where a large part of the *easy role-playing* comes from, because it is mechanically supported. 
+
+More interesting and less immediately rewarding, is the **ambition** of a **PC**. These long-term goals guide their character along the way. Make sure to throw them a small plot to advance their own agenda, every once in a while. 
+
+> For example, a **PC** has an old enemy who they've vowed to take revenge on. While the final confrontation is still a ways away, every once in a while, that **PC** finds information regarding their enemy. You could feed that player information on their **PC**'s enemy's current or recent whereabouts and activities. Not enough to give them a trail to follow, but enough to keep them aware of their long-term goal. 
+> 
+> Then, you present them with an opportunity to steal some resource from their enemy. Be it a valuable item, person or political power - something is within reach. This will likely be its own small adventure for the player party to engage with - if they so choose. 
+> 
+> Eventually, some henchmen of the **PC**'s enemy make an appearance. They aim to challenge the player party. This is important - not just the one **PC** is involved, but **all of them**. 
+> 
+> And so it goes on, with continually more escalating scenarios, which all culminate into the final confrontation, many real-world sessions into the future, when the **PC** gets to put the final nail in that **ambition**'s coffin - and earn their [AFP](#ambition-fate-points).
+
+##### **Bring NPCs To Life**
+When you give **PC**s **NPC**s that work for them, they can engage with those **NPC**s in a myriad of ways. This facilitates role-play and engages the players in a very dynamic way. They get to play out their character and believe in the reality of a world that doesn't exist. You also get to use **NPC**s as a tool to feed players information (or false rumors) about the world they're in. 
+
+##### **Threaten Your PC's**
+Any resource you let a **PC** have, can be *threatened*. This is a powerful tool to raise tension among your players. Threaten their possessions, family or holdings - all the things they hold dear. 
+
+This is a powerful tool to make the players care about protecting their assets. If you give them a small castle in a sparsely populated area, make sure to have someone threaten to take away that castle. By the time that happens, the players have grown accustomed to having that safe space to return and haul loot to. Suddenly, their top-priority will be protecting that place. 
+
+In order to avoid frustrating your players, you shouldn't threaten their more valuable resources often. Used sparingly, this tool can cause great tension and players scrambling to find a creative solution. But used too frequently, your players might start getting frustrated, because you harm their sense of progression. If they never truly gain anything, why should they care if it is threatened? 
+
+##### **Allow World-Change**
+Have your players change your world. No matter what they do, the **PC**s' actions are going to leave ripples running through the world. 
+
+If they ruthlessly slaughter a tribe of non-humans, they might inadvertently cause an increased radicalization among the other tribes of those same non-humans. Likewise, if the **PC**s go around protecting villages against raids, those villages might prosper and the villagers might offer gifts (like a warm meal and bed) to the **PC**s. 
+
+On the other hand, if the players are actively trying to change a major aspect of the world, like the political structure in a neighboring country, allow it - but make it difficult. The players will have to work a bit to achieve that goal. Not just in terms of time invested, but in terms of creative preparation. 
+
+This is the most powerful way to narratively challenge players. It helps them see your fictional world as *real* and they start thinking about the consequences of their actions more often. This encourages peaceful and creative solutions, where before they might have preferred blunt violence. 
+
+### Your Players
+The game can only happen, because of your players - the people willing to be at your table and engage with your game. Treat them with the same respect you expect from them. 
+
+You're primarily running this game for your players - without them, you might as well write a book, instead. Therefore it should be your top priority to keep them entertained and focused on the game, or else you risk losing them. 
+
+Understand how your players think and how they enjoy their table-top role-playing game experience. If they like combat and loathe interacting with **NPC**s, you can cater to that and present them with lots of *interesting* combat scenarios. On the other hand, if they love to role-play, they'll probably enjoy meeting and interacting with **NPC**s. 
+
+Figuring out how to get your players engaged in your game and noticing that engagement, can be a very rewarding sensation. It is a sign of a fun and worth-while experience. 
+
+But not just the conflicts within game itself require your attention. When two players fight, you'll have to step in, if they can't resolve the matter themselves. Try to mediate, when possible. And have the wisdom to tell when reconciliation is impossible. As difficult as it may be, sometimes you'll have to let a player go, if they don't fit into the group. 
+
+Besides the mediator, you're also the moderator. Make sure your players are respectful towards each other, as well, by stopping players talking over each other. 
+
+This, and all the tips in the *your game* section serve as tools to keep the game paced well and filled with interesting and engaging content. A well-paced game is one that keeps the players' interest. 
 
 # Appendix
+The appendix contains important and less important lists, for reference only when needed. 
 
 ## Skill List
 The following list does not and cannot aim to be a complete listing of all possible skills in game. Adding new skills as necessary will have to be done by the **GM**. 
