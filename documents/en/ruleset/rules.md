@@ -72,6 +72,7 @@
     - [Choosing Attributes](#choosing-attributes)
       - [Manual Attribute Assignment](#manual-attribute-assignment)
       - [Semi-Random Attribute Assignment](#semi-random-attribute-assignment)
+      - [Determine Attribute Advancing Thresholds](#determine-attribute-advancing-thresholds)
     - [Choosing Skills](#choosing-skills)
     - [Carrying Capactity & Possessions](#carrying-capactity--possessions)
     - [Determine Max HP & Max Inj](#determine-max-hp--max-inj)
@@ -932,16 +933,22 @@ Please keep in mind the values here are for a human. Other species may have modi
 > Thus, **arcana** and **wisdom** are left at level 2, with no more points left over to raise these attributes. 
 
 #### Semi-Random Attribute Assignment
-* Roll 11 **D6**
-* Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
-* If there are more than 2 6s, start lowering their value by one, starting from the left or the right, until there are only 2 6s left. 
-* Count up the total of your values and subtract that from 42. 
-  * If the number is negative, that's the number of levels you'll have to go down. 
-  * If the number is positive, that's the number of levels you'll have to go up. 
-* Starting from the left or right, start adjusting each value, until your attribute level total is at 42. **But** don't adjust 6s, 2s or 1s. 
-  * If your levels have to go down, subtract one from each value.
-  * If your levels have to go up, add one to each value.
-* Any 1s left have to be turned into 2s. Repeat the process of bringing values down, in order to reach a total of 42. 
+1. Roll 11 **D6**
+2. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
+3. If there are more than 2 6s, start lowering their value by one, starting from the left or the right, until there are only 2 6s left. 
+4. Count up the total of your values and subtract that from 42. 
+   
+   a) If the number is negative, that's the number of levels you'll have to go down. 
+   
+   b) If the number is positive, that's the number of levels you'll have to go up. 
+
+5. Starting from the left or right, start adjusting each value, until your attribute level total is at 42. 
+  
+  a) If your levels have to go down, subtract one from each value. **But** don't adjust 6s, 2s or 1s. 
+  
+  b) If your levels have to go up, add one to each value. **But** don't adjust 6s. If there are less than 2 6s, a 5 may be raised to a 6, otherwise, don't adjust 5s. 
+
+6. Lastly, any remaining 1s have to be turned into 2s. If this raises the total to be greater than 42, repeat, starting from step 4. 
 
 > Player *B.* prefers the semi-random assignment method. Thus, they roll 11 **D6** with the following results: 1, 6, 4, 5, 5, 4, 5, 3, 6, 3, 6
 >
@@ -959,12 +966,17 @@ Please keep in mind the values here are for a human. Other species may have modi
 > 
 > Perhaps this could be a very socially orientated character? With an **empathy** of 6, they'd make for a skilled diplomat, shrewd negotiator and attentive inquisitor. On the other hand, with an **endurance** of 6 and **arcana** of 3, they could become a very enduring mage. Perhaps that could be decided by a dice roll, too..?
 
+#### Determine Attribute Advancing Thresholds
+Once attribute values have been set, you can determine the required number of successes and failures each attribute requires, in order to advance. 
+
+For this, see the rules on [attribute advancing](#advancing-attributes).
+
 ### Choosing Skills
-You can spend 15 points to *learn* skills and raise their level, with the following limitations:
-* No skill can be at level 6+
-* Max of 7 skills. 
+You can spend **15** points to *learn* skills and raise their level, with the following limitations:
+* No skill can be at level 6 or higher.
+* You can have at most 7 skills. 
 * No skills can be set to *learning*.
-* Skills must relate to background. 
+* Skills must relate to your character's life path. 
 
 ### Carrying Capactity & Possessions
 First, determine your character's maximum [carrying capacity](#carrying-capacity). Refer to the [strength](#strength-str) attribute to do so. 
