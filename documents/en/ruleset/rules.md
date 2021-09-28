@@ -978,6 +978,10 @@ You can spend **15** points to *learn* skills and raise their level, with the fo
 * No skills can be set to *learning*.
 * Skills must relate to your character's life path. 
 
+Once you've chosen skills, you can determine the required number of successes and failures each skill requires, in order to advance. 
+
+For this, see the rules on [skill advancing](#advancing-skills).
+
 ### Carrying Capactity & Possessions
 First, determine your character's maximum [carrying capacity](#carrying-capacity). Refer to the [strength](#strength-str) attribute to do so. 
 
