@@ -110,20 +110,25 @@
     - [Ambersteel](#ambersteel)
     - [Runes](#runes)
 - [Game Mastery](#game-mastery)
-  - [The Role of a Game Master](#the-role-of-a-game-master)
+  - [The Role Of A Game Master](#the-role-of-a-game-master)
     - [Your World](#your-world)
+      - [**Bring NPCs To Life**](#bring-npcs-to-life)
+      - [Use The Senses](#use-the-senses)
     - [Your Game](#your-game)
       - [To Rule or Not To Rule](#to-rule-or-not-to-rule)
+    - [Your Players](#your-players)
+  - [How To Master Your Game](#how-to-master-your-game)
+    - [Starting Your Session](#starting-your-session)
+    - [Your Session](#your-session)
       - [Challenging Your Players](#challenging-your-players)
         - [**Challenge your PCs' abilities during combat**](#challenge-your-pcs-abilities-during-combat)
         - [**Challenge your PCs' abilities out of combat**](#challenge-your-pcs-abilities-out-of-combat)
         - [**Fewer Tests Are Better**](#fewer-tests-are-better)
         - [**Limit Resources**](#limit-resources)
         - [**Encourage Your Players To Be Creative**](#encourage-your-players-to-be-creative)
-        - [**Bring NPCs To Life**](#bring-npcs-to-life)
         - [**Threaten Your PC's**](#threaten-your-pcs)
         - [**Allow World-Change**](#allow-world-change)
-    - [Your Players](#your-players)
+    - [Ending Your Session](#ending-your-session)
 - [Credits](#credits)
 - [Appendix](#appendix)
   - [Skill List](#skill-list)
@@ -159,7 +164,6 @@
       - [History < subject > (Wis)](#history--subject--wis)
       - [Language < language > (Int)](#language--language--int)
       - [Law and politics (Int)](#law-and-politics-int)
-      - [Leatherworking (Agi)](#leatherworking-agi)
       - [Magic School < School > (Arc)](#magic-school--school--arc)
       - [Mathematics (Int)](#mathematics-int)
       - [Mechanics (Int)](#mechanics-int)
@@ -182,7 +186,7 @@
       - [Engineering (Int)](#engineering-int)
       - [Fishing (End)](#fishing-end)
       - [Fletching (Agi)](#fletching-agi)
-      - [Leatherworking (Agi)](#leatherworking-agi-1)
+      - [Leatherworking (Agi)](#leatherworking-agi)
       - [Masonry (Str)](#masonry-str)
       - [Rune Carving (Arc)](#rune-carving-arc)
       - [Weapon smithing (Str)](#weapon-smithing-str)
@@ -218,7 +222,7 @@
   - [List of Injuries](#list-of-injuries)
   - [List of Illnesses](#list-of-illnesses)
 
-Version 0.2 "Kettgard"
+Version 0.3 "Kettgard"
 
 A role-playing game by Nicolas Haase
 
@@ -276,13 +280,13 @@ As a basis for a test, either an [attribute](#attributes) or [skill](#skills) is
 
 Either a **six** or a **five** rolled on a single die counts as a **positive**. Other values are considered **negatives**. **Positives** are required in order to succeed a test. 
 
-The **positives** needed to succeed a test, is determined by the **GM**, via a mechanism called **obstacle** (henceforth referred to as **Ob**). The test can only succeed, if at least as many **positives** are rolled, as the **Ob** named by the **GM**. 
+How many **positives** are needed to succeed a test, is determined by the **GM**, via a mechanism called **obstacle** (henceforth referred to as **Ob**). The test can only succeed, if at least as many **positives** are rolled, as the **Ob** named by the **GM**. 
 
 > For example, to succeed a test at **Ob 3**, at least three **positives** must be rolled. Any less, and the test outcome is a failure. 
 
 To resolve an **attribute test**, the number of **D6** indicated by the *attribute level* (the number next to the attribute) must be rolled. 
 
-To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill), plus the number of **D6** indicated by the related [attribute](#attributes) must be rolled. 
+To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill) must be rolled. 
 
 For every test, one of three outcomes is possible: 
 * **Complete Success**: There are enough or even more than required **positives**.
@@ -398,7 +402,7 @@ Each point in strength raises the [carrying capacity](#carrying-capacity) of the
 #### Toughness [Tough]
 Governs the [injury threshold](#injury) of a character. 
 
-For every point in [toughness](#toughness-tough), a character gains **+2 maximum HP** and raises their [carrying capacity](#carrying-capacity) by 1. 
+For every point in [toughness](#toughness-tough), a character gains **+2 maximum HP**. 
 
 For every two points in [toughness](#toughness-tough), a character raises their **Inj.** limit by 1. 
 
@@ -516,6 +520,12 @@ Whenever asked to test a skill a **PC** does not yet know, it will be added or p
 
 A skill in learning can only be tested with their related [attribute](#attributes). If multiple attributes are listed for a skill, you can choose which one to test with. 
 
+A skill in learning must be tested at **double the** **Ob** than if it were a known skill. 
+
+> A player is asked to test their character's [Leatherworking](#leatherworking-agi) at **Ob** 2. Their character lacks that skill and thus adds it to the *currently learning* section on their character sheet. Assuming their character has an agility of 3, they get to roll **3D6**. But since this is a skill being learned, the **Ob** must be doubled. 
+> 
+> The player cannot, mathematically, succeed a test at **Ob 4** with just **3D6**. Their character fails, but at least they learned a little from the attempt, which is noted on the skill in the *currently learning* section. 
+
 The outcome of a test gets noted on the skill it was made for, not the attribute actually used for the test. 
 
 **Forking** learning skills is not allowed. **Forking** into learning skills isn't allowed, either. 
@@ -570,8 +580,8 @@ A **PC** can only actively practice one **category of skills**. For every **cycl
 
 | Skill Category | Cycle    |
 | -------------- | -------- |
-| Social         | 2 Weeks  |
 | Physical       | 3 Weeks  |
+| Social         | 2 Weeks  |
 | Craftsmanship  | 1 Month  |
 | Knowledge      | 2 Months |
 
@@ -586,8 +596,10 @@ Both teacher and pupil must actively spend time together, furthering the pupil's
 | -------------- | -------- |
 | Physical       | 2 Weeks  |
 | Social         | 1 Week   |
-| Knowledge      | 2 Months |
-| Craftsmanship  | 1 Months |
+| Craftsmanship  | 3 Weeks  |
+| Knowledge      | 1 Month  |
+
+If the teacher's skill is at least one level higher than that of their student, the student can use an extra **D6** to resolve their tests of the skill they're being taught. 
 
 ## Ambitions, Beliefs & Instincts
 While all characters are expected to have *ambitions*, *beliefs* and *instincts*, **PC**s are special, because for them, these concepts are cemented through rules and mechanics. 
@@ -994,7 +1006,9 @@ However, there some limitations:
 * Only one shield.
 
 ### Determine Max HP & Max Inj
-Determine your character's **max HP** and **max Inj**, by referring to the [toughness](#toughness-tough) attribute. 
+Determine your character's **max HP** and **injury limit**, by referring to the [toughness](#toughness-tough) attribute. 
+
+All characters start with an **injury limit** of 1. 
 
 ### Determine Exhaustion Threshold
 Determine your character's [exhaustion threshold](#exhaustion), by referring to the [endurance](#endurance-end) attribute. 
@@ -1274,8 +1288,18 @@ In order to invoke a **rune**:
 # Game Mastery
 This section is directed at (and somewhat reserved for) the Game Master (**GM**) - the one person at the table who everyone agrees has the authority and burden to run the game. 
 
-## The Role of a Game Master
-As the **GM**, you are the one person at the table playing a different game than the others. Instead of controlling a single character in a given world, you control the entire world and determine what the characters get to do. It is *your world* and *your game*. The other people at the table are *your players*. 
+## The Role Of A Game Master
+As the **GM**, you are the one person at the table playing a different game than the others. Instead of controlling a single character in a given world, you control the entire world and determine what the characters within it get to do. 
+
+You're the one who decides on the tone of the world. Is it grimdark? Or perhaps heroic, instead? What adventure(s) will the players be engaging in? Murder mystery? Grand strategy? A heist? Perhaps nothing quite so specific. Perhaps you'll simply present them with a mix of adventures and see which one they pick. You should be clear about this, before you even interview your first player. 
+
+You're also the one who organizes everything. On what days are your play sessions going to be on? What time? What do you do, if someone can't make it? Do you play without them or do you have boardgames at the read for such an occasion? 
+
+Who will get to be at your table and play in your game? You'll have to decide on that, too. You may involve your players in the process of judging the fitness of potential candidates, but ultimately, the final say lies with you. 
+
+How will you run the game? Will it be a single play session (= one-shot) or a perpetual game? Do you want the game to be on-site, at your house or perhaps online? Will you use a webcam and do you expect your players to show themselves via webcam? 
+
+It is *your world* and *your game*. The other people at the table are *your players*. Find the right players for your world and your game and make your game and world right for your players. 
 
 ### Your World
 While **Ambersteel** is best suited to a medieval-fantasy world, it doesn't dictate the type of world you have to employ. 
@@ -1283,6 +1307,36 @@ While **Ambersteel** is best suited to a medieval-fantasy world, it doesn't dict
 You are encouraged to craft your own world to play in. You decide what species (like humans) exist, what nations and cultures vow for supremacy and what fantastical landscapes exist. Is magic prevalent? What types of magic exist? You decide. This world, is yours. 
 
 Your players can aid in crafting the world. Usually during play, rather than outside of it. If you allow them to change your world through their actions, it becomes a much more dynamic and almost life-like beast. 
+
+#### **Bring NPCs To Life**
+Non-player characters (**NPC**s) are all the people of your world, that aren't the **PC**s. **NPC**s are one of your most important tools to bring your world to life and make it interesting and engaging to your players. More often than not, the most interesting sessions involve heavy or mindful use of **NPC**s. See them as you do real people. There are no rules or mechanics dictating how they should behave. 
+
+Much like the **PC**s, or in fact real people, **NPC**s lead their own lives, with their own ambitions, beliefs, instincts, strengths and weaknesses. Keeping track of all of the numbers that implies, can become quite the challenge. But you won't have to come up with all those numbers right away.
+
+Whenever the **PC**s encounter someone new, all you really need, is a rough idea of *who* that **NPC** *is*. You don't have to know all their history right away, nor all of their strengths, weaknesses or even their agenda. Invent those as needed and just keep notes on that. 
+
+And *who* an **NPC** is, depends on several factors, such as:
+* their social status (e. g. a noble vs. a peasant)
+* their cultural background
+* their physique
+* their occupation (e. g. a carpenter vs. a professional soldier)
+* their financial status
+* what you *think* their agenda *should be*
+
+While putting on an accent and visibly acting out the quirks of an **NPC** certainly helps in bringing them to life, what's more important is how they interact with the **PC**s. Are they supportive of the **PC**s? Do they offer a warm meal whenever they see the **PC**s or do they bar their door and close the window curtains? Do they stand up defiantly or cower meekly, when they interact with the **PC**s?
+
+More often than not, you'll have **NPC**s be the source of quests and adventures for the **PC**s. But you can also have some **NPC**s that work for the **PC**s. This, especially, gives players a greater sense of agency, in your world. It allows them to move pieces on the board, so to speak. 
+
+You also get to use **NPC**s as a tool to feed players information (or false rumors) about the world they're in. Be careful how you approach this, though. Players have a tendency to assume everything the **GM** says is true. So when an **NPC** feeds them false information, they tend not to question it. Before you can effectively use false information as a tool, you'll have to establish that **NPC**s will not always speak the truth. Perhaps by introducing an **NPC** very early on, who will tell the most outrageous lies. Maybe even about the **PC**s. That would certainly make your players sceptical. But the specifics of this are entirely up to you and your specific game. 
+
+#### Use The Senses
+When you describe scenes, not just what one can see is of relevance. What are the **PC**s' other senses picking up? What about hearing? Smell? Do the mages sense the flow of magic? What's the temperature like? Is the air damp or dry? Is the ground trembling from a giant's heavy footfalls?
+
+Try to pick only the most significant and most symbolic influences on the senses for your scene. There is little point in describing the gentle rustle of the wind in the leaves, whenever the **PC**s enter a forest. But if there is a strong stench of decay in the air, then that's probably noteworthy. 
+
+More often than not, players would be on the look-out for anything out of the ordinary in a given scene. So anything obvious to the **PC**s, anything that *should* stand out to them, you should describe to them. And that includes smells, noises, temperature, humidity, etc. 
+
+Of course, sometimes, describing a peaceful and soothing scene can be a welcome and effective change. After a harrowing fight, the **PC**s might enter a safe area, where you describe it as a peaceful meadow or serene village or anything along those lines. 
 
 ### Your Game
 There is an *unspoken social contract* between you, the **GM** and your players. Everyone at the table agrees that you get to call the shots. You present every scenario and the challenges that go with it. The players have to come up with the answers and solutions. 
@@ -1305,6 +1359,40 @@ Obviously, as the **GM**, you have to know the rules well, in order to keep the 
 Rules discussions and looking up rules is best kept for later. Keep the game flowing or else risk losing the interest of your players! That means making a ruling now, based on what you *think* might be the right call in the given situation. Then, later, when the players are busy, or when you're taking a break, you can look up what the right rule might have been. 
 
 When a player tries to argue a ruling, they're violating the unspoken social contract. Tell them it's time to move on and address their questions and concerns after the session. 
+
+### Your Players
+The game can only happen, because of your players - the people willing to be at your table and engage with your game. Treat them with the same respect you expect from them. 
+
+You're primarily running this game for your players - without them, you might as well write a book, instead. Therefore it should be your top priority to keep them entertained and focused on the game, or else you risk losing them. 
+
+Understand how your players think and how they enjoy their table-top role-playing game experience. If they like combat and loathe interacting with **NPC**s, you can cater to that and present them with lots of *interesting* combat scenarios. On the other hand, if they love to role-play, they'll probably enjoy meeting and interacting with **NPC**s. 
+
+Figuring out how to get your players engaged in your game and noticing that engagement, can be a very rewarding sensation. It is a sign of a fun and worth-while experience. 
+
+But not just the conflicts within game itself require your attention. When two players fight, you'll have to step in, if they can't resolve the matter themselves. Try to mediate, when possible. And have the wisdom to tell when reconciliation is impossible. As difficult as it may be, sometimes you'll have to let a player go, if they don't fit into the group. 
+
+Besides the mediator, you're also the moderator. Make sure your players are respectful towards each other, as well, by stopping players talking over each other. 
+
+This, and all the tips in the *your game* section serve as tools to keep the game paced well and filled with interesting and engaging content. A well-paced game is one that keeps the players' interest. 
+
+## How To Master Your Game
+While the previous section gives a broad overview of the expectations of a **GM**, this sections aims to help you fulfill those expectations. 
+
+### Starting Your Session
+* Have players recap last session
+  * Correct only crucial plot points
+* Have players read out their ambition, beliefs and instincts
+TODO
+
+### Your Session
+TODO
+
+* Fate Points
+* Combat
+* Tests and choosing **Ob**
+* Magic
+* Challenging PC ambitions, beliefs and instincts
+* The appendix
 
 #### Challenging Your Players
 You have two means of challenging (= engaging) your players: *mechanical challenges* and *narrative challenges*. 
@@ -1382,9 +1470,6 @@ More interesting and less immediately rewarding, is the **ambition** of a **PC**
 > 
 > And so it goes on, with continually more escalating scenarios, which all culminate into the final confrontation, many real-world sessions into the future, when the **PC** gets to put the final nail in that **ambition**'s coffin - and earn their [AFP](#ambition-fate-points).
 
-##### **Bring NPCs To Life**
-When you give **PC**s **NPC**s that work for them, they can engage with those **NPC**s in a myriad of ways. This facilitates role-play and engages the players in a very dynamic way. They get to play out their character and believe in the reality of a world that doesn't exist. You also get to use **NPC**s as a tool to feed players information (or false rumors) about the world they're in. 
-
 ##### **Threaten Your PC's**
 Any resource you let a **PC** have, can be *threatened*. This is a powerful tool to raise tension among your players. Threaten their possessions, family or holdings - all the things they hold dear. 
 
@@ -1401,20 +1486,8 @@ On the other hand, if the players are actively trying to change a major aspect o
 
 This is the most powerful way to narratively challenge players. It helps them see your fictional world as *real* and they start thinking about the consequences of their actions more often. This encourages peaceful and creative solutions, where before they might have preferred blunt violence. 
 
-### Your Players
-The game can only happen, because of your players - the people willing to be at your table and engage with your game. Treat them with the same respect you expect from them. 
-
-You're primarily running this game for your players - without them, you might as well write a book, instead. Therefore it should be your top priority to keep them entertained and focused on the game, or else you risk losing them. 
-
-Understand how your players think and how they enjoy their table-top role-playing game experience. If they like combat and loathe interacting with **NPC**s, you can cater to that and present them with lots of *interesting* combat scenarios. On the other hand, if they love to role-play, they'll probably enjoy meeting and interacting with **NPC**s. 
-
-Figuring out how to get your players engaged in your game and noticing that engagement, can be a very rewarding sensation. It is a sign of a fun and worth-while experience. 
-
-But not just the conflicts within game itself require your attention. When two players fight, you'll have to step in, if they can't resolve the matter themselves. Try to mediate, when possible. And have the wisdom to tell when reconciliation is impossible. As difficult as it may be, sometimes you'll have to let a player go, if they don't fit into the group. 
-
-Besides the mediator, you're also the moderator. Make sure your players are respectful towards each other, as well, by stopping players talking over each other. 
-
-This, and all the tips in the *your game* section serve as tools to keep the game paced well and filled with interesting and engaging content. A well-paced game is one that keeps the players' interest. 
+### Ending Your Session
+TODO
 
 # Credits
 **Ambersteel** is not a revolution of the RPG genre and it was never meant to be. It is an amalgam and consolidation of rules I found to my personal preference, in hopes of crafting a deep, yet intuitive system. 
@@ -1544,9 +1617,6 @@ Speaking and understanding a specific language. The language in question must be
 
 #### Law and politics (Int)
 The ability to understand laws and politics, as well as the ability to direct politics. 
-
-#### Leatherworking (Agi)
-Producing crafts with leather as the primary material. 
 
 #### Magic School < School > (Arc)
 Knowledge and experience in a specific [magic school](#magic-schools). 
