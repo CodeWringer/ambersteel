@@ -316,9 +316,9 @@ The outcome of the test is graduated. That means, the number of **positives** ro
 On the other hand, failure doesn't have to be absolute. The degree of failure can allow for a "failing forward" - a success, but with complications, whose severity depends on the number of failures. 
 
 #### Creative Test
-Also known as a **skill challenge**, this type of test asks the player(s) to pick and justify the skill(s) and attribute(s) to use in a given situation. Players are encouraged to think creatively, come up with and describe their solutions. 
+Also known as a **skill challenge**, this type of test asks the player(s) to pick and justify the skill(s) or attribute to use in a given situation. Players are encouraged to think creatively, come up with and describe their solutions. 
 
-Whether the attribute(s) and skill(s) in question can apply to resolve the situation at hand, lies at the **GM**'s discretion. 
+Whether the attribute or skill(s) in question can apply to resolve the situation at hand, lies at the **GM**'s discretion. 
 
 #### Opposed Test
 Also known as a *versus test*, this type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of **positives** of each character. The one with the most **positives** is the winner. 
@@ -410,11 +410,7 @@ For every two points in [toughness](#toughness-tough), a character raises their 
 These numbers represent a character's basic mental abilities. 
 
 #### Arcana [Arc]
-Governs a character's ability to control magic flow, sense magic and withstand magic-exertion effects. 
-
-Also used to resist negative magic effects. 
-
-For every point in arcana, a character raises their [maximum spell intensity](#maximum-spell-intensity) by one and their [exhaustion resistance](#magic) by one. 
+Governs a character's ability to control magic flow, thus casting magic and sensing magic.
 
 #### Intelligence [Int]
 Governs a character's ability to reason and analyze. 
@@ -960,7 +956,7 @@ Please keep in mind the values here are for a human. Other species may have modi
   
   b) If your levels have to go up, add one to each value. **But** don't adjust 6s. If there are less than 2 6s, a 5 may be raised to a 6, otherwise, don't adjust 5s. 
 
-6. Lastly, any remaining 1s have to be turned into 2s. If this raises the total to be greater than 42, repeat, starting from step 4. 
+6. Lastly, any remaining 1s have to be turned into 2s, then repeat from step 4. 
 
 > Player *B.* prefers the semi-random assignment method. Thus, they roll 11 **D6** with the following results: 1, 6, 4, 5, 5, 4, 5, 3, 6, 3, 6
 >
@@ -1167,7 +1163,9 @@ If a test to cast magic isn't a **complete success**, the spell **backfires** an
 
 **Backfire intensity** = **intensity** - **positives**
 
-> A pyromancer with a [pyromancy](#pyromancy) skill of 4 and [arcana](#arcana-arc) of 3 chooses to cast their magic at intensity level 4. They have to roll 4 **positives**, in order to completely succeed. They get to roll **7D6** for this test. Unfortunately, they fail, having rolled only 2 **positives**. The spell **backfires**, at an intensity of 2. 
+> A pyromancer with a [pyromancy](#pyromancy) skill of 4 chooses to cast their magic at intensity level 4 - their maximum for **pyromancy**. They have to roll 4 **positives**, in order to completely succeed. They get to roll **4D6** for this test. 
+> 
+> Unfortunately, they fail, having rolled only 2 **positives**. The spell **backfires**, at an intensity of 2. 
 
 ## Casting Magic
 In order to cast magic, a mage has to roll a skill test in a [magic school](#magic-schools) of choice: 
