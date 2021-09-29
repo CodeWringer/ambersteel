@@ -96,14 +96,6 @@
   - [Maximum Spell Intensity](#maximum-spell-intensity)
   - [Spell Backfire](#spell-backfire)
   - [Casting Magic](#casting-magic)
-  - [Magic Schools](#magic-schools)
-    - [Pyromancy](#pyromancy)
-    - [Cryomancy](#cryomancy)
-    - [Restoration](#restoration)
-    - [Alteration](#alteration)
-    - [Illusion](#illusion)
-    - [Soul-Binding](#soul-binding)
-    - [Counter-Magic](#counter-magic)
   - [Magic Things](#magic-things)
     - [Abyssalite](#abyssalite)
     - [Amberite](#amberite)
@@ -190,6 +182,14 @@
       - [Masonry (Str)](#masonry-str)
       - [Rune Carving (Arc)](#rune-carving-arc)
       - [Weapon smithing (Str)](#weapon-smithing-str)
+  - [List of Magic Schools](#list-of-magic-schools)
+    - [Pyromancy](#pyromancy)
+    - [Cryomancy](#cryomancy)
+    - [Restoration](#restoration)
+    - [Alteration](#alteration)
+    - [Illusion](#illusion)
+    - [Soul-Binding](#soul-binding)
+    - [Counter-Magic](#counter-magic)
   - [Weapon Types](#weapon-types)
     - [Unarmed](#unarmed)
     - [Short Blade](#short-blade)
@@ -599,7 +599,7 @@ Both teacher and pupil must actively spend time together, furthering the pupil's
 | Craftsmanship  | 3 Weeks  |
 | Knowledge      | 1 Month  |
 
-If the teacher's skill is at least one level higher than that of their student, the student can use an extra **D6** to resolve their tests of the skill they're being taught. 
+If the teacher's skill is at least one level higher than that of their student, the student can use an extra **+1D6** to resolve their tests of the skill they're being taught. 
 
 ## Ambitions, Beliefs & Instincts
 While all characters are expected to have *ambitions*, *beliefs* and *instincts*, **PC**s are special, because for them, these concepts are cemented through rules and mechanics. 
@@ -1182,91 +1182,37 @@ The amount of [exhaustion](#exhaustion) gained is then reduced by their **magic 
 
 [Exhaustion](#exhaustion) gain cannot be reduced to less than one. That means, whenever a mage casts a spell, they gain *at least* one point of [exhaustion](#exhaustion). 
 
-## Magic Schools
-Noted for each spell intensity, are the effects of the spell and the maximum distance, from the caster, at which the spell can be cast or the distance up to which it can have an effect. 
-
-If applicable, damage inflicted, exhaustion inflicted and other such effects, will also be noted. 
-
-### Pyromancy
-The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light. 
-
-Injuries inflicted are of the [burning](#burning) damage type. 
-
-| Spell Intensity | Damage Inflicted | Max Distance | Effect(s) |
-| --------------- | ------------------ | ------------ | --------- |
-| 1  | 1D3 **Burning** | 0      | A small, controlled flame erupts and stays in the mage's hand. Alternatively, a small flame (like a candle flame) in immediate proximity of the mage is extinguished. |
-| 2  | 2D3 **Burning** | 3'/1m  | A moderate torch fire erupts and stays in the mage's hand. Or a torch in immediate proximity of the mage is extinguished. |
-| 3  | 3D3 **Burning** | 15'/5m | A ball of fire forms in the mage's hand, ready to be flung at a nearby spot, dealing its damage in a 6'/2m radius. Or a decent-sized flame is extinguished nearby. |
-| 4  | 4D3 **Burning** | 15'/5m | A static wall or column of flame erupts in a nearby spot of the mage's choosing, covering up to a 12'/4m square. Alternatively, a nearby flame (wall) is redirected. |
-| 5  | 5D3 **Burning** | 30'/10m | Flame shoots out of the mage's hand in a steady stream, covering a moderate distance and causing its damage in a straight line. Everything caught in the line takes the damage. Or another mage's stream of flame is redirected. |
-| 6+ | ND3 **Burning** | 30'/10m | N = spell intensity; Causes a spot of the mage's choosing at moderate distance to explode, causing its damage in a radius of 15'/5m. |
-
-### Cryomancy
-The summoning and control of ice. Besides the frostbite, cryomancer's can inflict [exhaustion](#exhaustion) on opponents, or freeze things, so they're harder to break. 
-
-Injuries inflicted are of the [freezing](#freezing) damage type. 
-
-| Spell Intensity | Damage Inflicted | Exhaustion Inflicted | Max Distance | Effect(s) |
-| --------------- | ------------------ | -------------------- | ------------ | --------- |
-| 1  | 0   | 0   | 0     | Any freezable liquid in the mage's hand immediately freezes. Doesn't work on living things. So no freezing of the blood in someone's veins, while they still live! |
-| 2  | 1D3 **Freezing** | 1   | 3'/1m | A spot of the mage's choosing, within hand's reach, freezes over. |
-| 3  | 1D3 **Freezing** | 1D3 | 15'/5m | An ice-shard forms from whatever liquid is in the mage's hands. It can be shot at a nearby spot of the mage's choosing. The impacted spot freezes over. |
-| 4  | 2D3 **Freezing** | 2D3 | 30'/10m | A large ice-shard forms in the mage's hands, without requiring any liquid. It can be shot at a moderately distant spot of the mage's choosing. The impacted spot freezes over. |
-| 5  | 2D3 **Freezing** | 1D6 | 30'/10m | A large area of the mage's choosing, at moderate distance from the mage, freezes over. |
-| 6+ | N-3 D3 **Freezing** | 1D6 + N-5 | 30'/10m | N = spell intensity; A torrent of ice and snow forms in a large area of the mage's choosing, at moderate distance. Anything within it, freezes over. |
-
-### Restoration
-The mending of injuries and treatment of diseases. 
-
-| Spell Intensity | Injuries Patched Up | Max Distance | Effect(s) |
-| --------------- | ---------------- | ------------ | --------- |
-| 1               | 1                | 0            | A creature of the mage's choosing, in hand's reach, is magically healed. Removes [bleeding](#bleeding). |
-| 2+              | N                | 0            | N = spell intensity; Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
-| 6+              | 0                | 0            | N = spell intensity; A single **Inj.** of choice becomes **treated**. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
-
-### Alteration
-The alteration of physical things, to change their shape and purpose. 
-TODO
-
-### Illusion
-Creation of non-physical influences on the senses. 
-TODO
-
-### Soul-Binding
-TODO
-
-### Counter-Magic
-The redirection and dissolution of magic flow. 
-TODO
-
 ## Magic Things
+**Ambersteel** takes its name from the in-game material of the same name. As it is a strictly anti-magic material, it should enjoy great attention in any fantasy world, where magic is a real and recognizable force. Where usually, magic is the centerpiece, in **Ambersteel** that isn't quite the case. Magic is powerful and fearsome and thus, if not under control, can threaten to cause great pain and destruction. **Ambersteel** dampens that power and puts shackles on it. 
+
+But there are also other materials and important things related to magic, as described in this section. 
 
 ### Abyssalite
 **Abyssalite** is a hard and brittle mineral, that has the ability to *amplify the flow of magic*. It can only be acquired from the depths of the earth and is fairly rare. 
 
-Its surface is unnaturally smooth and covered in a fine, iridescent shine. Underneath the smooth surface, one searches for depth and color in vain. It is as though the void itself was being contained by that iridescent shell. 
+Its surface is unnaturally smooth and covered in a fine, iridescent shine. Underneath the smooth surface, one searches for depth and color in vain. It is as though the void itself is being contained by that iridescent shell. 
 
-**Abyssalite** is a hard and brittle mineral, prone to shattering if too much force is applied. This makes it difficult to shape. It is also fairly heavy, which makes it difficult to lug large amounts of it around. 
+**Abyssalite** is a hard and brittle mineral, prone to shattering if too much force is applied. This makes it difficult to shape. It is also fairly heavy, which makes it difficult to carry long. 
 
-A decent-sized **Abyssalite** chunk has a [bulk](#carrying-capacity) of 2 and grants one greater [spell intensity](#spell-intensity), but without costing any [exhaustion](#exhaustion). In order to use the **Abyssalite**, the caster must be touching it. 
+A fist-sized **Abyssalite** chunk has a [bulk](#carrying-capacity) of 2 and grants one greater [spell intensity](#spell-intensity), but without costing any [exhaustion](#exhaustion). In order to use the **Abyssalite**, the caster must be touching it. 
 
 ### Amberite
 As magic is amplified by [Abyssalite](#abyssalite), its antithesis is called **Amberite**, a metal which dulls the effects of magic and slows any magic flow nearby it. The material is also known to affect magic creatures and can cause great pain in magic-users. 
 
-Weapons made from Amberite are quite popular with witch and monster hunters alike, although fairly hard to come by, due to the difficulty in amber-iron processing. 
+Weapons made from **Amberite** are quite popular with witch and monster hunters alike, although fairly hard to come by, due to the difficulty in **Amberite** processing. 
 
-Amberite is a crystalline material, that can be molten down and shaped, like iron. It glows weakly, in the fiery orange of the name-sharing amber stone. Near the edges, the glow fades to a dull reflection, like cooling molten glass. 
+**Amberite** is a crystalline material, that can be molten down and shaped, like iron. It glows weakly, in the fiery orange of the name-sharing amber stone. Near the edges, the glow fades to a dull reflection, like cooling molten glass. 
 
-It only occurs naturally in a few select places in the world, where the ground offers the right conditions. Amberite grows over time, in the right environment. It can take several decades for a finger-sized crystal to grow to the size of an adult man's forearm. Attempts to cultivate it have mostly failed, as Amberite farmers have so far been unable to understand and reproduce the right conditions for it to thrive. Due to the slow rate at which it grows, an Amberite farmer may not realize the lack of growth until well into a decade later. 
+It only occurs naturally in a few select places in the world, where the ground offers the right conditions. **Amberite** grows over time, in the right environment. It can take several decades for a finger-sized crystal to grow to the size of an adult man's forearm. Attempts to cultivate it have mostly failed, as **Amberite** farmers have so far been unable to understand and reproduce the right conditions for it to thrive. Due to the slow rate at which it grows, an **Amberite** farmer may not realize the lack of growth until well into a decade later. 
 
-Prolonged exposure to Amberite causes severe ill-effects with nausea and migranes being common symptoms. 
+Prolonged exposure to **Amberite** causes severe ill-effects with nausea and migranes being common symptoms. 
 
 ### Ambersteel
-Amberite can be processed into Ambersteel, which makes it a usable metal. The raw material heats slowly and must be heated over the course of several days and nights, without interruption. When it finally reaches the right temperature, it will glow white, with a purple sheen. At that point, it can be hammered into shape. Constant re-heating ensures it stays at the right temperature and a final quenching in vegetable oil ensures it retains its flexibility. 
+[Amberite](#amberite) can be processed into **Ambersteel**, which makes it a hard and flexible metal. The raw material heats slowly and must be heated over the course of several days and nights, without interruption. When it finally reaches the right temperature, it will glow white, with a purple sheen. At that point, it can be hammered into shape. Constant re-heating ensures it stays at the right temperature and a final quenching in vegetable oil ensures it retains its flexibility. 
 
 If processed outside the optimal temperature, the material quickly grows brittle and will shatter if any stress is put on it.
 
-Due to the length of the process and the difficulty in keeping the right temperature, smiths capable of working amber-iron are rare. 
+Due to the length of the process and the difficulty in keeping the right temperature, smiths capable of creating **Ambersteel** are rare. 
 
 ### Runes
 Shards of [Abyssalite](#abyssalite) can have runes carved into them, which allow magic to flow through the runes. This renders runes extremely powerful artifacts, as they can allow for near limitless magic-use, even in the hands of a non-mage. 
@@ -1390,6 +1336,7 @@ TODO
 * Fate Points
 * Combat
 * Tests and choosing **Ob**
+  * When to test an attribute vs. a skill?
 * Magic
 * Challenging PC ambitions, beliefs and instincts
 * The appendix
@@ -1699,6 +1646,63 @@ The ability to carve [magic runes](#runes).
 
 #### Weapon smithing (Str)
 The ability to make weapons from metal. 
+
+## List of Magic Schools
+Noted for each spell intensity, are the effects of the spell and the maximum distance, from the caster, at which the spell can be cast or the distance up to which it can have an effect. 
+
+If applicable, damage inflicted, exhaustion inflicted and other such effects, will also be noted. 
+
+### Pyromancy
+The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light. 
+
+Injuries inflicted are of the [burning](#burning) damage type. 
+
+| Spell Intensity | Damage Inflicted | Max Distance | Effect(s) |
+| --------------- | ------------------ | ------------ | --------- |
+| 1  | 1D3 **Burning** | 0      | A small, controlled flame erupts and stays in the mage's hand. Alternatively, a small flame (like a candle flame) in immediate proximity of the mage is extinguished. |
+| 2  | 2D3 **Burning** | 3'/1m  | A moderate torch fire erupts and stays in the mage's hand. Or a torch in immediate proximity of the mage is extinguished. |
+| 3  | 3D3 **Burning** | 15'/5m | A ball of fire forms in the mage's hand, ready to be flung at a nearby spot, dealing its damage in a 6'/2m radius. Or a decent-sized flame is extinguished nearby. |
+| 4  | 4D3 **Burning** | 15'/5m | A static wall or column of flame erupts in a nearby spot of the mage's choosing, covering up to a 12'/4m square. Alternatively, a nearby flame (wall) is redirected. |
+| 5  | 5D3 **Burning** | 30'/10m | Flame shoots out of the mage's hand in a steady stream, covering a moderate distance and causing its damage in a straight line. Everything caught in the line takes the damage. Or another mage's stream of flame is redirected. |
+| 6+ | ND3 **Burning** | 30'/10m | N = spell intensity; Causes a spot of the mage's choosing at moderate distance to explode, causing its damage in a radius of 15'/5m. |
+
+### Cryomancy
+The summoning and control of ice. Besides the frostbite, cryomancer's can inflict [exhaustion](#exhaustion) on opponents, or freeze things, so they're harder to break. 
+
+Injuries inflicted are of the [freezing](#freezing) damage type. 
+
+| Spell Intensity | Damage Inflicted | Exhaustion Inflicted | Max Distance | Effect(s) |
+| --------------- | ------------------ | -------------------- | ------------ | --------- |
+| 1  | 0   | 0   | 0     | Any freezable liquid in the mage's hand immediately freezes. Doesn't work on living things. So no freezing of the blood in someone's veins, while they still live! |
+| 2  | 1D3 **Freezing** | 1   | 3'/1m | A spot of the mage's choosing, within hand's reach, freezes over. |
+| 3  | 1D3 **Freezing** | 1D3 | 15'/5m | An ice-shard forms from whatever liquid is in the mage's hands. It can be shot at a nearby spot of the mage's choosing. The impacted spot freezes over. |
+| 4  | 2D3 **Freezing** | 2D3 | 30'/10m | A large ice-shard forms in the mage's hands, without requiring any liquid. It can be shot at a moderately distant spot of the mage's choosing. The impacted spot freezes over. |
+| 5  | 2D3 **Freezing** | 1D6 | 30'/10m | A large area of the mage's choosing, at moderate distance from the mage, freezes over. |
+| 6+ | N-3 D3 **Freezing** | 1D6 + N-5 | 30'/10m | N = spell intensity; A torrent of ice and snow forms in a large area of the mage's choosing, at moderate distance. Anything within it, freezes over. |
+
+### Restoration
+The mending of injuries and treatment of diseases. 
+
+| Spell Intensity | Injuries Patched Up | Max Distance | Effect(s) |
+| --------------- | ---------------- | ------------ | --------- |
+| 1               | 1                | 0            | A creature of the mage's choosing, in hand's reach, is magically healed. Removes [bleeding](#bleeding). |
+| 2+              | N                | 0            | N = spell intensity; Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
+| 6+              | 0                | 0            | N = spell intensity; A single **Inj.** of choice becomes **treated**. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
+
+### Alteration
+The alteration of physical things, to change their shape and purpose. 
+TODO
+
+### Illusion
+Creation of non-physical influences on the senses. 
+TODO
+
+### Soul-Binding
+TODO
+
+### Counter-Magic
+The redirection and dissolution of magic flow. 
+TODO
 
 ## Weapon Types
 Weapons can have the following **weapon attributes**:
