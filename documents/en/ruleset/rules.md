@@ -124,6 +124,7 @@
         - [**Threaten Your PC's**](#threaten-your-pcs)
         - [**Allow World-Change**](#allow-world-change)
     - [Your Players](#your-players)
+- [Credits](#credits)
 - [Appendix](#appendix)
   - [Skill List](#skill-list)
     - [Physical skills](#physical-skills)
@@ -216,7 +217,6 @@
     - [Amberite Shield](#amberite-shield)
   - [List of Injuries](#list-of-injuries)
   - [List of Illnesses](#list-of-illnesses)
-- [Credits](#credits)
 
 Version 0.2 "Kettgard"
 
@@ -1416,6 +1416,14 @@ Besides the mediator, you're also the moderator. Make sure your players are resp
 
 This, and all the tips in the *your game* section serve as tools to keep the game paced well and filled with interesting and engaging content. A well-paced game is one that keeps the players' interest. 
 
+# Credits
+**Ambersteel** is not a revolution of the RPG genre and it was never meant to be. It is an amalgam and consolidation of rules I found to my personal preference, in hopes of crafting a deep, yet intuitive system. 
+
+As such, I took inspiration from other systems I have read, played and enjoyed in the past:
+* **The Burning Wheel**, by Luke Crane and Dan Abram
+* **Zweihänder**, by Daniel D. Fox
+* **Knave**, by Ben Milton
+
 # Appendix
 The appendix contains important and less important lists, for reference only when needed. 
 
@@ -1988,11 +1996,3 @@ How many times an **injury** can be suffered, can be limited. In the table below
 | 80 - 87 | Rot Plague | **4D10** Days | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D3** [endurance](#endurance-end); **-(1D3 + 1)** [toughness](#toughness-tough). | [surgery](#surgery-int); The ill-effects are suspended for 24 hours. |
 | 88 - 95 | Organ Mold | Until cured | Causes an [injury](#injury) every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
 | 95 - 100 | Red Death | Until cured | The victim starts bleeding from all of their orifices, with no end in sight. Causes 1 **bleeding** every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
-
-# Credits
-**Ambersteel** is not a revolution of the RPG genre and it was never meant to be. It is an amalgam and consolidation of rules I found to my personal preference, in hopes of crafting a deep, yet intuitive system. 
-
-As such, I took inspiration from other systems I have read, played and enjoyed in the past:
-* **The Burning Wheel**, by Luke Crane and Dan Abram
-* **Zweihänder**, by Daniel D. Fox
-* **Knave**, by Ben Milton
