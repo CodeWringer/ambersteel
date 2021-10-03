@@ -282,11 +282,15 @@ Either a **six** or a **five** rolled on a single die counts as a **positive**. 
 
 How many **positives** are needed to succeed a test, is determined by the **GM**, via a mechanism called **obstacle** (henceforth referred to as **Ob**). The test can only succeed, if at least as many **positives** are rolled, as the **Ob** named by the **GM**. 
 
-> For example, to succeed a test at **Ob 3**, at least three **positives** must be rolled. Any less, and the test outcome is a failure. 
+> For example, to succeed a test at **Ob 3**, at least three **positives** must be rolled to succeed the test. Any less, and the test outcome is a failure. 
 
 To resolve an **attribute test**, the number of **D6** indicated by the *attribute level* (the number next to the attribute) must be rolled. 
 
-To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill) must be rolled. 
+To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill), plus half of the related **attribute** (rounded down) as additional dice must be rolled. 
+
+> A **PC** has an [agility](#agility-agi) of 3 and an [acrobatics](#acrobatics-agi) skill at level 2. The player is asked to roll a test for [acrobatics](#acrobatics-agi) at **Ob** 2. They get to roll 1 + 2 = 3 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
+
+A [skill being learned](#learning-skills) is tested with *only* half of the related **attribute** (rounded down). 
 
 For every test, one of three outcomes is possible: 
 * **Complete Success**: There are enough or even more than required **positives**.
@@ -372,7 +376,7 @@ A character is a representation of a sentient creature in the game world. They'r
 ## Attributes
 **Attributes** describe a character's basic, inherent abilities. 
 
-The value of an attribute indicates the number of **D6** to roll for a test of that attribute. Attribute values typically range from 2 to 5 for ordinary human characters. 
+The value of an attribute indicates the number of **D6** to roll for a test of that attribute. Attribute values typically range from 2 to 6 for ordinary human characters. 
 
 **Attributes** [advance](#advancing-attributes), as they're tested. It is also possible to [practice](#practicing-attributes) **attributes**. It is **not** possible to teach **attributes**, however. 
 
@@ -487,7 +491,9 @@ A **cycle** is 2 Months, regardless of attribute being practiced.
 ## Skills
 A **skill** is any acquired knowledge and experience regarding a specific subject. 
 
-All of a character's **skills** have a value attached to them, which indicates the number of **D6** to use when testing that **skill**. 
+All of a character's **skills** have a value attached to them, which indicates the number of **D6** to use when testing that **skill**. Skill values typically range from 1 to 3 for most skills. 4 and 5 is very good, 6 is excellence and 7 and above is mastery. 
+
+When [testing a skill](#tests), add half of the related [attribute](#attributes)'s value (rounded down) as number of additional dice for the test. 
 
 **Skills** [advance](#advancing-skills), as they're tested. It is also possible to [practice](#practice) and [teach](#teaching) **skills**. 
 
