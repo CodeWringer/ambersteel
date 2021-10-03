@@ -438,8 +438,8 @@ Governs a character's ability to withstand persuasion, intimidation, charm or te
 Whenever a **PC** uses an attribute in a [test](#tests), the outcome must be noted. 
 
 Advancing an **attribute** requires:
-* N * N / 2 (rounded up) **complete successess**.
-* N * N **partial successess** or **complete failures**.
+* (N + 1) * (N + 1) * 2 **complete successess**.
+* (N + 1) * (N + 1) * 3 **partial successess** or **complete failures**.
 * Where *N* is the current level of the **attribute**. 
 
 > A character has a [strength](#strength-str) **attribute** at level 1. 
@@ -452,30 +452,20 @@ Advancing an **attribute** requires:
 
 For your convenience, the following table contains the precalculated requirements to advance an **attribute** level. 
 * In the table, 'Level' is the character's *current level* in the **attribute**. 
-* Note it is possible to go past level 20, but you shouldn't hope for it. 
+* Note it is possible to go past level 10, but you shouldn't hope for it. 
 
 | Level | Successes | Failures |
 | --- | --- | --- |
-| 1   | 1   | 1   |
-| 2   | 2   | 4   |
-| 3   | 5   | 9   |
-| 4   | 8   | 16  |
-| 5   | 13  | 25  |
-| 6   | 18  | 36  |
-| 7   | 25  | 49  |
-| 8   | 32  | 64  |
-| 9   | 41  | 81  |
-| 10  | 50  | 100 |
-| 11  | 61  | 121 |
-| 12  | 72  | 144 |
-| 13  | 85  | 169 |
-| 14  | 98  | 196 |
-| 15  | 113 | 225 |
-| 16  | 128 | 256 |
-| 17  | 145 | 289 |
-| 18  | 162 | 324 |
-| 19  | 181 | 361 |
-| 20  | 200 | 400 |
+| 1   | 8   | 12  |
+| 2   | 18  | 27  |
+| 3   | 32  | 48  |
+| 4   | 50  | 75  |
+| 5   | 72  | 108 |
+| 6   | 98  | 147 |
+| 7   | 128 | 192 |
+| 8   | 162 | 243 |
+| 9   | 200 | 300 |
+| 10  | 242 | 363 |
 
 #### Practicing Attributes
 It is possible to advance attributes *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice an attribute of choice. 
