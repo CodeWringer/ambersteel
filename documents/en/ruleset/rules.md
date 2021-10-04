@@ -115,6 +115,7 @@
       - [Read Out Ambitions, Beliefs & Instincts](#read-out-ambitions-beliefs--instincts)
       - [Read Out Fate Point Purchases](#read-out-fate-point-purchases)
     - [Your Session](#your-session)
+      - [Choosing **Ob**](#choosing-ob)
       - [Challenging Your Players](#challenging-your-players)
         - [**Challenge your PCs' abilities during combat**](#challenge-your-pcs-abilities-during-combat)
         - [**Challenge your PCs' abilities out of combat**](#challenge-your-pcs-abilities-out-of-combat)
@@ -125,6 +126,8 @@
         - [**Threaten Your PCs**](#threaten-your-pcs)
         - [**Allow World-Change**](#allow-world-change)
     - [Ending Your Session](#ending-your-session)
+      - [Hand Out Fate Points](#hand-out-fate-points)
+      - [Gather Feedback](#gather-feedback)
 - [Credits](#credits)
 - [Appendix](#appendix)
   - [Skill List](#skill-list)
@@ -1332,14 +1335,55 @@ Once **ambitions**, **beliefs** and **instincts** are handled, move on to what m
 Everyone should be clear on what everyone else can do, especially since these are strictly meta-game powers. 
 
 ### Your Session
-TODO
+While running the session, you'll have the most work and the toughest job. Listen to your players attentively, react and improvise as needed. 
 
-* Fate Points
-* Combat
+You'll have to keep a lot of rules in mind. This section aims to provide a set of reminders. 
+
+#### Choosing **Ob**
+Choosing the right **Ob** for a test is a difficult task, for which clear rules cannot be easily written. More times than not, your gut-feeling will have to tell you which number is *right* for the given test. 
+
+* T - Trivial
+* E - Easy
+* D - Difficult
+* C - Challenging
+* Blanks are impossible
+
+The following table provides a decent point of orientation for **attribute** tests: 
+Level | **Ob** 1 | **Ob** 2 | **Ob** 3 | **Ob** 4 | **Ob** 5 | **Ob** 6 | **Ob** 7 | **Ob** 8 | **Ob** 9 | **Ob** 10
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| 1  | C |   |   |   |   |   |   |   |   |   | 
+| 2  | C | C |   |   |   |   |   |   |   |   | 
+| 3  | D | C | C |   |   |   |   |   |   |   | 
+| 4  | E | D | C | C |   |   |   |   |   |   | 
+| 5  | E | D | D | C | C |   |   |   |   |   | 
+| 6  | T | E | D | D | C | C |   |   |   |   | 
+| 7  | T | T | E | E | D | C | C |   |   |   | 
+| 8  | T | T | T | E | E | D | C | C |   |   | 
+| 9  | T | T | T | E | E | D | C | C | C |   | 
+| 10 | T | T | T | E | E | E | D | C | C | C | 
+
+The following table provides a decent point of orientation for **skill** tests: 
+Level | **Ob** 1 | **Ob** 2 | **Ob** 3 | **Ob** 4 | **Ob** 5 | **Ob** 6 | **Ob** 7 | **Ob** 8 | **Ob** 9 | **Ob** 10
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| 1  | D | C | C | C | C | C | C | C | C | C | 
+| 2  | D | D | C | C | C | C | C | C | C | C | 
+| 3  | D | D | D | C | C | C | C | C | C | C | 
+| 4  | E | D | D | D | C | C | C | C | C | C | 
+| 5  | E | E | D | D | D | C | C | C | C | C | 
+| 6  | T | E | E | D | D | D | C | C | C | C | 
+| 7  | T | T | E | E | D | D | D | C | C | C | 
+| 8  | T | T | T | E | E | D | D | D | C | C | 
+| 9  | T | T | T | E | E | D | D | D | D | C | 
+| 10 | T | T | T | T | E | E | D | D | D | D | 
+
+When to test either an **attribute**, or a **skill**, also requires a certain gut-feeling. **Attribute**s are typically the raw, innate ability of a character. Not learned ability. **Skills** on the other hand are always learned ability. 
+
+* Challenging PC ambitions, beliefs and instincts
 * Tests and choosing **Ob**
   * When to test an attribute vs. a skill?
+* Combat
 * Magic
-* Challenging PC ambitions, beliefs and instincts
+* Fate Points
 * The appendix
 
 #### Challenging Your Players
@@ -1444,7 +1488,20 @@ On the other hand, if the players are actively trying to change a major aspect o
 This is the most powerful way to narratively challenge players. It helps them see your fictional world as *real* and they start thinking about the consequences of their actions more often. This encourages peaceful and creative solutions, where before they might have preferred blunt violence. 
 
 ### Ending Your Session
-TODO
+#### Hand Out Fate Points
+You end every session by nominating players for [fate points](#fate-points) they earned during play. Players should also nominate and vote for each other. Whether someone gets their **FP** is based on majority vote. 
+
+If you're short on time and have to end the session without voting for [fate points](#fate-points), make sure to do so at the start of the next session!
+
+#### Gather Feedback
+While entirely up to you, it is always a good idea to gather feedback from your players. 
+
+You could ask them the following:
+* What was your favorite moment of today's session?
+* What was your least favorite moment of today's session?
+* Was the balance of combat vs. role-play to your liking?
+* (If there was NPC-interaction) What was your favorite **NPC** interaction today?
+  * Take note - that is an NPC you can *threaten* later, and have that player *care*. 
 
 # Credits
 **Ambersteel** is not a revolution of the RPG genre and it was never meant to be. It is an amalgam and consolidation of rules I found to my liking, topped off with minor inventions of my own, in hopes of crafting a deep, yet intuitive system. 
