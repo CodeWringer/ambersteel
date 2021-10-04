@@ -958,11 +958,11 @@ Once attribute values have been set, you can determine the required number of su
 For this, see the rules on [attribute advancing](#advancing-attributes).
 
 ### Choosing Skills
-You can spend **15** points to *learn* skills and raise their level, with the following limitations:
-* No skill can be at level 6 or higher.
-* You can have at most 7 skills. 
+You can spend **8** points to *learn* skills and raise their level, with the following limitations:
+* No skill can be at level 4 or higher.
+* You can have at most 5 skills. 
 * No skills can be set to *learning*.
-* Skills must relate to your character's life path. 
+* Skills should relate to your character's life path. 
 
 Once you've chosen skills, you can determine the required number of successes and failures each skill requires, in order to advance. 
 
