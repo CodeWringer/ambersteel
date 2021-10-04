@@ -111,14 +111,18 @@
     - [Your Players](#your-players)
   - [How To Master Your Game](#how-to-master-your-game)
     - [Starting Your Session](#starting-your-session)
+      - [Recap The Last Session](#recap-the-last-session)
+      - [Read Out Ambitions, Beliefs & Instincts](#read-out-ambitions-beliefs--instincts)
+      - [Read Out Fate Point Purchases](#read-out-fate-point-purchases)
     - [Your Session](#your-session)
       - [Challenging Your Players](#challenging-your-players)
         - [**Challenge your PCs' abilities during combat**](#challenge-your-pcs-abilities-during-combat)
         - [**Challenge your PCs' abilities out of combat**](#challenge-your-pcs-abilities-out-of-combat)
         - [**Fewer Tests Are Better**](#fewer-tests-are-better)
         - [**Limit Resources**](#limit-resources)
-        - [**Encourage Your Players To Be Creative**](#encourage-your-players-to-be-creative)
-        - [**Threaten Your PC's**](#threaten-your-pcs)
+        - [**Challenge Your PCs' Beliefs**](#challenge-your-pcs-beliefs)
+        - [**Anchor Your PCs Down**](#anchor-your-pcs-down)
+        - [**Threaten Your PCs**](#threaten-your-pcs)
         - [**Allow World-Change**](#allow-world-change)
     - [Ending Your Session](#ending-your-session)
 - [Credits](#credits)
@@ -227,22 +231,24 @@ Version 0.3 "Kettgard"
 A role-playing game by Nicolas Haase
 
 # Introduction
-**Ambersteel** is a role-playing game, requiring a **game master** (henceforth referred to as the **GM**) and at least one **player** to play. 
+**Ambersteel** is a table-top role-playing game (**TTRPG**), requiring a **game master** (**GM**) and at least one **player** to play. 
 
 On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **Ambersteel** aims for the region between *game-y* and *narrative-driven*, while leaning more towards *game-y*:
 * Combat is a risky affair and requires tactical and strategic thinking, or the readiness to retreat, when things go awry. When a character suffers **injuries**, they are in *serious trouble*. 
+* Magic is also a risky affair, with a chance for a spell to fail and affec the mage, instead. The chance of success is manageable, however. 
 * Players are also expected to manage resources, such as their character's health and possessions. Character's are neither *damage sponges*, nor *item vacuums*. 
-* **PC** change and roleplaying are embedded into the rules. There are no classes or other arbitrary restrictions on what a character can do. **Attributes** and **skills** improve as they are used, incentivising experimentation. 
+* **PC** change and roleplaying are embedded into the rules. There are no classes or other arbitrary restrictions on what a character can do. **Attributes** and **skills** improve as they are used, incentivising experimentation. Characters have long-term and short-term goals and beliefs, which drive them onward and which change over time. 
+* **PC**s aren't expected to start powerful and skilled. But they're expected to become powerful and skilled over the course of a long campaign. 
 
 While each player only controls a single character, the **GM** is in control of every single non-player character (**NPC**), the world and the story. A player character is abbreviated as **PC**. 
 
-The system is designed to fit a low to medium fantasy medieval setting. Player characters may be special, but they're far from heroic. Combat is deadly and magic is powerful, yet risky. The rules are designed to be as intuitive and simple as possible, while complex enough to allow players to make meaningful choices. 
+The system is designed to fit a low to medium fantasy medieval setting. 
 
-Most rules will have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in every situation. The descriptions in the rules here should serve as a point for orientation for the **GM**. How they interpret the rules, is how they're to be understood. 
+The rules are designed to be as intuitive and simple as possible, while complex enough to allow players to make meaningful choices. 
 
-But this is not an *adversarial* game. The **GM** and the players work ***together*** to tell a compelling, interesting, humorous, tense, etc. story. Ultimately, the **GM**'s job is to provide interesting conundrums to the players and their job is to provide interesting answers, in-line with what their characters believe. What's important to remember is that the **GM** is a *player*, too. They're here to have fun and enjoy their time at the table, too. 
+Most rules will have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in every situation. The descriptions in the rules here should serve as a point of orientation for the **GM**. How they interpret the rules, is how they're to be understood. 
 
-Another important aspect of **Ambersteel** is that character's abilities grow over time. There are neither character classes, nor character levels. Skills and attributes improve as they're being used in tests. Characters have long-term and short-term goals and beliefs, which drive them onward and which change over time. 
+Despite the focus on tactical and deadly combat, this is not an *adversarial* game. The **GM** and the players work ***together*** to create a unique experience and weave a story of glorious triumph, tragic defeat or anything in-between. Ultimately, the **GM**'s job is to provide interesting conundrums to the players and their job is to provide interesting answers, in-line with what their characters believe. What's important to remember is that the **GM** is a *player*, too. They're here to have fun and enjoy their time at the table, too. That is why it's important to work ***together***. 
 
 ## How to Play
 As **Ambersteel** is a **roleplaying game**, there are certain rules and expectations of both players and **GM**. 
@@ -1010,7 +1016,7 @@ There are three types of **FP**: [Minor](#minor-fate-points), [major](#major-fat
 **MaFP** can be earned in the following ways: 
 * **Beliefs**: Accomplishing a goal set by a belief. 
 * **Achievements**: Whenever a major plot point or story arc is concluded - a great journey, uncovering a plot of assassination, fulfilling a contract to clear out a bandit camp or discovering an ancient artifact, all count as *achievements*, which earn this award **for all the players, as a group**. 
-* **Embodiment**: Capturing their character and personifying them, in the moment. For example, by giving a great speech, acting scared or enjoying a bitter revenge with glee, as if they were actually there and doing it. 
+* **Embodiment**: Capturing their character and personifying them, in the moment. For example, by giving a great speech, acting scared or enjoying a bitter revenge with glee, as if they were actually there and doing it! 
 * **Inner Turmoil**: Convincingly acting out an inner conflict that may come up when a decision that conflicts with a **belief** comes up. If the others can *feel* the gut-wrenching decision being made, this award is earned!
 * **Creative Solutions**: Coming up with a very creative way to solve a problem. This may be a diplomatic solution, where the **GM** thought one impossible. Or, perhaps an unexpected use of the environment during **combat**, which earned the **PC**s a distinct advantage on the battlefield, in a way the **GM** couldn't foresee. 
 * **Collaboration**: Working with the **GM** to further the world and the story in creative ways and helping the **GM** out when possible. Secret plots that only one of the players is involved in, which causes gasps and applause from the other players, when the plot is finally revealed, for example. 
@@ -1033,8 +1039,7 @@ There are no limits to how many of a given card a player can own, but they may o
 | Cost    | Name               | Effect             |
 | ------- | ------------------ | ------------------ |
 | 3 MiFP  | Single Re-Roll     | Re-Roll a single **negative** die. |
-| 5 MiFP  | Test Advantage     | Gain [advantage](#advantage--disadvantage) on your next/current test. |
-| 10 MiFP | Clotter            | One **active Inj.** of choice is now **patched up**. |
+| 6 MiFP  | Clotter            | One **active Inj.** of choice is now **patched up**. |
 | 1 MaFP  | Fact Check         | Change a minor plot point in a way your prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
 | 1 MaFP  | Just a Flesh Wound | Remove or avoid one non-permanent **Inj.** of choice. |
 | 1 MaFP  | Hastened           | Gain +1 **AP** during your turn when in [combat](#combat). |
@@ -1301,10 +1306,30 @@ This, and all the tips in the *your game* section serve as tools to keep the gam
 While the previous section gives a broad overview of the expectations of a **GM**, this sections aims to help you fulfill those expectations. 
 
 ### Starting Your Session
-* Have players recap last session
-  * Correct only crucial plot points
-* Have players read out their ambition, beliefs and instincts
-TODO
+#### Recap The Last Session
+A good start for every session is asking one of your players (volunteers first) to outline what their characters did and experienced in the last session. This refreshes everyone's memory on what they did and should be doing. It also encourages them to take notes during play. 
+
+It is important you only correct them on crucial plot points, which they really should get right. Keep in mind that players tend to see the **GM**'s word as **absolute truth**. This is why, when you re-tell the events and those differ from what the players remember, it might alienate them from the world and the story. They thought they understood what was going on, but then you correct them and prove they were wrong all along - that is frustrating and harmful. 
+
+In fact, you may even correct some of the details of how events *actually* played out, based on what your players re-tell. Do so silently, though. The last thing you want, is to encourage *meta-gaming*, where your players intentionally recap the last session incorrectly, in a way to make you change details in their characters' favor. 
+
+#### Read Out Ambitions, Beliefs & Instincts
+Once the last session has been refreshed, move on to have every player, one by one, read out aloud to all, their character's ambition (keep this one brief), current **beliefs** and current **instincts**. 
+
+There are two reasons to do this:
+1. The other players can know, if a belief targets their character. So if a **PC** (player) starts acting odd towards another player (their **PC**), that player knows it's part of the role-play and not directed towards them as a person. <br>
+It also allows the player whose character is targeted by the belief to form ideas on how to react to it. 
+2. It lets you know the **ambitions**, **beliefs** and **instincts** of your **PC**s. And you have to know those, to be able to *challenge* them. <br> 
+You certainly don't *have to* make your players read their **beliefs** out aloud, to know them, but this keeps the busiwork on your part down. And you have enough work to do, as it is. 
+
+Be mindful that players knowing the **beliefs** of their fellow **PC**s should not be allowed to meta-game. 
+
+> If a **PC** has a belief to the detriment of their fellow **PC** and this is a fresh belief, the targeted **PC** shouldn't suddenly become more suspicious towards their ally. At least not without sufficient reason. Of course, a **PC** can figure out another's intentions, but not by virtue of their owning player knowing. 
+
+#### Read Out Fate Point Purchases
+Once **ambitions**, **beliefs** and **instincts** are handled, move on to what meta-powers players purchased with their [fate points](#fate-points). 
+
+Everyone should be clear on what everyone else can do, especially since these are strictly meta-game powers. 
 
 ### Your Session
 TODO
@@ -1358,7 +1383,7 @@ On the other hand, you should only have such specifically targeted tests, if fai
 > 
 > The **PC** walks up to the door leading to the other room, and eavedrops. They overhear two men talking about increased patrols and sightings of an intruder. The player decides, based on that information, to leave the palace early, as things are getting too risky for them to stay. 
 > 
-> Had the **PC** failed their test, the **GM** would have told them to move on. Perhaps even given them a different piece of information, like hearing noises outside the room they're in, but without a clear direction. The player might not think much of it, and decide to stay. That's when the guards walk in and surprise the **PC**. They can still make their get-away, albeit with more running in blind panic, than sneaking calmly. 
+> Had the **PC** failed their test, the **GM** would have told them to move on. Perhaps even given them a different piece of information, like hearing noises outside the room they're in, but without a clear direction. The player might not think much of it, and decide to stay. That's when the guards walk in and surprise the **PC**. They can still make their get-away, albeit involving more running in blind panic, than sneaking calmly. 
 
 ##### **Fewer Tests Are Better**
 Only have a player make one test per scene/situation, as long as the scene/situation doesn't change significantly. 
@@ -1376,12 +1401,14 @@ Although your players could also be clever and find narrative solutions to their
 
 Possessions in the form of coin and steel are not the only type of resource you can give your **PC**s. Keep in mind that servants, hirelings, close friends and family are *also a resource*. **PC**s can refer to them, when they have need of information, coin or political support. 
 
-##### **Encourage Your Players To Be Creative**
+##### **Challenge Your PCs' Beliefs**
 And that brings us to narrative challenges. These are the challenges you present your players, moreso than their characters. 
 
-Still bordering on *game-y*, the [ambitions, beliefs and instincts](#ambitions-beliefs--instincts) and [fate points](#fate-points) systems reward players for role-playing well and for playing to their character's strengths. 
+Still bordering on *game-y*, the [ambitions, beliefs and instincts](#ambitions-beliefs--instincts) and [fate points](#fate-points) systems reward players for role-playing well and for playing to their character's beliefs. 
 
-Make sure to regularly challenge **each** **PC**'s **beliefs** and **instincts**. This keeps the players on their toes and puts pressure on them, when they have to make a difficult call. Will they play to their character's belief - and get them in trouble - or do they refuse and thus violate the belief? This is also where a large part of the *easy role-playing* comes from, because it is mechanically supported. 
+Make sure to regularly challenge **each** **PC**'s **beliefs** and **instincts**. You do so, by confronting them with a situation in which, if they act in accordance with their belief, it gets them or their allies *in trouble*. 
+
+This keeps the players on their toes and puts pressure on them when they have to make a difficult call. Will they play to their character's belief - and get them in trouble - or do they refuse and thus violate the belief? This is also where a large part of the *easy role-playing* comes from, because it is mechanically supported. 
 
 More interesting and less immediately rewarding, is the **ambition** of a **PC**. These long-term goals guide their character along the way. Make sure to throw them a small plot to advance their own agenda, every once in a while. 
 
@@ -1389,16 +1416,23 @@ More interesting and less immediately rewarding, is the **ambition** of a **PC**
 > 
 > Then, you present them with an opportunity to steal some resource from their enemy. Be it a valuable item, person or political power - something is within reach. This will likely be its own small adventure for the player party to engage with - if they so choose. 
 > 
-> Eventually, some henchmen of the **PC**'s enemy make an appearance. They aim to challenge the player party. This is important - not just the one **PC** is involved, but **all of them**. 
+> Eventually, some henchmen of the **PC**'s enemy make an appearance. They aim to challenge the player party. This is important - not just the one **PC** is involved, but **all of them**. This makes the **PC**'s *personal concern*, a *party concern*. 
 > 
 > And so it goes on, with continually more escalating scenarios, which all culminate into the final confrontation, many real-world sessions into the future, when the **PC** gets to put the final nail in that **ambition**'s coffin - and earn their [AFP](#ambition-fate-points).
 
-##### **Threaten Your PC's**
+##### **Anchor Your PCs Down**
+Another resource, is a base of operations. This is a very meaningful and powerful tool, to anchor your **PC**s to a particular domain. Expect them to want to return to their base of operations regularly. While this *may* narrow the radius of exploration your players are willingly to go, it doesn't necessarily have to. What it is guaranteed to do, however, is make your players care about *that space* in the world, in particular. 
+
+Be mindful *where* in the world you give them such a resource, because that is where the players will want to spend a lot of time at. Make sure it is a location where quests can easily come to them. Damsels in distress, kings in need and wealthy merchants all need a reachable door to knock at. A very remote location might not see a lot of *action* or *visitors*. 
+
+##### **Threaten Your PCs**
 Any resource you let a **PC** have, can be *threatened*. This is a powerful tool to raise tension among your players. Threaten their possessions, family or holdings - all the things they hold dear. 
 
-This is a powerful tool to make the players care about protecting their assets. If you give them a small castle in a sparsely populated area, make sure to have someone threaten to take away that castle. By the time that happens, the players have grown accustomed to having that safe space to return and haul loot to. Suddenly, their top-priority will be protecting that place. 
+This is a powerful tool to make the players care about protecting their assets. If you have given them a small castle in a sparsely populated area, make sure to have someone threaten to take away that castle at least (or at most) **once**. By the time that happens, the players should have grown accustomed to having that safe space to return and haul loot to. Suddenly, their top-priority will be protecting that place. 
 
-In order to avoid frustrating your players, you shouldn't threaten their more valuable resources often. Used sparingly, this tool can cause great tension and players scrambling to find a creative solution. But used too frequently, your players might start getting frustrated, because you harm their sense of progression. If they never truly gain anything, why should they care if it is threatened? 
+Once they've fended off the attackers, they'll really start caring about everything that's happening on or near their home turf. This is when wars and rumors become of much greater relevance to your players, as they don't want their assets (which they before took for granted) threatened *again*. 
+
+In order to avoid frustrating your players, you shouldn't threaten their more valuable resources often. Used sparingly, this tool can cause great tension and players scrambling to find a creative solution. But used too frequently, your players might start getting frustrated, because you harm their sense of progression. If they never truly gain anything, why *should* they care if it is threatened? 
 
 ##### **Allow World-Change**
 Have your players change your world. No matter what they do, the **PC**s' actions are going to leave ripples running through the world. 
@@ -1413,7 +1447,7 @@ This is the most powerful way to narratively challenge players. It helps them se
 TODO
 
 # Credits
-**Ambersteel** is not a revolution of the RPG genre and it was never meant to be. It is an amalgam and consolidation of rules I found to my personal preference, in hopes of crafting a deep, yet intuitive system. 
+**Ambersteel** is not a revolution of the RPG genre and it was never meant to be. It is an amalgam and consolidation of rules I found to my liking, topped off with minor inventions of my own, in hopes of crafting a deep, yet intuitive system. 
 
 As such, I took inspiration from other systems I have read, played and enjoyed in the past:
 * **The Burning Wheel**, by Luke Crane and Dan Abram
