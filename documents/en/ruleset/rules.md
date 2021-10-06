@@ -1360,7 +1360,7 @@ Level | **Ob** 1 | **Ob** 2 | **Ob** 3 | **Ob** 4 | **Ob** 5 | **Ob** 6 | **Ob**
 | 7  | T | T | E | E | D | C | C |   |   |   | 
 | 8  | T | T | T | E | E | D | C | C |   |   | 
 | 9  | T | T | T | E | E | D | C | C | C |   | 
-| 10 | T | T | T | E | E | E | D | C | C | C | 
+| 10 | T | T | T | E | E | D | D | C | C | C | 
 
 The following table provides a decent point of orientation for **skill** tests: 
 Level | **Ob** 1 | **Ob** 2 | **Ob** 3 | **Ob** 4 | **Ob** 5 | **Ob** 6 | **Ob** 7 | **Ob** 8 | **Ob** 9 | **Ob** 10
@@ -1376,15 +1376,8 @@ Level | **Ob** 1 | **Ob** 2 | **Ob** 3 | **Ob** 4 | **Ob** 5 | **Ob** 6 | **Ob**
 | 9  | T | T | T | E | E | D | D | D | D | C | 
 | 10 | T | T | T | T | E | E | D | D | D | D | 
 
-When to test either an **attribute**, or a **skill**, also requires a certain gut-feeling. **Attribute**s are typically the raw, innate ability of a character. Not learned ability. **Skills** on the other hand are always learned ability. 
-
-* Challenging PC ambitions, beliefs and instincts
-* Tests and choosing **Ob**
-  * When to test an attribute vs. a skill?
-* Combat
-* Magic
-* Fate Points
-* The appendix
+When to test either an **attribute**, or a **skill**, also requires a certain gut-feeling. **Attribute**s are typically the raw, innate abilities of a character. 
+**Skills** on the other hand are learned abilities. 
 
 #### Challenging Your Players
 You have two means of challenging (= engaging) your players: *mechanical challenges* and *narrative challenges*. 
