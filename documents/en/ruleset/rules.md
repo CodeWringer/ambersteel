@@ -1,4 +1,5 @@
 - [Introduction](#introduction)
+- [Credits](#credits)
   - [How to Play](#how-to-play)
     - [Dice](#dice)
     - [Before the Game](#before-the-game)
@@ -128,7 +129,6 @@
     - [Ending Your Session](#ending-your-session)
       - [Hand Out Fate Points](#hand-out-fate-points)
       - [Gather Feedback](#gather-feedback)
-- [Credits](#credits)
 - [Appendix](#appendix)
   - [Skill List](#skill-list)
     - [Physical skills](#physical-skills)
@@ -252,6 +252,14 @@ The rules are designed to be as intuitive and simple as possible, while complex 
 Most rules will have a certain degree of vagueness to them. This is at least partially deliberate. The situations that can come up during play are simply too varied and numerous to be possible to completely cover with rules, without requiring epic tomes filled to the brim with highly specific rulings for highly specific situations. Instead, the game relies on the **GM** to arbitrate in every situation. The descriptions in the rules here should serve as a point of orientation for the **GM**. How they interpret the rules, is how they're to be understood. 
 
 Despite the focus on tactical and deadly combat, this is not an *adversarial* game. The **GM** and the players work ***together*** to create a unique experience and weave a story of glorious triumph, tragic defeat or anything in-between. Ultimately, the **GM**'s job is to provide interesting conundrums to the players and their job is to provide interesting answers, in-line with what their characters believe. What's important to remember is that the **GM** is a *player*, too. They're here to have fun and enjoy their time at the table, too. That is why it's important to work ***together***. 
+
+# Credits
+**Ambersteel** is not a revolution of the RPG genre and it was never meant to be. It is an amalgam and consolidation of rules I found to my liking, topped off with minor inventions of my own, in hopes of crafting a deep, yet intuitive system. 
+
+As such, I took inspiration from other systems I have read, played and enjoyed in the past:
+* **The Burning Wheel**, by Luke Crane and Dan Abram
+* **Zweihänder**, by Daniel D. Fox
+* **Knave**, by Ben Milton
 
 ## How to Play
 As **Ambersteel** is a **roleplaying game**, there are certain rules and expectations of both players and **GM**. 
@@ -1495,14 +1503,6 @@ You could ask them the following:
 * Was the balance of combat vs. role-play to your liking?
 * (If there was NPC-interaction) What was your favorite **NPC** interaction today?
   * Take note - that is an NPC you can *threaten* later, and have that player *care*. 
-
-# Credits
-**Ambersteel** is not a revolution of the RPG genre and it was never meant to be. It is an amalgam and consolidation of rules I found to my liking, topped off with minor inventions of my own, in hopes of crafting a deep, yet intuitive system. 
-
-As such, I took inspiration from other systems I have read, played and enjoyed in the past:
-* **The Burning Wheel**, by Luke Crane and Dan Abram
-* **Zweihänder**, by Daniel D. Fox
-* **Knave**, by Ben Milton
 
 # Appendix
 The appendix contains important and less important lists, for reference only when needed. 
