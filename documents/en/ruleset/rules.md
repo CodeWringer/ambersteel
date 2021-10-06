@@ -12,7 +12,6 @@
       - [Graduated Test](#graduated-test)
       - [Creative Test](#creative-test)
       - [Opposed Test](#opposed-test)
-    - [Advantage & Disadvantage](#advantage--disadvantage)
     - [Providing Assistance](#providing-assistance)
       - [Helpers Learn](#helpers-learn)
     - [Time](#time)
@@ -229,7 +228,7 @@
   - [List of Injuries](#list-of-injuries)
   - [List of Illnesses](#list-of-illnesses)
 
-Version 0.3 "Kettgard"
+Version 0.5 "Kettgard"
 
 A role-playing game by Nicolas Haase
 
@@ -238,7 +237,7 @@ A role-playing game by Nicolas Haase
 
 On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **Ambersteel** aims for the region between *game-y* and *narrative-driven*, while leaning more towards *game-y*:
 * Combat is a risky affair and requires tactical and strategic thinking, or the readiness to retreat, when things go awry. When a character suffers **injuries**, they are in *serious trouble*. 
-* Magic is also a risky affair, with a chance for a spell to fail and affec the mage, instead. The chance of success is manageable, however. 
+* Magic is also a risky affair, with a chance for a spell to fail and affect the mage, instead. The chance of success is manageable, however. 
 * Players are also expected to manage resources, such as their character's health and possessions. Character's are neither *damage sponges*, nor *item vacuums*. 
 * **PC** change and roleplaying are embedded into the rules. There are no classes or other arbitrary restrictions on what a character can do. **Attributes** and **skills** improve as they are used, incentivising experimentation. Characters have long-term and short-term goals and beliefs, which drive them onward and which change over time. 
 * **PC**s aren't expected to start powerful and skilled. But they're expected to become powerful and skilled over the course of a long campaign. 
@@ -353,13 +352,6 @@ The terms of **attacker** and **defender** refer to the character initiating and
 > For example, a character tries to sneak past another, the sneaking character will have to succeed a [stealth](#stealth-agi) test, while the other character will have to succeed an [observation](#observation-perc) test. If the result is a tie, the one making the observation test is considered the **defender**, and wins. 
 
 If a tie occurs in which a **defender** cannot be clearly determined, the result is a deadlock and neither side gains anything. 
-
-### Advantage & Disadvantage
-Certain situations may warrant a character getting **advantage** or **disadvantage** to a test they have to make. 
-
-**Advantage** grants **+1D6**, while **disadvantage** forces **-1D6** to the test in question. **Disadvantage** cannot cause less than **1D6** to be available for the test. In other words, **disadvantage** cannot reduce the number of dice to roll to less than 1. 
-
-A player may argue for their **advantage** in a situation, but only once, with a clear statement. Dancing around, trying and hoping to somehow convince the **GM** with vague descriptions immediately disqualifies your character from getting **advantage**. Arguing with the **GM** over their decision *also* immediately disqualifies your character from getting **advantage**. 
 
 ### Providing Assistance
 Characters can help each other in tests. In order to help with a test, a character must know a relevant [skill](#skills) and the one being helped must accept the help. 
@@ -1109,19 +1101,19 @@ Sometimes, simply *hitting it* isn't enough. Sometimes, more control is needed. 
 #### Aimed Attack
 An attack generally targets the center of mass (torso) of the targeted opponent. 
 
-It is, however, possible to call out wanting to attack a specific part of an opponent's body. Generally, this means that the attack must be rolled with [disadvantage](#advantage--disadvantage). However, the **GM** can also decide the part being targeted is fairly easy to hit, either generally or due to current circumstance, so no disadvantage is incurred. 
+It is, however, possible to call out wanting to attack a specific part of an opponent's body. Generally, this means that the attack must be rolled at greater **Ob**. However, the **GM** can also decide the part being targeted is fairly easy to hit, either generally or due to current circumstance, so no disadvantage is incurred. 
 
 A player may call out what effect the aimed attack is supposed to have, such as limiting their opponent's ability to stand, move, attack or whatever else the body part may be useful for. If they don't, the **GM** decides the effect. 
 
 #### Difficult Attack
-There may be attacks that are more difficult to perform, due to current circumstance. Such attack rolls are [disadvantaged](#advantage--disadvantage). 
+There may be attacks that are more difficult to perform, due to current circumstance. Such attack rolls are penalized with a higher **Ob**. 
 
 An example for a *difficult attack* would be targeting an opponent with a ranged weapon when the opponent is behind cover. 
 
 Another example would be attacking backwards, at an invisible target or with a broken arm, and so on.
 
 #### Easy Attack
-Some attacks may be easier to perform. An **easy attack** is [advantaged](#advantage--disadvantage).
+Some attacks may be easier to perform. An **easy attack** has a lower **Ob**.
 
 The following are generally considered easy attacks (but at the **GM**'s discretion):
 * From behind
@@ -2111,7 +2103,7 @@ How many times an **injury** can be suffered, can be limited. In the table below
 | 67 - 72    | Torn Tendon         | /   | -1 [Strength](#strength-str) | 
 | 73 - 79    | Mental Trauma       | /   | -1 [Will](#will-will) | 
 | 80 - 94    | Tremors             | /   | -1 [Arcana](#arcana-arc); -1 [Agility](#agility-agi) | 
-| 95 - 100   | Cosmic Misfortune   | 1   | [Disadvantage](#advantage--disadvantage) on all tests. | 
+| 95 - 100   | Cosmic Misfortune   | 1   | **-1D** on all tests. | 
 
 ## List of Illnesses
 
