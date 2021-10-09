@@ -18,12 +18,12 @@ He is close now! You rush forward, with one final cry slashing at the now defens
 
 ------
 
-The storyteller finishes, saying, "And that's when he earned the title of *Amberite Keijser*. He was but a boy then and truly, no one knows if he really even did it. But one thing is certian. Over one thousand years ago, in that pivotal battle against evil, our world was freed from the tyranny of magic!"
+The storyteller finishes, saying, "And that's when he earned the title of *Amberite Kijser*. He was but a boy then and truly, no one knows if he really even did it. But one thing is certain. Over one thousand years ago, in that pivotal battle against evil, our world was freed from the tyranny of magic!"
 
-You're certain they embellished the story and can't help but wonder how much of it is actually real. Interest in these old stories certainly seems to have risen again, since *Innilreith* - the so-called "Realm of Lords" - announced itself to the world. 
+You're certain the storyteller embellished the story and can't help but wonder how much of it is actually real. Interest in these old stories certainly seems to have risen again, since *Innilreith* - the so-called "Realm of Lords" - announced itself to the world. 
 
 Atop its hierarchy stands a necromancer, proclaiming the return of magic and an end to tyranny of **Amberite**. Will history repeat itself? Will there be more legends of heroes made? 
 
-Considering the options, now might be the best time to become a legend. A new world lies to the west, its gate-keeping *titan* having vanished without a trace. The *Creeping Death* engulfs the north-east. Rumors have it, the Kirlennians are gearing up for war and many speculate on their victory. And of course, *Innilreith* consumes the south-east, with the *Amber Order* gearing up for a war of their own - against magic. 
+Considering the options, now might be the best time to become a legend. A new world lies to the west, its gate-keeping *titan* having vanished without a trace. The *Creeping Death* engulfs the north-east. Rumors have it, the Kirlennians are preparing for war and many speculate on their victory. And of course, *Innilreith* consumes the south-east, with the *Amber Order* gearing up for a war of their own - against magic. 
 
 Just where shall we begin? Well, perhaps with this tankard. 
