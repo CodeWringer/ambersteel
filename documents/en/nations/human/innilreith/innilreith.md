@@ -1,12 +1,12 @@
-# Ruosaarma
-> "Beware, you of mundane birth and life, you hypocrites and tyrants! Your era is over! Let your deaths be part of the glorious rejuvenation of the age of magic!" - Necromancer and lord over Ruosaarma, Kovalevsky Taras, in an open letter to the kings and queens of the old world.
+# Innilreith
+> "Beware, you of mundane birth and life, you hypocrites and tyrants! Your era is over! Let your deaths be part of the glorious rejuvenation of the age of magic!" - Necromancer and lord over Innilreith, Kovalevsky Taras, in an open letter to the kings and queens of the old world.
 
-Ruosaarma is the land of mages and undeath, born from the green-flames of necromantic magic. 
+Innilreith is the land of mages and undeath, born from the green-flames of necromantic magic. 
 
 ## Magic
-Magic can be cast freely and without repercussion in Ruosaarma. In fact, those who don't cast magic are seen as creatures of lower value, to be used as no more than an expendable resource.
+Magic can be cast freely and without repercussion in Innilreith. In fact, those who don't cast magic are seen as creatures of lower value, to be used as no more than an expendable resource.
 
-Thus, there is a clear hierarchy in Ruosaarma. The mages enjoy greater authority than mundane folk and more powerful mages enjoy greater authority than their weaker peers. 
+Thus, there is a clear hierarchy in Innilreith. The mages enjoy greater authority than mundane folk and more powerful mages enjoy greater authority than their weaker peers. 
 
 Magical prowess very much dictates social standing. 
 
@@ -52,12 +52,12 @@ God-Emperor
 Laws are, what the mages want them to be. Laws also change on a regular basis and on the mages' whims. 
 
 ### Military
-Almost the entire military of Ruosaarma consists of the necromancer's army of undead. Aside from that, servants may be forced to fight or mages may step in themselves, in order to achieve their goals. 
+Almost the entire military of Innilreith consists of the necromancer's army of undead. Aside from that, servants may be forced to fight or mages may step in themselves, in order to achieve their goals. 
 
 ## Citizenship
 
 ## Religion
-If Ruosaarma had a state religion, it would be the belief, that magic and magical prowess is to be the sole arbitrator in the world. It must not be regulated, it must not be limited. The strong rule the weak. 
+If Innilreith had a state religion, it would be the belief, that magic and magical prowess is to be the sole arbitrator in the world. It must not be regulated, it must not be limited. The strong rule the weak. 
 
 ## Characters of Note
 * Necromancer Kovalevsky Taras - Head of state
