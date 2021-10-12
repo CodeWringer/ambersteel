@@ -1,13 +1,13 @@
 # Kettgardian
 Kettgardians are very stout and stubborn folk, who bow to no one. Proudly, they repel invaders as one, yet squabble amongst each other over petty disputes. 
 
-They're rough folk. Domestic violence is common, so are inequality and bigotry. The nobility are generally to blame for it all. They live in the tallest spires of the great fortresses, while the poor toil in the treacherous mines or arid fields. 
+They're rough folk. Domestic violence is common, so are inequality, poverty and bigotry. The nobility are generally to blame for it all. They live in the tallest spires of the great fortresses, while the poor toil in the treacherous mines or arid fields. 
 
 Kettgardians are also a very pragmatic folk. Both in costume and mannerisms, they prefer functional and to the point over ornate and roundabout. 
 
 The honor of the family reflects upon the individual, and vice-versa. As such, family clans are very tight-knit communities and alliances between houses carefully crafted through marriages. Being very patriarchical, the lord of the house enjoys the utmost respect. Failing to pay sufficient homage to the lord can start wars. 
 
-Where others see a treacherous mountain range, Kettgardians see a fine place for a sprawling city. And it will be so, until proven otherwise. Considering Kettgardian stubbornness, that would take quite some convincing, too. 
+Where others see a treacherous mountain range, Kettgardians see a home. And it will be so, until proven otherwise. Considering Kettgardian stubbornness, that would take quite some convincing, too. 
 
 Wary of strangers, they're not known for their welcoming nature. In fact, even [Amberantists](../../../../independent-organizations/amber-order.md) have a difficult time on Kettgardian lands, despite Kettgardian disdain of magic - a mutual trait. 
 
@@ -22,6 +22,7 @@ Wary of strangers, they're not known for their welcoming nature. In fact, even [
     - [Childcare](#childcare)
     - [Domestic Violence](#domestic-violence)
   - [Customs and Social Life](#customs-and-social-life)
+    - [Conflict & Warfare](#conflict--warfare)
     - [Class and Hierarchy](#class-and-hierarchy)
     - [Healing Arts](#healing-arts)
     - [Manners](#manners)
@@ -112,6 +113,35 @@ Wary of strangers, they're not known for their welcoming nature. In fact, even [
 * If two women get into a fight, how should that be resolved?
 * How are matters of inheritance resolved when wealth, property, land, titles and position or office are involved?
 * Does the government play a large part in individuals' lives?
+
+### Conflict & Warfare
+Kettgardians are rarely heard singing, as they only tend to sing in two cases. First, on national holidays and especially happy occasions and second, when going to war. 
+
+The latter reason is more than enough basis for pause, when one hears the following chant, which is only sung when on campaign, either against another nation or another clan. 
+
+> Our land of earthen bone, <br>
+> where the strong shall share no bed! <br>
+> Our land of clan and home, <br>
+> where we die with no regret!
+> 
+> KETT! GARD! <br>
+> KETT! GARD! <br>
+>
+> Only to our house we bow, <br>
+> this land, your blood will feed! <br>
+> Only death awaits you now, <br>
+> on this land, your end you'll meet! <br>
+> 
+> KETT! GARD! <br>
+> KETT! GARD! <br>
+> 
+> Here we breed the strongest men, <br>
+> here we die as proudest men! <br>
+> And you will quake in fear, <br>
+> when o'er the mount's you hear... <br>
+> 
+> KETT! GARD! <br>
+> KETT! GARD! <br>
 
 ### Class and Hierarchy
 * There is an upper class, represented by the nobility, and a lower class, which includes everyone but the few rich merchants, who comprise the middle class. 
