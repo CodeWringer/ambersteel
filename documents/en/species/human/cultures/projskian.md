@@ -53,6 +53,8 @@ Projskian culture has not really spread far beyond the borders of the [Projskian
     - [Faith & Religion](#faith--religion)
   - [Arts & Aesthetics](#arts--aesthetics)
   - [Entertainment](#entertainment)
+    - [Bathing](#bathing)
+    - [Sword Fighting](#sword-fighting)
   - [Life Span & Life Phases](#life-span--life-phases)
     - [Life Span](#life-span)
     - [Birth, Childhood & Adolescence](#birth-childhood--adolescence)
@@ -351,6 +353,12 @@ Projskian culture has not really spread far beyond the borders of the [Projskian
 * Does music influence people's behaviour?
 * Does this culture have a typical dance form; and what is it like?
 * Who is able to see such entertainments and what restrictions might there be against some people?
+
+### Bathing
+Bathing is one of the Projskians favorite passtime. They regularly meet friends and family at the bath houses or other places of hygiene. Bathing is as much about hygiene, as it is about forging new acquaintances, where all eare equal. Stripped of finery and steel, nobles mingle with commoners, albeit under guard, and and speak to each other as if class mattered not. 
+
+### Sword Fighting
+Many Projskians enjoy practicing their sword fighting. They often come together in improvised sparring rings, where combatants take turns. Often times, they'll use specializd dull swords, made for safe sparring. 
 
 ## Life Span & Life Phases
 ### Life Span

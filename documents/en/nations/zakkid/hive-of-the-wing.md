@@ -15,7 +15,7 @@ There are ancestor halls, where one can pay their respects to those who came bef
 
 There are many smaller meeting halls, usually joining several hallways together, where Zakkid can come together when on break. A few great halls exist too, which is usually where the great events of the Zakkid are held. 
 
-In the [scrubbing chambers](#Sanitation) - the equivalent of a bath house - workers help other Zakkids clean themselves, as Zakkids can't clean themselves fully, just on their own. The name stems from the fact that Zakkid don't enjoy water quite as much as mammals and so use brushes to scrub the dirt off their carapaces, instead. 
+In the [scrubbing chambers](#Sanitation) - the equivalent of a bath house - workers help other Zakkids clean themselves, as Zakkids can't clean themselves fully, just on their own. The name stems from the fact that Zakkid don't enjoy water quite as much as mammals and so use brushes or sand to scrub dirt and grime off their carapaces, instead. 
 
 There are many smaller sleeping chambers connected to the myriad of hallways that connect the hive. Similarly, many smaller guard posts are placed all over the hive. The larger guard posts are usually located at the entrances to the hive, as well as to the queen's chambers. 
 
