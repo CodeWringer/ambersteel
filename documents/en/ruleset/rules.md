@@ -49,6 +49,7 @@
     - [Exhaustion](#exhaustion)
     - [Status Effects](#status-effects)
       - [Dazed](#dazed)
+      - [Unconscious](#unconscious)
       - [Grappled](#grappled)
       - [Death's Door](#deaths-door)
     - [Illness](#illness)
@@ -678,7 +679,12 @@ Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the
 Characters can have one or more **status effect(s)** affecting them. A **status effect** can have positive or negative effects on the character. 
 
 #### Dazed
-A **dazed** character begins their turn with -2 **AP** and can run at most only half the distance they normally could. 
+A **dazed** character begins their turn with -2 **AP** and can run at most only half the distance they normally could. In addition, they suffer a penalty of **-1D** to all tests. The number of dice for a test cannot be reduced to less than 1 by this penalty. 
+
+#### Unconscious
+An **unconscious** character is unable to act and is unaware of their surroundings. 
+
+Someone *knocked* **unconscious** can't awaken due to external stimuli and have to recover, first. For how long, depends on the circumstances. But several hours hould be a good baseline. 
 
 #### Grappled
 A **grappled** character is unable to move and suffers -1 [melee defence](#melee-defence-agi), for as long as they are **grappled**. A **grappled** character can break free, by **completely succeeding** a [strength](#strength-str) test against the other character grappling them. 
@@ -716,7 +722,7 @@ All damage inflicted, is inflicted with a certain type of damage.
 | ----------- | ----------- |
 | Slashing    | Usually inflicted by any sort of cutting/slashing weapon, like a sword, or a talon. |
 | Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. |
-| Bludgeoning | Inflicted by light blunt weapons and unarmed attacks. **Bludgeoning** causes non-lethal damage. It inflicts [exhaustion](#exhaustion) instead of [injuries](#injury). |
+| Bludgeoning | Inflicted by light blunt weapons and unarmed attacks. **Bludgeoning** causes non-lethal damage. It inflicts [exhaustion](#exhaustion) instead of [injuries](#injury). A [dazed](#dazed) character hit with **bludgeoning** damage has to succeed an [endurance](#endurance-end) test, or else fall [unconscious](#unconscious). |
 | Crushing    | Usually inflicted by any sort of heavy blunt weapon, like a hammer, or an animal's tusks. |
 | Burning     | Inflicted by extreme heat. |
 | Freezing    | Inflicted by extreme cold. |
@@ -1162,10 +1168,6 @@ Any damage rolls or other effects are then made and applied to the target/self.
 
 After that, the mage has to roll the amount of [exhaustion](#exhaustion) they gain from casting the spell. To do so, they must roll **ND3**, where *N* is the **spell intensity** they cast the spell at. 
 
-The amount of [exhaustion](#exhaustion) gained is then reduced by their **magic exhaustion resistance**, which is governed by their [arcana](#arcana-arc) attribute, plus their skill in the related [magic school](#magic-schools). 
-
-[Exhaustion](#exhaustion) gain cannot be reduced to less than one. That means, whenever a mage casts a spell, they gain *at least* one point of [exhaustion](#exhaustion). 
-
 ## Magic Things
 **Ambersteel** takes its name from the in-game material of the same name. As it is a strictly anti-magic material, it should enjoy great attention in any fantasy world, where magic is a real and recognizable force. Where usually, magic is the centerpiece, in **Ambersteel** that isn't quite the case. Magic is powerful and fearsome and thus, if not under control, can threaten to cause great pain and destruction. **Ambersteel** dampens that power and puts shackles on it. 
 
@@ -1574,8 +1576,8 @@ Speaking commands others will respect and follow to the letter.
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 3     | Unquestionable Command | 2 | +2 | An ally of choice, gains **+1D6** on their next test. | Ally not in combat; Ally can hear the command. |
-| 4     | Spur                 | 2 | +2 | An ally of choice, gains +1 **AP**. | Ally in combat; Ally can hear the command. |
+| 5     | Unquestionable Command | 2 | +2 | An ally of choice, gains **+1D6** on their next test. | Ally not in combat; Ally can hear the command. |
+| 6     | Spur                 | 2 | +2 | An ally of choice, gains +1 **AP**. | Ally in combat; Ally can hear the command. |
 
 #### Deception (Ora)
 Telling lies, acting in a way so as to deceive another character into believing something untruthful. 
