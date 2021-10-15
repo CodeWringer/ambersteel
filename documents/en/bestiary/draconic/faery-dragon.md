@@ -25,7 +25,7 @@ They have both forelimbs and hindlimbs, with the ability to grasp with their han
 * Highly magically capable
 * Fast
 * Perceptive
-* Magic-users
+* Magic-user
 * Can fly
 * [Pacifying breath]()
 

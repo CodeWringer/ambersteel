@@ -1,14 +1,10 @@
-# Template
-Provide a summary, with only the most noteworthy and unique aspects of the culture, here. 
+# Treusian
+Treusian culture is only a minor variation of [Vertissian](vertissian.md). 
 
-* When answering the questions below, try to answer only up to a maximum of 5, per section. 
-* Try to evoke an idea, rather than noting specifics. The specifics should be derivable from the idea, when needed. 
-* E. g. generalize, instead of outlining all laws regarding theft and slavery.
-  * > Crime is not tolerated under any circumstance and will be met with harsh punishments. 
-  * > However, slavery is commonplace, encouraged and strictly regulated, so there shall be no doubt who owns who. 
+The primary distinction of Treusian is the almost zealous deification of [faery dragons](../../../../bestiary/draconic/faery-dragon.md). They're obsessed with these dragons. All their thinking revolves around these creatures. They see themselves as dependent on their guidance and protection, almost unwilling to defend themselves. 
 
 ## TOC <!-- omit in TOC -->
-- [Template](#template)
+- [Treusian](#treusian)
   - [Appearance](#appearance)
     - [Body Adornment](#body-adornment)
     - [Clothing & Fashion](#clothing--fashion)
@@ -128,7 +124,6 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
 * Which member of the household cares for the children in what ways?
   * Who usually takes custody of children if a marriage ends for some reason?
   * What happens to orphans?
-* What are the expectations of children?
 
 ### Domestic Violence
 * How common or rare is domestic violence?
@@ -155,6 +150,7 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
 * How independent or codependent are individuals?
 * What genders are biologically ordained and socially constructed?
   * What are the typical roles of individuals of different genders?
+* What are the expectations of children?
 
 ### Healing Arts
 * Do people seek care on an as-needed or emergency basis?

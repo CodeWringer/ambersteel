@@ -1,14 +1,10 @@
-# Template
-Provide a summary, with only the most noteworthy and unique aspects of the culture, here. 
+# Vertissian
+The umbrella culture *Vertissian* is dominated and defined by reverence of [faery dragons](../../../../bestiary/draconic/faery-dragon.md) and in particular, the [Elder Dragon](../../../../bestiary/draconic/elder-dragon.md). 
 
-* When answering the questions below, try to answer only up to a maximum of 5, per section. 
-* Try to evoke an idea, rather than noting specifics. The specifics should be derivable from the idea, when needed. 
-* E. g. generalize, instead of outlining all laws regarding theft and slavery.
-  * > Crime is not tolerated under any circumstance and will be met with harsh punishments. 
-  * > However, slavery is commonplace, encouraged and strictly regulated, so there shall be no doubt who owns who. 
+Vertissians value harmony and life. As such, they despise bloody conflict. All art, music, architecture, morals and ethics are strongly inspired by and adapted to [faery dragons](../../../../bestiary/draconic/faery-dragon.md). 
 
 ## TOC <!-- omit in TOC -->
-- [Template](#template)
+- [Vertissian](#vertissian)
   - [Appearance](#appearance)
     - [Body Adornment](#body-adornment)
     - [Clothing & Fashion](#clothing--fashion)
@@ -60,157 +56,77 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
     - [Matters of Daily Life](#matters-of-daily-life)
 
 ## Appearance
-* What is their range of appearance: e.g., colour of hair or eyes or skin, height, build, and the like?
+* Predominantly Blond, some ginger-haired. 
+* Predominantly green eyes, some purple. 
+* Ordinary humans in all other respects. 
 
 ### Body Adornment
-* Are tattoos, scarification, piercings or body paint common?
-  * What forms do they take?
-  * Are they monochromatic or tinted?
-  * What areas of the body must be covered?
-  * What significance might these kinds of decorations have?
-* Is facial hair a common or even respectable feature? And who has facial hair?
-* If such adornments are not used in this culture, how do people react to outsiders wearing tattoos or piercings, facial hair or cosmetics?
+* Tattoos are commonplace and colorful. Popular motives are anything dragon-related. 
+* Scarrification is considered barbaric and scars are considered unbearably hideous. Piercings aren't quite as bad. 
+* Ordinary humans in all other respects. 
 
 ### Clothing & Fashion
-* What articles of clothing do people habitually wear and how does this vary by season, ethnicity, age, profession, and the like?
-  * Are certain articles of clothing customary or obligatory for certain occupations and how much variation is allowed?
-* Describe how the genders dress: what differences & similarities are there between men's and women's clothing and accessories?
-* What materials do people prefer their clothes made of?
-  * What materials are intended for special occasions?
-  * Is the material be produced locally, or must some or all of it be imported? Must the material be exotic? 
-  * Are there dyes for certain colors, such as purple or indigo that are very rare, making cloth of that color more expensive and/or reserved for nobility or other high-status people?
-* How many changes of clothing can a person be expected to own or afford?
-* Or is clothing more a matter of individual taste?
-* Are there fashions or fads in things besides clothes? -- styles of carriages, furniture, race or gender of household slaves, modes of speech?
-* Are there fashions or fads in magical practice, religious devotion or in other areas of life? -- are herbal spells "in" this year and ritual spells "out," or is that god out while this new religion is in fashion?
-* What is the current fashion in clothing, haberdashery, jewellery, shoes & other accouterments?
-* What articles are considered tacky and vulgar, and which are stylish?
-* What physical appearance types and characteristics are currently fashionable? -- tan versus pale skin, the "consumptive look" versus robust good health, fat versus thin, blonde versus brunette?
-* How pervasive is the culture of vanity and how are people who simply can not fit into a fashionable category affected? -- do they suffer along, or try to make up for their perceived deficiencies or do they simply create their own categories of fashion and vanity?
-* How are colors for clothing chosen?
-  * What colors and combinations of colors are thought to look well or to clash?
-  * What colors are associated with power, with virtue and with death?
-* Are weapons of some kind a standard part of dress for any/all segments of society?
-  * Are such weapons crafted solely with "utility" in mind or are they so decorative as to be nearly useless?
+* There is practically no leather clothing. Wearing an animal's skin is considered barbaric. 
+  * All clothes are made of cotton or linen. 
+* Ornate, multi-layered and sliced clothing is commonplace. 
+* Plenty of jewelry.
+* Sometimes hats, sometimes masks and oftentimes long, flowing hair. 
 
 ## Family
-* What is considered a family?
-* How big are families, typically?
-* How *extended* is an extended family?
-* How are families named?
-* Are people strongly attached to their heritage?
-* How important are family connections and responsibilities?
+* Family is extensive. Distant cousins are treated as close friends. 
+* Families are rarely very large. Vertissians pay great heed to not over-crowd their limited living space. 
+* Family is considered natural, with no special responsibilities or burdens for family members to bear. 
 
 ### Houshold
-* What constitutes a household?
-* How many people live in one household?
-* How many generations?
-* Which members are expected to leave, and why and when?
-* What is the division of labor among gender and generational lines within the household?
+* A household is made up of the immediate family and their grandparents. 
+* With their mind set on harmony within the family, everyone tries to work together. Child-rearing is a shared responsibility. 
 
 ### Marriage
-* How many spouses may a man or woman have?
-* Who decides on a marriage?
-* Can a marriage end in divorce and how would this work?
-* What, if anything, is considered a good marriage gift?
-* Does this society connect the ideas of marriage with love?
-* What types of marriages and sexual relationships are required, encouraged, allowed, and prohibited?
-* What are the society's mores regarding courtship, betrothal & marriage?
-* Is marriage primarily a civil or a religious institution?
-* How are marriages celebrated?
-* What is the term of a marriage contract?
-* What is considered too great a difference in age for a couple?
+* 1:1 marriage
+* Gender-agnostic
+* Great fests are held to commemorate marriages. 
+* Marriage relies upon the [faery dragons'](../../../../bestiary/draconic/faery-dragon.md) blessing. 
 
 ### Childcare
-* What are the patterns of childcare?
-  * Are girls and boys treated differently? 
-  * Are girls or boys preferred and why?
-* Which member of the household cares for the children in what ways?
-  * Who usually takes custody of children if a marriage ends for some reason?
-  * What happens to orphans?
-* What are the expectations of children?
+* Child-rearing is a shared responsibility. 
+* Orphans are usually taken in by distant family or by other members of the village or town. 
 
 ### Domestic Violence
-* How common or rare is domestic violence?
-* Is this understood to be a problem, or a normal aspect of family life?
-* If it is seen as problematic, what is being done about it?
+* Very, very rare
+* A huge problem and grounds for banishment from town. Or pacification by the [faery dragons](../../../../bestiary/draconic/faery-dragon.md). 
 
 ## Customs and Social Life
-* If two men get into a fight, how is this supposed to be resolved?
-* If two women get into a fight, how should that be resolved?
-* How are matters of inheritance resolved when wealth, property, land, titles and position or office are involved?
-* Does the government play a large part in individuals' lives?
+* Fighting is to be avoided. 
 
 ### Class and Hierarchy
-* How is society divided into classes, ranks or hierarchies?
-  * Are people able to move from one social class to another?
-  * Are there any benefits to being of one class over another?
-  * What are the various ranks and titles and their proper forms of address?
-  * How firm are the divisions between social classes?
-  * How much social mobility is there in fact compared to how much people believe there is?
-  * Is it considered beneath dignity for a noble to engage in trade or for a warrior to help with the harvest?
-* Which occupations are respected and which are looked down upon?
-* Is society segregated an any way?
-  * Is there any discrimination against or oppression of some groups be they racial, ethnic or religious in this society?
-* How independent or codependent are individuals?
-* What genders are biologically ordained and socially constructed?
-  * What are the typical roles of individuals of different genders?
+* There are local leaders, who enjoy slightly higher social standing. 
+* Most everyone else is on about the same level. 
+* The dragons are the true masters. 
+* Outsiders are unwelcome. They bring pain and death. 
 
 ### Healing Arts
-* Do people seek care on an as-needed or emergency basis?
-* How often do people typically engage with a healer?
-* How do people react to physical deformity, both congenital & acquired?
-* Who normally handles issues of fertility and childbirth -- midwives, doctors, or someone else?
-* Is there an understanding of or distinction between quack medicine and valid medicine?
+* People see the medical arts as one of the greatest gifts of the dragons. The knowledge they shared has saved countless lives. 
+* People often engage with a healer. 
+* Phyiscal deformity and illness is to be pitied. If anyone can help the afflicted individual, they will. 
+* They have very good understanding of the distinction between quack and real medicine. 
 
 ### Manners
-* Who speaks first at a formal gathering?
-* What kinds of gifts are considered appropriate or in extremely bad taste?
-* How do younger adults address their elders?
-* When is it rude to laugh at something funny?
-* What parts of the body are routinely covered?
-* How private are bodily functions like bathing or defecating?
-* What are the rules of precedence? -- who gets to go through doors first and who gets introduced first?
-* How important are "good manners" in this society?
-* What constitutes everyday good manners?
-* How do different peoples react when someone has just been, by their standards, unspeakably rude?
-* When and where are people supposed to be on their best behavior?
+* If a dragon is present, they speak first. 
+* If a dragon speaks, all else are quiet. 
+* People try to let each other finish talking, before speaking themselves. 
+* Gifts representing the ideas of life and harmony make for good gifts, while anything death and pain related are abhorrent gifts. 
+* "Good manners" are vital in this society. 
 
 #### Greetings
-* When meeting someone, what gestures or words are used for greeting?
-* Is there a difference between the greeting offered to an equal and that offered to a superior or an inferior?
-* Is there a difference between the greeting offered a man or a woman or between people of different races?
-* How are two people who have never met normally introduced to one another?
-* What is the order of precedence when there are several people of differing sex or social status or race present, all of whom need to be introduced to each other?
-  * Are there classes of people who are never introduced to other classes of people?
-  * Are there customs involving the way in which someone is named when being introduced, such as using full titles at the first meeting, but never repeating them afterward?
-* Are true names significant, and if so, under what circumstances would someone be given another person's true name?
-* Is there any difference in the way you greet someone you already know, compared to greeting a stranger?
-* How does someone acknowledge seeing an acquaintance at a distance, for example passing on the other side of the street?
+* A deep bow, with hand over one's own heart. 
 
 #### Gestures & Body Language
-* Are gestures and body language in this society generally subtle or obvious?
-* Do people talk with their hands or other appendages, or is that considered vulgar?
-  * What gestures are insulting?
-  * What do they mean?
-* Is there a way of changing a greeting gesture to make it insulting?
-* What is a comfortable and polite speaking distance for people in this culture and how does this compare with others?
-* How aware are people of these differences and are they well or poorly respected?
-* What are the ways of showing respect and to whom is one expected to show such respect?
-* How do people demonstrate grief?
+* Gestures and body language are generally subtle and slow, in an effort to appear elegant. 
 
 #### Visiting & Hospitality
-* When a guest arrives, is food or drink offered immediately, after an interval, or only on request?
-  * What things are considered courteous to offer a guest? -- food, reading material, personal guards or attendants, music, entertainment, a person of the opposite sex to sleep with?
-  * What is considered a courteous response to a host's offer?
-  * Are there things it is considered rude to accept or rude to turn down; rude to ask for or not to ask for?
-* Is there a particular food or drink that is customary to offer a newly arrived guest?
-* Are there questions that must be asked or avoided?
-* Are there topics that can only be raised by the host or the guest?
-* How seriously does the culture take the responsibilities of host and guest?
-  * What norms define the host-guest relationship?
-* Are guests expected to share a room or bed? Perhaps even with the host?
-  * Are strangers expected to share a room or bed together?
+* When a guest arrives, food and drink are offered freely, while letting them in through the door. 
+* Guests sleep in the better bed and chamber, if there is one. 
+* Whether guests wish to sleep alone or in company, is their choice to make. 
 
 #### Tabus & Faux Pas
 * What are considered controversial subjects in this culture?

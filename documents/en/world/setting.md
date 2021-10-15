@@ -9,4 +9,4 @@ Just a few years ago, the new world was discovered, far to the west, where none 
 
 Now many of the world's great leaders live fever-dreams of their own empires. However, the new world is completely unexplored and none can tell what great dangers or treasures it may hold. 
 
-At the dawn of this new era, the old world's leaders yearn to achieve greatness and topple the existing order. As war looms on the horizon, as endless hordes of undead and the corruption smash against the last bastions of civilization, the future was rarely as uncertain. 
+At the dawn of this new era, the old world's leaders yearn to achieve greatness and topple the existing order. As war looms on the horizon, as endless hordes of undead and the corruption smash against the last bastions of civilization. The future was rarely as uncertain. 

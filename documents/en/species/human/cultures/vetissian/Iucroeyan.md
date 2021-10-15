@@ -1,4 +1,4 @@
-# Template
+# Iucroeyan
 Provide a summary, with only the most noteworthy and unique aspects of the culture, here. 
 
 * When answering the questions below, try to answer only up to a maximum of 5, per section. 
@@ -8,7 +8,7 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
   * > However, slavery is commonplace, encouraged and strictly regulated, so there shall be no doubt who owns who. 
 
 ## TOC <!-- omit in TOC -->
-- [Template](#template)
+- [Iucroeyan](#iucroeyan)
   - [Appearance](#appearance)
     - [Body Adornment](#body-adornment)
     - [Clothing & Fashion](#clothing--fashion)
@@ -128,7 +128,6 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
 * Which member of the household cares for the children in what ways?
   * Who usually takes custody of children if a marriage ends for some reason?
   * What happens to orphans?
-* What are the expectations of children?
 
 ### Domestic Violence
 * How common or rare is domestic violence?
@@ -155,6 +154,7 @@ Provide a summary, with only the most noteworthy and unique aspects of the cultu
 * How independent or codependent are individuals?
 * What genders are biologically ordained and socially constructed?
   * What are the typical roles of individuals of different genders?
+* What are the expectations of children?
 
 ### Healing Arts
 * Do people seek care on an as-needed or emergency basis?
