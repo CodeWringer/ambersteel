@@ -1,7 +1,7 @@
 # Vertissian
-The umbrella culture *Vertissian* is dominated and defined by reverence of [faery dragons](../../../../bestiary/draconic/faery-dragon.md) and in particular, the [Elder Dragon](../../../../bestiary/draconic/elder-dragon.md). 
+The umbrella culture *Vertissian* is dominated and defined by reverence of [faery dragons](../../../../bestiary/draconic/faery-dragon.md) and in particular, the [Elder Dragon](../../../../bestiary/draconic/elder-dragon.md). All art, music, architecture, morals and ethics are strongly inspired by and adapted to [faery dragons](../../../../bestiary/draconic/faery-dragon.md). 
 
-Vertissians value harmony and life. As such, they despise bloody conflict. All art, music, architecture, morals and ethics are strongly inspired by and adapted to [faery dragons](../../../../bestiary/draconic/faery-dragon.md). 
+Vertissians value harmony and life. As such, they despise bloody conflict. 
 
 ## TOC <!-- omit in TOC -->
 - [Vertissian](#vertissian)
@@ -119,6 +119,7 @@ Vertissians value harmony and life. As such, they despise bloody conflict. All a
 
 #### Greetings
 * A deep bow, with hand over one's own heart. 
+* It is customary to wish the dragon's blessing upon friends and family. 
 
 #### Gestures & Body Language
 * Gestures and body language are generally subtle and slow, in an effort to appear elegant. 
