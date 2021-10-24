@@ -24,13 +24,15 @@
       - [Strength [Str]](#strength-str)
       - [Toughness [Tough]](#toughness-tough)
     - [Mental Attributes](#mental-attributes)
-      - [Arcana [Arc]](#arcana-arc)
       - [Intelligence [Int]](#intelligence-int)
       - [Wisdom [Wis]](#wisdom-wis)
     - [Social Attributes](#social-attributes)
       - [Empathy [Emp]](#empathy-emp)
       - [Oratory [Ora]](#oratory-ora)
-      - [Will [Will]](#will-will)
+      - [Willpower [Will]](#willpower-will)
+    - [Arcane Attributes](#arcane-attributes)
+      - [Arcana [Arc]](#arcana-arc)
+      - [Magic Sense [MS]](#magic-sense-ms)
     - [Advancing Attributes](#advancing-attributes)
       - [Practicing Attributes](#practicing-attributes)
   - [Skills](#skills)
@@ -219,13 +221,11 @@
     - [Light Armor](#light-armor)
     - [Medium Armor](#medium-armor)
     - [Heavy Armor](#heavy-armor)
-    - [Amberite Plate](#amberite-plate)
   - [Shield Types](#shield-types)
     - [Buckler](#buckler)
     - [Round Shield](#round-shield)
     - [Heater Shield](#heater-shield)
     - [Kite Shield](#kite-shield)
-    - [Amberite Shield](#amberite-shield)
   - [List of Injuries](#list-of-injuries)
   - [List of Illnesses](#list-of-illnesses)
 
@@ -423,9 +423,6 @@ For every two points in [toughness](#toughness-tough), a character raises their 
 ### Mental Attributes
 These numbers represent a character's basic mental abilities. 
 
-#### Arcana [Arc]
-Governs a character's ability to control magic flow, thus casting magic and sensing magic.
-
 #### Intelligence [Int]
 Governs a character's ability to reason and analyze. 
 
@@ -441,8 +438,19 @@ Governs a character's ability to read and understand another's emotions and inte
 #### Oratory [Ora]
 Governs a character's ability to convincingly speak with and before others. Also used to manipulate others. 
 
-#### Will [Will]
+#### Willpower [Will]
 Governs a character's ability to withstand persuasion, intimidation, charm or terror. 
+
+### Arcane Attributes
+These numbers represent a character's basic arcane abilities. 
+
+These are the only attributes that can have an associated value of 0, as not all characters have magical ability. If a character doesn't have a value of at least 1 in these attributes, they will be unable to advance them, at all. A non-mage will remain a non-mage. 
+
+#### Arcana [Arc]
+Governs a character's ability to control magic flow, thus casting magic spells.
+
+#### Magic Sense [MS]
+Governs a character's ability to sense the flow of magic. This allows them to anticipate magical attacks and detect lingering magic. 
 
 ### Advancing Attributes
 Whenever a **PC** uses an attribute in a [test](#tests), the outcome must be noted. 
@@ -1061,7 +1069,7 @@ There are no limits to how many of a given card a player can own, but they may o
 When diplomacy fails, hostilities ensue. 
 
 ## Who Acts When
-At the beginning of every combat encounter, the involved parties (= groups) must roll for initiative. In order to determine which party gets to act first, each party rolls a **D6**. The party rolling the higher number, goes first. If there is a tie, roll another **D6**. If the player party is involved, a *4*, *5* and *6* means they get to go first. 
+At the beginning of every combat encounter, the involved parties (= groups) must roll for initiative. In order to determine which party gets to act first, each party rolls a **D100**. The party rolling the higher number, goes first. If there is a tie, roll another **D100**. 
 
 The involved parties act one after another. After all involed parties have had their **turn** to act, a **combat round** has passed. All members of a party act at the same time, during the party's turn. 
 
@@ -1992,6 +2000,8 @@ A set of light armor that doesn't impede the wearer by much. Commonly represents
 | 3 **Bludgeoning** |
 | 2 **Crushing**    |
 
+If lined with [Ambersteel](#ambersteel), also protects **1D4** against magic. 
+
 ### Medium Armor
 A set of medium armor with a good balance of protection and weight. Commonly represents a gambeson underneath a mail hauberk. Optional mail mittens. Common headgear: arming cap, mail coif or any non-full helmet. 
 
@@ -2003,6 +2013,8 @@ A set of medium armor with a good balance of protection and weight. Commonly rep
 | 4 **Bludgeoning** |
 | 3 **Piercing**    |
 | 2 **Crushing**    |
+
+If lined with [Ambersteel](#ambersteel), also protects **2D4** against magic. 
 
 ### Heavy Armor
 A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Commonly represents a full suit of plate armor.  
@@ -2016,19 +2028,7 @@ A set of heavy armor with excellent protection, at the cost of encumbering the w
 | 4 **Piercing**    |
 | 3 **Crushing**    |
 
-### Amberite Plate
-A set of heavy armor with excellent protection, even against magical attacks, at the cost of encumbering the wearer greatly. Commonly represents a full suit of [Amberite](#amberite)-lined plate armor.  
-
-* Bulk: 4
-* Prevents magic-casting by the wearer
-
-| Reduce Damage     | 
-| ----------------- |
-| 10 **Slashing**   |
-| 5 **Bludgeoning** |
-| 4 **Piercing**    |
-| 3 **Crushing**    |
-| **3D4** Magical   |
+If lined with [Ambersteel](#ambersteel), also protects **3D4** against magic. 
 
 ## Shield Types
 Shields are items that provide passive bonuses to [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi) and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon. 
@@ -2043,6 +2043,8 @@ A small, round shield commonly held as far from the body as possible, to deflect
 | +1 [melee defence](#melee-defence-agi).  |
 | +3 [melee defence](#melee-defence-agi) against **stabbing** attacks. |
 
+If lined with [Ambersteel](#ambersteel), also grants **+1** defence against magic. 
+
 ### Round Shield
 A medium-sized, round shield made from tough wood and leather, which offers decent protection against most attacks, while not encumbering the wielder too much. 
 
@@ -2053,6 +2055,8 @@ A medium-sized, round shield made from tough wood and leather, which offers dece
 | +2 [melee defence](#melee-defence-agi).  |
 | +2 [ranged defence](#melee-defence-agi). |
 
+If lined with [Ambersteel](#ambersteel), also grants **+1** defence against magic. 
+
 ### Heater Shield
 A tough and heavy metal shield, which offers great protection, while still being somewhat manageable to wield. 
 
@@ -2062,6 +2066,8 @@ A tough and heavy metal shield, which offers great protection, while still being
 | --------------- |
 | +3 [melee defence](#melee-defence-agi).  |
 | +3 [ranged defence](#melee-defence-agi). |
+
+If lined with [Ambersteel](#ambersteel), also grants **+2** defence against magic. 
 
 ### Kite Shield
 A large, kite-shaped shield, which can protect every part of the fighter, from the shoulder down to the feet. Its weight makes it difficult to react to attacks quickly, hoever. 
@@ -2074,16 +2080,7 @@ A large, kite-shaped shield, which can protect every part of the fighter, from t
 | +4 [melee defence](#melee-defence-agi).  |
 | +4 [ranged defence](#melee-defence-agi). |
 
-### Amberite Shield
-An [Amberite](#amberite)-lined heater shield, which offers great protection, even against magic, while still being somewhat manageable to wield. 
-
-* Bulk: 3
-
-| Defensive Bonus |
-| --------------- |
-| +3 [melee defence](#melee-defence-agi).  |
-| +3 [ranged defence](#melee-defence-agi). |
-| +3 [ranged defence](#melee-defence-agi) against magical attacks. |
+If lined with [Ambersteel](#ambersteel), also grants **+3** defence against magic. 
 
 ## List of Injuries
 How many times an **injury** can be suffered, can be limited. In the table below, the *max* is the maximum number of times the **injury** can be suffered by the same character. If there is a slash (/), there is no limit. If a roll would result in an already maxed out **injury**, pick the next **injury** below it, instead. 
