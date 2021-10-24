@@ -551,9 +551,11 @@ Advancing a **skill** requires:
 For your convenience, the following table contains the precalculated requirements to advance a **skill** level. 
 * In the table, 'Level' is the character's *current level* in the **skill**. 
 * Note it is possible to go past level 10, but you shouldn't hope for it. 
+* Note that level 0 requirements do not follow the formula above, instead being 10/14 (S/F). 
 
 | Level | Successes | Failures |
 | --- | --- | --- |
+| 0   | 10  | 14  |
 | 1   | 4   | 6   |
 | 2   | 12  | 18  |
 | 3   | 24  | 36  |
