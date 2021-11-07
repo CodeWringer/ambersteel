@@ -347,8 +347,6 @@ Whether the attribute or skill(s) in question can apply to resolve the situation
 #### Opposed Test
 Also known as a *versus test*, this type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of **positives** of each character. The one with the most **positives** is the winner. 
 
-In order to even stand a chance of winning an **opposed test**, the **attacker** has to also achieve a **complete success**. 
-
 If there is a tie, the **defending** character is considered the winner. 
 
 The terms of **attacker** and **defender** refer to the character initiating and the character reacting to the **opposed test**, respectively. 
