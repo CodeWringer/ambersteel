@@ -1801,8 +1801,17 @@ TODO
 TODO
 
 ### Counter-Magic
-The redirection and dissolution of magic flow. 
-TODO
+The redirection and dissolution of magic flow. This is the skill to use to defend against magic attacks. 
+
+Being a purely defensive skill, **counter-magic** only provides the benefit of easier defense at the higher levels. 
+
+This skill can only be used, if the mage has at least one point of [magic stamina](#magic-stamina) left. 
+
+However, knowing **counter-magic** at higher levels allows reducing incoming [magic stamina](#magic-stamina) costs. 
+
+For every three levels in **counter-magic**, **1D3 - 1** can be rolled, to determine by how much the **magic stamina** cost is reduced. 
+
+> At **counter-magic** level 6, you may roll **2D3 - 2**. At best, you can reduce the incoming **magic stamina** cost by 4, at worst, you can't reduce it, at all. 
 
 ## Weapon Types
 Weapons can have the following **weapon attributes**:
