@@ -232,7 +232,7 @@
   - [List of Injuries](#list-of-injuries)
   - [List of Illnesses](#list-of-illnesses)
 
-Version 0.5 "Kettgard"
+Version 0.6 "Abyssalite"
 
 A role-playing game by Nicolas Haase
 
