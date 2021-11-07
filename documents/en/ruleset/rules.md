@@ -241,7 +241,7 @@ A role-playing game by Nicolas Haase
 
 On the spectrum of *narrative-driven*, *game-y* and *simulationist*, **Ambersteel** aims for the region between *game-y* and *narrative-driven*, while leaning more towards *game-y*:
 * Combat is a risky affair and requires tactical and strategic thinking, or the readiness to retreat, when things go awry. When a character suffers **injuries**, they are in *serious trouble*. 
-* Magic is also a risky affair, with a chance for a spell to fail and affect the mage, instead. The chance of success is manageable, however. 
+* Magic is also a risky affair, with a chance for a spell to fail and affect the mage, instead. The chance of failure is manageable, however. 
 * Players are also expected to manage resources, such as their character's health and possessions. Character's are neither *damage sponges*, nor *item vacuums*. 
 * **PC** change and roleplaying are embedded into the rules. There are no classes or other arbitrary restrictions on what a character can do. **Attributes** and **skills** improve as they are used, incentivising experimentation. Characters have long-term and short-term goals and beliefs, which drive them onward and which change over time. 
 * **PC**s aren't expected to start powerful and skilled. But they're expected to become powerful and skilled over the course of a long campaign. 
@@ -1812,6 +1812,8 @@ However, knowing **counter-magic** at higher levels allows reducing incoming [ma
 For every three levels in **counter-magic**, **1D3 - 1** can be rolled, to determine by how much the **magic stamina** cost is reduced. 
 
 > At **counter-magic** level 6, you may roll **2D3 - 2**. At best, you can reduce the incoming **magic stamina** cost by 4, at worst, you can't reduce it, at all. 
+
+Note that it is not possible to reduce [magic stamina](#magic-stamina) cost to less than 1. 
 
 ## Weapon Types
 Weapons can have the following **weapon attributes**:
