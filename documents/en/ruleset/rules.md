@@ -89,16 +89,19 @@
   - [Who Acts When](#who-acts-when)
   - [Combat Actions](#combat-actions)
   - [How to Attack](#how-to-attack)
-    - [Types of Attack](#types-of-attack)
+    - [Attack-Targeting](#attack-targeting)
+      - [Single-Target Attack](#single-target-attack)
+      - [Area of Effect Attack](#area-of-effect-attack)
+    - [Special Types of Attack](#special-types-of-attack)
       - [Aimed Attack](#aimed-attack)
       - [Difficult Attack](#difficult-attack)
       - [Easy Attack](#easy-attack)
       - [Execution Attack](#execution-attack)
 - [Magic](#magic)
+  - [Magic Stamina](#magic-stamina)
   - [Spell Intensity](#spell-intensity)
-  - [Maximum Spell Intensity](#maximum-spell-intensity)
-  - [Spell Backfire](#spell-backfire)
-  - [Casting Magic](#casting-magic)
+    - [Maximum Spell Intensity](#maximum-spell-intensity)
+  - [Spell-Backfire](#spell-backfire)
   - [Magic Things](#magic-things)
     - [Abyssalite](#abyssalite)
     - [Amberite](#amberite)
@@ -1082,36 +1085,62 @@ If one party is surprised, the ambushing party gets to act for a full turn, with
 ## Combat Actions
 Every turn, every character gets 3 **Action Points (AP)** to spend on actions during their turn. 
 
-Any basic action, so any action not requiring a test, costs 1 **AP**. Any action requiring a test, costs 2 **AP**. 
-
-This means that generally, one attack and one movement can be made, per turn. 
+Any basic action, so any action not requiring a test, costs 1 **AP**. Any action requiring a test, costs 2 **AP**. Skill abilities cost the amount of **AP** as noted on them. 
 
 A character can move up to 15'/5m per **AP** spent. In **difficult terrain**, the distance moved per **AP** is 6'/2m. 
 
 Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will have to take multiple rounds. 
 
-Whenever an **exhausting action** is made, the character gains one point of [exhaustion](#exhaustion).
-
 If the turn is ended with any **AP** unspent, they go towards the character's [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi), as **+1D6** per **AP**. 
 
 ## How to Attack
-All attacks made against another creature or character are made as an [opposed test](#opposed-test). 
+Attacks are made using a [weapon skill](#weapon--weapon-type--str), [magic-school skill](#magic-school--school--arc) or a **skill-ability**. 
 
-* When attacking with a weapon: 
-  * It is possible to fork other weapon skills into the attack roll. 
-  * The [weapon skill](#weapon--weapon-type--str) of choice must be rolled as a [graduated test](#graduated-test). 
-    * If it is a melee attack, the defender must roll a [melee defence](#melee-defence-agi) [graduated test](#graduated-test). 
-    * If it is a ranged attack, the defender must roll a [ranged defence](#ranged-defence-agi) [graduated test](#graduated-test).
-* When attacking with magic:
-  * It is **not** possible to fork other magic skills into the attack roll. 
-  * The mage must roll the specific [magic school](#magic-school--school--arc) as a [graduated test](#graduated-test).
-  * The defender can either roll a [ranged defence](#ranged-defence-agi) [graduated test](#graduated-test)...
-  * ...or they can roll a [magic school](#magic-school--school--arc) [graduated test](#graduated-test) of their own, to try and counter the attack. 
-* Whoever has more successes, wins the [opposed test](#opposed-test). 
-  * If the attacker wins, they can roll the [injuries](#injury) to inflict. That number is then reduced by [resistances and armor](#damage-resistances). The final number of injuries is then applied to the defender. 
-  * If the defender wins or the result is a tie, the attack fails and no [injuries](#injury) are inflicted. 
+Defending against [single-target attacks](#single-target-attack) is an automatic reaction. An [opposed test](#opposed-test) must be made. 
 
-### Types of Attack
+Defending against [area of effect attacks](#area-of-effect-attack) is either impossible or an active choice, as a reaction. <br>
+It is possible to defend against a magical **aoe** attack, by using the [counter-magic](#counter-magic) skill. 
+
+If the attacker wins the [opposed test](#opposed-test) or if they used an **aoe** attack that couldn't/wasn't countered or dodged, they get to roll for damage. If the defender wins, no damage is dealt. 
+
+[Unarmed combat](#unarmed) is handled like a weapon skill. 
+
+### Attack-Targeting
+There are two types of attack targeting methods: **Single-target** and **area of effect** (**aoe**).
+
+#### Single-Target Attack
+Any **single-target** attack can be dodged or defended against. To do so, an [opposed test](#opposed-test) is made. If the defender wins no damage is dealt. 
+
+Against melee attacks, the defender must test their [melee defence](#melee-defence-agi). 
+
+Against ranged attacks, the defender must test their [ranged defence](#ranged-defence-agi).
+
+#### Area of Effect Attack
+**Area of Effect** (**aoe**) attacks can only be dodged or defended against under certain conditions. 
+
+If the **aoe** attack is magical and would affect a mage, that defending mage can choose to use their skill [counter-magic](#counter-magic), to try and counter the attack. If they choose to counter the spell, an [opposed test](#opposed-test) must be made. If the defender wins no damage is dealt. 
+
+The defending mage incurs the same stamina cost as the attacker, when they cast the spell. However, every degree of success of the defender reduces their [magic stamina](#magic-stamina) cost by one. 
+
+> A mage casts [pyromancy](#pyromancy) at another, at intensity level 6. That incurs the attacker a [magic stamina](#magic-stamina) cost of 6. 
+> 
+> The defender chooses to use their [counter-magic](#counter-magic). Now, an opposed test must be made. 
+> 
+> The attacker has an [arcana](#arcana-arc) of 5 and [pyromancy](#pyromancy) skill level of 6. They get to roll **8D6**. 
+> 
+> The defender has an [arcana](#arcana-arc) of 4 and [counter-magic](#counter-magic) skill of 5. They get to roll **7D6**. 
+> 
+> The defender achieves 4 **positives**, whereas the attacker only achieves 3 **positives**. That means, that the attack spell fails. The degree of success is 1, which reduces the [magic stamina](#magic-stamina) cost of the defender by 1. Thus, they incur a [magic stamina](#magic-stamina) cost of 5.  
+
+It is only possible to use [counter-magic](#counter-magic), if the defender has at least one [magic stamina](#magic-stamina) left. 
+
+If the **aoe** attack is of a non-magical nature, it may only be possible to dodge or defend against, if the **GM** allows for it. 
+
+> A thrown bomb may perhaps be caught and thrown back at the attacker. But a cannon shot cannot be warded off. 
+
+If there is no way to reasonable dodge or defend against the **aoe** attack, its damage is rolled right away. 
+
+### Special Types of Attack
 Sometimes, simply *hitting it* isn't enough. Sometimes, more control is needed. These rules outline how a character can do more specific attacks. 
 
 #### Aimed Attack
@@ -1150,33 +1179,40 @@ Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, de
 
 While not all spells can be used offensively, those that can, will inflict [damage](#health--exhaustion), proportional to the [spell's intensity](#spell-intensity) and may cause other effects on those affected by it. 
 
-The effects of a spell do not affect the mage casting the spell, unless they suffer a [spell backfire](#spell-backfire). 
+The effects of a spell do not affect the mage casting the spell, unless they suffer a [spell-backfire](#spell-backfire). 
+
+## Magic Stamina
+**Magic stamina** represents a mage's capacity for casting magic without risk to themselves. 
+
+Note that it is possible for a mage to cast spells that costs more **magic stamina** than they have available. 
+
+Thus, it represents the threshold of safely casting magic. Any magic that costs more **magic stamina** than is available, can cause a [spell-backfire](#spell-backfire). 
+
+This threshold is reduced every time a spell is cast. The threshold is reduced by the [intensity](#spell-intensity) at which the spell was cast. Success or failure doesn't matter - even just the attempt to cast the spell incurs the **magic stamina** cost. 
+
+For every point past the current threshold that a spell costs, one **D6** must be rolled. <br>
+If a 1 or a 2 is rolled, the spell [spell-backfires](#spell-backfire), dealing its full damage to the caster, instead. 
+
+How much **magic stamina** a mage has available to them, is derived from their [arcana](#arcana-arc) attribute + the total level of all their known [magic school](#magic-school--school--arc) skill levels, divided by two and rounded up. 
+
+> If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **counter-magic** at level 5, that means they have (3 + 3 + 2 + 5) / 2 = 7 **magic stamina**. 
 
 ## Spell Intensity
-Any magic can be cast at different **intensities**. A greater **spell intensity** results in a greater effect, at a proportionally greater cost. 
+Any magic can be cast at different **intensities**. A greater **spell intensity** results in a greater effect, at a proportionally greater [magic stamina](#magic-stamina) cost. 
 
-## Maximum Spell Intensity
-A mage can only cast spells at an intensity up to a maximum, called their **maximum spell intensity**. This number directly correlates to their skill in the type of [magic school](#magic-schools) they wish to use. 
+### Maximum Spell Intensity
+A mage can only cast spells at an intensity up to a certain limit, called their **maximum spell intensity**. This number directly correlates to their skill in the type of [magic school](#magic-schools) they wish to use. 
 
 This means, for every [school of magic](#magic-schools) the mage knows, they may have a different **maximum spell intensity**. 
 
-## Spell Backfire
-If a test to cast magic isn't a **complete success**, the spell **backfires** and applies its effects and damage to the caster, instead. The intensity at which it hits the caster, is the number of **negatives** they rolled below the intended **intensity**. 
+## Spell-Backfire
+A spell-backfire causes a spell to affect the caster, instead of their intended target. 
 
-**Backfire intensity** = **intensity** - **positives**
+In case of an [aoe](#area-of-effect-attack) attack spell, anything nearby, in range, also receives the damage, unless if they can [counter-magic](#counter-magic) it.
 
-> A pyromancer with a [pyromancy](#pyromancy) skill of 4 chooses to cast their magic at intensity level 4 - their maximum for **pyromancy**. They have to roll 4 **positives**, in order to completely succeed. They get to roll **4D6** for this test. 
-> 
-> Unfortunately, they fail, having rolled only 2 **positives**. The spell **backfires**, at an intensity of 2. 
+The mage suffers the full damage and/or effect of the spell. If anything or anyone nearby is affected, they also suffer the full damage and/or effect of the spell. 
 
-## Casting Magic
-In order to cast magic, a mage has to roll a skill test in a [magic school](#magic-schools) of choice: 
-* If they roll a **complete success**, the spell goes off as planned, at the intended [intensity](#spell-intensity). 
-* If they roll a **partial success** or a **complete failure**, the spell [backfires](#spell-backfire), with an intensity equal to the number of **negatives** rolled. 
-
-Any damage rolls or other effects are then made and applied to the target/self. 
-
-After that, the mage has to roll the amount of [exhaustion](#exhaustion) they gain from casting the spell. To do so, they must roll **ND3**, where *N* is the **spell intensity** they cast the spell at. 
+A **spell-backfire** can occur, if a mage is casting a spell that costs more [magic stamina](#magic-stamina) than they have left. 
 
 ## Magic Things
 **Ambersteel** takes its name from the in-game material of the same name. As it is a strictly anti-magic material, it should enjoy great attention in any fantasy world, where magic is a real and recognizable force. Where usually, magic is the centerpiece, in **Ambersteel** that isn't quite the case. Magic is powerful and fearsome and thus, if not under control, can threaten to cause great pain and destruction. **Ambersteel** dampens that power and puts shackles on it. 
@@ -1215,7 +1251,7 @@ Shards of [Abyssalite](#abyssalite) can have runes carved into them, which allow
 
 To activate such a rune, is a difficult skill to learn, however. Even if no innate magical ability is required, an understanding of the flow of magic is. The rune must be touched in the right spots, at the right intervals, to activate successfully. Mistakes in this procedure can have disastrous results. 
 
-What's more, it takes great skill to carve the right runes, as each rune's shape and complexity depends in part on the size and shape of the [Abyssalite](abyssalite) shard. The only way to get it right, is to *feel* the way the rune must be shaped. Alternatively, the shard can be adjusted to be of equivalent size and shape, but this requires considerable effort, as [Abyssalite](abyssalite) is a tough material, prone to shattering if too much force is applied, yet resistant to the common techniques of metallurgy. 
+What's more, it takes great skill to carve the right runes, as each rune's shape and complexity depends in part on the size and shape of the [Abyssalite](abyssalite) shard. The only way to get it right, is to *feel* the way the rune must be shaped. Alternatively, the shard can be adjusted to be of equivalent size and shape, but this requires considerable effort, as [Abyssalite](abyssalite) is a brittle material, prone to shattering if too much force is applied. 
 
 In order to craft a **rune**:
 * A **rune** can only be made to cast one type of magic. So the carver has to pick one of the [magic schools](#magic-schools). 
@@ -1225,7 +1261,7 @@ In order to craft a **rune**:
 
 In order to invoke a **rune**:
 * A **complete success** of a [rune-using](#rune-using-agi) skill test will invoke the spell of the **rune** as expected.
-* A **partial success** or **complete failure** results in a [spell backfire](#spell-backfire). 
+* A **partial success** or **complete failure** results in a [spell-backfire](#spell-backfire). 
 
 # Game Mastery
 This section is directed at (and somewhat reserved for) the Game Master (**GM**) - the one person at the table who everyone agrees has the authority and burden to run the game. 
@@ -1723,12 +1759,12 @@ Injuries inflicted are of the [burning](#burning) damage type.
 
 | Spell Intensity | Damage Inflicted | Max Distance | Effect(s) |
 | --------------- | ------------------ | ------------ | --------- |
-| 1  | 1D3 **Burning** | 0      | A small, controlled flame erupts and stays in the mage's hand. Alternatively, a small flame (like a candle flame) in immediate proximity of the mage is extinguished. |
-| 2  | 2D3 **Burning** | 3'/1m  | A moderate torch fire erupts and stays in the mage's hand. Or a torch in immediate proximity of the mage is extinguished. |
-| 3  | 3D3 **Burning** | 15'/5m | A ball of fire forms in the mage's hand, ready to be flung at a nearby spot, dealing its damage in a 6'/2m radius. Or a decent-sized flame is extinguished nearby. |
-| 4  | 4D3 **Burning** | 15'/5m | A static wall or column of flame erupts in a nearby spot of the mage's choosing, covering up to a 12'/4m square. Alternatively, a nearby flame (wall) is redirected. |
-| 5  | 5D3 **Burning** | 30'/10m | Flame shoots out of the mage's hand in a steady stream, covering a moderate distance and causing its damage in a straight line. Everything caught in the line takes the damage. Or another mage's stream of flame is redirected. |
-| 6+ | ND3 **Burning** | 30'/10m | N = spell intensity; Causes a spot of the mage's choosing at moderate distance to explode, causing its damage in a radius of 15'/5m. |
+| 1  | 0 | 0      | A small, controlled flame erupts and stays in the mage's hand. Alternatively, a small flame (like a candle flame) in immediate proximity of the mage is extinguished. |
+| 2  | 1D3 **Burning** | 3'/1m  | A moderate torch fire erupts and stays in the mage's hand. Or a torch in immediate proximity of the mage is extinguished. |
+| 3  | 3D3 **Burning** | 15'/5m | A ball of fire forms in the mage's hand, ready to be flung at a nearby spot, dealing its damage in a 6'/2m radius. Or a large flame is extinguished nearby. |
+| 4  | 5D3 **Burning** | 15'/5m | A static wall or column of flame erupts in a nearby spot of the mage's choosing, covering up to a 12'/4m square. Alternatively, a nearby flame (wall) is redirected. |
+| 5  | 7D3 **Burning** | 30'/10m | Flame shoots out of the mage's hand in a steady stream, covering a moderate distance and causing its damage in a straight line. Everything caught in the line takes the damage. Or another mage's stream of flame is redirected. |
+| 6+ | N+2D3 **Burning** | 30'/10m | N = spell intensity; Causes a spot of the mage's choosing at moderate distance to explode, causing its damage in a radius of 15'/5m. |
 
 ### Cryomancy
 The summoning and control of ice. Besides the frostbite, cryomancer's can inflict [exhaustion](#exhaustion) on opponents, or freeze things, so they're harder to break. 
@@ -1740,7 +1776,7 @@ Injuries inflicted are of the [freezing](#freezing) damage type.
 | 1  | 0   | 0   | 0     | Any freezable liquid in the mage's hand immediately freezes. Doesn't work on living things. So no freezing of the blood in someone's veins, while they still live! |
 | 2  | 1D3 **Freezing** | 1   | 3'/1m | A spot of the mage's choosing, within hand's reach, freezes over. |
 | 3  | 1D3 **Freezing** | 1D3 | 15'/5m | An ice-shard forms from whatever liquid is in the mage's hands. It can be shot at a nearby spot of the mage's choosing. The impacted spot freezes over. |
-| 4  | 2D3 **Freezing** | 2D3 | 30'/10m | A large ice-shard forms in the mage's hands, without requiring any liquid. It can be shot at a moderately distant spot of the mage's choosing. The impacted spot freezes over. |
+| 4  | 1D3 + 1 **Freezing** | 2D3 | 30'/10m | A large ice-shard forms in the mage's hands, without requiring any liquid. It can be shot at a moderately distant spot of the mage's choosing. The impacted spot freezes over. |
 | 5  | 2D3 **Freezing** | 1D6 | 30'/10m | A large area of the mage's choosing, at moderate distance from the mage, freezes over. |
 | 6+ | N-3 D3 **Freezing** | 1D6 + N-5 | 30'/10m | N = spell intensity; A torrent of ice and snow forms in a large area of the mage's choosing, at moderate distance. Anything within it, freezes over. |
 
