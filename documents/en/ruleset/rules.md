@@ -789,6 +789,8 @@ Up to 100 [crowns](#money) can fit into one **slot**.
 It is up to the **GM** to decide on when something is *too heavy* to carry for the character in question. 
 
 ## Character Creation
+<!-- TODO: 1. Update semi-random attribute determination 2. Determine magic stamina -->
+
 Imagine for the longest time of their life, your character has led an ordinary existence, until one day, something life-changing happened. Perhaps something terrible, perhaps something wonderful, but something significant that has forced them out of their comfort zone into a world full of adventure. 
 
 Creating an interesting and life-like character is a challenging, but ultimately, very rewarding task. Thinking of their existence up to the point they start adventuring, can really help with paving the path of their future and give you a good idea of what they're like, and why.
