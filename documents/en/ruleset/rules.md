@@ -1752,19 +1752,23 @@ Noted for each spell intensity, are the effects of the spell and the maximum dis
 
 If applicable, damage inflicted, exhaustion inflicted and other such effects, will also be noted. 
 
+The "Type"-field denotes the [attack target type](#attack-targeting) of the spell. This determines how many targets can be hit with a spell. **ST** stands for [single-target attack](#single-target-attack), **MST** stands for *multiple* [single-target attacks](#single-target-attack) and **AOE** stands for [area of effect attack](#area-of-effect-attack).
+
 ### Pyromancy
 The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light. 
 
 Injuries inflicted are of the [burning](#burning) damage type. 
 
-| Spell Intensity | Damage Inflicted | Max Distance | Effect(s) |
-| --------------- | ------------------ | ------------ | --------- |
-| 1  | 0 | 0      | A small, controlled flame erupts and stays in the mage's hand. Alternatively, a small flame (like a candle flame) in immediate proximity of the mage is extinguished. |
-| 2  | 1D3 **Burning** | 3'/1m  | A moderate torch fire erupts and stays in the mage's hand. Or a torch in immediate proximity of the mage is extinguished. |
-| 3  | 3D3 **Burning** | 15'/5m | A ball of fire forms in the mage's hand, ready to be flung at a nearby spot, dealing its damage in a 6'/2m radius. Or a large flame is extinguished nearby. |
-| 4  | 5D3 **Burning** | 15'/5m | A static wall or column of flame erupts in a nearby spot of the mage's choosing, covering up to a 12'/4m square. Alternatively, a nearby flame (wall) is redirected. |
-| 5  | 7D3 **Burning** | 30'/10m | Flame shoots out of the mage's hand in a steady stream, covering a moderate distance and causing its damage in a straight line. Everything caught in the line takes the damage. Or another mage's stream of flame is redirected. |
-| 6+ | N+2D3 **Burning** | 30'/10m | N = spell intensity; Causes a spot of the mage's choosing at moderate distance to explode, causing its damage in a radius of 15'/5m. |
+| Level | AP | Distance | Type | Effect(s)                               |
+| ----- | -- | -------- | ---- | --------------------------------------- |
+| 1     | 1  | 0        | ST   | A small, controlled flame erupts and stays in the mage's hand. Inflicts mild burns to the touch at **1 Burning damage**. Alternatively, a small flame (like a candle flame) in immediate proximity of the mage is extinguished. |
+| 1     | 2  | 0        | ST   | The mage's hand is surrounded by fire. It deals **1D3 Burning damage** to the touch. |
+| 3     | 2  | 15'/5m   | ST   | The mage hurls a fist-sized ball of fire at a target, for **3D3 Burning damage**. |
+| 4     | 3  | 9'/3m    | MST  | The mage shoots a burst of fire in a short cone in front of them, dealing **2D3 Burning damage** to up to two adjacent targets. |
+| 5     | 2  | 24'/8m   | AOE | The mage forms a large ball of flame between their hands, ready to be flung at a target location. Upon impact, it deals **2D6 Burning damage** to anyone within a 6'/2m radius. |
+| 7     | 3  | 30'/10m  | AOE | The mage lets a column of flame erupt from the ground at a target location, dealing **3D6 Burning damage** in a 6'/2m radius. |
+| 9     | 3  | 30'/10m  | AOE | A steady stream of flame shoots from the mages hands, dealing **2D6+2 Burning damage** to anything caught by it, in a straight line. |
+| 10    | 4  | 60'/20m  | AOE | The mage makes fire rain from the sky. This spell lasts two turns in combat or 10 seconds out of combat. Anything caught in the 24'/8m radius takes **1D6+1 Burning damage**. |
 
 ### Cryomancy
 The summoning and control of ice. Besides the frostbite, cryomancer's can inflict [exhaustion](#exhaustion) on opponents, or freeze things, so they're harder to break. 
