@@ -1759,14 +1759,14 @@ The summoning and control of fire. The flame being a destructive force, pyromanc
 
 | Level | AP | Distance | Type | Damage | Effect(s)                      |
 | ----- | -- | -------- | ---- | ------ | ------------------------------ |
-| 1     | 1  | 0        | ST   | **1 Burning damage** | A small, controlled flame erupts and stays in the mage's hand, inflicting mild burn damage on touch. Alternatively, a small flame (like a candle flame) in immediate proximity of the mage is extinguished. |
-| 1     | 2  | 0        | ST   | **1D3 Burning damage** | The mage's hand is surrounded by fire, inflicting seriour burns on touch. |
-| 3     | 2  | 15'/5m   | ST   | **3D3 Burning damage** | The mage hurls a fist-sized ball of fire at a target. |
-| 4     | 3  | 9'/3m    | MST  | **2D3 Burning damage** | The mage shoots a burst of fire in a short cone in front of them, hitting up to two adjacent targets. |
-| 5     | 2  | 24'/8m   | AOE 6'/2m radius | **2D6 Burning damage** | The mage forms a large ball of flame between their hands, ready to be flung at a target location. |
-| 7     | 3  | 30'/10m  | AOE 6'/2m radius | **3D6 Burning damage** | The mage lets a column of flame erupt from the ground at a target location. |
-| 9     | 3  | 30'/10m  | AOE line | **2D6+2 Burning damage** | A steady stream of flame shoots from the mages hands, burning anything caught by it, in a straight line. |
-| 10    | 4  | 60'/20m  | AOE 24'/8m radius | **1D6+1 Burning damage** | The mage makes fire rain from the sky. This spell lasts two turns in combat or 10 seconds out of combat. |
+| 1     | 1  | 0        | ST   | **1 Burning** | A small, controlled flame erupts and stays in the mage's hand, inflicting mild burn damage on touch. Alternatively, a small flame (like a candle flame) in immediate proximity of the mage is extinguished. |
+| 1     | 2  | 0        | ST   | **1D3 Burning** | The mage's hand is surrounded by fire, inflicting seriour burns on touch. |
+| 3     | 2  | 15'/5m   | ST   | **3D3 Burning** | The mage hurls a fist-sized ball of fire at a target. |
+| 4     | 3  | 9'/3m    | MST  | **2D3 Burning** | The mage shoots a burst of fire in a short cone in front of them, hitting up to two adjacent targets. |
+| 5     | 2  | 24'/8m   | AOE 6'/2m radius | **2D6 Burning** | The mage forms a large ball of flame between their hands, ready to be flung at a target location. |
+| 7     | 3  | 30'/10m  | AOE 6'/2m radius | **3D6 Burning** | The mage lets a column of flame erupt from the ground at a target location. |
+| 9     | 3  | 30'/10m  | AOE line | **2D6+2 Burning** | A steady stream of flame shoots from the mages hands, burning anything caught by it, in a straight line. |
+| 10    | 4  | 60'/20m  | AOE 24'/8m radius | **1D6+1 Burning** | The mage makes fire rain from the sky. This spell lasts two turns in combat or 10 seconds out of combat. |
 
 ### Cryomancy
 The summoning and control of ice. Besides the frostbite, cryomancer's can inflict [exhaustion](#exhaustion) on opponents, or freeze things, so they're harder to break. 
