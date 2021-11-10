@@ -88,6 +88,7 @@
 - [Combat](#combat)
   - [Who Acts When](#who-acts-when)
   - [Combat Actions](#combat-actions)
+    - [Combat Movement](#combat-movement)
   - [How to Attack](#how-to-attack)
     - [Attack-Targeting](#attack-targeting)
       - [Single-Target Attack](#single-target-attack)
@@ -159,6 +160,7 @@
       - [Deception (Ora)](#deception-ora)
       - [Intimidation (Will)](#intimidation-will)
       - [Persuasion (Emp)](#persuasion-emp)
+      - [Resist (Will)](#resist-will)
     - [Knowledge](#knowledge)
       - [Architecture (Int)](#architecture-int)
       - [Alchemy (Arc)](#alchemy-arc)
@@ -1087,11 +1089,12 @@ Every turn, every character gets 3 **Action Points (AP)** to spend on actions du
 
 Any basic action, so any action not requiring a test, costs 1 **AP**. Any action requiring a test, costs 2 **AP**. Skill abilities cost the amount of **AP** as noted on them. 
 
-A character can move up to 15'/5m per **AP** spent. In **difficult terrain**, the distance moved per **AP** is 6'/2m. 
-
 Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will have to take multiple rounds. 
 
 If the turn is ended with any **AP** unspent, they go towards the character's [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi), as **+1D6** per **AP**. 
+
+### Combat Movement
+A character can move up to **18'/6m** per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **9'/3m**. 
 
 ## How to Attack
 Attacks are made using a [weapon skill](#weapon--weapon-type--str), [magic-school skill](#magic-school--school--arc) or a **skill-ability**. 
@@ -1562,6 +1565,11 @@ These skills have a dominant physical aspect and are directly tied to a characte
 #### Acrobatics (Agi)
 Performing acrobatic feats, such as jumping and climbing, without inuring oneself in the process. 
 
+| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
+| 3     | Wind Out Of It       | 0  | 0      | When hit by a single-target attack, wind out of the hit and suffer only half the damage. | Once per combat. |
+| 4     | Bob, Weave, Jab      | 0  | Opposed| When succeeding a [melee defence](#melee-defence-agi) test, follow up with a single-target attack against the enemy who attacked you. | Succeded a [melee defence](#melee-defence-agi) test. |
+
 #### Instrument-Playing < instrument > (Agi)
 Playing an instrument of choice. 
 
@@ -1573,17 +1581,31 @@ Skill at defending oneself in close-combat.
 #### Fighting (Str)
 General fighting expertise. 
 
+| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
+| 3     | Wrestle and Disarm   | 3  | Opposed| Perform a single target attack against a designated enemy. If you win, you disarm them and wrestle them to the ground. | Enemy is using weapon. |
+
 #### Ranged Defence (Agi)
 Skill at evading projectiles. 
 
 #### Stealth (Agi)
 Moving silently and performing actions undetected. 
 
+| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
+| 3     | Muffled Fumble       | 0  | 2      | When failing a **stealth test**, re-roll two of your **negatives**. If you now succeed, treat that as the outcome of your original roll. | Failed a **stealth test**. | Once per rest. |
+| 4    | Pocket-Sand           | 3  | Opposed| If you succeed a **stealth test** against a single designated target's [observation](#observation-perc), you can disappear from their sight and run up to 2 **AP** worth of distance. | Once per rest. |
+
 #### Swimming (End)
 Swimming, as opposed to drowning. 
 
 #### Thievery (Agi)
 Pickpocketing and lockpicking. 
+
+| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
+| 3     | Nimble Recovery      | 2  | Opposed| When failing a **thievery test**, roll another **thievery test**, against the target's [observation](#observation-perc) to see if you've been found out. If you win, you're not discovered, but you don't succeed at pick-pocketing, either. | Once per rest. |
+| 5     | Feel the Mechanism   | 2  | 4      | Instantly succeed at picking even a very difficult lock. | Once per rest. |
 
 #### Observation (Perc)
 Actively looking out for and detecting hidden things or characters. 
@@ -1593,17 +1615,37 @@ Orienting oneself in the world.
 
 Finding and following tracks. 
 
+| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
+| 3     | Find your Bearings   | 1  | 2      | Figure out your current heading and time of day, even when in complete darkness or in a place without landmarks. | Once per rest. |
+
 #### Riding (Emp)
 Riding and controling a mount.
 
+| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
+| 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing **2D3** extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
+
 #### Rune-Using (Agi)
 Skill at using [magic runes](#runes). 
+
+| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
+| 4     | Hot Potato           | 1  | 3      | If using a rune would fail and result in a [spell-backfire](#spell-backfire), drop the rune, jump away and suffer only half the damage. | Caused a [spell-backfire](#spell-backfire) using a rune; Once per rest. |
 
 #### Sailing (Str)
 Steering and maintaining a naval vessel. 
 
 #### Shield (End)
 Expertise at defending oneself using a shield. 
+
+If an equipped shield is used to defend with, this skill is used instead of [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi). 
+
+| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
+| 2     | Shield Slam          | 2  | Opposed| Perform a single-target melee attack to knock your opponent down with your shield. |  |
+| 3     | Shield Ally          | 3  | 0      | When a designated ally up to 18'/6m away is attacked, **you** defend against it, instead. |  |
+| 5     | Unyielding           | 3  | Opposed| Until your next turn, you gain **+2D** to your **shield tests**. | Once per combat. |
 
 #### Weapon < weapon type > (Str/Agi)
 Expertise at handling a weapon of a specific type. 
@@ -1617,24 +1659,45 @@ These skills have a dominant social aspect and are strongly related to a charact
 #### Animal Handling (Emp)
 Gaining an animal's trust, directing and commanding it, as well as training it to obey commands. 
 
-#### Commanding (Will)
-Speaking commands others will respect and follow to the letter. 
+Is opposed by [resist](#resist-will). 
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 5     | Unquestionable Command | 2 | +2 | An ally of choice, gains **+1D6** on their next test. | Ally not in combat; Ally can hear the command. |
-| 6     | Spur                 | 2 | +2 | An ally of choice, gains +1 **AP**. | Ally in combat; Ally can hear the command. |
+| 3     | Calm Animal          | 2  | 0      | Calm an aggressive/hostile animal down.  | Once per rest. |
+
+#### Commanding (Will)
+Speaking commands others will respect and follow to the letter. 
+
+Is opposed by [resist](#resist-will). 
+
+| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
+| 5     | Unquestionable Command | 2 | 3 | An ally of choice, gains **+2D6** on their next test. | Ally can hear the command. |
+| 6     | Spur                 | 2 | 4 | An ally of choice, gains +1 **AP**. | Ally in combat; Ally can hear the command. |
 
 #### Deception (Ora)
 Telling lies, acting in a way so as to deceive another character into believing something untruthful. 
+
+Is opposed by [resist](#resist-will). 
 
 #### Intimidation (Will)
 Intimidating another character into doing something. 
 
 This should also in large part be based on appearance, strength and reputation. 
 
+Is opposed by [resist](#resist-will). 
+
+| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
+| 2     | Taunt                | 1  | Opposed| If you succeed an **intimidation test** against a designated enemy's [resist](#resist-will), lower their defences by **-1D**. | Once per enemy. |
+
 #### Persuasion (Emp)
 Persuading another character to think differently about something. 
+
+Is opposed by [resist](#resist-will). 
+
+#### Resist (Will)
+Resisting [commanding](#commanding-will), [deception](#deception-ora), [intimidation](#intimidation-will) and [persuasion](#persuasion-emp). 
 
 ### Knowledge
 These skills have a dominant mental aspect and are strongly related to a character's *mental attributes*. 
@@ -1743,6 +1806,8 @@ The ability to shape stone to craft predominantly stone-based things.
 
 #### Rune Carving (Arc)
 The ability to carve [magic runes](#runes).
+
+The level of this skill dictates the maximum [spell intensity](#spell-intensity) the carved rune can hold. 
 
 #### Weapon smithing (Str)
 The ability to make weapons from metal. 
