@@ -26,13 +26,11 @@
     - [Mental Attributes](#mental-attributes)
       - [Intelligence [Int]](#intelligence-int)
       - [Wisdom [Wis]](#wisdom-wis)
+      - [Arcana [Arc]](#arcana-arc)
     - [Social Attributes](#social-attributes)
       - [Empathy [Emp]](#empathy-emp)
       - [Oratory [Ora]](#oratory-ora)
       - [Willpower [Will]](#willpower-will)
-    - [Arcane Attributes](#arcane-attributes)
-      - [Arcana [Arc]](#arcana-arc)
-      - [Magic Sense [MS]](#magic-sense-ms)
     - [Advancing Attributes](#advancing-attributes)
       - [Practicing Attributes](#practicing-attributes)
   - [Skills](#skills)
@@ -432,6 +430,11 @@ Governs a character's ability to reason and analyze.
 #### Wisdom [Wis]
 Governs a character's understanding of and ability to recall knowledge. 
 
+#### Arcana [Arc]
+Governs a character's ability to control and sense magic flow, thus casting magic spells or detecting lingering magic. 
+
+This is the only attribute that can have an associated value of 0. Magical ability in innate and cannot be learned. If a character doesn't have a value of at least 1 in this attribute, they will be unable to advance it, at all. A non-mage will remain a non-mage. 
+
 ### Social Attributes
 These numbers represent a character's basic social abilities. 
 
@@ -443,17 +446,6 @@ Governs a character's ability to convincingly speak with and before others. Also
 
 #### Willpower [Will]
 Governs a character's ability to withstand persuasion, intimidation, charm or terror. 
-
-### Arcane Attributes
-These numbers represent a character's basic arcane abilities. 
-
-These are the only attributes that can have an associated value of 0, as not all characters have magical ability. If a character doesn't have a value of at least 1 in these attributes, they will be unable to advance them, at all. A non-mage will remain a non-mage. 
-
-#### Arcana [Arc]
-Governs a character's ability to control magic flow, thus casting magic spells.
-
-#### Magic Sense [MS]
-Governs a character's ability to sense the flow of magic. This allows them to anticipate magical attacks and detect lingering magic. 
 
 ### Advancing Attributes
 Whenever a **PC** uses an attribute in a [test](#tests), the outcome must be noted. 
@@ -926,61 +918,39 @@ Lastly, you need three [instincts](#instincts) for your character. Ideally, at l
 ### Choosing Attributes
 There are two methods for determining your character's attributes: manual and semi-random. 
 
+Also, you'll have to decide on whether your character will be a mage or not. Mages start with lower attributes, so decision can affect your character's initial competence. 
+
 Please keep in mind the values here are for a human. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your **GM** is running. 
 
 #### Manual Attribute Assignment
-* You can spend 20 points on your attributes. 
-* All attributes start at level 2. 
+* As a mage
+  * You can spend 17 points on your attributes. 
+  * All attributes start at level 2. 
+  * Your attribute-total cannot be greater than **39**.
+* As a non-mage
+  * You can spend 22 points on your attributes. 
+  * All attributes *except arcana* start at level 2. Arcana is 0 and remains 0. 
+  * Your attribute-total cannot be greater than **42**.
 * No attribute may have a level less than 2 nor higher than 6.
 * Only two attributes may have a level of 6. 
 
-> Player *A.* chooses manual attribute assignment - they know what kind of character they'd like to build. 
-> 
-> They pick two attributes they want to focus on. Let's say they picked **strength** and **toughness** - a good choice for a front-line fighter and ardent protector. 
->
-> This means they already spent 8 points and have 12 left. 
->
-> They put some emphasis on **endurance** - also good for a fighter - and place it at level 4. They have 10 points left. 
-> 
-> They level up **oratory** and **will** - they plan on intimidating foes, while being unyielding, themselves. Those attributes are at level 5, each. Thus, there are 4 points left. 
->
-> The last 4 points are then spread out across **agility**, **perception**, **intelligence** and **empathy**, which are each now at level 3. 
->
-> Thus, **arcana** and **wisdom** are left at level 2, with no more points left over to raise these attributes. 
-
 #### Semi-Random Attribute Assignment
-1. Roll 11 **D6**
-2. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
-3. If there are more than 2 6s, start lowering their value by one, starting from the left or the right, until there are only 2 6s left. 
-4. Count up the total of your values and subtract that from 42. 
-   
-   a) If the number is negative, that's the number of levels you'll have to go down. 
-   
-   b) If the number is positive, that's the number of levels you'll have to go up. 
-
-5. Starting from the left or right, start adjusting each value, until your attribute level total is at 42. 
-  
-  a) If your levels have to go down, subtract one from each value. **But** don't adjust 6s, 2s or 1s. 
-  
-  b) If your levels have to go up, add one to each value. **But** don't adjust 6s. If there are less than 2 6s, a 5 may be raised to a 6, otherwise, don't adjust 5s. 
-
-6. Lastly, any remaining 1s have to be turned into 2s, then repeat from step 4. 
-
-> Player *B.* prefers the semi-random assignment method. Thus, they roll 11 **D6** with the following results: 1, 6, 4, 5, 5, 4, 5, 3, 6, 3, 6
->
-> They lower their right-most 6, so they have only 2 6s: 1, 6, 4, 5, 5, 4, 5, 3, 6, 3, 5
-> 
-> Their level total is currently 47 and their difference is -5. That means five values will need to be lowered. 
->
-> Starting from the left, they start lowering the values, one by one: 1, 6, 3, 4, 4, 3, 4, 3, 6, 3, 5
-> 
-> Now, the 1 must be turned into a 2: 2, 6, 3, 4, 4, 3, 4, 3, 6, 3, 5
-> 
-> The new total would now be 43, which is one point too many. One value must be lowered to compensate. Player *B.* decides to start from the right, this time, arriving at the final values: 2: 2, 6, 3, 4, 4, 3, 4, 3, 6, 3, 4
-> 
-> Thus, their final attribute levels are: 2 **agility**, 6 **endurance**, 3 **perception**, 4 **strength**, 4 **toughness**, 3 **arcana**, 4 **intelligence**, 3 **wisdom**, 6 **empathy**, 3 **oratory** and 4 **will**.
-> 
-> Perhaps this could be a very socially orientated character? With an **empathy** of 6, they'd make for a skilled diplomat, shrewd negotiator and attentive inquisitor. On the other hand, with an **endurance** of 6 and **arcana** of 3, they could become a very enduring mage. Perhaps that could be decided by a dice roll, too..?
+1. For a mage
+   1. Roll 11 **D6**
+2. For a non-mage
+   1. Roll 10 **D6**
+3. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
+4. If there are more than 2 6s, start lowering their value by one, starting from the left or the right, until there are only 2 6s left. 
+5. Count up the total of your values. 
+   1. For a mage subtract your total from **39**. <br>
+   For a non-mage subtract your total from **42**.
+   2. If the number is negative, that's the number of levels you'll have to go down. <br>
+   If the number is positive, that's the number of levels you'll have to go up. 
+6. Starting from the left or right, start adjusting each value.
+   1. If your levels have to go down, subtract one from each value. **But** don't adjust 6s, 2s or 1s. 
+   2. If your levels have to go up, add one to each value. **But** don't adjust 6s. If there are less than 2 6s, up to two 5s may be raised to a 6, otherwise, don't adjust 5s. 
+7. Any remaining 1s have to be turned into 2s, then repeat from step 5. 
+8. Lastly, apply the adjusted values to your attributes. 
 
 #### Determine Attribute Advancing Thresholds
 Once attribute values have been set, you can determine the required number of successes and failures each attribute requires, in order to advance. 
@@ -1836,19 +1806,13 @@ The summoning and control of fire. The flame being a destructive force, pyromanc
 ### Cryomancy
 The summoning and control of ice. Besides the frostbite, cryomancer's can inflict [exhaustion](#exhaustion) on opponents, or freeze things, so they're harder to break. 
 
-Injuries inflicted are of the [freezing](#freezing) damage type. 
-
-| Spell Intensity | Damage Inflicted | Exhaustion Inflicted | Max Distance | Effect(s) |
-| --------------- | ------------------ | -------------------- | ------------ | --------- |
-| 1  | 0   | 0   | 0     | Any freezable liquid in the mage's hand immediately freezes. Doesn't work on living things. So no freezing of the blood in someone's veins, while they still live! |
-| 2  | 1D3 **Freezing** | 1   | 3'/1m | A spot of the mage's choosing, within hand's reach, freezes over. |
-| 3  | 1D3 **Freezing** | 1D3 | 15'/5m | An ice-shard forms from whatever liquid is in the mage's hands. It can be shot at a nearby spot of the mage's choosing. The impacted spot freezes over. |
-| 4  | 1D3 + 1 **Freezing** | 2D3 | 30'/10m | A large ice-shard forms in the mage's hands, without requiring any liquid. It can be shot at a moderately distant spot of the mage's choosing. The impacted spot freezes over. |
-| 5  | 2D3 **Freezing** | 1D6 | 30'/10m | A large area of the mage's choosing, at moderate distance from the mage, freezes over. |
-| 6+ | N-3 D3 **Freezing** | 1D6 + N-5 | 30'/10m | N = spell intensity; A torrent of ice and snow forms in a large area of the mage's choosing, at moderate distance. Anything within it, freezes over. |
 
 ### Restoration
 The mending of injuries and treatment of diseases. 
+
+| Level | AP | Distance | Type | Damage | Effect(s)                      |
+| ----- | -- | -------- | ---- | ------ | ------------------------------ |
+| 1     | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. Removes [bleeding](#bleeding) and one [injury](#injury). |
 
 | Spell Intensity | Injuries Patched Up | Max Distance | Effect(s) |
 | --------------- | ---------------- | ------------ | --------- |

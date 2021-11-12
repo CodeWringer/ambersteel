@@ -1,0 +1,31 @@
+* [X] Invent skill abilities
+* [ ] Invent magic schools
+  * [ ] Cryomancy
+    * Tire your enemies out
+  * [ ] Illusion
+    * Create images/sounds/smells that aren't real
+    * Better levels allow the influences to hold up better against scrutiny
+  * [ ] Restoration
+    * HP recovery
+    * Chance of injury treatment
+    * Chance of stabilization
+    * Leeching life off others or spending your own blood to help others
+    * Water-breathing?
+  * [ ] Telekinesis
+    * Moving things from afar
+  * [ ] Telepathy
+    * Wordless communication
+    * Altering emotions (fear, love, calm, etc.)
+    * Issuing compelling commands against another's will
+  * [ ] Alteration
+    * Shape-shifting
+      * Living things tend to mutate horribly
+    * Mending broken things, perhaps even living things?
+    * Permanently/temporarily changing the shape of things?
+  * [ ] Soul-Binding/Necromancy
+    * Binding *a* soul to a body with a soul-seal
+    * Binding a *specific* soul to a body with a soul-seal
+    * Creating command-patterns for a soul-seal
+      * This allows for the automatic issuing of commands, like a program of if-then-else statements. 
+* [ ] Remove exhaustion?
+* [X] Make pyromancy deadlier
