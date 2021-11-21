@@ -310,7 +310,7 @@ To resolve a **skill test**, the number of **D6** indicated by the **skill level
 
 > A **PC** has an [agility](#agility-agi) of 3 and an [acrobatics](#acrobatics-agi) skill at level 2. The player is asked to roll a test for [acrobatics](#acrobatics-agi) at **Ob** 2. They get to roll 1 + 2 = 3 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
 
-A [skill being learned](#learning-skills) is tested with *only* half of the related **attribute** (rounded down). 
+A [skill being learned](#learning-skills) is tested with *only* half of the related **attribute** (rounded up). 
 
 For every test, one of three outcomes is possible: 
 * **Complete Success**: There are enough or even more than required **positives**.
@@ -1806,19 +1806,18 @@ The summoning and control of fire. The flame being a destructive force, pyromanc
 ### Cryomancy
 The summoning and control of ice. Besides the frostbite, cryomancer's can inflict [exhaustion](#exhaustion) on opponents, or freeze things, so they're harder to break. 
 
+| Level | AP | Distance | Type | Damage | Effect(s)                      |
+| ----- | -- | -------- | ---- | ------ | ------------------------------ |
+| 1     | 2  |  | | | |
 
 ### Restoration
 The mending of injuries and treatment of diseases. 
 
 | Level | AP | Distance | Type | Damage | Effect(s)                      |
 | ----- | -- | -------- | ---- | ------ | ------------------------------ |
-| 1     | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. Removes [bleeding](#bleeding) and one [injury](#injury). |
-
-| Spell Intensity | Injuries Patched Up | Max Distance | Effect(s) |
-| --------------- | ---------------- | ------------ | --------- |
-| 1               | 1                | 0            | A creature of the mage's choosing, in hand's reach, is magically healed. Removes [bleeding](#bleeding). |
-| 2+              | N                | 0            | N = spell intensity; Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
-| 6+              | 0                | 0            | N = spell intensity; A single **Inj.** of choice becomes **treated**. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
+| 1     | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. Removes [bleeding](#bleeding). One [injury](#injury) of choice is now **patched up**. Restores missing HP. |
+| 3     | 2  | 0        | ST   | 0      | Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). Up to two [injuries](#injury) of choice are now **patched up**. |
+| 4     | 2  | 0        | ST   | 0      | A single **Inj.** of choice becomes **treated**. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
 
 ### Alteration
 The alteration of physical things, to change their shape and purpose. 
