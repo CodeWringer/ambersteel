@@ -1,4 +1,3 @@
-* [X] Invent skill abilities
 * [ ] Invent magic schools
   * [ ] Cryomancy
     * Tire your enemies out
@@ -27,5 +26,6 @@
     * Binding a *specific* soul to a body with a soul-seal
     * Creating command-patterns for a soul-seal
       * This allows for the automatic issuing of commands, like a program of if-then-else statements. 
+  * [ ] Hexing
+    * Temporary or semi-permanent negative status effects on chosen target(s).
 * [ ] Remove exhaustion?
-* [X] Make pyromancy deadlier

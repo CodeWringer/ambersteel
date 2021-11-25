@@ -433,7 +433,7 @@ Governs a character's understanding of and ability to recall knowledge.
 #### Arcana [Arc]
 Governs a character's ability to control and sense magic flow, thus casting magic spells or detecting lingering magic. 
 
-This is the only attribute that can have an associated value of 0. Magical ability in innate and cannot be learned. If a character doesn't have a value of at least 1 in this attribute, they will be unable to advance it, at all. A non-mage will remain a non-mage. 
+This is the only attribute that can have a level of 0. Magical ability is innate and cannot be learned. If a character doesn't have a level of at least 1 in this attribute, they will be unable to advance it, at all. A non-mage will remain a non-mage (usually). 
 
 ### Social Attributes
 These numbers represent a character's basic social abilities. 
@@ -635,7 +635,7 @@ Ideally, an **instinct** should be (ab-)usable by the **GM**, to get the **PC** 
 ## Health & Exhaustion
 Every character has **Hit Points (HP)** and a maximum number of **Injuries (Inj.)** they can endure, before they die. 
 
-Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. When their **HP** reach zero, they suffer an **Inj.** and their **HP** is reset to their **maximum - N\*2**, where *N* is the number of **Inj.** they currently have. So, in other words, for every **Inj.**, a character loses 2 maximum **HP**. Any **HP** past zero overflow, so the damage dealt isn't lost. 
+Whenever a character is hurt, the **damage** that has been inflicted upon them is deducted from their **HP**. Whenever their **HP** reach zero, they suffer an **Inj.** and their **maximum HP** is reduced by **N\*2**, where *N* is the number of **Inj.** they currently have. So, in other words, for every **Inj.**, a character loses 2 maximum **HP**. Any **HP** past zero overflow, so the damage dealt isn't lost. 
 
 When [Toughness](#toughness-tough) is reduced, still only 2 maximum **HP** are deducted. 
 
@@ -646,7 +646,7 @@ An **injury (Inj.)** is a serious health impediment of a character. Every charac
 
 Whenever a character suffers an **Inj.**, a **D100** must be rolled and the corresponding result from the [list of injuries](#list-of-injuries) added to the character. 
 
-Whenever a character is brought to at least half their maximum number of **Inj.** (rounded down), they must succeed a [toughness](#toughness-tough) test, or else suffer +1 [exhaustion](#exhaustion). 
+Whenever a character is brought to at least half their maximum number of **Inj.** (rounded up), they must succeed a [toughness](#toughness-tough) test, or else suffer +1 [exhaustion](#exhaustion). 
 
 An **Inj.** can reduce [attributes](#attributes) and impose other restrictions. An [attribute](#attributes) cannot be brought down to less than 1, by **Inj.**
 
@@ -658,10 +658,12 @@ An **Inj.** can be **patched up** via [medicine](#medicine-int):
 * If the attempt is a complete success, the **Inj.** is **patched up**.
 * If the attempt is a partial success or a complete failure, the **Inj.** remains **active**. 
 
+A **patched up** **Inj.** still reduces a character's **maximum HP** and must be counted when checking whether they must perform their [toughness](#toughness-tough) test when suffering more injuries. 
+
 An **Inj.** can be properly **treated** via [surgery](#surgery-int): 
 * If the attempt is a complete success, the **Inj.** is **treated**. 
 * If the attempt is a partial success, the **Inj.** is not **treated**, but another attempt can be made. 
-* If the attempt at is a complete failure, the **Inj.** becomes permanent. It cannot be **treated** via [surgery](#surgery-int) anymore. 
+* If the attempt is a complete failure, the **Inj.** becomes permanent. It cannot be **treated** via [surgery](#surgery-int) anymore. 
 * Only one [surgery](#surgery-int) attempt can be made every 24 hours. 
 
 All currently **treated** **Inj.** can be removed/recovered from, by spending **ND4** weeks in uninterrupted, active recovery, where *N* is the current number of **treated** **Inj.** Active recovery implies spending the vast majority of the day in bed or at least avoiding physical or mental strains. 
@@ -671,10 +673,7 @@ Exhaustion is the measure of a character's maximum physical and mental strain th
 
 If a character's exhaustion reaches their threshold, they become [dazed](#dazed) from over-exertion. 
 
-Exhaustion is gained through performing **exhausting actions**, carrying **exhausting equipment** or suffering [injuries](#injury). **Exhausting actions** are any actions that are physically or mentally taxing, such as:
-* Attacking
-* Acrobatics (jumping, climbing)
-* [Casting Magic](#casting-magic)
+Exhaustion is gained through performing **exhausting actions**, carrying **exhausting equipment** or suffering [injuries](#injury). 
 
 Exhaustion gained from **exhausting actions** can be reduced by resting. A full rest of at least six uninterrupted hours will fully clear any exhaustion gained from **exhausting actions**. 
 
