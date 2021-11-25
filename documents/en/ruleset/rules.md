@@ -650,7 +650,7 @@ Whenever a character is brought to at least half their maximum number of **Inj.*
 
 An **Inj.** can reduce [attributes](#attributes) and impose other restrictions. An [attribute](#attributes) cannot be brought down to less than 1, by **Inj.**
 
-There are three possible states of an **Inj.**: **active**, **patched up** or **treated**
+There are four possible states of an **Inj.**: **active**, **patched up**, **treated** or **permanent**. 
 
 Only an **active** **Inj.** imposes negative effects. 
 
@@ -663,7 +663,7 @@ A **patched up** **Inj.** still reduces a character's **maximum HP** and must be
 An **Inj.** can be properly **treated** via [surgery](#surgery-int): 
 * If the attempt is a complete success, the **Inj.** is **treated**. 
 * If the attempt is a partial success, the **Inj.** is not **treated**, but another attempt can be made. 
-* If the attempt is a complete failure, the **Inj.** becomes permanent. It cannot be **treated** via [surgery](#surgery-int) anymore. 
+* If the attempt is a complete failure, the **Inj.** becomes **permanent**. It cannot be **treated** via [surgery](#surgery-int) anymore. 
 * Only one [surgery](#surgery-int) attempt can be made every 24 hours. 
 
 All currently **treated** **Inj.** can be removed/recovered from, by spending **ND4** weeks in uninterrupted, active recovery, where *N* is the current number of **treated** **Inj.** Active recovery implies spending the vast majority of the day in bed or at least avoiding physical or mental strains. 
