@@ -666,7 +666,7 @@ An **Inj.** can be properly **treated** via [surgery](#surgery-int):
 * If the attempt is a complete failure, the **Inj.** becomes **permanent**. It cannot be **treated** via [surgery](#surgery-int) anymore. 
 * Only one [surgery](#surgery-int) attempt can be made every 24 hours. 
 
-All currently **treated** **Inj.** can be removed/recovered from, by spending **ND4** weeks in uninterrupted, active recovery, where *N* is the current number of **treated** **Inj.** Active recovery implies spending the vast majority of the day in bed or at least avoiding physical or mental strains. 
+All currently **treated** **Inj.** can be removed/recovered from, by spending **4D4** weeks in uninterrupted, active recovery. Active recovery implies spending the vast majority of the day in bed or at least avoiding physical or mental strains. 
 
 ### Exhaustion
 Exhaustion is the measure of a character's maximum physical and mental strain they can endure. 
@@ -1035,7 +1035,7 @@ There are no limits to how many of a given card a player can own, but they may o
 | 6 MiFP  | Clotter            | One **active Inj.** of choice is now **patched up**. |
 | 1 MaFP  | Fact Check         | Change a minor plot point in a way your prefer. Work with your **GM** to make sure it fits the narrative, but they should respect your wish. This could be something like avoiding an **NPC** death or changing a fact about the plot. |
 | 1 MaFP  | Just a Flesh Wound | Remove or avoid one non-permanent **Inj.** of choice. |
-| 1 MaFP  | Hastened           | Gain +1 **AP** during your turn when in [combat](#combat). |
+| 1 MaFP  | Hastened           | +1 **AP** during your turns for the entirety of a [combat](#combat) encounter. |
 | 5 MaFP  | Double the Fun     | Double the number of dice to roll on your next/current test. |
 | 10 MaFP | Wrong Diagnosis    | Remove or avoid one permanent **Inj.** of choice. |
 | 1 AFP   | Defy Death         | Leap from [death's door](#deaths-door), remove 1 **active Inj.** of choice and be at 1 **HP**; Alternatively, avoid a narratively-driven death. The **GM** will decide the character's alternative fate. They could be captured, very badly injured or become indebted to someone or something. |
@@ -1614,7 +1614,7 @@ If an equipped shield is used to defend with, this skill is used instead of [mel
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 2     | Shield Slam          | 2  | Opposed| Perform a single-target melee attack to knock your opponent down with your shield. |  |
 | 3     | Shield Ally          | 3  | 0      | When a designated ally next to is attacked, **you** defend against it, instead. | Adjacent to an ally. |
-| 5     | Unyielding           | 3  | Opposed| Until your next turn, you gain **+2D** to your **shield tests**. | Once per combat. |
+| 5     | Unyielding           | 3  | 0      | Until your next turn, you gain **+2D** to your **shield tests**. | Once per combat. |
 
 #### Weapon < weapon type > (Str/Agi)
 Expertise at handling a weapon of a specific type. 
@@ -2192,10 +2192,10 @@ How many times an **injury** can be suffered, can be limited. In the table below
 | 24 - 31 | Jazz-Hands | **1D10 + 3** Days | The victim can't stop the tremors in their arms. Any action requiring precise movements is impossible. **-1D3** [agility](#agility-agi); **-1D4** [arcana](#arcana-arc). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
 | 32 - 39 | Brain Rot | **2D10** Days | The victim's mind dulls. They find it difficult to form coherent thoughts. **-1D3** [intelligence](#intelligence-int); **-1D3** [wisdom](#wisdom-wis). | [medicine](#medicine-int); The ill-effects are suspended for 24 hours. |
 | 40 - 47 | Feeble Tounge | **1D10 + 3** Days | The tounge flops and waggles around uncontrollably. Speech is impaired. **-1D3** [oratory](#oratory-ora). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
-| 48 - 55 | Wound Fever | Until cured | [Injuries](#injury) of the victim refuse any treatment. Any **Inj.** of the victim can be **patched up**, but not **treated**. | [medicine](#medicine-int); Reduces the duration by **1D10** days. |
+| 48 - 55 | Wound Fever | Until cured | [Injuries](#injury) of the victim refuse any treatment. Any **Inj.** of the victim can be **patched up**, but not **treated**. | [medicine](#medicine-int); Sets the duration to **1D10** days. |
 | 56 - 63 | Filth Fever | **1D10 + 1** Days | The victim coughs uncontrollably and violently, with awful-smelling breath. **-1D3** [oratory](#oratory-ora); **-1D3** [endurance](#endurance-end). | [medicine](#medicine-int); Removes the illness on the next day. |
 | 64 - 71 | Amber Curse | **2D10** Days | The victim finds it difficult to feel the flow of magic through their body. **-1D4** [arcana](#arcana-arc); **-1D3** to any magic skills and [rune-using](#rune-using-agi). | Conventional methods cannot treat this illness. |
 | 72 - 79 | Coldness of Heart | **1D10 + 1** Days | The victim feels distant, as if they were only spectators in their own body. **-1D4** [empathy](#empathy-emp); **-1D3** [will](#will-will). | [medicine](#medicine-int); Reduces the duration by **2D4** days. |
 | 80 - 87 | Rot Plague | **4D10** Days | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D3** [endurance](#endurance-end); **-(1D3 + 1)** [toughness](#toughness-tough). | [surgery](#surgery-int); The ill-effects are suspended for 24 hours. |
-| 88 - 95 | Organ Mold | Until cured | Causes an [injury](#injury) every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
+| 88 - 94 | Organ Mold | Until cured | Causes an [injury](#injury) every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
 | 95 - 100 | Red Death | Until cured | The victim starts bleeding from all of their orifices, with no end in sight. Causes 1 **bleeding** every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
