@@ -8,4 +8,4 @@ If none of the other scenarios are interesting, there is always the option for t
 * Explore the new world?
 * Purge the corruption?
 * Topple kings and emperors?
-* And much more...
+* Or something else entirely..?

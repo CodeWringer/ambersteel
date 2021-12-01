@@ -1,5 +1,5 @@
 # Innilreith
-> "Beware, you of mundane birth and life, you hypocrites and tyrants! Your era is over! Let your deaths be part of the glorious rejuvenation of the age of magic!" - Necromancer and lord over Innilreith, Kovalevsky Taras, in an open letter to the kings and queens of the old world.
+> "Beware, you of mundane birth and life, you hypocrites and tyrants! Your era is over! Let your deaths be part of the glorious rejuvenation of the age of magic!" - Necromancer and lord over Innilreith, **Mengk Kovskidrany**, in an open letter to the kings and queens of the old world.
 
 Innilreith is the land of mages and undeath, born from the green-flames of necromantic magic. 
 
