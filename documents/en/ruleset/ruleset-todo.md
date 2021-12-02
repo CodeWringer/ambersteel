@@ -28,4 +28,5 @@
       * This allows for the automatic issuing of commands, like a program of if-then-else statements. 
   * [ ] Hexing
     * Temporary or semi-permanent negative status effects on chosen target(s).
+    * Health-bond - two or more targets share the damage or healing done to them. 
 * [ ] Remove exhaustion?
