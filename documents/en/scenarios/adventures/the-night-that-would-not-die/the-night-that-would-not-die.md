@@ -1,7 +1,7 @@
 # The Night That Would Not Die
-> You find yourselves in the streets of the great metropolis of **Virgivyé**, the capital of the great tsardom of **Zdrány**. While how you ended up here is a story of your own to tell, you find yourselves painfully short on time to curse your coming here, as your thoughts are cut short - **FIRE** IS RAINING FROM THE **SKY**! 
+> You find yourselves in the streets of the great metropolis of **Virgivyé**, the capital of the great tsardom of **Zdrány**. While how you ended up here is a story of your own to tell, you find yourselves painfully short on time to tell it, as your thoughts are cut short by **FIRE** RAINING FROM THE **SKY**! 
 > 
-> The screams of pain and terror flood the streets around you! Children are crying, their mothers dying. You see glimpses of men rushing by, trying desperately to wash the flames away, to no avail! 
+> Screams of pain and terror flood the streets around you! You see children crying, their mothers lay dying. You see glimpses of men rushing by, trying desperately to wash the flames away, but to no avail! 
 > 
 > As you turn around, your sight is blinded by your prior staying-place **blazing** like a star!
 > 
@@ -105,6 +105,11 @@ Dozens of abandoned wagons and their cargo, as well as the beasts of burden litt
 The south-western city gate is the more modern installation. It boasts a drawbridge with moat, iron portcullis and gate-house with modern mechanisms that allow effortlessly raising or lowering the bridge. Any engineering-type player character would know this information, which is relevant because both the drawbridge is raised and the portcullis shut. 
 
 If the mchanism could be triggered, it would be the easiest way out of the city. But inside the gatehouse lurk especially tough undead. The disembowled corpses of several guardsmen strewn about warn of its presence. 
+
+#### South-Eastern Gate
+This gate has completely collapsed. Normal passage is impossible. 
+
+The rubble seems to still be burning, even without any fuel. A magically fuelled flame is in the way. 
 
 #### Northern Gate
 The nothern city gate is also referred to as the "old gate". While it lacks a drawbridge or portcullis, it has thick wooden gates that can be shut from the inside. 
