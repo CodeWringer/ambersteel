@@ -1,15 +1,15 @@
 # The Night That Would Not Die
 > You find yourselves in the streets of the great metropolis of **Virgivyé**, the capital of the great tsardom of **Zdrány**. While how you ended up here is a story of your own to tell, you find yourselves painfully short on time to tell it, as your thoughts are cut short by **FIRE** RAINING FROM THE **SKY**! 
-> 
-> Screams of pain and terror flood the streets around you! You see children crying, their mothers lay dying. You see glimpses of men rushing by, trying desperately to wash the flames away, but to no avail! 
-> 
-> As you turn around, your sight is blinded by your prior staying-place **blazing** like a star!
-> 
-> And then you hear it - a *gurgling roar* of something not of this world. The buckets lay empty in the streets. You're getting a front row seat to the spectacle of abominations emerging in the streets from the sewer grates, bursting the iron rebar like they were twigs in a storm and devouring and dismembering all living things around you. 
 >
-> There can be no doubt. The *once* idle threats of a madman have become **reality**. The civilized world shall burn and its people shall feed *the tyranny* once more. 
+> The city stands in flames! Nearly every house seems to have caught fire, their prior inhabitants stand, run and cower in the streets in blind panic. 
 > 
-> You need to get out! Get out of the city! But you won't manage, alone. Gather survivors and find a way out - or lie down in the mounds of ash and blood. 
+> Quick! Save what you can from the inferno! But as you turn around, your sight is blinded by your prior staying-place **blazing** like a star! You see glimpses of men rushing by, trying desperately to wash the flames away, but to no avail! 
+> 
+> And then you hear it - a *gurgling roar* of something not of this world. You're getting a front row seat to the spectacle of abominations emerging from the sewer grates, bursting the iron rebar like they were twigs in a storm and devouring and dismembering all living things around you. 
+> 
+> As screams of pain and terror flood the streets around you, there can be no more doubt. The *once* idle threats of a madman have become **reality**. The civilized world shall burn and its people shall feed *the tyranny of magic* once more. 
+> 
+> You need to get out! Out of the city! But you won't manage, alone. Gather survivors and find a way out - or lie down in the growing mounds of ash and blood. 
 
 ## Premise
 This scenario is very much intended as a "prequel" of sorts, to the actual current timeline of **Ambersteel's** universe. 
