@@ -145,3 +145,8 @@ A locked door leads out of the workshop and into the sewer system.
 
 #### The Opera House
 A large, half-round building with a cobbled plaza surrounding it serves as a hideout for many survivors. 
+
+#### The Stairs-Quarter
+The stairs-quarter is named after its many stairs. The already very narrow alleys are a further challenge due to the many steps and large variance in height. 
+
+Once something of a tourist attraction, this quarter is now a labyrinth of death. But perhaps that could be of advantage? It would be easy to lose one's enemies in these winding passages. 
