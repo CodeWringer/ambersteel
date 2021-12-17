@@ -1327,6 +1327,7 @@ If an equipped shield is used to defend with, this skill is used instead of [mel
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
+| 1     | Shield Wall          | 3  | 0      | For any ally next to you, who's also using a shield, you both gain **+1D** on your defence tests until the start of your next turn. | Adjacent to ally using shield. |
 | 2     | Shield Slam          | 2  | Opposed| Perform a single-target melee attack to knock your opponent down with your shield. |  |
 | 3     | Shield Ally          | 3  | 0      | When a designated ally next to is attacked, **you** defend against it, instead. | Adjacent to an ally. |
 | 5     | Unyielding           | 3  | 0      | Until your next turn, you gain **+2D** to your **shield tests**. | Once per combat. |
@@ -1356,7 +1357,8 @@ Is opposed by [resist](#resist-will).
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 5     | Unquestionable Command | 2 | 3 | An ally of choice, gains **+2D6** on their next test. | Ally can hear the command. |
+| 3     | War Cry              | 1 | 2 | All allies who can hear it, gain **+1D** on their next attack test. | Ally can hear the command. |
+| 5     | Unquestionable Command | 2 | 3 | An ally of choice, gains **+2D** on their next test. | Ally can hear the command. |
 | 6     | Spur                 | 2 | 4 | An ally of choice, gains +1 **AP**. | Ally in combat; Ally can hear the command. |
 
 #### Deception (Ora)
