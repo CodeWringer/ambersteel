@@ -96,6 +96,7 @@
       - [Difficult Attack](#difficult-attack)
       - [Easy Attack](#easy-attack)
       - [Execution Attack](#execution-attack)
+  - [Dealing Damage](#dealing-damage)
 - [Magic](#magic)
   - [Magic Stamina](#magic-stamina)
   - [Spell Intensity](#spell-intensity)
@@ -176,6 +177,7 @@
     - [Illusion](#illusion)
     - [Soul-Binding](#soul-binding)
     - [Counter-Magic](#counter-magic)
+  - [Weapon Properties](#weapon-properties)
   - [Weapon Types](#weapon-types)
     - [Unarmed](#unarmed)
     - [Short Blade](#short-blade)
@@ -194,6 +196,7 @@
     - [War-Bow](#war-bow)
     - [Crossbow](#crossbow)
     - [Firearm](#firearm)
+  - [Armor Properties](#armor-properties)
   - [Armor Types](#armor-types)
     - [Light Armor](#light-armor)
     - [Medium Armor](#medium-armor)
@@ -204,6 +207,7 @@
     - [Heater Shield](#heater-shield)
     - [Kite Shield](#kite-shield)
   - [List of Injuries](#list-of-injuries)
+    - [List of Burn Injuries](#list-of-burn-injuries)
   - [List of Illnesses](#list-of-illnesses)
 
 Version 0.6 "Abyssalite"
@@ -702,9 +706,9 @@ All damage inflicted, is inflicted with a certain type of damage.
 | Piercing    | Usually inflicted by any sort of stabbing weapon, like a spear, or an animal's stinger. |
 | Bludgeoning | Inflicted by light blunt weapons and unarmed attacks. **Bludgeoning** causes non-lethal damage. It inflicts [exhaustion](#exhaustion) instead of [injuries](#injury). A [dazed](#dazed) character hit with **bludgeoning** damage has to succeed an [endurance](#endurance-end) test, or else fall [unconscious](#unconscious). |
 | Crushing    | Usually inflicted by any sort of heavy blunt weapon, like a hammer, or an animal's tusks. |
-| Burning     | Inflicted by extreme heat. |
+| Burning     | Inflicted by extreme heat. For [injuries](#injury), roll on the [burn injuries](#list-of-burn-injuries) table. |
 | Freezing    | Inflicted by extreme cold. |
-| Poison      | Usually represents a [damage over time effect](#damage-over-time).. |
+| Poison      | Usually represents a [damage over time effect](#damage-over-time). |
 | Acid        | Dissolves anything it touches, or perhaps just organic matter. |
 
 ### Damage Over Time
@@ -1045,7 +1049,7 @@ Attacks are made using a [weapon skill](#weapon--weapon-type--str), [magic-schoo
 Defending against [single-target attacks](#single-target-attack) is an automatic reaction. An [opposed test](#opposed-test) must be made. 
 
 Defending against [area of effect attacks](#area-of-effect-attack) is either impossible or an active choice, as a reaction. <br>
-It is possible to defend against a magical **aoe** attack, by using the [counter-magic](#counter-magic) skill. 
+It is possible to defend against a magical **aoe** attack, by using the [counter-magic](#counter-magic) skill. If successful, the attack is negated entirely. 
 
 If the attacker wins the [opposed test](#opposed-test) or if they used an **aoe** attack that couldn't/wasn't countered or dodged, they get to roll for damage. If the defender wins, no damage is dealt. 
 
@@ -1120,6 +1124,13 @@ Such an attack can be carried out against any character who is unable to resist 
 
 This kind of attack is only possible at the **GM**'s discretion. 
 
+## Dealing Damage
+Damage dealt to an opponent reduces their **HP**. When their **HP** reaches 0, they suffer an [injury](#injury). 
+
+If more damage is dealt, than the difference to 0, that damage is also dealt. Damage isn't lost - it overflows into the next **HP** *segment*. 
+
+What type of [injury](#injury) is dealt, also depends on the [damage type](#damage-types). 
+
 # Magic
 Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, depends on the [magic schools](#magic-schools) the character knows. 
 
@@ -1183,7 +1194,7 @@ Weapons made from **Amberite** are quite popular with witch and monster hunters 
 
 It only occurs naturally in a few select places in the world, where the ground offers the right conditions. **Amberite** grows over time, in the right environment. It can take several decades for a finger-sized crystal to grow to the size of an adult man's forearm. Attempts to cultivate it have mostly failed, as **Amberite** farmers have so far been unable to understand and reproduce the right conditions for it to thrive. Due to the slow rate at which it grows, an **Amberite** farmer may not realize the lack of growth until well into a decade later. 
 
-Prolonged exposure to **Amberite** causes severe ill-effects with nausea and migranes being common symptoms. 
+Prolonged exposure to **Amberite** can cause severe ill-effects with nausea and migranes being common symptoms. 
 
 ### Ambersteel
 [Amberite](#amberite) can be processed into **Ambersteel**, which makes it a hard and flexible metal. The raw material heats slowly and must be heated over the course of several days and nights, without interruption. When it finally reaches the right temperature, it will glow white, with a purple sheen. At that point, it can be hammered into shape. Constant re-heating ensures it stays at the right temperature and a final quenching in vegetable oil ensures it retains its flexibility. 
@@ -1548,11 +1559,18 @@ For every three levels in **counter-magic**, **1D3 - 1** can be rolled, to deter
 
 Note that it is not possible to reduce [magic stamina](#magic-stamina) cost to less than 1. 
 
-## Weapon Types
-Weapons can have the following **weapon attributes**:
+## Weapon Properties
+Weapons can have the following **properties**:
 * **Long Reach**: Allows attacking a target two squares (6'/2m) away. 
 * **Range Only**: Implies a weapon cannot be used against any targets adjacent to self. 
 * **Prefer Range**: +2 **Ob** to using the weapon against an adjacent target. 
+* **Amberite-Lined**: **+1D4** damage to magical creatures and mages. 
+* **Amberite-Plated**: **+2D4** damage to magical creatures and mages. 
+* **Ambersteel-Lined**: **+1D8** damage to magical creatures and mages. 
+* **Ambersteel-Plated**: **+2D8** damage to magical creatures and mages. 
+* **Ambersteel-Forged**: **+3D8** damage to magical creatures and mages. 
+
+## Weapon Types
 
 Weapons can have the following **effects**:
 * A **counter-attack** is a reaction that allows a fighter being attacked to attack their attacker. 
@@ -1768,6 +1786,14 @@ A very deadly short to medium distance ranged weapon, shooting musket balls that
 | 0     | +3 | Shoot                   | 3  | 60'/20m  | **2D6 + 3** **Piercing**  | / |
 | 0     | +5 | Shoot                   | 3  | 90'/30m  | **2D6 + 2** **Piercing**  | / |
 
+## Armor Properties
+Armor can have the following **properties**:
+* **Amberite-Lined**: **+1D4** reduction of magical efficacy when used against the wearer/bearer. 
+* **Amberite-Plated**: **+2D4** reduction of magical efficacy when used against the wearer/bearer. 
+* **Ambersteel-Lined**: **+1D8** reduction of magical efficacy when used against the wearer/bearer. 
+* **Ambersteel-Plated**: **+3D8** reduction of magical efficacy when used against the wearer/bearer. 
+* **Ambersteel-Forged**: **+6D8** reduction of magical efficacy when used against the wearer/bearer. 
+
 ## Armor Types
 Armor reduces damage to its wearer by a flat amount. By how much, is specific to each armor type. Some armors can have special protections or effects. 
 
@@ -1878,13 +1904,21 @@ How many times an **injury** can be suffered, can be limited. In the table below
 | 31 - 36    | Infection           | 1   | -1 [Toughness](#toughness-tough); Within a day, the character will contract an [illness](#illness). This will happen, even if the **Inj.** is treated. |
 | 37 - 42    | Fractured Rib       | /   | -1 [Toughness](#toughness-tough) | 
 | 43 - 48    | Nasty Wound         | /   | +1 [Bleeding](#bleeding) |
-| 49 - 54    | Broken Nose         | 1   | -1 [Perception](#perception-perc); Cannot smell; |
-| 55 - 60    | Maimed Ear          | /   | -1 [Perception](#perception-perc); Cannot hear; | 
+| 49 - 54    | Broken Nose         | 1   | -1 [Perception](#perception-perc); Cannot smell |
+| 55 - 60    | Maimed Ear          | /   | -1 [Perception](#perception-perc); Cannot hear | 
 | 61 - 66    | Knocked Senseless   | /   | -1 [Perception](#perception-perc) |
 | 67 - 72    | Torn Tendon         | /   | -1 [Strength](#strength-str) | 
 | 73 - 79    | Mental Trauma       | /   | -1 [Will](#will-will) | 
 | 80 - 94    | Tremors             | /   | -1 [Arcana](#arcana-arc); -1 [Agility](#agility-agi) | 
 | 95 - 100   | Cosmic Misfortune   | 1   | **-1D** on all tests. | 
+
+### List of Burn Injuries
+| Range D100 | Injury              | Max | Description                      |
+| ---------  | ------------------- | --- | -------------------------------- |
+| 0 - 25     | Burned Face         | /   | -1 [Oratory](#oratory-ora) and -1 [Willpower](#willpower-will). |
+| 26 - 50    | Burned Chest        | /   | -1 [Endurance](#endurance-end). |
+| 51 - 75    | Burned Arm          | /   | -1 [Strength](#strength-str) and -1 [Agility](#agility-agi). |
+| 76 - 100   | Burned Leg          | /   | -1 [Agility](#agility-agi). |
 
 ## List of Illnesses
 
