@@ -110,6 +110,7 @@
   - [Skill List](#skill-list)
     - [Physical skills](#physical-skills)
       - [Acrobatics (Agi)](#acrobatics-agi)
+      - [Berserking (End)](#berserking-end)
       - [Instrument-Playing < instrument > (Agi)](#instrument-playing--instrument--agi)
       - [Melee Defence (Agi)](#melee-defence-agi)
       - [Fighting (Str)](#fighting-str)
@@ -1230,6 +1231,17 @@ Performing acrobatic feats, such as jumping and climbing, without inuring onesel
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 3     | Wind Out Of It       | 0  | 0      | When hit by a single-target attack, wind out of the hit and suffer only half the damage. | Once per combat. |
 | 4     | Bob, Weave, Jab      | 0  | Opposed| When succeeding a [melee defence](#melee-defence-agi) test, follow up with a single-target attack against the enemy who attacked you. | Succeded a [melee defence](#melee-defence-agi) test. |
+
+#### Berserking (End)
+Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and wrecklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
+
+However, the price for this strength is steep. The chance of death is greatly raised for anyone who embraces this way of fighting. 
+
+| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
+| 1     | Wreckless Assault    | 2  | Opposed| Deal an extra **D** of damage, according to your weapon's damage. Suffer a **-2D** penalty on all defence tests until the start of your next turn. Cannot convert left-over AP into [melee defence](#melee-defence-agi) or [ranged defence](#ranged-defence-agi).  |  |
+| 2     | Grit Your Teeth      | 0  | 0      | Ignore the negative effeects of one [injury](#injury) of choice for the rest of the combat encounter. | Once per combat. |
+| 3     | Pain is Strength     | 3  | 0      | Perform a single-target attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
 
 #### Instrument-Playing < instrument > (Agi)
 Playing an instrument of choice. 
