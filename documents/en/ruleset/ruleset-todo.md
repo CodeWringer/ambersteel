@@ -1,3 +1,4 @@
+# TODO
 * [ ] Invent magic schools
   * [ ] Cryomancy
     * Tire your enemies out
@@ -29,4 +30,12 @@
   * [ ] Hexing
     * Temporary or semi-permanent negative status effects on chosen target(s).
     * Health-bond - two or more targets share the damage or healing done to them. 
-* [ ] Remove exhaustion?
+* [ ] Somehow make a berserker-build possible. 
+  * Perhaps a new skill with berserking skill-abilities?
+
+# Playtest Questions
+* [ ] Is it too easy to defend oneself in combat?
+* [ ] Are characters too squishy?
+* [ ] Is exhaustion too cumbersome to track?
+* [ ] Is combat with multiple opponents too cumbersome to track?
+  * [ ] Maybe something like a to-hit-target value could be introduced. Works like DnD AC, is based on melee-/ranged-defence divided by three and rounded up. 
