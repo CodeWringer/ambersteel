@@ -21,7 +21,7 @@ You are encouraged to craft your own world to play in. You decide what species (
 
 Your players can aid in crafting the world. Usually during play, rather than outside of it. If you allow them to change your world through their actions, it becomes a much more dynamic and almost life-like beast. 
 
-#### **Bring NPCs To Life**
+#### Bring NPCs To Life
 Non-player characters (**NPC**s) are all the people of your world, that aren't the **PC**s. **NPC**s are one of your most important tools to bring your world to life and make it interesting and engaging to your players. More often than not, the most interesting sessions involve heavy or mindful use of **NPC**s. See them as you do real people. There are no rules or mechanics dictating how they should behave. 
 
 Much like the **PC**s, or in fact real people, **NPC**s lead their own lives, with their own ambitions, beliefs, instincts, strengths and weaknesses. Keeping track of all of the numbers that implies, can become quite the challenge. But you won't have to come up with all those numbers right away.

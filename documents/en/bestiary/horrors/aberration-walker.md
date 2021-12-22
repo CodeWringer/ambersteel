@@ -4,7 +4,7 @@ Bred in [incubators](incubator) and released as an anti-body to combat invaders,
 Their sole purpose is fending off invaders or acquiring new sources of nourishment. 
 
 ## Appearance
-Their form is ever different, some possessing multiple limbs of the same time, others none. They exist only for a short time - sometimes up to a week - before starving and dying off. Then, the [Maw plants](maw-plant) consume them and return their flesh to the source. 
+Their form is ever different, with ever different numbers and configurations of limbs. They exist only for a short time - sometimes up to a week - before starving and dying off. Then, the [Maw plants](maw-plant) consume them and return their flesh to the source. 
 
 ## Strengths
 * Terrifying

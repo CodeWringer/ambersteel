@@ -23,9 +23,9 @@ Most notable examples of draconics are [primal dragons](draconic/primal-dragon) 
 ## Horrors
 Horrors are terrifying and grotesque aberrations, like nightmares made material. Their existence is filled with pain, dread and unrelenting rage, which drives them to untamable hostility towards most other creatures. 
 
-The origings of horrors are especially enigmatic, as most of them stem from the ill-researched [Creeping Death](../horrors/creeping-death) or the immoral experimentation of magic-users. 
+The origins of horrors are especially enigmatic, as most of them stem from the ill-researched [Creeping Death](../horrors/creeping-death) or the immoral experimentation of magic-users. 
 
-Most notable examples of horrors are 
+Most notable examples of horrors are the [Aberration Walker](horrors/aberration-walker.md) and the plant-like [maw-plant](horrors/maw-plant.md). 
 
 ## Cursed
 Cursed creatures represent an odd category. They're definitely magical in nature, but not persistently and against their will. Their condition is also generally inflicted upon them by mages or other cursed creatures. 
