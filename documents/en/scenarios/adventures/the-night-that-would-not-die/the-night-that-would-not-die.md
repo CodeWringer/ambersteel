@@ -39,7 +39,7 @@ The **river** that runs through the city is tainted with something **poisonous**
 The city itself is a centuries old conglomerate of old and new city quarters, tightly interwoven and labyrinthian in nature. 
 
 ### Landmarks
-These landmarks both serve as points of orientation, as well as a minor scenario of their own, with their own moral quandries, hostilities and drama. 
+These landmarks both serve as points of orientation, as well as minor scenarios of their own, each with their own moral quandries, hostilities and drama. 
 
 #### The River
 A large river divides the city in two. Dozens of large and several smaller bridges span its breadth. These days, the water runs red and is poisonous to the touch. Swimming is ill-advised! 
@@ -51,7 +51,7 @@ In the center of the city stand the proud and ornate walls of the town hall. The
 
 These honorable fools are trying to protect the state archives within. Valuable treatises and writs of allegiance are stored in the vault. The bureaucrats are trying to get to the vault, but the stairs to it are buried beneath rubble and they're hardly strong enough to clear the way in time. The guards can't help as they're too busy fending for their lives. 
 
-These treatises are valuable, however! If they could be brought out of the city, allies could be called to arms. The chancellor sees it as her duty to see these parchments taken to safety. Will they players aid them? There is no immediate reward, except for the friendly loyalty of the city's officials. 
+These treatises are valuable, however! If they could be brought out of the city, allies could be called to arms. The chancellor sees it as her duty to see these parchments taken to safety. Will the players aid them? There is no immediate reward, except for the friendly loyalty of the city's officials. 
 
 #### Temple
 A large temple devoted to the gods stands as a bulwark against the undead. Its militant inhabitants are templars and other such *holy* warriors. They have begun gathering survivors, patching them up and preparing them for an attempted break-out of the city. 
