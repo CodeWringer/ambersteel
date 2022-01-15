@@ -163,13 +163,23 @@ When to test either an **attribute**, or a **skill**, also requires a certain gu
 **Skills** on the other hand are learned abilities. 
 
 #### Challenging Your Players
-You have two means of challenging (= engaging) your players: *mechanical challenges* and *narrative challenges*. 
+You have two means of challenging your players: *mechanical challenges* and *narrative challenges*. To *challenge* your players means to *engage* them! 
 
-Mechanical challenges are your *game-y* tools to engage your players. You engage them, by challenging their characters. You put tests or limitations before them, which have to be overcome mechanically. Dice are usually involved. 
+**Mechanical challenges** are your *game-y* tools to engage your players. You engage them, by challenging their characters. You put tests or limitations before them, which have to be overcome mechanically. Dice are usually involved. 
 
 You should be intimately familiar with the [tests](#tests) section. When to use what type of test can not be cast in a sure-fire ruleset, and rather requires you to develop a sense for it. **Creative tests** allow your players the most freedom and should thus be the most interesting way for them to resolve a mechanical challenge. But over-use this type of test and your players might start feeling irritated and mentally exhausted too quickly. 
 
-[Injuries](#injury) and [illnesses](#illness) involve mechanical hurdles for the **PC**s to overcome. The solution is presented in the rules. If you're injured or ill, seek medical aid and spend time resting. While some of the player party may be incapacitated, the other half can roll some dice to have their character [practice their skills](#practice) or [practice their attributes](#practicing-attributes). Of course, these aren't terribly interesting mechanical challenges, because they leave little room for interpretation. 
+[Injuries](#injury) and [illnesses](#illness) involve mechanical hurdles for the **PC**s to overcome. The solution is presented in the rules. If you're injured or ill, seek medical aid and spend time resting. While some of the player party may be incapacitated, the other half can roll some dice to have their character [practice their skills](#practice) or [practice their attributes](#practicing-attributes). Of course, this results in not very interesting mechanical challenges, because they leave little room for interpretation. 
+
+**Narrative challenges** are your *role-playing* tools to engage your players. The engagement and challenge comes from making your players think about what their character's belief and how they act. 
+
+You challenge a player narratively, by putting their characters in situations where they'll have to think like their character. Challenge their beliefs, challenge their morals. 
+
+And the most powerful narrative challenge - the world! Encourage your players to set goals. Goals, which will impact the world around their characters. But also provide a world which will react to the player characters' actions, even when no goal has been explicitly stated. 
+
+> Exterminating the entire population of a given village is bound to leave evidence. Rumors start to spread, and hostilities may flare up. Law men may be sent to investigate. Populations of other villages become nervous and suspicious of strangers. 
+> 
+> The world reacts to this heinous act, even if the players may never stated their intent for it. 
 
 ##### **Challenge your PCs' abilities during combat**
 More interesting scenarios come from challenging your **PC**s' abilities. Present the close-quarters warrior with an opponent who's out of reach. Have the blood-letting fanatic deal with a foe that can't bleed. Present the mage with an opponent clad in [Amberite](#amberite). But always keep in mind one thing - the foes your players engage should have weaknesses and they should not be unbeatable, unless you make it **very** clear to the players their characters couldn't win a straight fight. 
@@ -262,6 +272,46 @@ If they ruthlessly slaughter a tribe of non-humans, they might inadvertently cau
 On the other hand, if the players are actively trying to change a major aspect of the world, like the political structure in a neighboring country, allow it - but make it difficult. The players will have to work a bit to achieve that goal. Not just in terms of time invested, but in terms of creative preparation. 
 
 This is the most powerful way to narratively challenge players. It helps them see your fictional world as *real* and they start thinking about the consequences of their actions more often. This encourages peaceful and creative solutions, where before they might have preferred blunt violence. 
+
+#### Keep Them Engaged
+There is nothing worse than getting your players to "clock out" and stop paying attention to your game! This means they're not having fun and may even start wondering why they're even spending time at your table. If that keeps up, they'll inevitably leave. 
+
+To avoid such a fate for your game, you must keep your players *hooked*! Keep them thinking that at any moment, they might get a chance to jump in and contribute just the right question, defuse a conflict or otherwise play out their character's strengths. 
+
+##### Keep That Spotlight On a Swivel
+It is only natural that some of your players may speak up before others. Whether they've simply got a dominant voice or immediately start talking, by doing so they'll probably discourage the others from speaking. 
+
+Once you've identified which of your players tend to remain quiet, make sure **you give them the spotlight** every once in a while. 
+
+Make sure to get a sense of who will **grab the spotlight** and who won't. Sometimes, you may even have to stop someone from grabbing it and instead allow one of the quieter players to act **first**. If the quieter player relinquishes the spotlight, let them. Don't force anyone into a situation they're uncomfortable with! That would only, if repeated too often, result in them leaving your game. 
+
+Whenever you present your players with a new situation, especially with moments intended to *surprise* them, make sure to ask their characters' reactions! Go through each of your players and ask them, "how does your character react to this?" This allows each of them to play out their character and to breathe *life* into them. 
+
+Also, when a decision must be made, like where the party will go and what they'll do next, make sure to ask **every** player. Nothing is worse than a player character being dragged along, even though their player isn't the least bit interested in the plot hook the others want to follow. By asking everyone, you may expose that some of them may have different plans. The goal then is to find a **compromise**! Do not let the one side of players force their will upon the others! Instead, encourage your players to find a way to motivate each other to follow the plot hook. Encourage them to find some reason or to be persuaded to go along. This way, no player feels left out, during decision-making. 
+
+Some players may not really be interested in talking too much. But if they're simply uncomfortable with improvisation, see the following section [Fair Warning](#fair-warning). 
+
+If you have any of those, you can still keep them engaged, by providing them other opportunities to shine. A skill test that only their character can even attempt, for example. 
+
+##### Fair Warning
+A another tool in your bag, is the ability to give a player *fair warning* of something that will come up during the next session. 
+
+This is especially effective at allowing those players who're uncomfortable with improvisation to prepare themselves ahead of time. This helps them alleviate the feeling of nervousness and they may even surprise you with the answer they've cooked up! 
+
+When giving such a *heads-up*, try to omit any details. Only give your player a basic prompt to work with. However, just how much information the prompt should contain, will be up to you. 
+
+> For example, a NPC will do something that contradicts their character's beliefs. A prompt for that player could look like the following: "During the next session, an NPC will do something that contradicts your beliefs. There will be no way you wouldn't notice." Don't tell them which NPC that will be or what exactly that NPC will actually do. 
+
+##### Player Agency
+A very important thing to remember is that **all decisions** are made **by your players**, not *you*. This is understood as "player-agency" - a player's ability to make a meaningful decision, which impacts your world and the story plot, even when in collision with your own expectations or plans. 
+
+And that implies that asking your players, whenever there is a choice to be made, what their decision will be. After all, you're not writing a book, where you can and even have to decide on what the protagonists will do. Your players will have to tell you what they'll do. 
+
+While it is certainly *work* to keep track of what everyone wants to do, the benefits of that work are significant. Your players are engaged, because they have agency in your world. This is where the beauty of role-playing games shines through. You're telling a story together, where the outcome is uncertain and surprises may happen at any time. 
+
+Of course, there is an exception to every rule. You *can* take player-agency away, but there are conditions for doing so. Firstly, you must make it **absolutely clear** to your players, that for the given situation, you'll dictate what happens. Secondly, you must have sound reason for dictating what happens. Whatever that reason is, it should be a rare instance, something that only happens on special occasions. 
+
+For example, there may be times, when for storytelling purposes you may want to narrate something. Perhaps an event far away from the player characters. The term "cut-scene" is applicable. It's a moment when you take over as the narrator and narrate something that happens, that the players couldn't possibly have agency over. Whenever doing so is appropriate, depends strongly on the story and your style of game. If done well, this can serve as a tool for world-building (investing your players in your world) and/or tension-building (drama!)
 
 ### Ending Your Session
 #### Hand Out Fate Points
