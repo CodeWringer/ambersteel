@@ -304,8 +304,21 @@ Of course, there is an exception to every rule. You *can* take player-agency awa
 
 For example, there may be times, when for storytelling purposes you may want to narrate something. Perhaps an event far away from the player characters. The term "cut-scene" is applicable. It's a moment when you take over as the narrator and narrate something that happens, that the players couldn't possibly have agency over. Whenever doing so is appropriate, depends strongly on the story and your style of game. If done well, this can serve as a tool for world-building (investing your players in your world) and/or tension-building (drama!)
 
+##### Rewards!
+Nothing motivates players (and humans in general) more, than the promise of reward!
+
+The important thing to keep in mind here, is to reward behavious you wish to encourage. 
+
+If you want your players to be curious about and engage with your world, then reward them for it! If you want your players to kill monsters and defeat bad guys, reward them for it! 
+
+Exactly how you present the promise of reward is up to you. Whether you hand out cards, in the format of goal - reward, or simply have NPCs that tell your player characters about rewards, will depend on what works best for you and your players. 
+
+Another important note is to avoid overloading your players with promises of reward. That could lead to analysis paralysis - the inability to prioritise goals and then committing to one. This problem is exacerbated by timed rewards - rewards that will expire after a certain amount of time. If too many of those timed rewards exist, your players will find it very difficult to pick one, for fear of losing out on the other ones. 
+
 ##### Fair Warning
-A another tool in your bag, is the ability to give a player *fair warning* of something that will come up during the next session. 
+Another tool in your bag, is the ability to give a player *fair warning* of something that will come up during the next session. 
+
+This means telling a player well ahead of time that during the next session a situation may crop up in which they'll have to react. 
 
 This is especially effective at allowing those players who're uncomfortable with improvisation to prepare themselves ahead of time. This helps them alleviate the feeling of nervousness and they may even surprise you with the answer they've cooked up! 
 
