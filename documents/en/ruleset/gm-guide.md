@@ -293,15 +293,6 @@ Some players may not really be interested in talking too much. But if they're si
 
 If you have any of those, you can still keep them engaged, by providing them other opportunities to shine. A skill test that only their character can even attempt, for example. 
 
-##### Fair Warning
-A another tool in your bag, is the ability to give a player *fair warning* of something that will come up during the next session. 
-
-This is especially effective at allowing those players who're uncomfortable with improvisation to prepare themselves ahead of time. This helps them alleviate the feeling of nervousness and they may even surprise you with the answer they've cooked up! 
-
-When giving such a *heads-up*, try to omit any details. Only give your player a basic prompt to work with. However, just how much information the prompt should contain, will be up to you. 
-
-> For example, a NPC will do something that contradicts their character's beliefs. A prompt for that player could look like the following: "During the next session, an NPC will do something that contradicts your beliefs. There will be no way you wouldn't notice." Don't tell them which NPC that will be or what exactly that NPC will actually do. 
-
 ##### Player Agency
 A very important thing to remember is that **all decisions** are made **by your players**, not *you*. This is understood as "player-agency" - a player's ability to make a meaningful decision, which impacts your world and the story plot, even when in collision with your own expectations or plans. 
 
@@ -312,6 +303,15 @@ While it is certainly *work* to keep track of what everyone wants to do, the ben
 Of course, there is an exception to every rule. You *can* take player-agency away, but there are conditions for doing so. Firstly, you must make it **absolutely clear** to your players, that for the given situation, you'll dictate what happens. Secondly, you must have sound reason for dictating what happens. Whatever that reason is, it should be a rare instance, something that only happens on special occasions. 
 
 For example, there may be times, when for storytelling purposes you may want to narrate something. Perhaps an event far away from the player characters. The term "cut-scene" is applicable. It's a moment when you take over as the narrator and narrate something that happens, that the players couldn't possibly have agency over. Whenever doing so is appropriate, depends strongly on the story and your style of game. If done well, this can serve as a tool for world-building (investing your players in your world) and/or tension-building (drama!)
+
+##### Fair Warning
+A another tool in your bag, is the ability to give a player *fair warning* of something that will come up during the next session. 
+
+This is especially effective at allowing those players who're uncomfortable with improvisation to prepare themselves ahead of time. This helps them alleviate the feeling of nervousness and they may even surprise you with the answer they've cooked up! 
+
+When giving such a *heads-up*, try to omit any details. Only give your player a basic prompt to work with. However, just how much information the prompt should contain, will be up to you. 
+
+> For example, a NPC will do something that contradicts their character's beliefs. A prompt for that player could look like the following: "During the next session, an NPC will do something that contradicts your beliefs. There will be no way you wouldn't notice." Don't tell them which NPC that will be or what exactly that NPC will actually do. 
 
 ### Ending Your Session
 #### Hand Out Fate Points
