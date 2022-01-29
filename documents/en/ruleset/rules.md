@@ -79,6 +79,7 @@
     - [Determine Max HP & Max Inj](#determine-max-hp--max-inj)
     - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
 - [Fate Points](#fate-points)
+    - [Determine Magic Stamina](#determine-magic-stamina)
   - [Minor Fate Points](#minor-fate-points)
   - [Major Fate Points](#major-fate-points)
   - [Ambition Fate Points](#ambition-fate-points)
@@ -758,8 +759,6 @@ Up to 100 [crowns](#money) can fit into one **slot**.
 It is up to the **GM** to decide on when something is *too heavy* to carry for the character in question. 
 
 ## Character Creation
-<!-- TODO: 1. Update semi-random attribute determination 2. Determine magic stamina -->
-
 Imagine for the longest time of their life, your character has led an ordinary existence, until one day, something life-changing happened. Perhaps something terrible, perhaps something wonderful, but something significant that has forced them out of their comfort zone into a world full of adventure. 
 
 Creating an interesting and life-like character is a challenging, but ultimately, very rewarding task. Thinking of their existence up to the point they start adventuring, can really help with paving the path of their future and give you a good idea of what they're like, and why.
@@ -776,6 +775,7 @@ The procedure of creating a character consists of the following steps:
 7. [Determine **carrying capacity** and **possessions**](#carrying-capactity--possessions).
 8. [Determine **Max HP** and **Max Inj.**](#determine-max-hp--max-inj)
 9. [Determine exhaustion threshold](#determine-exhaustion-threshold).
+10. [Determine magic stamina](#determine-magic-stamina).
 
 ### Determine Life Path
 Where and when does the story of your character begin? Under what circumstances are they born and how were they raised? Until adulthood, did they lead a life of carelessness or did they have to fight for every scrap of food? How did they lead their life up until the point the picked up adventuring? 
@@ -971,6 +971,11 @@ There are three types of **FP**: [Minor](#minor-fate-points), [major](#major-fat
 
 **FP** are earned, by playing to one's [ambitions, beliefs and instincts](#ambitions-beliefs--instincts). Most **FP** are earned by a single player, but some may also be earned as a group. 
 
+### Determine Magic Stamina
+Determine your character's **maximum magic stamina**, by referring to the [magic stamina](#magic-stamina) section. 
+
+You'll need to track **current magic stamina** separately. To start with, set your current to your maximum **magic stamina**. 
+
 ## Minor Fate Points
 **Minor Fate Points (MiFP)** are the lowest valued and most common type of **FP**, most commonly earned by playing the mechanics of the game. 
 
@@ -1143,16 +1148,21 @@ The effects of a spell do not affect the mage casting the spell, unless they suf
 
 Note that it is possible for a mage to cast spells that costs more **magic stamina** than they have available. 
 
-Thus, it represents the threshold of safely casting magic. Any magic that costs more **magic stamina** than is available, can cause a [spell-backfire](#spell-backfire). 
+Thus, it represents the threshold of safely casting magic. Any spell cast that costs more **magic stamina** than is available, can cause a [spell-backfire](#spell-backfire). 
 
 This threshold is reduced every time a spell is cast. The threshold is reduced by the [intensity](#spell-intensity) at which the spell was cast. Success or failure doesn't matter - even just the attempt to cast the spell incurs the **magic stamina** cost. 
 
-For every point past the current threshold that a spell costs, one **D6** must be rolled. <br>
-If a 1 or a 2 is rolled, the spell [spell-backfires](#spell-backfire), dealing its full damage to the caster, instead. 
+Mechanically speaking, every mage has two values to track: their **maximum magic stamina** and their **current magic stamina**. The *threshold* is considered the maximum, while the current magic stamina must be tracked, separately. 
+
+For every point past the current threshold that a spell costs, one **D6** must be rolled. If a 1 or a 2 is rolled, the spell [spell-backfires](#spell-backfire), dealing its full damage to the caster, instead. 
 
 How much **magic stamina** a mage has available to them, is derived from their [arcana](#arcana-arc) attribute + the total level of all their known [magic school](#magic-school--school--arc) skill levels, divided by two and rounded up. 
 
 > If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **counter-magic** at level 5, that means they have (3 + 3 + 2 + 5) / 2 = 7 **magic stamina**. 
+
+Magic spells take a toll on the caster's body. It takes great mental effort to properly cast a spell. 
+
+Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every hour spent, not casting magic, a mage regains 2 **magic stamina**. 
 
 ## Spell Intensity
 Any magic can be cast at different **intensities**. A greater **spell intensity** results in a greater effect, at a proportionally greater [magic stamina](#magic-stamina) cost. 

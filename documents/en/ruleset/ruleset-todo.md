@@ -32,6 +32,8 @@
     * Health-bond - two or more targets share the damage or healing done to them. 
 * [ ] Somehow make a berserker-build possible. 
   * Perhaps a new skill with berserking skill-abilities?
+* [ ] Update semi-random attribute determination
+* [ ] Character creation - determine magic stamina
 
 # Playtest Questions
 * [ ] Is it too easy to defend oneself in combat?
