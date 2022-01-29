@@ -1,7 +1,5 @@
 # TODO
 * [ ] Invent magic schools
-  * [ ] Cryomancy
-    * Tire your enemies out
   * [ ] Illusion
     * Create images/sounds/smells that aren't real
     * Better levels allow the influences to hold up better against scrutiny
@@ -33,7 +31,6 @@
 * [ ] Somehow make a berserker-build possible. 
   * Perhaps a new skill with berserking skill-abilities?
 * [ ] Update semi-random attribute determination
-* [ ] Character creation - determine magic stamina
 
 # Playtest Questions
 * [ ] Is it too easy to defend oneself in combat?

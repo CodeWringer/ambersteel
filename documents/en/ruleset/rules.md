@@ -52,6 +52,8 @@
       - [Unconscious](#unconscious)
       - [Grappled](#grappled)
       - [Death's Door](#deaths-door)
+      - [Frostbite](#frostbite)
+      - [Rooted](#rooted)
     - [Illness](#illness)
     - [Damage Types](#damage-types)
     - [Damage Over Time](#damage-over-time)
@@ -680,6 +682,20 @@ A **PC** at **death's door** must succeed at least one [toughness](#toughness-to
 * If the character is at **death's door** out of [combat](#combat), they must make a test every minute. 
 
 A character can be helped out of **death's door**, if all of their **active** **Inj.** are **patched up** or **treated**. For every **active** **Inj.** that is **patched up** or **treated**, the character gains one more attempt to succeed a [toughness](#toughness-tough) test. 
+
+#### Frostbite
+This status effect can stack! That means, it can be incurred multiple times! 
+
+For every point of **frostbite**, 1 point of **freezing** damage is incurred every combat round. 
+
+Also for every point of **frostbite**, a -1 **AP** penalty is incurred, up to a maximum of -3. 
+
+At the end of every round of combat, one point of **frostbite** is removed, until the status effect is removed completely. 
+
+#### Rooted
+A **rooted** character can no longer move their legs. They cannot move from the spot, but can still move their upper body freely. 
+
+This status-effect is usually tied to some condition, before it is removed. 
 
 ### Illness
 An illness can affect a character over a perod of time and cause various negative effects. 
@@ -1534,7 +1550,11 @@ The summoning and control of ice. Besides the frostbite, cryomancer's can inflic
 
 | Level | AP | Distance | Type | Damage | Effect(s)                      |
 | ----- | -- | -------- | ---- | ------ | ------------------------------ |
-| 1     | 2  |  | | | |
+| 1     | 2  | 0 | ST | **1 Freezing** | A fist-sized spot on whatever the mage's hand touches, freezes over. This is only a surface-level freeze! It does not run deep. |
+| 3     | 2  | 15'/5m | ST | **1D4 Freezing** | The mage shoots a finger-sized ice spike from their hand. Anyone hit, will incur 1 point of [frostbite](#frostbite). |
+| 4     | 3  | 0 | ST | **1D10 Freezing** | A man-sized area of whatever the mage's hand is touching freezes over. The frost even penetrates and runs deep. Anyone hit, will incur 2 points of [frostbite](#frostbite). |
+| 5     | 3  | 15'/5m | ST | **2D4 Freezing** | The mage shoots a fist-sized ice spike from their hand. Anyone hit, will incur 2 points of [frostbite](#frostbite). |
+| 7     | 3  | 15'/5m | AOE 6'/2m radius | **4D4 Freezing** | A spot of the mage's choosing freezes over. Anyone caught within the radius, will be frozen to the spot and thus [rooted](#rooted). They can break free via a successful [strength](#strength-str) test against **Ob 3**. Or wait, until the ice thaws... |
 
 ### Restoration
 The mending of injuries and treatment of diseases. 
