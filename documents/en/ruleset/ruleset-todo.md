@@ -3,12 +3,6 @@
   * [ ] Illusion
     * Create images/sounds/smells that aren't real
     * Better levels allow the influences to hold up better against scrutiny
-  * [ ] Restoration
-    * HP recovery
-    * Chance of injury treatment
-    * Chance of stabilization
-    * Leeching life off others or spending your own blood to help others
-    * Water-breathing?
   * [ ] Telekinesis
     * Moving things from afar
   * [ ] Telepathy

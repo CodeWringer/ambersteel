@@ -1546,7 +1546,7 @@ The summoning and control of fire. The flame being a destructive force, pyromanc
 | 10    | 4  | 60'/20m  | AOE 24'/8m radius | **6D6 Burning** | The mage makes fire rain from the sky. This spell lasts two turns in combat or 10 seconds out of combat. |
 
 ### Cryomancy
-The summoning and control of ice. Besides the frostbite, cryomancer's can inflict [exhaustion](#exhaustion) on opponents, or freeze things, so they're harder to break. 
+The summoning and control of ice. Cryomancer's can inflict [frostbite](#frostbite) on opponents. They can also freeze things, so they're harder to break. 
 
 | Level | AP | Distance | Type | Damage | Effect(s)                      |
 | ----- | -- | -------- | ---- | ------ | ------------------------------ |
@@ -1564,6 +1564,7 @@ The mending of injuries and treatment of diseases.
 | 1     | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. Removes [bleeding](#bleeding). One [injury](#injury) of choice is now **patched up**. Restores missing HP. |
 | 3     | 2  | 0        | ST   | 0      | Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). Up to two [injuries](#injury) of choice are now **patched up**. |
 | 4     | 2  | 0        | ST   | 0      | A single **Inj.** of choice becomes **treated**. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
+| 5     | 3  | 0        | ST   | 0      | Draw the life from a touched creature of choice. Deals **2DN** points of damage to that creature, where *N* is the chosen spell intensity, while healing another touched creature for the same amount. Transfers 1 point of **bleeding** and/or **poisoned** from the healed creature to the damaged one. |
 
 ### Alteration
 The alteration of physical things, to change their shape and purpose. 
