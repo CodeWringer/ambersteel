@@ -1564,15 +1564,25 @@ The mending of injuries and treatment of diseases.
 | 1     | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. Removes [bleeding](#bleeding). One [injury](#injury) of choice is now **patched up**. Restores missing HP. |
 | 3     | 2  | 0        | ST   | 0      | Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). Up to two [injuries](#injury) of choice are now **patched up**. |
 | 4     | 2  | 0        | ST   | 0      | A single **Inj.** of choice becomes **treated**. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
-| 5     | 3  | 0        | ST   | 0      | Draw the life from a touched creature of choice. Deals **2DN** points of damage to that creature, where *N* is the chosen spell intensity, while healing another touched creature for the same amount. Transfers 1 point of **bleeding** and/or **poisoned** from the healed creature to the damaged one. |
+| 5     | 3  | 0        | ST   | 0      | Draw the life from a touched creature of choice. Deals **2DN** points of damage to that creature, where *N* is the chosen [spell intensity](#spell-intensity), while healing another touched creature for the same amount. Transfers 1 point of **bleeding** and/or **poisoned** from the healed creature to the damaged one. |
 
 ### Alteration
 The alteration of physical things, to change their shape and purpose. 
 TODO
 
 ### Illusion
-Creation of non-physical influences on the senses. 
-TODO
+Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
+
+They mage can always choose to **either** create an image **or** a sound **or** an odor. How long these illusions last, is determined by the [spell's intensity](#spell-intensity). All of these illusions only apply to those individuals, who are within the given *distance* to the mage and who **fail** a [resist](#resist-will) test, at the given **Ob**. 
+
+| Level | AP | Distance | Type | Damage | Effect(s)                      |
+| ----- | -- | -------- | ---- | ------ | ------------------------------ |
+| 1     | 2  | 6'/2m    | MST  | 0      | Resist: **Ob 1**, Duration: 3 turns / 5 seconds, Effect: a hand-sized image / a quiet, but audible sound, a weak odor |
+| 2     | 2  | 12'/4m   | MST  | 0      | Resist: **Ob 2**, Duration: 6 turns / 15 seconds, Effect: a person-sized image / a significant sound a noticeable odor |
+| 3     | 2  | 24'/8m   | MST  | 0      | Resist: **Ob 3**, Duration: entire combat / 1 minute, Effect: up to 9'³/3m³ sized image / a very loud sound / a strong odor |
+| 4     | 3  | 48'/16m  | MST  | 0      | Resist: **Ob 4**, Duration: entire combat / 10 minutes, Effect: up to 18'³/6m³ sized image / a deafening sound / an overwhelming odor |
+| 5     | 4  | 96'/32m  | MST  | 0      | Resist: **Ob 5**, Duration: entire combat / 1 hour, Effect: up to 36'³/12m³ sized image / a deafening sound / an overwhelming odor |
+| 7     | 4  | 192'/64m | MST  | 0      | Resist: **Ob 7**, Duration: however long the mage desires, Effect: however large the mage desires image / a deafening sound / an overwhelming odor |
 
 ### Soul-Binding
 TODO

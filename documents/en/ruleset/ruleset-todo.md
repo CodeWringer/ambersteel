@@ -1,8 +1,5 @@
 # TODO
 * [ ] Invent magic schools
-  * [ ] Illusion
-    * Create images/sounds/smells that aren't real
-    * Better levels allow the influences to hold up better against scrutiny
   * [ ] Telekinesis
     * Moving things from afar
   * [ ] Telepathy
