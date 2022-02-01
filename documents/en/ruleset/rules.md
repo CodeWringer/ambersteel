@@ -1599,6 +1599,8 @@ Note, that moving creatures (even undead ones or actually dead ones) is not the 
 
 The mage can only ever perform *one* movement with a spell cast. So, for example, it is not possible to violently shake things or creatures around, without casting **telekinesis** multiple times, to do so. During combat, every movement takes one turn. Out of combat, about five seconds. A single movement is a displacement from one point to another, in a straight and uninterrupted line. 
 
+In the following, replace *N* with the chosen level above 10. 
+
 | Level | AP | Distance | Type | Damage | Effect(s)                      |
 | ----- | -- | -------- | ---- | ------ | ------------------------------ |
 | 1     | 2  | 9'/3m    | ST   | 0        | Move a light object. It can only be moved slowly, not allowing its use as a projectile. |
@@ -1613,6 +1615,8 @@ The mage can only ever perform *one* movement with a spell cast. So, for example
 | 8     | 4  | 24'/8m   | ST   | 0        | Resist: **Ob 3**, Effect: Move a single creature that is about man-sized, or smaller. |
 | 9     | 4  | 30'/10m  | ST   | 0        | Resist: **Ob 5**, Effect: Move a single creature that is about twice the size of a man, or smaller. |
 | 10    | 4  | 24'/8m   | ST   | 0        | Resist: **Ob 7**, Effect: Move a single large creature, or smaller. |
+| > 10  | 3  | N*3'/Nm  | MST  | **2D10+N** | Move up to three heavy or light objects at once and at extreme velocity, which allows them to deal significant damage upon impact. |
+| > 10  | 4  | N*3'/Nm  | ST   | 0        | Resist: **Ob N**, Effect: Move a single large creature, or smaller. |
 
 ### Counter-Magic
 The redirection and dissolution of magic flow. This is the skill to use to defend against magic attacks. 
