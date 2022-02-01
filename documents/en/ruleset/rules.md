@@ -180,6 +180,7 @@
     - [Illusion](#illusion)
     - [Soul-Binding](#soul-binding)
     - [Telekinesis](#telekinesis)
+    - [Telepathy](#telepathy)
     - [Counter-Magic](#counter-magic)
   - [Weapon Properties](#weapon-properties)
   - [Weapon Types](#weapon-types)
@@ -1410,7 +1411,7 @@ Persuading another character to think differently about something.
 Is opposed by [resist](#resist-will). 
 
 #### Resist (Will)
-Resisting [commanding](#commanding-will), [deception](#deception-ora), [intimidation](#intimidation-will) and [persuasion](#persuasion-emp). 
+Resisting [commanding](#commanding-will), [deception](#deception-ora), [intimidation](#intimidation-will) and [persuasion](#persuasion-emp), as well as some magic schools. 
 
 ### Knowledge
 These skills have a dominant mental aspect and are strongly related to a character's *mental attributes*. 
@@ -1617,6 +1618,25 @@ In the following, replace *N* with the chosen level above 10.
 | 10    | 4  | 24'/8m   | ST   | 0        | Resist: **Ob 7**, Effect: Move a single large creature, or smaller. |
 | > 10  | 3  | N*3'/Nm  | MST  | **2D10+N** | Move up to three heavy or light objects at once and at extreme velocity, which allows them to deal significant damage upon impact. |
 | > 10  | 4  | N*3'/Nm  | ST   | 0        | Resist: **Ob N**, Effect: Move a single large creature, or smaller. |
+
+### Telepathy
+The ability to communicate wordlessly, to alter emotions and even issue compelling commands against another's will. 
+
+The mage can only affect those creatures that either don't resist, or which **fail** a [resist](#resist-will) test, at the given **Ob**. 
+
+In the following, replace *N* with the appropriate level. 
+
+| Level | AP | Distance | Type | Damage | Effect(s)                      |
+| ----- | -- | -------- | ---- | ------ | ------------------------------ |
+| 1     | 2  | 9'/3m    | ST   | 0        | Resist: **Ob 2**, Effect: Communicate wordlessly with a creature of choice. |
+| 2     | 2  | 18'/6m   | MST  | 0        | Resist: **Ob 3**, Effect: Communicate wordlessly with up to two creatures of choice. |
+| 3     | 2  | 36'/18m  | MST  | 0        | Resist: **Ob 4**, Effect: Communicate wordlessly with up to three creatures of choice. |
+| 3     | 2  | 36'/18m  | ST   | 0        | Resist: **Ob 2**, Effect: Alter a creature's current state of mind and emotion. |
+| 4+    | 2  | 72'/36m  | MST  | 0        | Resist: **Ob N**, Effect: Communicate wordlessly with as many creatures as the mage chooses. |
+| 4     | 2  | 36'/18m  | ST   | 0        | Resist: **Ob 4**, Effect: Alter a creature's current state of mind and emotion. |
+| 5+    | 2  | 36'/18m  | ST   | 0        | Resist: **Ob N**, Effect: Alter a creature's current state of mind and emotion. |
+| 6     | 3  | 18'/9m   | ST   | 0        | Resist: **Ob 4**, Effect: Issue a command to another creature, which they feel strongly compelled to follow. |
+| 7     | 3  | 36'/18m  | ST   | 0        | Resist: **Ob N-2**, Effect: Issue a command to another creature, which they feel strongly compelled to follow. |
 
 ### Counter-Magic
 The redirection and dissolution of magic flow. This is the skill to use to defend against magic attacks. 
