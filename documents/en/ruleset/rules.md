@@ -179,6 +179,7 @@
     - [Alteration](#alteration)
     - [Illusion](#illusion)
     - [Soul-Binding](#soul-binding)
+    - [Telekinesis](#telekinesis)
     - [Counter-Magic](#counter-magic)
   - [Weapon Properties](#weapon-properties)
   - [Weapon Types](#weapon-types)
@@ -1577,8 +1578,8 @@ They mage can always choose to **either** create an image **or** a sound **or** 
 
 | Level | AP | Distance | Type | Damage | Effect(s)                      |
 | ----- | -- | -------- | ---- | ------ | ------------------------------ |
-| 1     | 2  | 6'/2m    | MST  | 0      | Resist: **Ob 1**, Duration: 3 turns / 5 seconds, Effect: a hand-sized image / a quiet, but audible sound, a weak odor |
-| 2     | 2  | 12'/4m   | MST  | 0      | Resist: **Ob 2**, Duration: 6 turns / 15 seconds, Effect: a person-sized image / a significant sound a noticeable odor |
+| 1     | 2  | 6'/2m    | MST  | 0      | Resist: **Ob 1**, Duration: 3 turns / 15 seconds, Effect: a hand-sized image / a quiet, but audible sound, a weak odor |
+| 2     | 2  | 12'/4m   | MST  | 0      | Resist: **Ob 2**, Duration: 6 turns / 30 seconds, Effect: a person-sized image / a significant sound a noticeable odor |
 | 3     | 2  | 24'/8m   | MST  | 0      | Resist: **Ob 3**, Duration: entire combat / 1 minute, Effect: up to 9'³/3m³ sized image / a very loud sound / a strong odor |
 | 4     | 3  | 48'/16m  | MST  | 0      | Resist: **Ob 4**, Duration: entire combat / 10 minutes, Effect: up to 18'³/6m³ sized image / a deafening sound / an overwhelming odor |
 | 5     | 4  | 96'/32m  | MST  | 0      | Resist: **Ob 5**, Duration: entire combat / 1 hour, Effect: up to 36'³/12m³ sized image / a deafening sound / an overwhelming odor |
@@ -1586,6 +1587,32 @@ They mage can always choose to **either** create an image **or** a sound **or** 
 
 ### Soul-Binding
 TODO
+
+### Telekinesis
+The ability to affect things and even creatures from afar, using magic winds instead of muscles or tools. 
+
+The mage can only affect things within and up to the given *distance*. 
+
+When using objects as projectiles, choose the [damage type](#damage-types) as appropriate. For example, a crossbow bolt might cause **piercing** damage, while a rock might cause **crushing** damage.
+
+Note, that moving creatures (even undead ones or actually dead ones) is not the same as moving soulless objects. It takes great skill to affect creatures directly. Starting from level 7, creatures can be affected directly, by the mage. The mage can only affect those creatures that either don't resist, or which **fail** a [resist](#resist-will) test, at the given **Ob**. 
+
+The mage can only ever perform *one* movement with a spell cast. So, for example, it is not possible to violently shake things or creatures around, without casting **telekinesis** multiple times, to do so. During combat, every movement takes one turn. Out of combat, about five seconds. A single movement is a displacement from one point to another, in a straight and uninterrupted line. 
+
+| Level | AP | Distance | Type | Damage | Effect(s)                      |
+| ----- | -- | -------- | ---- | ------ | ------------------------------ |
+| 1     | 2  | 9'/3m    | ST   | 0        | Move a light object. It can only be moved slowly, not allowing its use as a projectile. |
+| 2     | 2  | 12'/4m   | ST   | **1D4**  | Move a light object at great velocity, which allows it to deal some damage upon impact.  |
+| 3     | 2  | 18'/6m   | ST   | 0        | Move a heavy object. It can only be moved slowly, not allowing its use as a projectile. |
+| 4     | 2  | 24'/8m   | ST   | **2D6**  | Move a heavy object at great velocity, which allows it to deal damage upon impact.  |
+| 5     | 3  | 30'/10m  | MST  | **1D4**  | Move up to three light objects at once and at great velocity, which allows them to deal damage upon impact.  |
+| 5     | 3  | 30'/10m  | MST  | **1D4**  | Move up to two heavy objects at once and at great velocity, which allows them to deal damage upon impact.  |
+| 6     | 3  | 42'/14m  | ST   | **2D8**  | Move a single heavy object, at extreme velocity, which allows it to deal significant damage upon impact.  |
+| 7     | 4  | 24'/8m   | ST   | 0        | Move a single creature that is about man-sized, or smaller. |
+| 7     | 4  | 24'/8m   | MST  | **2D10** | Move up to three heavy or light objects at once and at extreme velocity, which allows them to deal significant damage upon impact. |
+| 8     | 4  | 24'/8m   | ST   | 0        | Resist: **Ob 3**, Effect: Move a single creature that is about man-sized, or smaller. |
+| 9     | 4  | 30'/10m  | ST   | 0        | Resist: **Ob 5**, Effect: Move a single creature that is about twice the size of a man, or smaller. |
+| 10    | 4  | 24'/8m   | ST   | 0        | Resist: **Ob 7**, Effect: Move a single large creature, or smaller. |
 
 ### Counter-Magic
 The redirection and dissolution of magic flow. This is the skill to use to defend against magic attacks. 
