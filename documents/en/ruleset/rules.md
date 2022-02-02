@@ -1608,7 +1608,18 @@ They mage can always choose to **either** create an image **or** a sound **or** 
 | 7     | Living a Dream       | 4  | 192'/64m | MST  | 0      | Resist: **Ob 7**, Duration: however long the mage desires, Effect: however large the mage desires image / a deafening sound / an overwhelming odor |
 
 ### Soul-Binding [Int]
-TODO
+Also referred to as **necromancy**, this is the art and skill of calling souls from the **plane of the dead** and binding them, to reanimate corpses or animate an otherwise unliving body. 
+
+A mage can only ever issue commands to a soul that they've bound. It is not possible to command souls bound by other mages. 
+
+A soul-binding can be lifted, but it in order to do so, a **soul-binding** test at **Ob** equal to the strength of the soul-binding must be **completely succeeded**. It is possible to lift a soul-binding made by another mage. 
+
+| Level | Name                 | AP | Distance  | Type | Damage | Effect(s)                      |
+| ----- | -------------------- | -- | --------- | ---- | ------ | ------------------------------ |
+| 1+    | Call and Bind a Soul | 3  | 0         | ST   | 0      | Create a soul-binding at the strength of the chosen level. The larger, heavier and more complex a body is, the harder it is to create a binding. Anything larger than, heavier or more complex than a human will make the soul-binding harder. |
+| 1+    | Command Bound Soul   | 1  | N * 6'/3m | ST   | 0      | Resist: **Ob 6-N**, Effect: Issue a single command that the bound soul **must** follow. |
+| 1+    | Break Binding        | 3  | 0         | ST   | 0      | Resist: *strength of the binding*, Effect: Break a soul-binding and send the soul back to the **plane of the dead**, leaving its former body inanimate and soulless. |
+
 
 ### Telekinesis [Int]
 The ability to affect things and even creatures from afar, using magic winds instead of muscles or tools. 
