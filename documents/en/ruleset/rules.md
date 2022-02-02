@@ -146,7 +146,7 @@
       - [History < subject > (Wis)](#history--subject--wis)
       - [Language < language > (Int)](#language--language--int)
       - [Law and politics (Int)](#law-and-politics-int)
-      - [Magic School < School > (Arc)](#magic-school--school--arc)
+      - [Magic School < School > (< Attribute >)](#magic-school--school---attribute-)
       - [Mathematics (Int)](#mathematics-int)
       - [Mechanics (Int)](#mechanics-int)
       - [Nature (Int)](#nature-int)
@@ -173,15 +173,15 @@
       - [Rune Carving (Arc)](#rune-carving-arc)
       - [Weapon smithing (Str)](#weapon-smithing-str)
   - [List of Magic Schools](#list-of-magic-schools)
-    - [Pyromancy](#pyromancy)
-    - [Cryomancy](#cryomancy)
-    - [Restoration](#restoration)
-    - [Alteration](#alteration)
-    - [Illusion](#illusion)
-    - [Soul-Binding](#soul-binding)
-    - [Telekinesis](#telekinesis)
-    - [Telepathy](#telepathy)
-    - [Counter-Magic](#counter-magic)
+    - [Pyromancy [Arc]](#pyromancy-arc)
+    - [Cryomancy [Arc]](#cryomancy-arc)
+    - [Restoration [Emp]](#restoration-emp)
+    - [Alteration [Int]](#alteration-int)
+    - [Illusion [Emp]](#illusion-emp)
+    - [Soul-Binding [Int]](#soul-binding-int)
+    - [Telekinesis [Int]](#telekinesis-int)
+    - [Telepathy [Ora]](#telepathy-ora)
+    - [Counter-Magic [End]](#counter-magic-end)
   - [Weapon Properties](#weapon-properties)
   - [Weapon Types](#weapon-types)
     - [Unarmed](#unarmed)
@@ -1067,7 +1067,7 @@ If the turn is ended with any **AP** unspent, they go towards the character's [m
 A character can move up to **18'/6m** per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **9'/3m**. 
 
 ## How to Attack
-Attacks are made using a [weapon skill](#weapon--weapon-type--str), [magic-school skill](#magic-school--school--arc) or a **skill-ability**. 
+Attacks are made using a [weapon skill](#weapon--weapon-type--str), [magic-school skill](#magic-school--school---attribute-) or a **skill-ability**. 
 
 Defending against [single-target attacks](#single-target-attack) is an automatic reaction. An [opposed test](#opposed-test) must be made. 
 
@@ -1159,7 +1159,7 @@ Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, de
 
 While not all spells can be used offensively, those that can, will inflict [damage](#health--exhaustion), proportional to the [spell's intensity](#spell-intensity) and may cause other effects on those affected by it. 
 
-The effects of a spell do not affect the mage casting the spell, unless they suffer a [spell-backfire](#spell-backfire). 
+The effects of a spell do not affect the mage casting the spell, unless they suffer a [spell-backfire](#spell-backfire) or if it is an [aoe](#area-of-effect-attack) spell. 
 
 ## Magic Stamina
 **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. 
@@ -1174,7 +1174,7 @@ Mechanically speaking, every mage has two values to track: their **maximum magic
 
 For every point past the current threshold that a spell costs, one **D6** must be rolled. If a 1 or a 2 is rolled, the spell [spell-backfires](#spell-backfire), dealing its full damage to the caster, instead. 
 
-How much **magic stamina** a mage has available to them, is derived from their [arcana](#arcana-arc) attribute + the total level of all their known [magic school](#magic-school--school--arc) skill levels, divided by two and rounded up. 
+How much **magic stamina** a mage has available to them, is derived from their [arcana](#arcana-arc) attribute + the total level of all their known [magic school](#magic-school--school---attribute-) skill levels, divided by two and rounded up. 
 
 > If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **counter-magic** at level 5, that means they have (3 + 3 + 2 + 5) / 2 = 7 **magic stamina**. 
 
@@ -1193,11 +1193,11 @@ This means, for every [school of magic](#magic-schools) the mage knows, they may
 ## Spell-Backfire
 A spell-backfire causes a spell to affect the caster, instead of their intended target. 
 
-In case of an [aoe](#area-of-effect-attack) attack spell, anything nearby, in range, also receives the damage, unless if they can [counter-magic](#counter-magic) it.
+In case of an [aoe](#area-of-effect-attack) attack spell, anything nearby the mage, in range, also receives the damage, unless if it can [counter-magic](#counter-magic) it.
 
 The mage suffers the full damage and/or effect of the spell. If anything or anyone nearby is affected, they also suffer the full damage and/or effect of the spell. 
 
-A **spell-backfire** can occur, if a mage is casting a spell that costs more [magic stamina](#magic-stamina) than they have left. 
+A **spell-backfire** can occur, if a mage is casting a spell that costs more [magic stamina](#magic-stamina) than they have left, or if they **completely fail** their test to cast the spell. 
 
 ## Magic Things
 **Ambersteel** takes its name from the in-game material of the same name. As it is a strictly anti-magic material, it should enjoy great attention in any fantasy world, where magic is a real and recognizable force. Where usually, magic is the centerpiece, in **Ambersteel** that isn't quite the case. Magic is powerful and fearsome and thus, if not under control, can threaten to cause great pain and destruction. **Ambersteel** dampens that power and puts shackles on it. 
@@ -1442,8 +1442,8 @@ Speaking and understanding a specific language. The language in question must be
 #### Law and politics (Int)
 The ability to understand laws and politics, as well as the ability to direct politics. 
 
-#### Magic School < School > (Arc)
-Knowledge and experience in a specific [magic school](#magic-schools). 
+#### Magic School < School > (< Attribute >)
+Knowledge and experience in a specific [magic school](#list-of-magic-schools). 
 
 #### Mathematics (Int)
 The ability to work with numbers. Useful for anyone handling large sums of money, but also for engineers and architects. 
@@ -1533,7 +1533,7 @@ If applicable, damage inflicted, exhaustion inflicted and other such effects, wi
 
 The "Type"-field denotes the [attack target type](#attack-targeting) of the spell. This determines how many targets can be hit with a spell. **ST** stands for [single-target attack](#single-target-attack), **MST** stands for *multiple* [single-target attacks](#single-target-attack) and **AOE** stands for [area of effect attack](#area-of-effect-attack).
 
-### Pyromancy
+### Pyromancy [Arc]
 The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light. 
 
 | Level | AP | Distance | Type | Damage | Effect(s)                      |
@@ -1547,7 +1547,7 @@ The summoning and control of fire. The flame being a destructive force, pyromanc
 | 9     | 3  | 30'/10m  | AOE line | **4D6 Burning** | A steady stream of flame shoots from the mages hands, burning anything caught by it, in a straight line. |
 | 10    | 4  | 60'/20m  | AOE 24'/8m radius | **6D6 Burning** | The mage makes fire rain from the sky. This spell lasts two turns in combat or 10 seconds out of combat. |
 
-### Cryomancy
+### Cryomancy [Arc]
 The summoning and control of ice. Cryomancer's can inflict [frostbite](#frostbite) on opponents. They can also freeze things, so they're harder to break. 
 
 | Level | AP | Distance | Type | Damage | Effect(s)                      |
@@ -1558,7 +1558,7 @@ The summoning and control of ice. Cryomancer's can inflict [frostbite](#frostbit
 | 5     | 3  | 15'/5m | ST | **2D4 Freezing** | The mage shoots a fist-sized ice spike from their hand. Anyone hit, will incur 2 points of [frostbite](#frostbite). |
 | 7     | 3  | 15'/5m | AOE 6'/2m radius | **4D4 Freezing** | A spot of the mage's choosing freezes over. Anyone caught within the radius, will be frozen to the spot and thus [rooted](#rooted). They can break free via a successful [strength](#strength-str) test against **Ob 3**. Or wait, until the ice thaws... |
 
-### Restoration
+### Restoration [Emp]
 The mending of injuries and treatment of diseases. 
 
 | Level | AP | Distance | Type | Damage | Effect(s)                      |
@@ -1568,11 +1568,11 @@ The mending of injuries and treatment of diseases.
 | 4     | 2  | 0        | ST   | 0      | A single **Inj.** of choice becomes **treated**. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
 | 5     | 3  | 0        | ST   | 0      | Draw the life from a touched creature of choice. Deals **2DN** points of damage to that creature, where *N* is the chosen [spell intensity](#spell-intensity), while healing another touched creature for the same amount. Transfers 1 point of **bleeding** and/or **poisoned** from the healed creature to the damaged one. |
 
-### Alteration
+### Alteration [Int]
 The alteration of physical things, to change their shape and purpose. 
 TODO
 
-### Illusion
+### Illusion [Emp]
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
 
 They mage can always choose to **either** create an image **or** a sound **or** an odor. How long these illusions last, is determined by the [spell's intensity](#spell-intensity). All of these illusions only apply to those individuals, who are within the given *distance* to the mage and who **fail** a [resist](#resist-will) test, at the given **Ob**. 
@@ -1586,10 +1586,10 @@ They mage can always choose to **either** create an image **or** a sound **or** 
 | 5     | 4  | 96'/32m  | MST  | 0      | Resist: **Ob 5**, Duration: entire combat / 1 hour, Effect: up to 36'³/12m³ sized image / a deafening sound / an overwhelming odor |
 | 7     | 4  | 192'/64m | MST  | 0      | Resist: **Ob 7**, Duration: however long the mage desires, Effect: however large the mage desires image / a deafening sound / an overwhelming odor |
 
-### Soul-Binding
+### Soul-Binding [Int]
 TODO
 
-### Telekinesis
+### Telekinesis [Int]
 The ability to affect things and even creatures from afar, using magic winds instead of muscles or tools. 
 
 The mage can only affect things within and up to the given *distance*. 
@@ -1619,7 +1619,7 @@ In the following, replace *N* with the chosen level above 10.
 | > 10  | 3  | N*3'/Nm  | MST  | **2D10+N** | Move up to three heavy or light objects at once and at extreme velocity, which allows them to deal significant damage upon impact. |
 | > 10  | 4  | N*3'/Nm  | ST   | 0        | Resist: **Ob N**, Effect: Move a single large creature, or smaller. |
 
-### Telepathy
+### Telepathy [Ora]
 The ability to communicate wordlessly, to alter emotions and even issue compelling commands against another's will. 
 
 The mage can only affect those creatures that either don't resist, or which **fail** a [resist](#resist-will) test, at the given **Ob**. 
@@ -1638,7 +1638,7 @@ In the following, replace *N* with the appropriate level.
 | 6     | 3  | 18'/9m   | ST   | 0        | Resist: **Ob 4**, Effect: Issue a command to another creature, which they feel strongly compelled to follow. |
 | 7     | 3  | 36'/18m  | ST   | 0        | Resist: **Ob N-2**, Effect: Issue a command to another creature, which they feel strongly compelled to follow. |
 
-### Counter-Magic
+### Counter-Magic [End]
 The redirection and dissolution of magic flow. This is the skill to use to defend against magic attacks. 
 
 Being a purely defensive skill, **counter-magic** only provides the benefit of easier defense at the higher levels. 
