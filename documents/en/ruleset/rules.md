@@ -215,6 +215,7 @@
   - [List of Injuries](#list-of-injuries)
     - [List of Burn Injuries](#list-of-burn-injuries)
   - [List of Illnesses](#list-of-illnesses)
+  - [List of Mutations](#list-of-mutations)
 
 Version 0.6 "Abyssalite"
 
@@ -1579,9 +1580,18 @@ The mending of injuries and treatment of diseases.
 | 3     | Better Patching Touch| 2  | 0        | ST   | 0      | Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). Up to two [injuries](#injury) of choice are now **patched up**. |
 | 4     | Healing Touch        | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. A single **Inj.** of choice becomes **treated**. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
 | 5+    | Life Leech           | 3  | 0        | ST   | 0      | Resist: **Ob 4**, Effect: Draw the life from a touched creature of choice. Deals **2DN** points of damage to that creature, where *N* is the chosen [spell intensity](#spell-intensity), while healing another touched creature for the same amount. Transfers 1 point of **bleeding** and/or **poisoned** from the healed creature to the damaged one. |
+| 5     | Revert Mutation      | 4  | 0        | ST   | 0      | Resist: **Ob 4**, Effect: Removes one [mutation](#list-of-mutations) of choice from a creature of choice, in hand's reach. |
 
 ### Alteration [Int]
-The alteration of physical things, to change their shape and purpose. 
+The alteration of physical things, to change their shape and purpose, permanently. 
+
+Note that altering the shape of creatures poses a particular challenge. Unless if the test is a **complete success**, the target creature may mutate, horribly. When failing a test, consult the [list of mutations](#list-of-mutations), to determine the type of mutation. 
+
+Creatures can [resist](#resist-will) the change. Inanimate objects don't resist. 
+
+| Level | Name                 | AP | Distance | Type | Damage | Effect(s)                      |
+| ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
+| 1+    | Alter Shape          | 3  | 18'/6m   | ST   | 0      | Resist: **Ob N**, Effect: The object or creature is altered as the mage desires. |
 
 ### Illusion [Emp]
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
@@ -2030,3 +2040,24 @@ How many times an **injury** can be suffered, can be limited. In the table below
 | 80 - 87 | Rot Plague | **4D10** Days | The skin starts developing a nasty rash, before flaking off. Not only unsightly, the bare flesh underneath smells like it's rotting. **-1D3** [endurance](#endurance-end); **-(1D3 + 1)** [toughness](#toughness-tough). | [surgery](#surgery-int); The ill-effects are suspended for 24 hours. |
 | 88 - 94 | Organ Mold | Until cured | Causes an [injury](#injury) every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
 | 95 - 100 | Red Death | Until cured | The victim starts bleeding from all of their orifices, with no end in sight. Causes 1 **bleeding** every day it is active. | [surgery](#surgery-int); The illness is removed within a day. |
+
+## List of Mutations
+One should always keep in mind that despite the game mechanical effects of a mutation, the appearance of an affected individual will also be severly altered. Other characters and creatures may react with disgust, fear, disdain, pity, and so on. 
+
+| Range D100 | Name                   | Effect                            |
+| ---------- | ---------------------- | --------------------------------- |
+| 0 - 2      | Cosmic Fortune         | Suffer no mutation! |
+| 3 - 9      | Deformed Arm           | The arm deforms and bends in ways it was never meant to. -1 [Agility](#agility-agi) -1 [Strength](#strength-str) |
+| 10 - 16    | Grotesque Claws        | The entire lower arm morphs into three large claws. Unable to hold *anything* with that arm, but able to perform claw attacks that deal **3D6** **slashing** damage. |
+| 17 - 23    | Deformed Leg           | The leg deforms and bends in ways it was never meant to. -1 [Agility](#agility-agi) -1 [Endurance](#endurance-end) |
+| 24 - 30    | Deformed Face          | A morphed visage, forever stuck in agony, horror and anger. -2 [Oratory](#oratory-ora) |
+| 31 - 37    | Internal Changes       | Something deep within isn't quite right. -1 [Endurance](#endurance-end) -1 [Toughness](#toughness-tough) |
+| 38 - 44    | Bulbous Head           | Part of the cranium grows tumurously. The brain is weighed down and slowed down. -1 [Intelligence](#intelligence-int) -1 [Wisdom](#wisdom-wis) |
+| 45 - 51    | Animal Ears            | The ears morph into something resembling animal ears (or another animal's ears). Despite the obvious reason for ridicule, there are no penalties. +1 [Perception](#perception-perc) (hearing). |
+| 52 - 58    | Animal Tail            | A tail sprouts where there was perhaps never meant to be one. Or an additional tail sprouts. Despite the obvious reason for ridicule, there are no penalties. +1 [Agility](#agility-agi) (when balancing one's weight) |
+| 59 - 65    | Atrophy                | The muscles deflate and unnatural weakness takes hold. -2 [Strength](#strength-str) |
+| 66 - 72    | Blackened Nails        | Every finger and toe nail turns a sickly black. That's it. |
+| 73 - 79    | Hairless               | Every single hair falls from the body. A terminal case of baldness ensues. |
+| 80 - 86    | Special Needs Eyes     | The eyes turn a deep red and go cross-eyed. -1 [Perception](#perception-perc) (seeing) |
+| 87 - 93    | Fetid Stench           | Whether from the mouth, or in general, a fetid stench emanates from the body, even assaulting the victim's own nose. -2 [Oratory](#oratory-ora) |
+| 94 - 100   | Living Cadaver         | The body withers and pales. It is as if it had just risen from the grave. -2 [Oratory](#oratory-ora). |
