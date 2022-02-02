@@ -51,6 +51,7 @@
       - [Dazed](#dazed)
       - [Unconscious](#unconscious)
       - [Grappled](#grappled)
+      - [Hasted](#hasted)
       - [Death's Door](#deaths-door)
       - [Frostbite](#frostbite)
       - [Rooted](#rooted)
@@ -675,6 +676,13 @@ Someone *knocked* **unconscious** can't awaken due to external stimuli and have 
 
 #### Grappled
 A **grappled** character is unable to move and suffers -1 [melee defence](#melee-defence-agi), for as long as they are **grappled**. A **grappled** character can break free, by **completely succeeding** a [strength](#strength-str) test against the other character grappling them. 
+
+#### Hasted
+A **hasted** character enjoys several benefits.
+
+During combat, the character has an additional **AP** to spend and an additional 9'/3m of movement per **AP**. 
+
+Out of combat, the character enjoys greater speed of movement. 
 
 #### Death's Door
 **Death's door** is a state only a **PC** can enter and represents their final battle with death. 
@@ -1374,20 +1382,19 @@ Gaining an animal's trust, directing and commanding it, as well as training it t
 
 Is opposed by [resist](#resist-will). 
 
-| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 3     | Calm Animal          | 2  | 0      | Calm an aggressive/hostile animal down.  | Once per rest. |
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 2     | Calm Animal          | 2  | Opposed | Calm an aggressive/hostile/frightened animal down. | Once per rest. |
+| 3     | Command Animal       | 2  | Opposed | Issue a *simple* command to a tamed/friendly animal. | Once per rest. |
 
 #### Commanding (Will)
 Speaking commands others will respect and follow to the letter. 
 
-Is opposed by [resist](#resist-will). 
-
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 3     | War Cry              | 1 | 2 | All allies who can hear it, gain **+1D** on their next attack test. | Ally can hear the command. |
+| 3     | War Cry                | 1 | 2 | All allies who can hear it, gain **+1D** on their next attack test. | Ally can hear the command. |
 | 5     | Unquestionable Command | 2 | 3 | An ally of choice, gains **+2D** on their next test. | Ally can hear the command. |
-| 6     | Spur                 | 2 | 4 | An ally of choice, gains +1 **AP**. | Ally in combat; Ally can hear the command. |
+| 6     | Spur                   | 2 | 4 | An ally of choice, is [hastened](#hasted) for one turn of combat, or five seconds out of combat. | Ally can hear the command. |
 
 #### Deception (Ora)
 Telling lies, acting in a way so as to deceive another character into believing something untruthful. 
@@ -1400,10 +1407,13 @@ Intimidating another character into doing something.
 This should also in large part be based on appearance, strength and reputation. 
 
 Is opposed by [resist](#resist-will). 
-
-| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 2     | Taunt                | 1  | Opposed| If you succeed an **intimidation test** against a designated enemy's [resist](#resist-will), lower their defences by **-1D**. | Once per enemy. |
+ 
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 1     | Draw Attention       | 1  | Opposed | Force all creatures within 18'/6m distance to focus on you, instead. | Once per combat. |
+| 2     | Taunt                | 1  | Opposed | Lower a designated creature's defence by **-1D**. | Once per enemy. |
+| 3     | Vicious Mockery      | 1  | Opposed | Lower a designated creature's defence by **-3D**. | Once per combat. |
+| 4     | War Cry              | 1  | Opposed | Lower the defence of all creatures within 18'/6m distance by **-2D**. | Once per combat. |
 
 #### Persuasion (Emp)
 Persuading another character to think differently about something. 
@@ -1634,6 +1644,7 @@ In the following, replace *N* with the appropriate level.
 | 3     | 2  | 36'/18m  | ST   | 0        | Resist: **Ob 2**, Effect: Alter a creature's current state of mind and emotion. |
 | 4+    | 2  | 72'/36m  | MST  | 0        | Resist: **Ob N**, Effect: Communicate wordlessly with as many creatures as the mage chooses. |
 | 4     | 2  | 36'/18m  | ST   | 0        | Resist: **Ob 4**, Effect: Alter a creature's current state of mind and emotion. |
+| 4     | 3  | 36'/18m  | ST   | 0        | Effect: [Hasten](#hasted) a creature of choice for two turns of combat or 10 seconds out of combat. |
 | 5+    | 2  | 36'/18m  | ST   | 0        | Resist: **Ob N**, Effect: Alter a creature's current state of mind and emotion. |
 | 6     | 3  | 18'/9m   | ST   | 0        | Resist: **Ob 4**, Effect: Issue a command to another creature, which they feel strongly compelled to follow. |
 | 7     | 3  | 36'/18m  | ST   | 0        | Resist: **Ob N-2**, Effect: Issue a command to another creature, which they feel strongly compelled to follow. |
