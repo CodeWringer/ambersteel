@@ -1546,55 +1546,56 @@ The "Type"-field denotes the [attack target type](#attack-targeting) of the spel
 ### Pyromancy [Arc]
 The summoning and control of fire. The flame being a destructive force, pyromancers enjoy little utility from their magic, beyond the ability to create light. 
 
-| Level | AP | Distance | Type | Damage | Effect(s)                      |
-| ----- | -- | -------- | ---- | ------ | ------------------------------ |
-| 1     | 1  | 0        | ST   | **2 Burning** | A small, controlled flame erupts and stays in the mage's hand, inflicting mild burn damage on touch. Alternatively, a small flame (like a candle flame) in immediate proximity of the mage is extinguished. |
-| 1     | 2  | 0        | ST   | **1D6 Burning** | The mage's hand is surrounded by fire, inflicting serious burns on touch. |
-| 3     | 2  | 15'/5m   | ST   | **2D6 Burning** | The mage hurls a fist-sized ball of fire at a target. |
-| 4     | 3  | 9'/3m    | MST  | **3D4 Burning** | The mage shoots a burst of fire in a short cone in front of them, hitting up to two adjacent targets. |
-| 5     | 2  | 24'/8m   | AOE 6'/2m radius | **3D6 Burning** | The mage forms a large ball of flame between their hands, ready to be flung at a target location. |
-| 7     | 3  | 30'/10m  | AOE 6'/2m radius | **3D6+2 Burning** | The mage lets a column of flame erupt from the ground at a target location. |
-| 9     | 3  | 30'/10m  | AOE line | **4D6 Burning** | A steady stream of flame shoots from the mages hands, burning anything caught by it, in a straight line. |
-| 10    | 4  | 60'/20m  | AOE 24'/8m radius | **6D6 Burning** | The mage makes fire rain from the sky. This spell lasts two turns in combat or 10 seconds out of combat. |
+| Level | Name                 | AP | Distance | Type | Damage | Effect(s)                      |
+| ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
+| 1     | Candle Flame         | 1  | 0        | ST   | **2 Burning** | A small, controlled flame erupts and stays in the mage's hand, inflicting mild burn damage on touch. Alternatively, a small flame (like a candle flame) in immediate proximity of the mage is extinguished. |
+| 1     | Burning Hand         | 2  | 0        | ST   | **1D6 Burning** | The mage's hand is surrounded by fire, inflicting serious burns on touch. |
+| 3     | Fire Ball            | 2  | 15'/5m   | ST   | **2D6 Burning** | The mage hurls a fist-sized ball of fire at a target. |
+| 4     | Cone of Fire         | 3  | 9'/3m    | MST  | **3D4 Burning** | The mage shoots a burst of fire in a short cone in front of them, hitting up to two adjacent targets. |
+| 5     | Large Fire Ball      | 2  | 24'/8m   | AOE 6'/2m radius | **3D6 Burning** | The mage forms a large ball of flame between their hands, ready to be flung at a target location. |
+| 7     | Column of Flame      | 3  | 30'/10m  | AOE 6'/2m radius | **3D6+2 Burning** | The mage lets a column of flame erupt from the ground at a target location. |
+| 9     | Flame Jet            | 3  | 30'/10m  | AOE line | **4D6 Burning** | A steady stream of flame shoots from the mages hands, burning anything caught by it, in a straight line. |
+| 10    | Rain of Fire         | 4  | 60'/20m  | AOE 24'/8m radius | **6D6 Burning** | The mage makes fire rain from the sky. This spell lasts two turns in combat or 10 seconds out of combat. |
 
 ### Cryomancy [Arc]
 The summoning and control of ice. Cryomancer's can inflict [frostbite](#frostbite) on opponents. They can also freeze things, so they're harder to break. 
 
-| Level | AP | Distance | Type | Damage | Effect(s)                      |
-| ----- | -- | -------- | ---- | ------ | ------------------------------ |
-| 1     | 2  | 0 | ST | **1 Freezing** | A fist-sized spot on whatever the mage's hand touches, freezes over. This is only a surface-level freeze! It does not run deep. |
-| 3     | 2  | 15'/5m | ST | **1D4 Freezing** | The mage shoots a finger-sized ice spike from their hand. Anyone hit, will incur 1 point of [frostbite](#frostbite). |
-| 4     | 3  | 0 | ST | **1D10 Freezing** | A man-sized area of whatever the mage's hand is touching freezes over. The frost even penetrates and runs deep. Anyone hit, will incur 2 points of [frostbite](#frostbite). |
-| 5     | 3  | 15'/5m | ST | **2D4 Freezing** | The mage shoots a fist-sized ice spike from their hand. Anyone hit, will incur 2 points of [frostbite](#frostbite). |
-| 7     | 3  | 15'/5m | AOE 6'/2m radius | **4D4 Freezing** | A spot of the mage's choosing freezes over. Anyone caught within the radius, will be frozen to the spot and thus [rooted](#rooted). They can break free via a successful [strength](#strength-str) test against **Ob 3**. Or wait, until the ice thaws... |
+| Level | Name                 | AP | Distance | Type | Damage | Effect(s)                      |
+| ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
+| 1     | Freezing Touch       | 2  | 0 | ST | **1 Freezing** | A fist-sized spot on whatever the mage's hand touches, freezes over. This is only a surface-level freeze! It does not run deep. |
+| 3     | Cold Finger Gun      | 2  | 15'/5m | ST | **1D4 Freezing** | The mage shoots a finger-sized ice spike from their hand. Anyone hit, will incur 1 point of [frostbite](#frostbite). |
+| 4     | Deep Freeze          | 3  | 0 | ST | **1D10 Freezing** | A man-sized area of whatever the mage's hand is touching freezes over. The frost even penetrates and runs deep. Anyone hit, will incur 2 points of [frostbite](#frostbite). |
+| 5     | Ice Spike            | 3  | 15'/5m | ST | **2D4 Freezing** | The mage shoots a fist-sized ice spike from their hand. Anyone hit, will incur 2 points of [frostbite](#frostbite). |
+| 7     | Rooting Freeze       | 3  | 15'/5m | AOE 6'/2m radius | **4D4 Freezing** | A spot of the mage's choosing freezes over. Anyone caught within the radius, will be frozen to the spot and thus [rooted](#rooted). They can break free via a successful [strength](#strength-str) test against **Ob 3**. Or wait, until the ice thaws... |
 
 ### Restoration [Emp]
 The mending of injuries and treatment of diseases. 
 
-| Level | AP | Distance | Type | Damage | Effect(s)                      |
-| ----- | -- | -------- | ---- | ------ | ------------------------------ |
-| 1     | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. Removes [bleeding](#bleeding). One [injury](#injury) of choice is now **patched up**. Restores missing HP. |
-| 3     | 2  | 0        | ST   | 0      | Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). Up to two [injuries](#injury) of choice are now **patched up**. |
-| 4     | 2  | 0        | ST   | 0      | A single **Inj.** of choice becomes **treated**. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
-| 5     | 3  | 0        | ST   | 0      | Draw the life from a touched creature of choice. Deals **2DN** points of damage to that creature, where *N* is the chosen [spell intensity](#spell-intensity), while healing another touched creature for the same amount. Transfers 1 point of **bleeding** and/or **poisoned** from the healed creature to the damaged one. |
+**Life leech** can be opposed by [resist](#resist-will). 
+
+| Level | Name                 | AP | Distance | Type | Damage | Effect(s)                      |
+| ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
+| 1     | Patching Touch       | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. Removes [bleeding](#bleeding). One [injury](#injury) of choice is now **patched up**. Restores missing HP. |
+| 3     | Better Patching Touch| 2  | 0        | ST   | 0      | Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). Up to two [injuries](#injury) of choice are now **patched up**. |
+| 4     | Healing Touch        | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. A single **Inj.** of choice becomes **treated**. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
+| 5+    | Life Leech           | 3  | 0        | ST   | 0      | Resist: **Ob 4**, Effect: Draw the life from a touched creature of choice. Deals **2DN** points of damage to that creature, where *N* is the chosen [spell intensity](#spell-intensity), while healing another touched creature for the same amount. Transfers 1 point of **bleeding** and/or **poisoned** from the healed creature to the damaged one. |
 
 ### Alteration [Int]
 The alteration of physical things, to change their shape and purpose. 
-TODO
 
 ### Illusion [Emp]
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
 
 They mage can always choose to **either** create an image **or** a sound **or** an odor. How long these illusions last, is determined by the [spell's intensity](#spell-intensity). All of these illusions only apply to those individuals, who are within the given *distance* to the mage and who **fail** a [resist](#resist-will) test, at the given **Ob**. 
 
-| Level | AP | Distance | Type | Damage | Effect(s)                      |
-| ----- | -- | -------- | ---- | ------ | ------------------------------ |
-| 1     | 2  | 6'/2m    | MST  | 0      | Resist: **Ob 1**, Duration: 3 turns / 15 seconds, Effect: a hand-sized image / a quiet, but audible sound, a weak odor |
-| 2     | 2  | 12'/4m   | MST  | 0      | Resist: **Ob 2**, Duration: 6 turns / 30 seconds, Effect: a person-sized image / a significant sound a noticeable odor |
-| 3     | 2  | 24'/8m   | MST  | 0      | Resist: **Ob 3**, Duration: entire combat / 1 minute, Effect: up to 9'³/3m³ sized image / a very loud sound / a strong odor |
-| 4     | 3  | 48'/16m  | MST  | 0      | Resist: **Ob 4**, Duration: entire combat / 10 minutes, Effect: up to 18'³/6m³ sized image / a deafening sound / an overwhelming odor |
-| 5     | 4  | 96'/32m  | MST  | 0      | Resist: **Ob 5**, Duration: entire combat / 1 hour, Effect: up to 36'³/12m³ sized image / a deafening sound / an overwhelming odor |
-| 7     | 4  | 192'/64m | MST  | 0      | Resist: **Ob 7**, Duration: however long the mage desires, Effect: however large the mage desires image / a deafening sound / an overwhelming odor |
+| Level | Name                 | AP | Distance | Type | Damage | Effect(s)                      |
+| ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
+| 1     | Weak Illusion        | 2  | 6'/2m    | MST  | 0      | Resist: **Ob 1**, Duration: 3 turns / 15 seconds, Effect: a hand-sized image / a quiet, but audible sound, a weak odor |
+| 2     | Significant Illusion | 2  | 12'/4m   | MST  | 0      | Resist: **Ob 2**, Duration: 6 turns / 30 seconds, Effect: a person-sized image / a significant sound a noticeable odor |
+| 3     | Strong Illusion      | 2  | 24'/8m   | MST  | 0      | Resist: **Ob 3**, Duration: entire combat / 1 minute, Effect: up to 9'³/3m³ sized image / a very loud sound / a strong odor |
+| 4     | Overwhelming Illusion| 3  | 48'/16m  | MST  | 0      | Resist: **Ob 4**, Duration: entire combat / 10 minutes, Effect: up to 18'³/6m³ sized image / a deafening sound / an overwhelming odor |
+| 5     | Bewitching Illusion  | 4  | 96'/32m  | MST  | 0      | Resist: **Ob 5**, Duration: entire combat / 1 hour, Effect: up to 36'³/12m³ sized image / a deafening sound / an overwhelming odor |
+| 7     | Living a Dream       | 4  | 192'/64m | MST  | 0      | Resist: **Ob 7**, Duration: however long the mage desires, Effect: however large the mage desires image / a deafening sound / an overwhelming odor |
 
 ### Soul-Binding [Int]
 TODO
@@ -1612,22 +1613,15 @@ The mage can only ever perform *one* movement with a spell cast. So, for example
 
 In the following, replace *N* with the chosen level above 10. 
 
-| Level | AP | Distance | Type | Damage | Effect(s)                      |
-| ----- | -- | -------- | ---- | ------ | ------------------------------ |
-| 1     | 2  | 9'/3m    | ST   | 0        | Move a light object. It can only be moved slowly, not allowing its use as a projectile. |
-| 2     | 2  | 12'/4m   | ST   | **1D4**  | Move a light object at great velocity, which allows it to deal some damage upon impact.  |
-| 3     | 2  | 18'/6m   | ST   | 0        | Move a heavy object. It can only be moved slowly, not allowing its use as a projectile. |
-| 4     | 2  | 24'/8m   | ST   | **2D6**  | Move a heavy object at great velocity, which allows it to deal damage upon impact.  |
-| 5     | 3  | 30'/10m  | MST  | **1D4**  | Move up to three light objects at once and at great velocity, which allows them to deal damage upon impact.  |
-| 5     | 3  | 30'/10m  | MST  | **1D4**  | Move up to two heavy objects at once and at great velocity, which allows them to deal damage upon impact.  |
-| 6     | 3  | 42'/14m  | ST   | **2D8**  | Move a single heavy object, at extreme velocity, which allows it to deal significant damage upon impact.  |
-| 7     | 4  | 24'/8m   | ST   | 0        | Move a single creature that is about man-sized, or smaller. |
-| 7     | 4  | 24'/8m   | MST  | **2D10** | Move up to three heavy or light objects at once and at extreme velocity, which allows them to deal significant damage upon impact. |
-| 8     | 4  | 24'/8m   | ST   | 0        | Resist: **Ob 3**, Effect: Move a single creature that is about man-sized, or smaller. |
-| 9     | 4  | 30'/10m  | ST   | 0        | Resist: **Ob 5**, Effect: Move a single creature that is about twice the size of a man, or smaller. |
-| 10    | 4  | 24'/8m   | ST   | 0        | Resist: **Ob 7**, Effect: Move a single large creature, or smaller. |
-| > 10  | 3  | N*3'/Nm  | MST  | **2D10+N** | Move up to three heavy or light objects at once and at extreme velocity, which allows them to deal significant damage upon impact. |
-| > 10  | 4  | N*3'/Nm  | ST   | 0        | Resist: **Ob N**, Effect: Move a single large creature, or smaller. |
+| Level | Name                   | AP | Distance | Type | Damage | Effect(s)                      |
+| ----- | ---------------------- | -- | -------- | ---- | ------ | ------------------------------ |
+| 1     | Telekinesis 1          | 2  | N * 9'/3m    | ST   | 0        | Move a light object. It can only be moved slowly, not allowing its use as a projectile. |
+| 2+    | Telekinesis 2          | 2  | N * 12'/4m   | ST   | **(N-1)D4** | Move a light object at great velocity, which allows it to deal damage upon impact.  |
+| 3     | Heavy Telekinesis 1    | 3  | N * 18'/6m   | ST   | 0        | Move a heavy object. It can only be moved slowly, not allowing its use as a projectile. |
+| 4+    | Heavy Telekinesis 2    | 3  | N * 24'/8m   | ST   | **(N-2)D6** | Move a heavy object at great velocity, which allows it to deal damage upon impact.  |
+| 7     | Creature Telekinesis 1 | 4  | 24'/8m       | ST   | 0        | Resist: **Ob 3**, Effect: Move a single creature that is about man-sized, or smaller. |
+| 8     | Creature Telekinesis 2 | 4  | 30'/10m      | ST   | 0        | Resist: **Ob 5**, Effect: Move a single creature that is about twice the size of a man, or smaller. |
+| 10+   | Creature Telekinesis 3 | 4  | N * 3'/1m    | ST   | 0        | Resist: **Ob N-3**, Effect: Move a single large creature, or smaller. |
 
 ### Telepathy [Ora]
 The ability to communicate wordlessly, to alter emotions and even issue compelling commands against another's will. 
@@ -1636,18 +1630,12 @@ The mage can only affect those creatures that either don't resist, or which **fa
 
 In the following, replace *N* with the appropriate level. 
 
-| Level | AP | Distance | Type | Damage | Effect(s)                      |
-| ----- | -- | -------- | ---- | ------ | ------------------------------ |
-| 1     | 2  | 9'/3m    | ST   | 0        | Resist: **Ob 2**, Effect: Communicate wordlessly with a creature of choice. |
-| 2     | 2  | 18'/6m   | MST  | 0        | Resist: **Ob 3**, Effect: Communicate wordlessly with up to two creatures of choice. |
-| 3     | 2  | 36'/18m  | MST  | 0        | Resist: **Ob 4**, Effect: Communicate wordlessly with up to three creatures of choice. |
-| 3     | 2  | 36'/18m  | ST   | 0        | Resist: **Ob 2**, Effect: Alter a creature's current state of mind and emotion. |
-| 4+    | 2  | 72'/36m  | MST  | 0        | Resist: **Ob N**, Effect: Communicate wordlessly with as many creatures as the mage chooses. |
-| 4     | 2  | 36'/18m  | ST   | 0        | Resist: **Ob 4**, Effect: Alter a creature's current state of mind and emotion. |
-| 4     | 3  | 36'/18m  | ST   | 0        | Effect: [Hasten](#hasted) a creature of choice for two turns of combat or 10 seconds out of combat. |
-| 5+    | 2  | 36'/18m  | ST   | 0        | Resist: **Ob N**, Effect: Alter a creature's current state of mind and emotion. |
-| 6     | 3  | 18'/9m   | ST   | 0        | Resist: **Ob 4**, Effect: Issue a command to another creature, which they feel strongly compelled to follow. |
-| 7     | 3  | 36'/18m  | ST   | 0        | Resist: **Ob N-2**, Effect: Issue a command to another creature, which they feel strongly compelled to follow. |
+| Level | Name                 | AP | Distance | Type | Damage | Effect(s)                      |
+| ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
+| 1+    | Wordless Communication | 2  | N * 12'/4m | MST  | 0      | Resist: **Ob N**, Effect: Communicate wordlessly with *N* number of creatures. |
+| 3+    | Change a Mind          | 2  | N * 12'/4m | ST   | 0      | Resist: **Ob N**, Effect: Alter a creature's current state of mind and emotion. |
+| 4     | Pressing Thought       | 3  | 36'/18m    | ST   | 0      | Effect: [Hasten](#hasted) a creature of choice for two turns of combat or 10 seconds out of combat. |
+| 6     | Quiet Command          | 3  | N * 12'/4m | ST   | 0      | Resist: **Ob N-2**, Effect: Issue a command to another creature, which they feel strongly compelled to follow. |
 
 ### Counter-Magic [End]
 The redirection and dissolution of magic flow. This is the skill to use to defend against magic attacks. 
