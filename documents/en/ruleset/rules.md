@@ -1610,16 +1610,22 @@ They mage can always choose to **either** create an image **or** a sound **or** 
 ### Soul-Binding [Int]
 Also referred to as **necromancy**, this is the art and skill of calling souls from the **plane of the dead** and binding them, to reanimate corpses or animate an otherwise unliving body. 
 
+In order to bind a soul, a **soul-seal** is required. This seal has to take the form of a pentagram. The medium doesn't matter, although if the seal is destroyed, the soul binding is broken. So, if a mage wants to create a lasting soul-binding, an enduring medium for the seal is advisable. 
+
 A mage can only ever issue commands to a soul that they've bound. It is not possible to command souls bound by other mages. 
 
-A soul-binding can be lifted, but it in order to do so, a **soul-binding** test at **Ob** equal to the strength of the soul-binding must be **completely succeeded**. It is possible to lift a soul-binding made by another mage. 
+A **soul-binding** can be broken, but it in order to do so, a **soul-binding** test at **Ob** equal to the strength of the **soul-binding** must be **completely succeeded**. It is possible to lift a **soul-binding** made by another mage. 
+
+An important note about **completely failing** a **soul-binding** attempt - a **complete failure** results in the spell-backfiring and displacing the mage's soul with the one they were trying to bind. Their soul is essentially evicted from their own body and sent to the **plane of the dead**. The soul they tried to bind then takes over their body. 
+
+Another important note about targeting a specific soul. It is easier to recall the soul that previously inhabited a body, the shorter the time of death has been. However, targeting a specific soul is an immensely difficult undertaking and shouldn't be taken lightly. For every hour past the original time of death, the difficulty of recalling the soul increases by **1 Ob**. 
 
 | Level | Name                 | AP | Distance  | Type | Damage | Effect(s)                      |
 | ----- | -------------------- | -- | --------- | ---- | ------ | ------------------------------ |
-| 1+    | Call and Bind a Soul | 3  | 0         | ST   | 0      | Create a soul-binding at the strength of the chosen level. The larger, heavier and more complex a body is, the harder it is to create a binding. Anything larger than, heavier or more complex than a human will make the soul-binding harder. |
+| 1+    | Call and Bind a Soul | 3  | 0         | ST   | 0      | Create a **soul-binding** at the strength of the chosen level. The larger, heavier and more complex a body is, the harder it is to create a binding. Anything larger than, heavier or more complex than a human will make the **soul-binding** harder. Requires a **soul-seal**. Replacing an existing binding is only possible, if the prior **soul-binding** is first broken.  |
 | 1+    | Command Bound Soul   | 1  | N * 6'/3m | ST   | 0      | Resist: **Ob 6-N**, Effect: Issue a single command that the bound soul **must** follow. |
-| 1+    | Break Binding        | 3  | 0         | ST   | 0      | Resist: *strength of the binding*, Effect: Break a soul-binding and send the soul back to the **plane of the dead**, leaving its former body inanimate and soulless. |
-
+| 1+    | Break Binding        | 3  | 0         | ST   | 0      | Resist: *strength of the binding*, Effect: Break a **soul-binding** and send the soul back to the **plane of the dead**, leaving its former body inanimate and soulless. |
+| 5+    | Call back a Soul     | 3  | 0         | ST   | 0      | Difficulty: **Ob 12-N** Target a specific soul and recall them into their prior body. This isn't, strictly speaking, the same as binding a soul. |
 
 ### Telekinesis [Int]
 The ability to affect things and even creatures from afar, using magic winds instead of muscles or tools. 
