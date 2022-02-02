@@ -52,17 +52,19 @@ More often than not, players would be on the look-out for anything out of the or
 Of course, sometimes, describing a peaceful and soothing scene can be a welcome and effective change. After a harrowing fight, the **PC**s might enter a safe area, where you describe it as a peaceful meadow or serene village or anything along those lines. 
 
 ### Your Game
-There is an *unspoken social contract* between you, the **GM** and your players. Everyone at the table agrees that you get to call the shots. You present every scenario and the challenges that go with it. The players have to come up with the answers and solutions. 
+There is an *unspoken social contract* between you, the **GM** and your players. Everyone at the table agrees that you *get to call the shots*. You present every scenario and its challenges, you arbitrate and moderate. You narrate and you listen. 
 
-The rules are also in your hands. If you find one of the **Ambersteel** rules to not be to your liking or simply not work in your game, change it, so that it fits your game. This is called *house-ruling* - introducing unofficial rules that are only in effect at your table. 
+It is not, however, your job to think of possible solutions to the challenges you invent. *That*, is the *players' job*. It is also not your job to come up with PC reactions, emotions, thoughts, etc. That is also the players' job. 
 
-Keep in mind that with this authority, also comes responsibility. It is your task, to entertain your players. Not like a comedian or a singer, but something more varied and complex than that. You agree to keep your players interested and engaged in your game. You agree to weave their characters into stories of which you'll have no idea where they'll go. 
+The rules are also in your hands. If you find one of the **Ambersteel** rules to not be to your liking or simply not work in your game, change it, so that it fits your game. This is called *house-ruling* - introducing unofficial rules that are only in effect at your table. In fact, you're hereby strongly encouraged to modify and add to the rules, as you see fit. Especially the list of skills or magic schools is non-exhaustive, meaning, there is a very high chance one of your players will want their character to do something, for which there isn't a skill defined, yet. You can even allow your players to invent skills and skill abilities. That way, not *all* of the work lies on you, but be mindful that you'll have to ensure the skills and abilities *make sense* and don't result in a character *suddenly* becoming an invulnerable power-house. 
 
-And you agree to mediate and moderate. When players fight, in-person, then there may be a time when you, as the one running the game have to step in and find a resolution. Either you can find a way for them to reconcile, or someone may have to leave the game. 
+Keep in mind that with the **authority** to *make decisions*, also comes a certain **responsibility**. It is your task, to entertain your players. Not like a comedian or a singer, but something more varied and complex than that. You agree to keep your players **interested and engaged** in your game. You agree to weave their characters into stories of which you may have no idea how they'll play out. 
 
-When players keep talking over each other, it is your responsibility to moderate. Have them take turns when speaking. Make sure everyone who has something to say, gets to. 
+And you agree to **mediate and moderate**. When players fight, in-person, then there may be a time when you, as the one running the game have to step in and find a resolution. Either you can find a way for them to reconcile, or someone may have to leave the game. When players keep talking over each other, it is your responsibility to moderate. Have them take turns when speaking. Make sure everyone who has something to say, gets to. 
 
 Even if all of these and the following points may sound very dogmatic, see them more as well-intentioned advice, than hard rules for you to follow. Find your style and develop it as you like. 
+
+Of course, the specifics of the *unspoken social contract* can be different for you and your group. But perhaps the social contract doesn't *have* to remain unspoken. It might be a good idea to ensure everyone is on the same page, in regards to what is expected of **GM** and players.
 
 #### To Rule or Not To Rule
 The rules serve to facilitate the resolution of uncertain outcomes, to add tension and drama and introduce challenges for the players to deal with. 
