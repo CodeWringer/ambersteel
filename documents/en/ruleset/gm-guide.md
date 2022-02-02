@@ -1,6 +1,40 @@
 # GM's Guide
 This document is directed at (and somewhat reserved for) the Game Master (**GM**) - the one person at the table who everyone agrees has the **authority** and **burden** to run the game. 
 
+## Table of Contents <!-- omit in toc -->
+- [GM's Guide](#gms-guide)
+  - [The Role Of A Game Master](#the-role-of-a-game-master)
+    - [Your World](#your-world)
+      - [Bring NPCs To Life](#bring-npcs-to-life)
+      - [Use The Senses](#use-the-senses)
+    - [Your Game](#your-game)
+      - [To Rule or Not To Rule](#to-rule-or-not-to-rule)
+    - [Your Players](#your-players)
+  - [How To Master Your Game](#how-to-master-your-game)
+    - [Starting Your Session](#starting-your-session)
+      - [Recap The Last Session](#recap-the-last-session)
+      - [Read Out Ambitions, Beliefs & Instincts](#read-out-ambitions-beliefs--instincts)
+      - [Read Out Fate Point Purchases](#read-out-fate-point-purchases)
+    - [Your Session](#your-session)
+      - [Choosing **Ob**](#choosing-ob)
+      - [Challenging Your Players](#challenging-your-players)
+        - [**Challenge your PCs' abilities during combat**](#challenge-your-pcs-abilities-during-combat)
+        - [**Challenge your PCs' abilities out of combat**](#challenge-your-pcs-abilities-out-of-combat)
+        - [**Fewer Tests Are Better**](#fewer-tests-are-better)
+        - [**Limit Resources**](#limit-resources)
+        - [**Challenge Your PCs' Beliefs**](#challenge-your-pcs-beliefs)
+        - [**Anchor Your PCs Down**](#anchor-your-pcs-down)
+        - [**Threaten Your PCs**](#threaten-your-pcs)
+        - [**Allow World-Change**](#allow-world-change)
+      - [Keep Them Engaged](#keep-them-engaged)
+        - [Keep That Spotlight On a Swivel](#keep-that-spotlight-on-a-swivel)
+        - [Player Agency](#player-agency)
+        - [Rewards!](#rewards)
+        - [Fair Warning](#fair-warning)
+    - [Ending Your Session](#ending-your-session)
+      - [Hand Out Fate Points](#hand-out-fate-points)
+      - [Gather Feedback](#gather-feedback)
+
 ## The Role Of A Game Master
 As the **GM**, you are the one person at the table playing a different game than the others. Instead of controlling a single character in a given world, you control the entire world and determine what the characters within it get to do. 
 
