@@ -19,24 +19,26 @@ Technology is quite far ahead of most other nations. A ship of iron was recently
 ## City- and Landscape
 Projskian cities represent the projskian spirit, with many closely packed and orderly blocks of multi-storied buildings, separated by large, cobbled roads and broken up by clean, circular plazas. 
 
-Bordering several blocks are frequent large plazas, often times with a central fountain, occasional flower pots and beds and caged trees, benches and space for market stalls. 
+Frequently bordering on blocks are large plazas. These often have a central fountain, orderly rows of flower pots and beds and caged trees. There are benches and plenty of space for market stalls. 
 
 Many inner walls separate the older cities into large sections, indicating a city's age and expansion over time. Although the inner gates are rarely ever closed, when needed to, they can serve to isolate city districts from each other. This usually only happens to contain pestilence or prevent a fugitive's escape. 
 
-Projskian buildings are often times white-washed and painted over, or just left plain, showing the bright stone that is often used in construction. Large windows are flanked by finely decorated balconies and many smaller statues and sculptures boast of the wealth of their owner to any passer-by. 
+The large plazas themselves are often bordered by many settled-down traders, where one can find almost anything for sale, that isn't illegal. There are also occasional markets being held, when the caravans of travelling merchants stop by to offer their wares. Open markets are more of a rarity inside the larger urban centers, whereas they can be taken for granted in most smaller towns. 
 
-Especially bordering the large plazas are many settled-down traders, where one can find almost anything for sale, that isn't illegal. There are also occasional markets being held, when the caravans of travelling merchants stop by to offer their wares. Open markets are more of a rarity inside the larger urban centers, whereas they can be taken for granted in most smaller towns. 
+Projskian buildings are often times white-washed and painted over, or just left plain, showing the bright stone that is often used in construction. Large windows are flanked by finely decorated balconies and many smaller statues and sculptures boast of the wealth of their owner to any passer-by. The windows themselves are a further boast of wealth and status, as they're often fairly large and sometimes made of colored glass. 
 
-Most projskian cities are equipped with a well-developed canalisation, which carries most filth outside the city walls. This leads to most projskian cities smelling far less than their southern counter-parts, but also provides the city with another set of maintenance troubles. Despite many grates and gates barring passage and infrequent patrols, do criminals and monsters find their way into the sewer systems, from where they stage their sinister acts against the citizens above. 
+Most projskian cities are equipped with a well-developed canalisation, which carries most filth outside the city walls. This leads to most projskian cities smelling far less than their southern counter-parts, but also causing another set of maintenance troubles. Despite many grates and gates barring passage and infrequent patrols down below, do criminals and monsters sometimes find their way into the sewer systems, from where they stage sinister acts against the citizens living above. 
 
 A common sight in projskian cities are libraries, schools and private learning institutions, some state-funded, while others require frequent donations to keep running. Entry is not always open to the public and may be limited to membership in a guild or particular group of people. 
 
 **Every** projskian city has at least one larger bath-house, sometimes even several. These are places of cleansing and community. Entry is open to all, but the heated baths require a small fee to be paid at the entrance. 
-Part of these bath-houses are not only the bath-chambers, but also additional atriums and often times a second floor, where comfortable seating arrangements invite to a casual afternoon. 
+Part of these bath-houses are not only the bath-chambers, but also additional atriums and a second floor, where comfortable seating arrangements invite to a casual afternoon. 
 
-Covering the landscape are many fields, used in agriculture. Cutting through these fields are many country roads, but some main traffic roads exist, which may even be cobbled and linked to occasional guard houses and castles. 
+Outside the cities, the landscape is devoted almost entirely to agriculture. Dirt roads frequently cut through the fields and some larger, even cobbled roads stand out. 
 
-Past the fields are dense, but tamed woods, beyond which lie the borders to no man's land and other kingdoms. 
+Even outside the cities one finds the occasional guard house, estate, fort or even castle. Of course, villages are plentiful, but commonly also fairly large. 
+
+Past the fields are dense woods, beyond which lie the borders to no man's land and other kingdoms. 
 
 ### Typical Services
 * Bath-houses with a strong emphasis on casual relaxation spaces.
