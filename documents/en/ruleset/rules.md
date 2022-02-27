@@ -1883,8 +1883,6 @@ A very deadly long distance ranged weapon, shooting arrows.
 ### Crossbow
 A deadly medium distance ranged weapon, shooting quarrels.
 
-A long distance ranged weapon, shooting arrows.
-
 * Two-handed
 * Bulk: 2
 * **Prefer Range**
