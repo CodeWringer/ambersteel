@@ -1413,10 +1413,10 @@ Is opposed by [resist](#resist-will).
  
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 1     | Draw Attention       | 1  | Opposed | Force all creatures within 18'/6m distance to focus on you, instead. | Once per combat. |
-| 2     | Taunt                | 1  | Opposed | Lower a designated creature's defence by **-1D**. | Once per enemy. |
-| 3     | Vicious Mockery      | 1  | Opposed | Lower a designated creature's defence by **-3D**. | Once per combat. |
-| 4     | War Cry              | 1  | Opposed | Lower the defence of all creatures within 18'/6m distance by **-2D**. | Once per combat. |
+| 1     | Draw Attention       | 1  | Opposed | Force all creatures within 18'/6m distance to focus on you, instead. After they've attacked or otherwise had their attention on you, they may divert their attention, again. | Once per combat. |
+| 2     | Taunt                | 1  | Opposed | Lower a designated creature's defence by **-1D** for 1 turn. | Once per enemy. |
+| 3     | Vicious Mockery      | 1  | Opposed | Lower a designated creature's defence by **-3D** for 3 turns. | Once per combat. |
+| 4     | War Cry              | 1  | Opposed | Lower the defence of all creatures within 18'/6m distance by **-2D**, for 4 turns. | Once per combat. |
 
 #### Persuasion (Emp)
 Persuading another character to think differently about something. 
