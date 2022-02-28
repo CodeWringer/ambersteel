@@ -81,8 +81,8 @@
     - [Carrying Capactity & Possessions](#carrying-capactity--possessions)
     - [Determine Max HP & Max Inj](#determine-max-hp--max-inj)
     - [Determine Exhaustion Threshold](#determine-exhaustion-threshold)
-- [Fate Points](#fate-points)
     - [Determine Magic Stamina](#determine-magic-stamina)
+- [Fate Points](#fate-points)
   - [Minor Fate Points](#minor-fate-points)
   - [Major Fate Points](#major-fate-points)
   - [Ambition Fate Points](#ambition-fate-points)
@@ -993,17 +993,17 @@ All characters start with an **injury limit** of 1.
 ### Determine Exhaustion Threshold
 Determine your character's [exhaustion threshold](#exhaustion), by referring to the [endurance](#endurance-end) attribute. 
 
+### Determine Magic Stamina
+Determine your character's **maximum magic stamina**, by referring to the [magic stamina](#magic-stamina) section. 
+
+You'll need to track **current magic stamina** separately. To start with, set your current to your maximum **magic stamina**. 
+
 # Fate Points
 Fate points (**FP**) represent a meta-currency that *players* can earn and use to buy boons for their character or the group as a whole. 
 
 There are three types of **FP**: [Minor](#minor-fate-points), [major](#major-fate-points) and [ambition](#ambition-fate-points). 
 
 **FP** are earned, by playing to one's [ambitions, beliefs and instincts](#ambitions-beliefs--instincts). Most **FP** are earned by a single player, but some may also be earned as a group. 
-
-### Determine Magic Stamina
-Determine your character's **maximum magic stamina**, by referring to the [magic stamina](#magic-stamina) section. 
-
-You'll need to track **current magic stamina** separately. To start with, set your current to your maximum **magic stamina**. 
 
 ## Minor Fate Points
 **Minor Fate Points (MiFP)** are the lowest valued and most common type of **FP**, most commonly earned by playing the mechanics of the game. 
