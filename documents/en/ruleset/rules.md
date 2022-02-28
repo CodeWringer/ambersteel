@@ -1582,6 +1582,7 @@ The mending of injuries and treatment of diseases.
 | 3     | Better Patching Touch| 2  | 0        | ST   | 0      | Up to two creatures of the mage's choosing, in hand's reach, are magically healed. Removes [bleeding](#bleeding) and [poisoned](#poisoned). Up to two [injuries](#injury) of choice are now **patched up**. |
 | 4     | Healing Touch        | 2  | 0        | ST   | 0      | A creature of the mage's choosing, in hand's reach, is magically healed. A single **Inj.** of choice becomes **treated**. Removes [bleeding](#bleeding) and [poisoned](#poisoned). |
 | 5+    | Life Leech           | 3  | 0        | ST   | 0      | Resist: **Ob 4**, Effect: Draw the life from a touched creature of choice. Deals **2DN** points of damage to that creature, where *N* is the chosen [spell intensity](#spell-intensity), while healing another touched creature for the same amount. Transfers 1 point of **bleeding** and/or **poisoned** from the healed creature to the damaged one. |
+| 5     | Expel Illness        | 3  | 0        | ST   | 0      | Removes one [illness](#illness) of choice from a creature of choice, in hand's reach. |
 | 5     | Revert Mutation      | 4  | 0        | ST   | 0      | Resist: **Ob 4**, Effect: Removes one [mutation](#list-of-mutations) of choice from a creature of choice, in hand's reach. |
 
 ### Alteration [Int]
