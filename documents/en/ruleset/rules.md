@@ -1806,7 +1806,7 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 | 4     | +2 | Cleave                  | 3  | **1D10** **Slashing** to two targets adjacent to each other and self. | / |
 
 ### Club
-Simple, improvised bludgeoning weapons. Examples: wooden club
+Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
 
 * One-handed
 * Bulk: 2
@@ -1815,7 +1815,7 @@ Simple, improvised bludgeoning weapons. Examples: wooden club
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
 | ----- | ------ | --------------------| -- | ---------------- | ------ |
 | 0     | 0  | Clobber                 | 2  | **2D4** **Bludgeoning**  | / |
-| 3     | +2 | Knockout Blow           | 3  | **2D6** **Bludgeoning**  | / |
+| 3     | +2 | Knockout Blow           | 3  | **2D6 + 2** **Bludgeoning**  | / |
 
 ### Small Crusher
 One-handed, heavy crushing weapons. Examples: flanged mace, warhammer, flail, morning star
