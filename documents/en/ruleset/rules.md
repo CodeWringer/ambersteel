@@ -1122,7 +1122,7 @@ If the **aoe** attack is of a non-magical nature, it may only be possible to dod
 
 > A thrown bomb may perhaps be caught and thrown back at the attacker. But a cannon shot cannot be warded off. 
 
-If there is no way to reasonable dodge or defend against the **aoe** attack, its damage is rolled right away. 
+If there is no way to reasonably dodge or defend against the **aoe** attack, its damage is rolled right away. 
 
 ### Special Types of Attack
 Sometimes, simply *hitting it* isn't enough. Sometimes, more control is needed. These rules outline how a character can do more specific attacks. 
