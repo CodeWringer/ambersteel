@@ -1,3 +1,7 @@
+Version 0.9
+
+A role-playing game by Nicolas Haase
+
 # GM's Guide
 This document is directed at (and somewhat reserved for) the Game Master (**GM**) - the one person at the table who everyone agrees has the **authority** and **burden** to run the game. 
 
@@ -36,11 +40,13 @@ This document is directed at (and somewhat reserved for) the Game Master (**GM**
       - [Gather Feedback](#gather-feedback)
 
 ## The Role Of A Game Master
-As the **GM**, you are the one person at the table playing a different game than the others. Instead of controlling a single character in a given world, you control the entire world and determine what the characters within it get to do. 
+As the **GM**, you are the one person at the table playing a different game than the others. Instead of controlling a single character in a given world, you are in control of the world itself and determine what the characters within it get to do. 
 
-You're the one who decides on the tone of the world. Is it grimdark? Or perhaps heroic, instead? What adventure(s) will the players be engaging in? Murder mystery? Grand strategy? A heist? Perhaps nothing quite so specific. Perhaps you'll simply present them with a mix of adventures and see which one they pick. You should be clear about this, before you even interview your first player. 
+You're the one who decides on the tone of the world. Is it grimdark? Or perhaps heroic, instead? You should be clear about this, before you even interview your first player. 
 
-You're also the one who organizes everything. On what days are your play sessions going to be on? What time? What do you do, if someone can't make it? Do you play without them or do you have boardgames at the read for such an occasion? 
+What adventure(s) will the players be engaging in? Murder mystery? Grand strategy? A heist? Perhaps nothing quite so specific. Perhaps you'll simply present them with a mix of adventures and see which one they pick. 
+
+You're also the one who organizes everything. On what days are your play sessions going to be on? What time? What do you do, if someone can't make it? Do you play without them or do you have boardgames at the ready for such an occasion? 
 
 Who will get to be at your table and play in your game? You'll have to decide on that, too. You may involve your players in the process of judging the fitness of potential candidates, but ultimately, the final say lies with you. 
 
@@ -56,9 +62,9 @@ You are encouraged to craft your own world to play in. You decide what species (
 Your players can aid in crafting the world. Usually during play, rather than outside of it. If you allow them to change your world through their actions, it becomes a much more dynamic and almost life-like beast. 
 
 #### Bring NPCs To Life
-Non-player characters (**NPC**s) are all the people of your world, that aren't the **PC**s. **NPC**s are one of your most important tools to bring your world to life and make it interesting and engaging to your players. More often than not, the most interesting sessions involve heavy or mindful use of **NPC**s. See them as you do real people. There are no rules or mechanics dictating how they should behave. 
+Non-player characters (**NPC**s) are all the people of your world, that aren't the player characters (**PC**s). **NPC**s are one of your most important tools to bring your world to life and make it interesting and engaging to your players. More often than not, the most interesting sessions involve heavy or mindful use of **NPC**s. See them as you do real people. There are no rules or mechanics dictating how they should behave. 
 
-Much like the **PC**s, or in fact real people, **NPC**s lead their own lives, with their own ambitions, beliefs, instincts, strengths and weaknesses. Keeping track of all of the numbers that implies, can become quite the challenge. But you won't have to come up with all those numbers right away.
+Much like the **PC**s, or in fact real people, **NPC**s lead their own lives, with their own ambitions, beliefs, instincts, strengths and weaknesses. Keeping track of all of the numbers that implies, can become quite the challenge. But you won't have to come up with all those numbers right away or track them all the time.
 
 Whenever the **PC**s encounter someone new, all you really need, is a rough idea of *who* that **NPC** *is*. You don't have to know all their history right away, nor all of their strengths, weaknesses or even their agenda. Invent those as needed and just keep notes on that. 
 
@@ -228,7 +234,7 @@ Also try to occasionally have foes that target the **PC** they counter, but also
 
 Even more interesting fights can occur, if you involve the environment, as well. Introduce both hazards and tools for the **PC**s to be threatened by, or to exploit. These are just some examples of interactive combat environments: 
 * An illegal gunpowder storage. Any careless use of fire could cause a cascade of explosions. Be mindful to not straight-up wipe out the **PC**s if the gunpowder does get set on fire. They should be harmed, but give them a chance to recover or flee from that blunder. 
-* A giant cave, full of giant spider webs. If anyone should be unfortunate enough to stumble or be knocked into a web, a giant spider descends from the shadowy corners of the ceiling and begins to threaten that chracter, specifically. If that happens to be a **PC**, their allies have to think quick, to get them free, but also keep their original opponents on their toes. On the other hand, the **PC**s can attempt to knock their foes into the webs. 
+* A giant cave, full of giant spider webs. If anyone should be unfortunate enough to stumble or be knocked into a web, a giant spider descends from the shadowy corners of the ceiling and begins to threaten that character, specifically. If that happens to be a **PC**, their allies have to think quick, to get them free, but also keep their original opponents on their toes. On the other hand, the **PC**s can attempt to knock their foes into the webs. 
 * A burning house, with the **PC**s and their opponents in the thick of it. At the start of every turn, a burning piece of debris falls from the ceiling and you randomly determine where it lands. Could be on a **PC**, could be on one of their opponents. Or it could be in front of and barring their only exit - an open window leading to safety. 
 * A rickety, old bridge, which could collapse if too much force was applied to its support beams. The **PC**s could exploit this to collapse the bridge on purpose. Or their opponents could attempt the same, to put time-pressure on the players. 
 
@@ -343,7 +349,7 @@ For example, there may be times, when for storytelling purposes you may want to 
 ##### Rewards!
 Nothing motivates players (and humans in general) more, than the promise of reward!
 
-The important thing to keep in mind here, is to reward behavious you wish to encourage. 
+The important thing to keep in mind here, is to **reward behaviors** you wish to **encourage**. 
 
 If you want your players to be curious about and engage with your world, then reward them for it! If you want your players to kill monsters and defeat bad guys, reward them for it! 
 
