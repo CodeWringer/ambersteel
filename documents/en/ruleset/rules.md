@@ -217,7 +217,7 @@
   - [List of Illnesses](#list-of-illnesses)
   - [List of Mutations](#list-of-mutations)
 
-Version 0.6 "Abyssalite"
+Version 0.9
 
 A role-playing game by Nicolas Haase
 
