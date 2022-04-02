@@ -125,12 +125,11 @@
       - [Thievery (Agi)](#thievery-agi)
       - [Observation (Perc)](#observation-perc)
       - [Path-finding (Perc)](#path-finding-perc)
-      - [Riding (Emp)](#riding-emp)
       - [Rune-Using (Agi)](#rune-using-agi)
       - [Sailing (Str)](#sailing-str)
       - [Shield (End)](#shield-end)
-      - [Weapon < weapon type > (Str/Agi)](#weapon--weapon-type--stragi)
-      - [Weapon-Throwing < weapon type > (Str/Agi)](#weapon-throwing--weapon-type--stragi)
+      - [Weapon < weapon type > (Str)](#weapon--weapon-type--str)
+      - [Weapon-Throwing < weapon type > (Agi)](#weapon-throwing--weapon-type--agi)
     - [Social Skills](#social-skills)
       - [Animal Handling (Emp)](#animal-handling-emp)
       - [Commanding (Will)](#commanding-will)
@@ -138,6 +137,7 @@
       - [Intimidation (Will)](#intimidation-will)
       - [Persuasion (Emp)](#persuasion-emp)
       - [Resist (Will)](#resist-will)
+      - [Riding (Emp)](#riding-emp)
     - [Knowledge](#knowledge)
       - [Architecture (Int)](#architecture-int)
       - [Alchemy (Arc)](#alchemy-arc)
@@ -1275,23 +1275,23 @@ For a human, a skill at level 10 represents absolute mastery. It is possible to 
 These skills have a dominant physical aspect and are directly tied to a character's *physical attributes*. 
 
 #### Acrobatics (Agi)
-Performing acrobatic feats, such as jumping and climbing, without inuring oneself in the process. 
+Performing acrobatic feats, such as jumping and climbing, without injuring oneself in the process. 
 
-| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 3     | Wind Out Of It       | 0  | 0      | When hit by a single-target attack, wind out of the hit and suffer only half the damage. | Once per combat. |
-| 4     | Bob, Weave, Jab      | 0  | Opposed| When succeeding a [melee defence](#melee-defence-agi) test, follow up with a single-target attack against the enemy who attacked you. | Succeded a [melee defence](#melee-defence-agi) test. |
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 3     | Wind Out Of It       | 0  | /       | When hit by a single-target attack, wind out of the hit and suffer only half the damage. | Once per combat. |
+| 4     | Bob, Weave, Jab      | 0  | Opposed | When succeeding a [melee defence](#melee-defence-agi) test, follow up with a single-target attack against the enemy who attacked you. | Succeded a [melee defence](#melee-defence-agi) test. |
 
 #### Berserking (End)
-Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and wrecklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
+Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
 
 However, the price for this strength is steep. The chance of death is greatly raised for anyone who embraces this way of fighting. 
 
-| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 1     | Wreckless Assault    | 2  | Opposed| Deal an extra **D** of damage, according to your weapon's damage. Suffer a **-2D** penalty on all defence tests until the start of your next turn. Cannot convert left-over AP into [melee defence](#melee-defence-agi) or [ranged defence](#ranged-defence-agi).  |  |
-| 2     | Grit Your Teeth      | 0  | 0      | Ignore the negative effeects of one [injury](#injury) of choice for the rest of the combat encounter. | Once per combat. |
-| 3     | Pain is Strength     | 3  | 0      | Perform a single-target attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 1     | Reckless Assault     | 2  | /       | Deal an extra **D** of damage on your next successful attack during this turn, according to your weapon's damage. Suffer a **-2D** penalty on all defence tests until the start of your next turn. Cannot convert left-over AP into [melee defence](#melee-defence-agi) or [ranged defence](#ranged-defence-agi).  |  |
+| 2     | Grit Your Teeth      | 0  | /       | Ignore the negative effects of one [injury](#injury) of choice for the rest of the combat encounter. | Once per combat. |
+| 3     | Pain is Strength     | 3  | Opposed | Perform a single-target attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
 
 #### Instrument-Playing < instrument > (Agi)
 Playing an instrument of choice. 
@@ -1304,9 +1304,9 @@ Skill at defending oneself in close-combat.
 #### Fighting (Str)
 General fighting expertise. 
 
-| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 3     | Wrestle and Disarm   | 3  | Opposed| Perform a single target attack against a designated enemy. If you win, you disarm them and wrestle them to the ground. | Enemy is using weapon. |
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 3     | Wrestle and Disarm   | 3  | Opposed | Perform a single target attack against a designated enemy. If you win, you disarm them and could wrestle them to the ground, if you so choose. | Disarm only if enemy is using weapon. |
 
 #### Ranged Defence (Agi)
 Skill at evading projectiles. 
@@ -1328,26 +1328,17 @@ Pickpocketing and lockpicking.
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 3     | Nimble Recovery      | 2  | Opposed| When failing a **thievery test**, roll another **thievery test**, against the target's [observation](#observation-perc) to see if you've been found out. If you win, you're not discovered, but you don't succeed at pick-pocketing, either. | Once per rest. |
-| 5     | Feel the Mechanism   | 2  | 4      | Instantly succeed at picking even a very difficult lock. | Once per rest. |
+| 4     | Feel the Mechanism   | 2  | 4      | Instantly succeed at picking even a very difficult lock. | Once per rest. |
 
 #### Observation (Perc)
 Actively looking out for and detecting hidden things or characters. 
 
 #### Path-finding (Perc)
-Orienting oneself in the world. 
-
-Finding and following tracks. 
+Orienting oneself in the world and finding and following tracks. 
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
 | 3     | Find your Bearings   | 1  | 2      | Figure out your current heading and time of day, even when in complete darkness or in a place without landmarks. | Once per rest. |
-
-#### Riding (Emp)
-Riding and controling a mount.
-
-| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing **2D3** extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
 
 #### Rune-Using (Agi)
 Skill at using [magic runes](#runes). 
@@ -1366,15 +1357,15 @@ If an equipped shield is used to defend with, this skill is used instead of [mel
 
 | Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 1     | Shield Wall          | 3  | 0      | For any ally next to you, who's also using a shield, you both gain **+1D** on your defence tests until the start of your next turn. | Adjacent to ally using shield. |
-| 2     | Shield Slam          | 2  | Opposed| Perform a single-target melee attack to knock your opponent down with your shield. |  |
-| 3     | Shield Ally          | 3  | 0      | When a designated ally next to is attacked, **you** defend against it, instead. | Adjacent to an ally. |
-| 5     | Unyielding           | 3  | 0      | Until your next turn, you gain **+2D** to your **shield tests**. | Once per combat. |
+| 1     | Shield Wall          | 3  | 0      | For any ally next to you, who's also using a shield, you both gain **+1D** on your defence tests until the start of your next turn. | Using shield; Adjacent to ally using shield. |
+| 2     | Shield Slam          | 2  | Opposed| Perform a single-target melee attack to knock your opponent down with your shield. | Using shield. |
+| 3     | Shield Ally          | 3  | 0      | When a designated ally next to is attacked, **you** defend against it, instead. | Using shield; Adjacent to an ally. |
+| 5     | Unyielding           | 3  | 0      | Until your next turn, you gain **+2D** to your **shield tests**. | Using shield; Once per combat. |
 
-#### Weapon < weapon type > (Str/Agi)
+#### Weapon < weapon type > (Str)
 Expertise at handling a weapon of a specific type. 
 
-#### Weapon-Throwing < weapon type > (Str/Agi)
+#### Weapon-Throwing < weapon type > (Agi)
 Expertise at throwing weapons of a specific type. 
 
 ### Social Skills
@@ -1425,6 +1416,13 @@ Is opposed by [resist](#resist-will).
 
 #### Resist (Will)
 Resisting [commanding](#commanding-will), [deception](#deception-ora), [intimidation](#intimidation-will) and [persuasion](#persuasion-emp), as well as some magic schools. 
+
+#### Riding (Emp)
+Riding and controling a mount.
+
+| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
+| 3     | Mounted Charge       | 3  | 3      | Perform a mounted charge attack, dealing **2D3** extra damage of whatever weapon type you are using. | Mounted on a fast and strong animal; Must have enough distance to target to gain enough speed - refer to **GM**'s judgement. |
 
 ### Knowledge
 These skills have a dominant mental aspect and are strongly related to a character's *mental attributes*. 
@@ -1694,22 +1692,26 @@ Weapons can have the following **properties**:
 * **Ambersteel-Forged**: **+3D8** damage to magical creatures and mages. 
 
 ## Weapon Types
-
 Weapons can have the following **effects**:
 * A **counter-attack** is a reaction that allows a fighter being attacked to attack their attacker. 
+
+In the following, the **Ob** is to be considered a *modifier*. By default, **all** weapon attacks (weapon skills) are opposed by [melee defence](#melee-defence-agi) or [ranged defence](#ranged-defence-agi). Which defence is appropriate, is determined by the weapon type property **melee** or **ranged**. 
 
 ### Unarmed
 Sometimes, your own body is your greatest weapon. Fists and feet can cause a surprising amount of damage.
 
+* Melee
+
 | Skill | **Ob** | Attack              | AP | Damage            | Effect |
 | ----- | ------ | --------------------| -- | ----------------- | ------ |
 | 0     | 0  | Punch, kick, headbutt   | 2  | N + 2 **Bludgeoning**, where N = [strength](#strength-str) | / |
-| 1     | 0  | Grapple                 | 2  | /                 | Requires a successful opposed [strength](#strength-str) test. If **completely successful** The target is unable to move and suffers -1 [melee defence](#melee-defence-agi) while grappled. Someone grappled can attempt to break free with an opposed [strength](#strength-str) test, on their turn. |
+| 1     | 0  | Grapple                 | 2  | /                 | Requires a successful opposed [strength](#strength-str) test. If **completely successful**, the target is unable to move and suffers -1 [melee defence](#melee-defence-agi) while grappled. Someone grappled can attempt to break free with an opposed [strength](#strength-str) test, on their turn. |
 
 ### Short Blade
 Any short, one-handed blade. Examples: shiv, dagger, Shortsword
 
 * One-handed
+* Melee
 * Bulk: 1
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
@@ -1723,6 +1725,7 @@ Any short, one-handed blade. Examples: shiv, dagger, Shortsword
 Any long blade, including long one-handed blades. Examples: arming sword, bastard sword, Longsword
 
 * One-handed or two-handed
+* Melee
 * Bulk: 2
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
@@ -1736,6 +1739,7 @@ Any long blade, including long one-handed blades. Examples: arming sword, bastar
 Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
 
 * Two-handed
+* Melee
 * Long Reach
 * Bulk: 3
 
@@ -1750,6 +1754,7 @@ Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
 One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
 
 * One-handed
+* Melee
 * Bulk: 2
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
@@ -1760,6 +1765,7 @@ One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
 Two-handed axes. Examples: bearded axe, double-sided axe
 
 * Two-handed
+* Melee
 * Bulk: 3
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
@@ -1771,6 +1777,7 @@ Two-handed axes. Examples: bearded axe, double-sided axe
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 
 * One-handed or two-handed
+* Melee
 * Bulk: 2
 * Prefer Range
 
@@ -1783,6 +1790,7 @@ Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 Any one or two-handed long piercing polearms. Examples: pike, lance
 
 * Two-handed
+* Melee
 * Bulk: 4
 * Long Reach
 * Prefer Range
@@ -1796,6 +1804,7 @@ Any one or two-handed long piercing polearms. Examples: pike, lance
 Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 
 * Two-handed
+* Melee
 * Bulk: 4
 * Long Reach
 * Prefer Range
@@ -1810,6 +1819,7 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
 
 * One-handed
+* Melee
 * Bulk: 2
 * Bulk: 2
 
@@ -1822,6 +1832,7 @@ Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
 One-handed, heavy crushing weapons. Examples: flanged mace, warhammer, flail, morning star
 
 * One-handed
+* Melee
 * Bulk: 2
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
@@ -1832,6 +1843,7 @@ One-handed, heavy crushing weapons. Examples: flanged mace, warhammer, flail, mo
 Two-handed crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
 
 * Two-handed
+* Melee
 * Bulk: 3
 
 | Skill | **Ob** | Attack              | AP | Damage           | Effect |
@@ -1843,6 +1855,7 @@ Two-handed crushing weapons with a dedicated *impact zone* on the weapon head wh
 A short distance ranged weapon, shooting arrows.
 
 * Two-handed
+* Ranged
 * Bulk: 1
 * **Range Only**
 
@@ -1859,6 +1872,7 @@ A short distance ranged weapon, shooting arrows.
 A long distance ranged weapon, shooting arrows.
 
 * Two-handed
+* Ranged
 * Bulk: 2
 * **Range Only**
 
@@ -1872,6 +1886,7 @@ A long distance ranged weapon, shooting arrows.
 A very deadly long distance ranged weapon, shooting arrows.
 
 * Two-handed
+* Ranged
 * Bulk: 2
 * **Range Only**
 
@@ -1885,6 +1900,7 @@ A very deadly long distance ranged weapon, shooting arrows.
 A deadly medium distance ranged weapon, shooting quarrels.
 
 * Two-handed
+* Ranged
 * Bulk: 2
 * **Prefer Range**
 
@@ -1898,6 +1914,7 @@ A deadly medium distance ranged weapon, shooting quarrels.
 A very deadly short to medium distance ranged weapon, shooting musket balls that can even penetrate armor.
 
 * Two-handed
+* Ranged
 * Bulk: 2
 * **Prefer Range**
 
