@@ -1285,7 +1285,7 @@ Performing acrobatic feats, such as jumping and climbing, without injuring onese
 #### Berserking (End)
 Whether as a well-honed skill and way of life, or through a disappointing childhood of misery and pain, berserking is a talent for fighting angrily and recklessly. It allows a fighter to keep fighting at surprising strength, even when wounded. 
 
-However, the price for this strength is steep. The chance of death is greatly raised for anyone who embraces this way of fighting. 
+However, the price for this strength is steep. The chance of death is greatly increased for anyone who embraces this way of fighting. 
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
@@ -1314,10 +1314,10 @@ Skill at evading projectiles.
 #### Stealth (Agi)
 Moving silently and performing actions undetected. 
 
-| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 3     | Muffled Fumble       | 0  | 2      | When failing a **stealth test**, re-roll two of your **negatives**. If you now succeed, treat that as the outcome of your original roll. | Failed a **stealth test**;  Once per rest. |
-| 4    | Pocket-Sand           | 3  | Opposed| If you succeed a **stealth test** against a single designated target's [observation](#observation-perc), you can disappear from their sight and run up to 2 **AP** worth of distance. | Once per rest. |
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 3     | Muffled Fumble       | 0  | 2       | When failing a **stealth test**, re-roll two of your **negatives**. If you now succeed, treat that as the outcome of your original roll. | Failed a **stealth test**;  Once per rest. |
+| 4    | Pocket-Sand           | 3  | Opposed | If you succeed a **stealth test** against a single designated target's [observation](#observation-perc), you can disappear from their sight and run up to 2 **AP** worth of distance. | Once per rest. |
 
 #### Swimming (End)
 Swimming, as opposed to drowning. 
@@ -1325,10 +1325,10 @@ Swimming, as opposed to drowning.
 #### Thievery (Agi)
 Pickpocketing and lockpicking. 
 
-| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 3     | Nimble Recovery      | 2  | Opposed| When failing a **thievery test**, roll another **thievery test**, against the target's [observation](#observation-perc) to see if you've been found out. If you win, you're not discovered, but you don't succeed at pick-pocketing, either. | Once per rest. |
-| 4     | Feel the Mechanism   | 2  | 4      | Instantly succeed at picking even a very difficult lock. | Once per rest. |
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 3     | Nimble Recovery      | 2  | Opposed | When failing a **thievery test**, roll another **thievery test**, against the target's [observation](#observation-perc) to see if you've been found out. If you win, you're not discovered, but you don't succeed at pick-pocketing, either. | Once per rest. |
+| 4     | Feel the Mechanism   | 2  | 4       | Instantly succeed at picking even a very difficult lock. | Once per rest. |
 
 #### Observation (Perc)
 Actively looking out for and detecting hidden things or characters. 
@@ -1355,12 +1355,12 @@ Expertise at defending oneself using a shield.
 
 If an equipped shield is used to defend with, this skill is used instead of [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi). 
 
-| Level | Name                 | AP | **Ob** | Effect(s)          | Condition(s) |
-| ----- | -------------------- | -- | ------ | ------------------ | ------------ |
-| 1     | Shield Wall          | 3  | 0      | For any ally next to you, who's also using a shield, you both gain **+1D** on your defence tests until the start of your next turn. | Using shield; Adjacent to ally using shield. |
-| 2     | Shield Slam          | 2  | Opposed| Perform a single-target melee attack to knock your opponent down with your shield. | Using shield. |
-| 3     | Shield Ally          | 3  | 0      | When a designated ally next to is attacked, **you** defend against it, instead. | Using shield; Adjacent to an ally. |
-| 5     | Unyielding           | 3  | 0      | Until your next turn, you gain **+2D** to your **shield tests**. | Using shield; Once per combat. |
+| Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
+| ----- | -------------------- | -- | ------- | ------------------ | ------------ |
+| 1     | Shield Wall          | 3  | /       | For any ally next to you, who's also using a shield, you both gain **+1D** on your defence tests until the start of your next turn. | Using shield; Adjacent to ally using shield. |
+| 2     | Shield Slam          | 2  | Opposed | Perform a single-target melee attack to knock your opponent down with your shield. | Using shield. |
+| 3     | Shield Ally          | 3  | /       | When a designated ally next to is attacked, **you** defend against it, instead. | Using shield; Adjacent to an ally. |
+| 5     | Unyielding           | 3  | /       | Until your next turn, you gain **+2D** to your **shield tests**. | Using shield; Once per combat. |
 
 #### Weapon < weapon type > (Str)
 Expertise at handling a weapon of a specific type. 
@@ -1702,10 +1702,10 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 
 * Melee
 
-| Skill | **Ob** | Attack              | AP | Damage            | Effect |
-| ----- | ------ | --------------------| -- | ----------------- | ------ |
-| 0     | 0  | Punch, kick, headbutt   | 2  | N + 2 **Bludgeoning**, where N = [strength](#strength-str) | / |
-| 1     | 0  | Grapple                 | 2  | /                 | Requires a successful opposed [strength](#strength-str) test. If **completely successful**, the target is unable to move and suffers -1 [melee defence](#melee-defence-agi) while grappled. Someone grappled can attempt to break free with an opposed [strength](#strength-str) test, on their turn. |
+| Skill | **Ob**  | Attack                  | AP | Damage            | Effect |
+| ----- | ------- | ----------------------- | -- | ----------------- | ------ |
+| 0     | Opposed | Punch, kick, headbutt   | 2  | N + 2 **Bludgeoning**, where N = [strength](#strength-str) | / |
+| 1     | Opposed | Grapple                 | 2  | /                 | Requires a successful opposed [strength](#strength-str) test. If **completely successful**, the target is unable to move and suffers -1 [melee defence](#melee-defence-agi) while grappled. Someone grappled can attempt to break free with an opposed [strength](#strength-str) test, on their turn. |
 
 ### Short Blade
 Any short, one-handed blade. Examples: shiv, dagger, Shortsword
@@ -1714,12 +1714,12 @@ Any short, one-handed blade. Examples: shiv, dagger, Shortsword
 * Melee
 * Bulk: 1
 
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
-| 0     | 0  | Slash                   | 2  | 2 **Slashing**   | / |
-| 0     | 0  | Stab                    | 2  | 1 **Piercing**   | / |
-| 3     | +2 | Target weak-spot        | 3  | 3 **Piercing**   | / |
-| 3     | +2 | Artery cut              | 3  | 2 **Slashing**   | +1 **bleeding** to the target (if it can bleed). |
+| Skill | **Ob**  | Attack                  | AP | Damage           | Effect |
+| ----- | ------- | ----------------------- | -- | ---------------- | ------ |
+| 0     | Opposed | Slash                   | 2  | 2 **Slashing**   | / |
+| 0     | Opposed | Stab                    | 2  | 1 **Piercing**   | / |
+| 3     | Opposed+2 | Target weak-spot      | 3  | 3 **Piercing**   | / |
+| 3     | Opposed+2 | Artery cut            | 3  | 2 **Slashing**   | +1 **bleeding** to the target (if it can bleed). |
 
 ### Long Blade
 Any long blade, including long one-handed blades. Examples: arming sword, bastard sword, Longsword
@@ -1728,12 +1728,12 @@ Any long blade, including long one-handed blades. Examples: arming sword, bastar
 * Melee
 * Bulk: 2
 
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
-| 0     | 0  | Slash                   | 2  | **2D4** **Slashing** | / |
-| 0     | 0  | Stab                    | 2  | **1D6** **Piercing** | / |
-| 3     | +2 | Mordhau-Strike          | 2  | **1D4** **Crushing** | / |
-| 4     | 0  | Fencer-Stance           | 3  | / | Enter a defensive fencing stance. Gain +2 [melee defence](#melee-defence-agi) and can **counter-attack** with a **slash**. |
+| Skill | **Ob**  | Attack                  | AP | Damage           | Effect |
+| ----- | ------- | ----------------------- | -- | ---------------- | ------ |
+| 0     | Opposed | Slash                   | 2  | **2D4** **Slashing** | / |
+| 0     | Opposed | Stab                    | 2  | **1D6** **Piercing** | / |
+| 3     | Opposed+2 | Mordhau-Strike        | 2  | **1D4** **Crushing** | / |
+| 4     | Opposed | Fencer-Stance           | 3  | / | Enter a defensive fencing stance. Gain +2 [melee defence](#melee-defence-agi) and can **counter-attack** with a **slash**. |
 
 ### Great Blade
 Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
@@ -1743,12 +1743,12 @@ Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
 * Long Reach
 * Bulk: 3
 
-| Skill | **Ob** | Attack              | AP | Damage      | Effect |
-| ----- | ------ | --------------------| -- | ----------- | ------ |
-| 0     | 0  | Slash                   | 2  | **2D6** **Slashing** | / |
-| 0     | 0  | Stab                    | 2  | **1D6 + 1** **Piercing** | / |
-| 3     | +2 | Mordhau-Strike          | 3  | **1D6** **Crushing** | / |
-| 4     | +1 | Heavy Blow              | 3  | **1D6** **Slashing** and **1D4** **Crushing** | +1 [exhaustion](#exhaustion) to self. |
+| Skill | **Ob**  | Attack                  | AP | Damage      | Effect |
+| ----- | ------- | ----------------------- | -- | ----------- | ------ |
+| 0     | Opposed | Slash                   | 2  | **2D6** **Slashing** | / |
+| 0     | Opposed | Stab                    | 2  | **1D6 + 1** **Piercing** | / |
+| 3     | Opposed+2 | Mordhau-Strike        | 3  | **1D6** **Crushing** | / |
+| 4     | Opposed+1 | Heavy Blow            | 3  | **1D6** **Slashing** and **1D4** **Crushing** | +1 [exhaustion](#exhaustion) to self. |
 
 ### Axe
 One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
@@ -1757,8 +1757,8 @@ One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
 * Melee
 * Bulk: 2
 
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| Skill | **Ob** | Attack                  | AP | Damage           | Effect |
+| ----- | ------ | ----------------------- | -- | ---------------- | ------ |
 | 0     | 0  | Hack | 2 | **2D6** **Slashing** and **1D3** **Crushing** | / |
 
 ### Great Axe
@@ -1768,8 +1768,8 @@ Two-handed axes. Examples: bearded axe, double-sided axe
 * Melee
 * Bulk: 3
 
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| Skill | **Ob** | Attack                  | AP | Damage           | Effect |
+| ----- | ------ | ----------------------- | -- | ---------------- | ------ |
 | 0     | 0  | Hack         | 2 | **3D6** **Slashing** and **2D3** **Crushing** | / |
 | 3     | +2 | Savage Slash | 2 | **2D6** **Slashing** | +2 **bleeding**  to the target (if it can bleed). |
 
@@ -1781,8 +1781,8 @@ Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 * Bulk: 2
 * Prefer Range
 
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| Skill | **Ob** | Attack                  | AP | Damage           | Effect |
+| ----- | ------ | ----------------------- | -- | ---------------- | ------ |
 | 0     | 0  | Stab                    | 2  | **1D8** **Piercing** | / |
 | 2     | +2 | Spear wall              | 3  | / | Whenever any character moves into a square adjacent to self, can attack that character with a **stab**. |
 
@@ -1795,8 +1795,8 @@ Any one or two-handed long piercing polearms. Examples: pike, lance
 * Long Reach
 * Prefer Range
 
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| Skill | **Ob** | Attack                  | AP | Damage           | Effect |
+| ----- | ------ | ----------------------- | -- | ---------------- | ------ |
 | 0     | 0  | Stab                    | 2  | **1D8** **Piercing**  | / |
 | 3     | 0  | Couched Lancing         | 3  | / | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target, allowing an attack dealing **3D10** **Piercing** damage to the target. |
 
@@ -1809,8 +1809,8 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 * Long Reach
 * Prefer Range
 
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| Skill | **Ob** | Attack                  | AP | Damage           | Effect |
+| ----- | ------ | ----------------------- | -- | ---------------- | ------ |
 | 0     | 0  | Slash                   | 2  | **3D4** **Slashing**  | / |
 | 0     | 0  | Stab                    | 2  | **1D8** **Piercing**  | / |
 | 4     | +2 | Cleave                  | 3  | **1D10** **Slashing** to two targets adjacent to each other and self. | / |
@@ -1823,8 +1823,8 @@ Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
 * Bulk: 2
 * Bulk: 2
 
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| Skill | **Ob** | Attack                  | AP | Damage           | Effect |
+| ----- | ------ | ----------------------- | -- | ---------------- | ------ |
 | 0     | 0  | Clobber                 | 2  | **2D4** **Bludgeoning**  | / |
 | 3     | +2 | Knockout Blow           | 3  | **2D6 + 2** **Bludgeoning**  | / |
 
@@ -1835,8 +1835,8 @@ One-handed, heavy crushing weapons. Examples: flanged mace, warhammer, flail, mo
 * Melee
 * Bulk: 2
 
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| Skill | **Ob** | Attack                  | AP | Damage           | Effect |
+| ----- | ------ | ----------------------- | -- | ---------------- | ------ |
 | 0     | 0  | Smash                   | 2  | **1D6** **Crushing**  | / |
 
 ### Large Crusher
@@ -1846,8 +1846,8 @@ Two-handed crushing weapons with a dedicated *impact zone* on the weapon head wh
 * Melee
 * Bulk: 3
 
-| Skill | **Ob** | Attack              | AP | Damage           | Effect |
-| ----- | ------ | --------------------| -- | ---------------- | ------ |
+| Skill | **Ob** | Attack                  | AP | Damage           | Effect |
+| ----- | ------ | ----------------------- | -- | ---------------- | ------ |
 | 0     | 0  | Smash                   | 2  | **1D8** **Crushing**  | / |
 | 3     | +2 | Mighty Smash            | 3  | **1D10 + 2** **Crushing**  | +1 [exhaustion](#exhaustion) to self. +2 [exhaustion](#exhaustion) to target (if it can be winded). |
 
@@ -1859,8 +1859,8 @@ A short distance ranged weapon, shooting arrows.
 * Bulk: 1
 * **Range Only**
 
-| Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
-| ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
+| Skill | **Ob** | Attack                  | AP | Distance | Damage           | Effect |
+| ----- | ------ | ----------------------- | -- | -------- | ---------------- | ------ |
 | 0     | 0  | Loose                   | 2  | 30'/10m  | **3D3** **Piercing**  | / |
 | 0     | +2 | Loose                   | 2  | 60'/20m  | **2D3** **Piercing**  | / |
 | 0     | +4 | Loose                   | 2  | 90'/30m  | **1D3** **Piercing**  | / |
@@ -1876,8 +1876,8 @@ A long distance ranged weapon, shooting arrows.
 * Bulk: 2
 * **Range Only**
 
-| Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
-| ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
+| Skill | **Ob** | Attack                  | AP | Distance | Damage           | Effect |
+| ----- | ------ | ----------------------- | -- | -------- | ---------------- | ------ |
 | 0     | 0  | Loose                   | 2  | 30'/10m  | **3D4** **Piercing**  | / |
 | 0     | +1 | Loose                   | 2  | 60'/20m  | **2D4** **Piercing**  | / |
 | 0     | +3 | Loose                   | 2  | 90'/30m  | **1D4** **Piercing**  | / |
@@ -1890,8 +1890,8 @@ A very deadly long distance ranged weapon, shooting arrows.
 * Bulk: 2
 * **Range Only**
 
-| Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
-| ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
+| Skill | **Ob** | Attack                  | AP | Distance | Damage           | Effect |
+| ----- | ------ | ----------------------- | -- | -------- | ---------------- | ------ |
 | 0     | 0  | Loose                   | 3  | 30'/10m  | **3D6** **Piercing**  | +1 [exhaustion](#exhaustion) to self. |
 | 0     | +1 | Loose                   | 3  | 60'/20m  | **2D6** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
 | 0     | +2 | Loose                   | 3  | 90'/30m  | **1D6** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
@@ -1904,8 +1904,8 @@ A deadly medium distance ranged weapon, shooting quarrels.
 * Bulk: 2
 * **Prefer Range**
 
-| Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
-| ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
+| Skill | **Ob** | Attack                  | AP | Distance | Damage           | Effect |
+| ----- | ------ | ----------------------- | -- | -------- | ---------------- | ------ |
 | 0     | 0  | Loose                   | 3  | 30'/10m  | **3D6** **Piercing**  | / |
 | 0     | +1 | Loose                   | 3  | 60'/20m  | **2D6** **Piercing**  | / |
 | 0     | +3 | Loose                   | 3  | 90'/30m  | **2D4** **Piercing**  | / |
@@ -1918,11 +1918,11 @@ A very deadly short to medium distance ranged weapon, shooting musket balls that
 * Bulk: 2
 * **Prefer Range**
 
-| Skill | **Ob** | Attack              | AP | Distance | Damage           | Effect |
-| ----- | ------ | --------------------| -- | -------- | ---------------- | ------ |
-| 0     | 0  | Shoot                   | 3  | 30'/10m  | **3D6 + 4** **Piercing**  | / |
-| 0     | +3 | Shoot                   | 3  | 60'/20m  | **2D6 + 3** **Piercing**  | / |
-| 0     | +5 | Shoot                   | 3  | 90'/30m  | **2D6 + 2** **Piercing**  | / |
+| Skill | **Ob**    | Attack                  | AP | Distance | Damage           | Effect |
+| ----- | --------- | ----------------------- | -- | -------- | ---------------- | ------ |
+| 0     | Opposed   | Shoot                   | 3  | 30'/10m  | **3D6 + 4** **Piercing**  | / |
+| 0     | Opposed+3 | Shoot                   | 3  | 60'/20m  | **2D6 + 3** **Piercing**  | / |
+| 0     | Opposed+5 | Shoot                   | 3  | 90'/30m  | **2D6 + 2** **Piercing**  | / |
 
 ## Armor Properties
 Armor can have the following **properties**:
