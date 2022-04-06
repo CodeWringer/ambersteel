@@ -1702,10 +1702,10 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 
 * Melee
 
-| Skill | **Ob**  | Attack                  | AP | Damage            | Effect |
-| ----- | ------- | ----------------------- | -- | ----------------- | ------ |
+| Skill | **Ob**  | Attack                  | AP | Damage                | Effect |
+| ----- | ------- | ----------------------- | -- | --------------------- | ------ |
 | 0     | Opposed | Punch, kick, headbutt   | 2  | N + 2 **Bludgeoning**, where N = [strength](#strength-str) | / |
-| 1     | Opposed | Grapple                 | 2  | /                 | Requires a successful opposed [strength](#strength-str) test. If **completely successful**, the target is unable to move and suffers -1 [melee defence](#melee-defence-agi) while grappled. Someone grappled can attempt to break free with an opposed [strength](#strength-str) test, on their turn. |
+| 1     | Opposed | Grapple                 | 2  | /                     | Requires a successful opposed [strength](#strength-str) test. If **completely successful**, the target is unable to move and suffers -1 [melee defence](#melee-defence-agi) while grappled. Someone grappled can attempt to break free with an opposed [strength](#strength-str) test, on their turn. |
 
 ### Short Blade
 Any short, one-handed blade. Examples: shiv, dagger, Shortsword
@@ -1714,12 +1714,12 @@ Any short, one-handed blade. Examples: shiv, dagger, Shortsword
 * Melee
 * Bulk: 1
 
-| Skill | **Ob**  | Attack                  | AP | Damage           | Effect |
-| ----- | ------- | ----------------------- | -- | ---------------- | ------ |
-| 0     | Opposed | Slash                   | 2  | 2 **Slashing**   | / |
-| 0     | Opposed | Stab                    | 2  | 1 **Piercing**   | / |
-| 3     | Opposed+2 | Target weak-spot      | 3  | 3 **Piercing**   | / |
-| 3     | Opposed+2 | Artery cut            | 3  | 2 **Slashing**   | +1 **bleeding** to the target (if it can bleed). |
+| Skill | **Ob**  | Attack                  | AP | Damage                | Effect |
+| ----- | ------- | ----------------------- | -- | --------------------- | ------ |
+| 0     | Opposed | Slash                   | 2  | 2 **Slashing**        | / |
+| 0     | Opposed | Stab                    | 2  | 1 **Piercing**        | / |
+| 3     | Opposed+2 | Target weak-spot      | 3  | 3 **Piercing**        | / |
+| 3     | Opposed+2 | Artery cut            | 3  | 2 **Slashing**        | +1 **bleeding** to the target (if it can bleed). |
 
 ### Long Blade
 Any long blade, including long one-handed blades. Examples: arming sword, bastard sword, Longsword
@@ -1728,12 +1728,12 @@ Any long blade, including long one-handed blades. Examples: arming sword, bastar
 * Melee
 * Bulk: 2
 
-| Skill | **Ob**  | Attack                  | AP | Damage           | Effect |
-| ----- | ------- | ----------------------- | -- | ---------------- | ------ |
-| 0     | Opposed | Slash                   | 2  | **2D4** **Slashing** | / |
-| 0     | Opposed | Stab                    | 2  | **1D6** **Piercing** | / |
-| 3     | Opposed+2 | Mordhau-Strike        | 2  | **1D4** **Crushing** | / |
-| 4     | Opposed | Fencer-Stance           | 3  | / | Enter a defensive fencing stance. Gain +2 [melee defence](#melee-defence-agi) and can **counter-attack** with a **slash**. |
+| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
+| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
+| 0     | Opposed   | Slash                   | 2  | **2D4** **Slashing**  | / |
+| 0     | Opposed   | Stab                    | 2  | **1D6** **Piercing**  | / |
+| 3     | Opposed+2 | Mordhau-Strike          | 2  | **1D4** **Crushing**  | / |
+| 4     | Opposed   | Fencer-Stance           | 3  | / | Enter a defensive fencing stance. Gain +2 [melee defence](#melee-defence-agi) and can **counter-attack** with a **slash**. |
 
 ### Great Blade
 Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
@@ -1743,12 +1743,12 @@ Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
 * Long Reach
 * Bulk: 3
 
-| Skill | **Ob**  | Attack                  | AP | Damage      | Effect |
-| ----- | ------- | ----------------------- | -- | ----------- | ------ |
-| 0     | Opposed | Slash                   | 2  | **2D6** **Slashing** | / |
-| 0     | Opposed | Stab                    | 2  | **1D6 + 1** **Piercing** | / |
-| 3     | Opposed+2 | Mordhau-Strike        | 3  | **1D6** **Crushing** | / |
-| 4     | Opposed+1 | Heavy Blow            | 3  | **1D6** **Slashing** and **1D4** **Crushing** | +1 [exhaustion](#exhaustion) to self. |
+| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
+| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
+| 0     | Opposed   | Slash                   | 2  | **2D6** **Slashing**  | / |
+| 0     | Opposed   | Stab                    | 2  | **1D6 + 1** **Piercing** | / |
+| 3     | Opposed+2 | Mordhau-Strike          | 3  | **1D6** **Crushing**  | / |
+| 4     | Opposed+1 | Heavy Blow              | 3  | **1D6** **Slashing** and **1D4** **Crushing** | +1 [exhaustion](#exhaustion) to self. |
 
 ### Axe
 One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
@@ -1757,9 +1757,9 @@ One-handed axes. Examples: hatchet, dane axe, woodcutter's axe
 * Melee
 * Bulk: 2
 
-| Skill | **Ob** | Attack                  | AP | Damage           | Effect |
-| ----- | ------ | ----------------------- | -- | ---------------- | ------ |
-| 0     | 0  | Hack | 2 | **2D6** **Slashing** and **1D3** **Crushing** | / |
+| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
+| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
+| 0     | Opposed   | Hack                    | 2  | **2D6** **Slashing** and **1D3** **Crushing**  | / |
 
 ### Great Axe
 Two-handed axes. Examples: bearded axe, double-sided axe
@@ -1768,10 +1768,10 @@ Two-handed axes. Examples: bearded axe, double-sided axe
 * Melee
 * Bulk: 3
 
-| Skill | **Ob** | Attack                  | AP | Damage           | Effect |
-| ----- | ------ | ----------------------- | -- | ---------------- | ------ |
-| 0     | 0  | Hack         | 2 | **3D6** **Slashing** and **2D3** **Crushing** | / |
-| 3     | +2 | Savage Slash | 2 | **2D6** **Slashing** | +2 **bleeding**  to the target (if it can bleed). |
+| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
+| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
+| 0     | Opposed   | Hack                    | 2  | **3D6** **Slashing** and **2D3** **Crushing** | / |
+| 3     | Opposed+2 | Savage Slash            | 2  | **2D6** **Slashing**  | +2 **bleeding**  to the target (if it can bleed). |
 
 ### Spear
 Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
@@ -1781,10 +1781,10 @@ Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 * Bulk: 2
 * Prefer Range
 
-| Skill | **Ob** | Attack                  | AP | Damage           | Effect |
-| ----- | ------ | ----------------------- | -- | ---------------- | ------ |
-| 0     | 0  | Stab                    | 2  | **1D8** **Piercing** | / |
-| 2     | +2 | Spear wall              | 3  | / | Whenever any character moves into a square adjacent to self, can attack that character with a **stab**. |
+| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
+| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
+| 0     | Opposed   | Stab                    | 2  | **1D8** **Piercing**  | / |
+| 2     | Opposed+2 | Spear wall              | 3  | /                     | Whenever any character moves into a square adjacent to self, can attack that character with a **stab**. |
 
 ### Lance
 Any one or two-handed long piercing polearms. Examples: pike, lance
@@ -1795,10 +1795,10 @@ Any one or two-handed long piercing polearms. Examples: pike, lance
 * Long Reach
 * Prefer Range
 
-| Skill | **Ob** | Attack                  | AP | Damage           | Effect |
-| ----- | ------ | ----------------------- | -- | ---------------- | ------ |
-| 0     | 0  | Stab                    | 2  | **1D8** **Piercing**  | / |
-| 3     | 0  | Couched Lancing         | 3  | / | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target, allowing an attack dealing **3D10** **Piercing** damage to the target. |
+| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
+| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
+| 0     | Opposed   | Stab                    | 2  | **1D8** **Piercing**  | / |
+| 3     | Opposed   | Couched Lancing         | 3  | **3D10** **Piercing** | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target. |
 
 ### Polearm
 Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
@@ -1809,11 +1809,11 @@ Flexible polearms with a focus on slashing. Examples: halberd, bardiche, poleaxe
 * Long Reach
 * Prefer Range
 
-| Skill | **Ob** | Attack                  | AP | Damage           | Effect |
-| ----- | ------ | ----------------------- | -- | ---------------- | ------ |
-| 0     | 0  | Slash                   | 2  | **3D4** **Slashing**  | / |
-| 0     | 0  | Stab                    | 2  | **1D8** **Piercing**  | / |
-| 4     | +2 | Cleave                  | 3  | **1D10** **Slashing** to two targets adjacent to each other and self. | / |
+| Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
+| ----- | --------- | ----------------------- | -- | --------------------- | ------ |
+| 0     | Opposed   | Slash                   | 2  | **3D4** **Slashing**  | / |
+| 0     | Opposed   | Stab                    | 2  | **1D8** **Piercing**  | / |
+| 4     | Opposed+2 | Cleave                  | 3  | **1D10** **Slashing** | Deals damage to up to two targets adjacent to each other and self. |
 
 ### Club
 Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
@@ -1821,12 +1821,11 @@ Simple, improvised bludgeoning weapons. Examples: wooden club, staff, stick
 * One-handed
 * Melee
 * Bulk: 2
-* Bulk: 2
 
-| Skill | **Ob** | Attack                  | AP | Damage           | Effect |
-| ----- | ------ | ----------------------- | -- | ---------------- | ------ |
-| 0     | 0  | Clobber                 | 2  | **2D4** **Bludgeoning**  | / |
-| 3     | +2 | Knockout Blow           | 3  | **2D6 + 2** **Bludgeoning**  | / |
+| Skill | **Ob**    | Attack                  | AP | Damage                       | Effect |
+| ----- | --------- | ----------------------- | -- | ---------------------------- | ------ |
+| 0     | Opposed   | Clobber                 | 2  | **2D4** **Bludgeoning**      | / |
+| 3     | Opposed+2 | Knockout Blow           | 3  | **2D6 + 2** **Bludgeoning**  | / |
 
 ### Small Crusher
 One-handed, heavy crushing weapons. Examples: flanged mace, warhammer, flail, morning star
@@ -1835,9 +1834,9 @@ One-handed, heavy crushing weapons. Examples: flanged mace, warhammer, flail, mo
 * Melee
 * Bulk: 2
 
-| Skill | **Ob** | Attack                  | AP | Damage           | Effect |
-| ----- | ------ | ----------------------- | -- | ---------------- | ------ |
-| 0     | 0  | Smash                   | 2  | **1D6** **Crushing**  | / |
+| Skill | **Ob**   | Attack                  | AP | Damage                | Effect |
+| ----- | -------- | ----------------------- | -- | --------------------- | ------ |
+| 0     | Opposed  | Smash                   | 2  | **1D6** **Crushing**  | / |
 
 ### Large Crusher
 Two-handed crushing weapons with a dedicated *impact zone* on the weapon head which directs more force into the target. Examples: grand-mace, polehammer, two-handed flail
@@ -1846,10 +1845,10 @@ Two-handed crushing weapons with a dedicated *impact zone* on the weapon head wh
 * Melee
 * Bulk: 3
 
-| Skill | **Ob** | Attack                  | AP | Damage           | Effect |
-| ----- | ------ | ----------------------- | -- | ---------------- | ------ |
-| 0     | 0  | Smash                   | 2  | **1D8** **Crushing**  | / |
-| 3     | +2 | Mighty Smash            | 3  | **1D10 + 2** **Crushing**  | +1 [exhaustion](#exhaustion) to self. +2 [exhaustion](#exhaustion) to target (if it can be winded). |
+| Skill | **Ob**    | Attack                  | AP | Damage                     | Effect |
+| ----- | --------- | ----------------------- | -- | -------------------------- | ------ |
+| 0     | Opposed   | Smash                   | 2  | **1D8** **Crushing**       | / |
+| 3     | Opposed+2 | Mighty Smash            | 3  | **1D10 + 2** **Crushing**  | +1 [exhaustion](#exhaustion) to self. +2 [exhaustion](#exhaustion) to target (if it can be winded). |
 
 ### Short-Bow
 A short distance ranged weapon, shooting arrows.
@@ -1859,14 +1858,14 @@ A short distance ranged weapon, shooting arrows.
 * Bulk: 1
 * **Range Only**
 
-| Skill | **Ob** | Attack                  | AP | Distance | Damage           | Effect |
-| ----- | ------ | ----------------------- | -- | -------- | ---------------- | ------ |
-| 0     | 0  | Loose                   | 2  | 30'/10m  | **3D3** **Piercing**  | / |
-| 0     | +2 | Loose                   | 2  | 60'/20m  | **2D3** **Piercing**  | / |
-| 0     | +4 | Loose                   | 2  | 90'/30m  | **1D3** **Piercing**  | / |
-| 4     | 0  | Double shot             | 3  | 30'/10m  | **3D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
-| 4     | +2 | Double shot             | 3  | 60'/20m  | **2D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
-| 4     | +4 | Double shot             | 3  | 90'/30m  | **1D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
+| Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
+| ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
+| 0     | Opposed   | Loose                   | 2  | 30'/10m  | **3D3** **Piercing**  | / |
+| 0     | Opposed+2 | Loose                   | 2  | 60'/20m  | **2D3** **Piercing**  | / |
+| 0     | Opposed+4 | Loose                   | 2  | 90'/30m  | **1D3** **Piercing**  | / |
+| 4     | Opposed   | Double shot             | 3  | 30'/10m  | **3D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
+| 4     | Opposed+2 | Double shot             | 3  | 60'/20m  | **2D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
+| 4     | Opposed+4 | Double shot             | 3  | 90'/30m  | **1D3** **Piercing**  | Can attack twice and thus deal its damage to two different targets, or the same target twice. |
 
 ### Longbow
 A long distance ranged weapon, shooting arrows.
@@ -1876,11 +1875,11 @@ A long distance ranged weapon, shooting arrows.
 * Bulk: 2
 * **Range Only**
 
-| Skill | **Ob** | Attack                  | AP | Distance | Damage           | Effect |
-| ----- | ------ | ----------------------- | -- | -------- | ---------------- | ------ |
-| 0     | 0  | Loose                   | 2  | 30'/10m  | **3D4** **Piercing**  | / |
-| 0     | +1 | Loose                   | 2  | 60'/20m  | **2D4** **Piercing**  | / |
-| 0     | +3 | Loose                   | 2  | 90'/30m  | **1D4** **Piercing**  | / |
+| Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
+| ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
+| 0     | Opposed   | Loose                   | 2  | 30'/10m  | **3D4** **Piercing**  | / |
+| 0     | Opposed+1 | Loose                   | 2  | 60'/20m  | **2D4** **Piercing**  | / |
+| 0     | Opposed+3 | Loose                   | 2  | 90'/30m  | **1D4** **Piercing**  | / |
 
 ### War-Bow
 A very deadly long distance ranged weapon, shooting arrows.
@@ -1890,11 +1889,11 @@ A very deadly long distance ranged weapon, shooting arrows.
 * Bulk: 2
 * **Range Only**
 
-| Skill | **Ob** | Attack                  | AP | Distance | Damage           | Effect |
-| ----- | ------ | ----------------------- | -- | -------- | ---------------- | ------ |
-| 0     | 0  | Loose                   | 3  | 30'/10m  | **3D6** **Piercing**  | +1 [exhaustion](#exhaustion) to self. |
-| 0     | +1 | Loose                   | 3  | 60'/20m  | **2D6** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
-| 0     | +2 | Loose                   | 3  | 90'/30m  | **1D6** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
+| Skill | **Ob**    | Attack                  | AP | Distance | Damage                 | Effect |
+| ----- | --------- | ----------------------- | -- | -------- | ---------------------- | ------ |
+| 0     | Opposed   | Loose                   | 3  | 30'/10m  | **3D6** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
+| 0     | Opposed+1 | Loose                   | 3  | 60'/20m  | **2D6** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
+| 0     | Opposed+2 | Loose                   | 3  | 90'/30m  | **1D6** **Piercing**   | +1 [exhaustion](#exhaustion) to self. |
 
 ### Crossbow
 A deadly medium distance ranged weapon, shooting quarrels.
@@ -1904,11 +1903,11 @@ A deadly medium distance ranged weapon, shooting quarrels.
 * Bulk: 2
 * **Prefer Range**
 
-| Skill | **Ob** | Attack                  | AP | Distance | Damage           | Effect |
-| ----- | ------ | ----------------------- | -- | -------- | ---------------- | ------ |
-| 0     | 0  | Loose                   | 3  | 30'/10m  | **3D6** **Piercing**  | / |
-| 0     | +1 | Loose                   | 3  | 60'/20m  | **2D6** **Piercing**  | / |
-| 0     | +3 | Loose                   | 3  | 90'/30m  | **2D4** **Piercing**  | / |
+| Skill | **Ob**    | Attack                  | AP | Distance | Damage                | Effect |
+| ----- | --------- | ----------------------- | -- | -------- | --------------------- | ------ |
+| 0     | Opposed   | Loose                   | 3  | 30'/10m  | **3D6** **Piercing**  | / |
+| 0     | Opposed+1 | Loose                   | 3  | 60'/20m  | **2D6** **Piercing**  | / |
+| 0     | Opposed+3 | Loose                   | 3  | 90'/30m  | **2D4** **Piercing**  | / |
 
 ### Firearm
 A very deadly short to medium distance ranged weapon, shooting musket balls that can even penetrate armor.
@@ -1918,8 +1917,8 @@ A very deadly short to medium distance ranged weapon, shooting musket balls that
 * Bulk: 2
 * **Prefer Range**
 
-| Skill | **Ob**    | Attack                  | AP | Distance | Damage           | Effect |
-| ----- | --------- | ----------------------- | -- | -------- | ---------------- | ------ |
+| Skill | **Ob**    | Attack                  | AP | Distance | Damage                    | Effect |
+| ----- | --------- | ----------------------- | -- | -------- | ------------------------- | ------ |
 | 0     | Opposed   | Shoot                   | 3  | 30'/10m  | **3D6 + 4** **Piercing**  | / |
 | 0     | Opposed+3 | Shoot                   | 3  | 60'/20m  | **2D6 + 3** **Piercing**  | / |
 | 0     | Opposed+5 | Shoot                   | 3  | 90'/30m  | **2D6 + 2** **Piercing**  | / |
