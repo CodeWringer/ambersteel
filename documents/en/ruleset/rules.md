@@ -1290,8 +1290,8 @@ However, the price for this strength is steep. The chance of death is greatly in
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Reckless Assault     | 2  | /       | Deal an extra **D** of damage on your next successful attack during this turn, according to your weapon's damage. Suffer a **-2D** penalty on all defence tests until the start of your next turn. Cannot convert left-over AP into [melee defence](#melee-defence-agi) or [ranged defence](#ranged-defence-agi).  |  |
-| 2     | Grit Your Teeth      | 0  | /       | Ignore the negative effects of one [injury](#injury) of choice for the rest of the combat encounter. | Once per combat. |
-| 3     | Pain is Strength     | 3  | Opposed | Perform a single-target attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
+| 2     | Grit Your Teeth      | 0  | /       | Ignore the negative effects of one [injury](#injury) of choice for the rest of the combat encounter. It will still count towards the injury limit, however! | Once per combat. |
+| 3     | Pain is Strength     | 3  | Opposed | Perform a single-target melee attack against an opponent of choice. For every active [injury](#injury) you currently have, deal one extra **D** of damage. You suffer one point of [exhaustion](#exhaustion). | Once per day. |
 
 #### Instrument-Playing < instrument > (Agi)
 Playing an instrument of choice. 
@@ -1362,11 +1362,11 @@ If an equipped shield is used to defend with, this skill is used instead of [mel
 | 3     | Shield Ally          | 3  | /       | When a designated ally next to is attacked, **you** defend against it, instead. | Using shield; Adjacent to an ally. |
 | 5     | Unyielding           | 3  | /       | Until your next turn, you gain **+2D** to your **shield tests**. | Using shield; Once per combat. |
 
-#### Weapon < weapon type > (Str)
-Expertise at handling a weapon of a specific type. 
+#### Weapon < [weapon type](#weapon-types) > (Str)
+Expertise at handling a weapon of a specific [weapon type](#weapon-types). 
 
-#### Weapon-Throwing < weapon type > (Agi)
-Expertise at throwing weapons of a specific type. 
+#### Weapon-Throwing < [weapon type](#weapon-types) > (Agi)
+Expertise at throwing weapons of a specific [weapon type](#weapon-types). 
 
 ### Social Skills
 These skills have a dominant social aspect and are strongly related to a character's *social attributes*. 
@@ -1733,7 +1733,7 @@ Any long blade, including long one-handed blades. Examples: arming sword, bastar
 | 0     | Opposed   | Slash                   | 2  | **2D4** **Slashing**  | / |
 | 0     | Opposed   | Stab                    | 2  | **1D6** **Piercing**  | / |
 | 3     | Opposed+2 | Mordhau-Strike          | 2  | **1D4** **Crushing**  | / |
-| 4     | Opposed   | Fencer-Stance           | 3  | / | Enter a defensive fencing stance. Gain +2 [melee defence](#melee-defence-agi) and can **counter-attack** with a **slash**. |
+| 4     | /         | Fencer-Stance           | 3  | / | Enter a defensive fencing stance. Gain +2 [melee defence](#melee-defence-agi) and can **counter-attack** with a **slash**. |
 
 ### Great Blade
 Any very long, two-handed blade. Examples: sword of war, greatsword, Zweihänder
@@ -1784,7 +1784,7 @@ Any one or two-handed short piercing polearms. Examples: short-spear, boar-spear
 | Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | --------------------- | ------ |
 | 0     | Opposed   | Stab                    | 2  | **1D8** **Piercing**  | / |
-| 2     | Opposed+2 | Spear wall              | 3  | /                     | Whenever any character moves into a square adjacent to self, can attack that character with a **stab**. |
+| 2     | /         | Spear wall              | 3  | /                     | Whenever any character moves into a square adjacent to self, can attack that character with a **stab**. |
 
 ### Lance
 Any one or two-handed long piercing polearms. Examples: pike, lance
