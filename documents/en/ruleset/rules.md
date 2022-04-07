@@ -1378,8 +1378,8 @@ Is opposed by [resist](#resist-will).
 
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
-| 2     | Calm Animal          | 2  | Opposed | Calm an aggressive/hostile/frightened animal down. | Once per rest. |
-| 3     | Command Animal       | 2  | Opposed | Issue a *simple* command to a tamed/friendly animal. | Once per rest. |
+| 2     | Calm Animal          | 2  | Opposed | Calm an aggressive/hostile/frightened animal down. | Once per scene. |
+| 3     | Command Animal       | 2  | Opposed | Issue a *simple* command to a tamed/friendly animal. | / |
 
 #### Commanding (Will)
 Speaking commands others will respect and follow to the letter. 
@@ -1405,7 +1405,7 @@ Is opposed by [resist](#resist-will).
 | Level | Name                 | AP | **Ob**  | Effect(s)          | Condition(s) |
 | ----- | -------------------- | -- | ------- | ------------------ | ------------ |
 | 1     | Draw Attention       | 1  | Opposed | Force all creatures within 18'/6m distance to focus on you, instead. After they've attacked or otherwise had their attention on you, they may divert their attention, again. | Once per combat. |
-| 2     | Taunt                | 1  | Opposed | Lower a designated creature's defence by **-1D** for 1 turn. | Once per enemy. |
+| 2     | Taunt                | 1  | Opposed | Lower a designated creature's defence by **-1D** for 1 turn. | Once per creature; Creature can hear. |
 | 3     | Vicious Mockery      | 1  | Opposed | Lower a designated creature's defence by **-3D** for 3 turns. | Once per combat. |
 | 4     | War Cry              | 1  | Opposed | Lower the defence of all creatures within 18'/6m distance by **-2D**, for 4 turns. | Once per combat. |
 
@@ -1592,7 +1592,7 @@ Creatures can [resist](#resist-will) the change. Inanimate objects don't resist.
 
 | Level | Name                 | AP | Distance | Type | Damage | Effect(s)                      |
 | ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
-| 1+    | Alter Shape          | 3  | 18'/6m   | ST   | 0      | Resist: **Ob N**, Effect: The object or creature is altered as the mage desires. |
+| 0+    | Alter Shape          | 3  | 18'/6m   | ST   | 0      | Resist: **Ob N**, Effect: The object or creature is altered as the mage desires. |
 
 ### Illusion [Emp]
 Creation of non-physical influences on the senses. That includes images, sounds and odors. The illusions cannot cause direct harm, although they can drive an individual to acts that may put them in danger. 
@@ -1797,7 +1797,7 @@ Any one or two-handed long piercing polearms. Examples: pike, lance
 
 | Skill | **Ob**    | Attack                  | AP | Damage                | Effect |
 | ----- | --------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed   | Stab                    | 2  | **1D8** **Piercing**  | / |
+| 0     | Opposed   | Stab                    | 2  | **1D6** **Piercing**  | / |
 | 3     | Opposed   | Couched Lancing         | 3  | **3D10** **Piercing** | Requires self to be mounted on horse-back (or similar creature). Self must move at least 15'/5m in a straight line, past the target. |
 
 ### Polearm
@@ -1919,9 +1919,9 @@ A very deadly short to medium distance ranged weapon, shooting musket balls that
 
 | Skill | **Ob**    | Attack                  | AP | Distance | Damage                    | Effect |
 | ----- | --------- | ----------------------- | -- | -------- | ------------------------- | ------ |
-| 0     | Opposed   | Shoot                   | 3  | 30'/10m  | **3D6 + 4** **Piercing**  | / |
-| 0     | Opposed+3 | Shoot                   | 3  | 60'/20m  | **2D6 + 3** **Piercing**  | / |
-| 0     | Opposed+5 | Shoot                   | 3  | 90'/30m  | **2D6 + 2** **Piercing**  | / |
+| 0     | Opposed   | Fire                    | 3  | 30'/10m  | **3D6 + 4** **Piercing**  | / |
+| 0     | Opposed+3 | Fire                    | 3  | 60'/20m  | **2D6 + 3** **Piercing**  | / |
+| 0     | Opposed+5 | Fire                    | 3  | 90'/30m  | **2D6 + 2** **Piercing**  | / |
 
 ## Armor Properties
 Armor can have the following **properties**:
