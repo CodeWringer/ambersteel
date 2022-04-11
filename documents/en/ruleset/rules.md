@@ -463,6 +463,8 @@ For your convenience, the following table contains the precalculated requirement
 | 9   | 300 | 400 |
 | 10  | 363 | 484 |
 
+Whenever an attribute advances, its associated successes and failures must each be reset to 0. 
+
 #### Practicing Attributes
 It is possible to advance attributes *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice an attribute of choice. 
 
@@ -518,6 +520,8 @@ The outcome of a test gets noted on the skill it was made for, not the attribute
 
 **Forking** learning skills is not allowed. **Forking** into learning skills isn't allowed, either. 
 
+It **is** possible to receive help or [tutoring](#teaching) on a learning skill. 
+
 ### Advancing Skills
 Whenever a **PC** uses a **skill** in a [test](#tests), the outcome must be noted. 
 
@@ -548,6 +552,8 @@ For your convenience, the following table contains the precalculated requirement
 | 8   | 144 | 216 |
 | 9   | 180 | 270 |
 | 10  | 220 | 330 |
+
+Whenever a skill advances, its associated successes and failures must each be reset to 0. 
 
 #### Practice
 It is possible to advance skills *passively*. Whenever a large period of time is spent outside of active adventure, **PC**'s can practice a skill of choice. 
@@ -653,7 +659,7 @@ An **Inj.** can be properly **treated** via [surgery](#surgery-int):
 * If the attempt is a complete failure, the **Inj.** becomes **permanent**. It cannot be **treated** via [surgery](#surgery-int) anymore. 
 * Only one [surgery](#surgery-int) attempt can be made every 24 hours. 
 
-All currently **treated** **Inj.** can be removed/recovered from, by spending **4D4** weeks in uninterrupted, active recovery. Active recovery implies spending the vast majority of the day in bed or at least avoiding physical or mental strains. 
+All currently **treated** **Inj.** can be removed/recovered from, by spending **4D4** weeks in uninterrupted, active recovery. Active recovery implies spending the vast majority of the day in bed or at least avoiding physical and mental strains. 
 
 ### Exhaustion
 Exhaustion is the measure of a character's maximum physical and mental strain they can endure. 
@@ -690,11 +696,13 @@ Out of combat, the character enjoys greater speed of movement.
 #### Death's Door
 **Death's door** is a state only a **PC** can enter and represents their final battle with death. 
 
-A **PC** at **death's door** must succeed at least one [toughness](#toughness-tough) test out of a possible of three. If they never succeed, they perish, irrevocably. 
+A **PC** at **death's door** must succeed at least one [toughness](#toughness-tough) test out of a possible of three. If they never succeed, they perish, irrevocably*. 
 * If the character is at **death's door** during [combat](#combat), they must make a [toughness](#toughness-tough) test at the end of every round. 
 * If the character is at **death's door** out of [combat](#combat), they must make a test every minute. 
 
 A character can be helped out of **death's door**, if all of their **active** **Inj.** are **patched up** or **treated**. For every **active** **Inj.** that is **patched up** or **treated**, the character gains one more attempt to succeed a [toughness](#toughness-tough) test. 
+
+\* A **very** powerful mage could bring them back using [soul-binding](#soul-binding-int). 
 
 #### Frostbite
 This status effect can stack! That means, it can be incurred multiple times! 
@@ -807,7 +815,7 @@ The procedure of creating a character consists of the following steps:
 10. [Determine magic stamina](#determine-magic-stamina).
 
 ### Determine Life Path
-Where and when does the story of your character begin? Under what circumstances are they born and how were they raised? Until adulthood, did they lead a life of carelessness or did they have to fight for every scrap of food? How did they lead their life up until the point the picked up adventuring? 
+Where and when does the story of your character begin? Under what circumstances are they born and how were they raised? Until adulthood, did they lead a life of carelessness or did they have to fight for every scrap of food? How did they lead their life up until the point they picked up adventuring? 
 
 Answering these questions will help you figure out what your character could be like, as a person and what kinds of **ambitions**, **beliefs** and **instincts** they might develop. 
 
@@ -832,7 +840,7 @@ If you need inspiration, the following tables might help a spark along:
 | 5 | You went where the wind took you, doing lowly hireling pay when necessary and otherwise exploring and enjoying life as it came. |
 | 6 | You preferred life in the wilderniss and either took to the hermit's life or simply camped out in the woods as much as possible. |
 | 7 | You were wrongfully imprisoned for a crime you didn't commit. Or, perhaps, you did? |
-| 8 | You, by chance, met a mage, who sensed your lust for power. They taught you their knowledge, in secret, whenever you were available. |
+| 8 | You, by chance, met a mage, who sensed your lust for power. They taught you their knowledge, in secret, whenever they were available. |
 | 9 | You found yourself wanting to better the world. You helped others where possible and eventually picked up on the healing arts, perhaps even learning under a tutor. |
 | 10 | You were taught by a wealthy and successful merchant (perhaps your parent) and helped with running their business for a few years. |
 
@@ -924,9 +932,9 @@ Lastly, you need three [instincts](#instincts) for your character. Ideally, at l
 ### Choosing Attributes
 There are two methods for determining your character's attributes: manual and semi-random. 
 
-Also, you'll have to decide on whether your character will be a mage or not. Mages start with lower attributes, so decision can affect your character's initial competence. 
+Also, you'll have to decide on whether your character will be a mage or not. Mages start with lower attributes, so this decision can affect your character's initial competence. 
 
-Please keep in mind the values here are for a human. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your **GM** is running. 
+Please keep in mind the values here are representative for an ordinary human about to enter an adventuring life. Other species may have modifiers on their attributes, making them better or worse in some of them. But that depends on the world your **GM** is running. 
 
 #### Manual Attribute Assignment
 * As a mage
@@ -968,7 +976,7 @@ You can spend **8** points to *learn* skills and raise their level, with the fol
 * No skill can be at level 4 or higher.
 * You can have at most 5 skills. 
 * No skills can be set to *learning*.
-* Skills should relate to your character's life path. 
+* Skills *should* relate to your character's life path, but don't *have to*. 
 
 Once you've chosen skills, you can determine the required number of successes and failures each skill requires, in order to advance. 
 
@@ -1033,6 +1041,7 @@ There are three types of **FP**: [Minor](#minor-fate-points), [major](#major-fat
 **AFP** can be earned in the following ways: 
 * **World-Shaper**: Changing the world around oneself in a significant way. 
 * **Selfless**: Going above and beyond to achieve something, a betterment, not for oneself, but for others and at great cost. 
+* **Achiever**: Achieving and thus concluding an **ambition**. 
 
 ## Hand of Fate
 The **Hand of Fate** is a deck of cards a player can draw from, using their **FP** as currency to buy cards. 
