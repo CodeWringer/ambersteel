@@ -1076,7 +1076,7 @@ When diplomacy fails, hostilities ensue.
 ## Who Acts When
 At the beginning of every combat encounter, the involved parties (= groups) must roll for initiative. In order to determine which party gets to act first, each party rolls a **D100**. The party rolling the higher number, goes first. If there is a tie, roll another **D100**. 
 
-The involved parties act one after another. After all involed parties have had their **turn** to act, a **combat round** has passed. All members of a party act at the same time, during the party's turn. 
+The involved parties act one after another. After all involved parties have had their **turn** to act, a **combat round** has passed. All members of a party act at the same time, during the party's turn. 
 
 If one party is surprised, the ambushing party gets to act for a full turn, without initiative being rolled. This is called a *surprise round*. After the surprise round, initiative is rolled and combat begins as explained above. A party is considered surprised if they were unaware of their opponents when the first attack roll happens. 
 
