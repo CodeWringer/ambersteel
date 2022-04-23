@@ -8,6 +8,7 @@ Revenants are reanimated bodies, that move with considerably greater self-contro
 * Intelligent
 * Strong
 * Fast
+* Immune to mind effects
 
 ## Weaknesses
 * Vulnerable to steel

@@ -55,6 +55,7 @@
       - [Death's Door](#deaths-door)
       - [Frostbite](#frostbite)
       - [Rooted](#rooted)
+      - [Terrified](#terrified)
     - [Illness](#illness)
     - [Damage Types](#damage-types)
     - [Damage Over Time](#damage-over-time)
@@ -717,6 +718,13 @@ At the end of every round of combat, one point of **frostbite** is removed, unti
 A **rooted** character can no longer move their legs. They cannot move from the spot, but can still move their upper body freely. 
 
 This status-effect is usually tied to some condition, before it is removed. 
+
+#### Terrified
+A **terrified** character suffers -2D to both their melee and ranged defence and **has to** run away from whatever it is that terrified them. 
+
+The character will not stop until either breaking line of sight on the source of terror, or successfully [resisting](#resist-will) it. 
+
+This status effect lasts until either the source of terror is removed or until it is successfully [resisted](#resist-will). 
 
 ### Illness
 An illness can affect a character over a perod of time and cause various negative effects. 

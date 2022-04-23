@@ -12,6 +12,7 @@ It has no corporeal form, instead manifesting as a kind of volumetric shadow. Mu
 * Impervious to [soul-banishing](../../ruleset/magic/magic-schools#soul-banishing)
 * Impervious to steel
 * Impervious to [Amberite](../../magic/amberite)
+* Immune to mind effects
 
 ## Weaknesses
 * Untelligent, purely instinctual

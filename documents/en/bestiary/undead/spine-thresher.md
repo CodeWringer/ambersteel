@@ -12,6 +12,7 @@ Their spine extends to a bony tail that culminates in a lance-like spike. Razor 
 * Deadly
 * Terrifying
 * Fast
+* Immune to mind effects
 
 ## Weaknesses
 * Fragile

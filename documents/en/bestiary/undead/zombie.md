@@ -9,6 +9,7 @@ Their movement is sloppy and lacks any grace. It is apparent it takes them consi
 ## Strengths
 * Tough
 * Dangerous in numbers
+* Immune to mind effects
 
 ## Weaknesses
 * Unintelligent
@@ -23,3 +24,17 @@ Zombies are always created by a necromancer.
 They exist wherever their master wishes them to be. Their conspicuousness makes it difficult for them to remain hidden, however. 
 
 An experienced necromancer may be able to command entire armies of zombies. 
+
+## Skills
+| Skill                    | Level | 
+| ------------------------ | ----- | 
+| Melee Defence            | 1     | 
+| Ranged Defence           | 1     | 
+| Fighting                 | 2     | 
+| Weapon \<Unarmed\>       | 3     | 
+| Weapon \<Short Blade\>   | 2     | 
+| Weapon \<Long Blade\>    | 2     | 
+| Weapon \<Axe\>           | 2     | 
+| Weapon \<Spear\>         | 2     | 
+| Weapon \<Polearm\>       | 2     | 
+| Weapon \<Small Crusher\> | 2     | 

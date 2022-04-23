@@ -18,6 +18,7 @@ They often prefer to wear opulent finery, crowns and other symbols of superiorit
 * Immortal
 * Intelligent
 * Cunning
+* Immune to mind effects
 
 These are very powerful creatures, capable of casting magic and [soul-binding](../../ruleset/magic/magic-schools#soul-binding). 
 

@@ -13,6 +13,7 @@ They're squat creatures, with spotted pale skin. Their pathetic stature belies t
 ## Strengths
 * Strong
 * Fast
+* Immune to mind effects
 
 ## Weaknesses
 * Fragile

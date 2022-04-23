@@ -11,6 +11,7 @@ Bony wings with leathery skin allows it to glide for a short distance. It has di
 * Poisonous breath
 * Deadly claws and teeth
 * Terrifying
+* Immune to mind effects
 
 ## Weaknesses
 * Unintelligent
