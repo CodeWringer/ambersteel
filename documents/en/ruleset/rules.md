@@ -56,6 +56,9 @@
       - [Frostbite](#frostbite)
       - [Rooted](#rooted)
       - [Terrified](#terrified)
+      - [Berserk](#berserk)
+      - [Pacified](#pacified)
+      - [Jealous](#jealous)
     - [Illness](#illness)
     - [Damage Types](#damage-types)
     - [Damage Over Time](#damage-over-time)
@@ -722,9 +725,24 @@ This status-effect is usually tied to some condition, before it is removed.
 #### Terrified
 A **terrified** character suffers -2D to both their melee and ranged defence and **has to** run away from whatever it is that terrified them. 
 
-The character will not stop until either breaking line of sight on the source of terror, or successfully [resisting](#resist-will) it. 
-
 This status effect lasts until either the source of terror is removed or until it is successfully [resisted](#resist-will). 
+
+#### Berserk
+A character who is in **berserk**, **must** attack the creature nearest to them. 
+
+This status effect lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
+
+#### Pacified
+A character who is **pacified**, is unable to *willingly* take any action that would directly or indirectly harm any other creature. 
+
+Note, the character is not physically unable to cause harm, but they **really** don't want to. 
+
+This status effect lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
+
+#### Jealous
+A character who has been made unnaturally **jealous**, will do anything in their power to take, whatever it may be, from whoever might have *it*. 
+
+This status effect lasts until it is successfully [resisted](#resist-will) or the character is made [unconscious](#unconscious). 
 
 ### Illness
 An illness can affect a character over a perod of time and cause various negative effects. 
@@ -1721,8 +1739,8 @@ Sometimes, your own body is your greatest weapon. Fists and feet can cause a sur
 
 | Skill | **Ob**  | Attack                  | AP | Damage                | Effect |
 | ----- | ------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed | Punch, kick, headbutt   | 2  | N + 2 **Bludgeoning**, where N = [strength](#strength-str) | / |
-| 1     | Opposed | Grapple                 | 2  | /                     | Requires a successful opposed [strength](#strength-str) test. If **completely successful**, the target is unable to move and suffers -1 [melee defence](#melee-defence-agi) while grappled. Someone grappled can attempt to break free with an opposed [strength](#strength-str) test, on their turn. |
+| 0     | Opposed by **Melee Defence** | Punch, kick, headbutt   | 2  | N + 2 **Bludgeoning**, where N = [strength](#strength-str) | / |
+| 1     | Opposed by **Melee Defence** | Grapple                 | 2  | /                     | Requires a successful opposed [strength](#strength-str) test. If **completely successful**, the target is unable to move and suffers -1 [melee defence](#melee-defence-agi) while grappled. Someone grappled can attempt to break free with an opposed [strength](#strength-str) test, on their turn. |
 
 ### Short Blade
 Any short, one-handed blade. Examples: shiv, dagger, Shortsword
@@ -1733,10 +1751,10 @@ Any short, one-handed blade. Examples: shiv, dagger, Shortsword
 
 | Skill | **Ob**  | Attack                  | AP | Damage                | Effect |
 | ----- | ------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed | Slash                   | 2  | 2 **Slashing**        | / |
-| 0     | Opposed | Stab                    | 2  | 1 **Piercing**        | / |
-| 3     | Opposed+2 | Target weak-spot      | 3  | 3 **Piercing**        | / |
-| 3     | Opposed+2 | Artery cut            | 3  | 2 **Slashing**        | +1 **bleeding** to the target (if it can bleed). |
+| 0     | Opposed by **Melee Defence** | Slash                   | 2  | 2 **Slashing**        | / |
+| 0     | Opposed by **Melee Defence** | Stab                    | 2  | 1 **Piercing**        | / |
+| 3     | Opposed by **Melee Defence**+2 | Target weak-spot      | 3  | 3 **Piercing**        | / |
+| 3     | Opposed by **Melee Defence**+2 | Artery cut            | 3  | 2 **Slashing**        | +1 **bleeding** to the target (if it can bleed). |
 
 ### Long Blade
 Any long blade, including long one-handed blades. Examples: arming sword, bastard sword, Longsword
@@ -1962,8 +1980,6 @@ A set of light armor that doesn't impede the wearer by much. Commonly represents
 | 3 **Bludgeoning** |
 | 2 **Crushing**    |
 
-If lined with [Ambersteel](#ambersteel), also protects **1D4** against magic. 
-
 ### Medium Armor
 A set of medium armor with a good balance of protection and weight. Commonly represents a gambeson underneath a mail hauberk. Optional mail mittens. Common headgear: arming cap, mail coif or any non-full helmet. 
 
@@ -1976,8 +1992,6 @@ A set of medium armor with a good balance of protection and weight. Commonly rep
 | 3 **Piercing**    |
 | 2 **Crushing**    |
 
-If lined with [Ambersteel](#ambersteel), also protects **2D4** against magic. 
-
 ### Heavy Armor
 A set of heavy armor with excellent protection, at the cost of encumbering the wearer greatly. Commonly represents a full suit of plate armor.  
 
@@ -1989,8 +2003,6 @@ A set of heavy armor with excellent protection, at the cost of encumbering the w
 | 5 **Bludgeoning** |
 | 4 **Piercing**    |
 | 3 **Crushing**    |
-
-If lined with [Ambersteel](#ambersteel), also protects **3D4** against magic. 
 
 ## Shield Types
 Shields are items that provide passive bonuses to [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi) and require one free hand to use. This implies they cannot be used at the same time as a two-handed weapon. 

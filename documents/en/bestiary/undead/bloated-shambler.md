@@ -28,20 +28,15 @@ Due to the increased complexity in their creation, they're not quite as numerous
 | Weapon \<Unarmed\>       | 3     | 
 
 ### Bloater's Reprisal (Arc)
-Explode into a gory and corrosive mess, that deals **2D4** **acid** damage to anything within a 6'/2m radius.
+* Level: 1
 
-* Unique
-* At Level: 0
-* AP: 0
-* Condition: Automatic, upon death.
-* Att. type: AoE
+| At | **Ob**    | Name                    | Type | AP | Damage | Effect | Condition |
+| -- | --------- | ----------------------- | ---- | -- | ------ | ------ | --------- |
+| 0  | /         | Bloater's Reprisal | AoE | / | **2D4** **Acid** | Explode into a gory and corrosive mess, that deals **2D4** **acid** damage to anything within a 6'/2m radius. | Automatic, upon death. |
 
 ### Fetid Regurgitation (Agi)
-Throw up part of your liquified, fetid innards and spew them as a single target ranged attack within a 9'/3m distance.
+* Level: 3
 
-* Unique
-* At Level: 0
-* AP: 3
-* Att. type: ST
-* Ob: Opposed by **Ranged Defence**
-* Damage: 1D4 Acid
+| At | **Ob**    | Name                    | Type | AP | Damage                | Effect |
+| -- | --------- | ----------------------- | ---- | -- | --------------------- | ------ |
+| 0  | Opposed by Ranged Defence | Fetid Regurgitation | ST | 3 | **1D4** **Acid**  | Throw up part of your liquified, fetid innards and spew them as a single target ranged attack within a 9'/3m distance. |

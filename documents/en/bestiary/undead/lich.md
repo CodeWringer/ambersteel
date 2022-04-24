@@ -12,12 +12,11 @@ They often prefer to wear opulent finery, crowns and other symbols of superiorit
 
 ## Strengths
 * Impervious to steel
-* Magic-user
+* Mage
 * Regeneration
-* Night-vision
+* Perceptive
 * Immortal
 * Intelligent
-* Cunning
 * Immune to mind effects
 
 These are very powerful creatures, capable of casting magic and [soul-binding](../../ruleset/magic/magic-schools#soul-binding). 
@@ -25,7 +24,7 @@ These are very powerful creatures, capable of casting magic and [soul-binding](.
 [Amberite](../../magic/amberite) is an effective material against their magical abilities, although it doesn't harm their corporeal forms particularly well. 
 
 ## Weaknesses
-* Can be [soul-banished](../../ruleset/magic/magic-schools#soul-banishing)
+* Can be reverse **soul-bound**
 * [Amberite](../../magic/amberite)
 
 ## Origin
@@ -35,3 +34,16 @@ Most liches are brought about through death-pacts of powerful magic-users that a
 Liches are very rare and often centuries old. 
 
 They prefer to dwell in remote fortresses, where they study the secrets of [soul-binding](../../ruleset/magic/magic-schools#soul-binding) and build an army of undead. 
+
+## Skills
+| Skill                    | Level | 
+| ------------------------ | ----- | 
+| Magic School \<Soul-Binding\>  | 8     | 
+| Magic School \<Telepathy\>     | 5     | 
+| Magic School \<Pyromancy\>     | 6     | 
+| Magic School \<Cryomancy\>     | 6     | 
+| Magic School \<Counter\-Magic> | 7     | 
+| Magic School \<Telekinesis\>   | 4     | 
+| Melee Defence                  | 2     | 
+| Ranged Defence                 | 3     | 
+| Rune-Using                     | 4     | 

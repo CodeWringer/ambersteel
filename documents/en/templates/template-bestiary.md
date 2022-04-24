@@ -13,3 +13,10 @@
 
 
 ## Occurrence
+
+
+## Skills
+| Skill                    | Level | 
+| ------------------------ | ----- | 
+| Skill                    | 1     | 
+
