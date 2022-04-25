@@ -26,6 +26,10 @@ Due to the cost of material, time and labor involved, armorers demand great comp
 
 Armorers need not only raw strength, but also good perception and endurance. 
 
+## Antiquarian
+
+## Astrologer
+
 ## Barber
 Cutting your own hair in a way that doesn't make you look ridiculous after wards is surprisingly difficult. It helps to have someone else, with a better view and reach on things. Enter the barber. 
 
@@ -45,6 +49,8 @@ Barber surgeons benefit from a high agility, perception, empathy and intelligenc
 ## Bailiff
 
 ## Bodyguard
+
+## Bounty Hunter
 
 ## Bowyer
 Just about anyone can grab a stick, tie a string to it and pretend it's a war-bow. But only a bowyer knows which stick to pick and how to work it in a way that prevents it snapping on first draw of the string. 
@@ -67,7 +73,13 @@ Despite the skill that goes into it, most bowyers aren't paid particularly well.
 
 ## Courtesan
 
+## Criminal
+
 ## Draper / Tailor
+
+## Entertainer
+
+## Envoy
 
 ## Executioner
 Executioners are often shunned for their work and forced to live offside society. It is considered dirty and honorless work and thus also not paid well, at all. 
@@ -96,7 +108,11 @@ They need strength and toughness for their line of work.
 
 ## Innkeep
 
-## Jeser
+## Informer / Spy
+
+## Inquisitor
+
+## Jester
 
 ## Lawyer
 
@@ -106,11 +122,17 @@ They need strength and toughness for their line of work.
 
 ## Mercenary
 
+## Merchant
+
 ## Metalsmith / Blacksmith
 
 ## Miller
 
 ## Miner
+
+## Monk
+
+## Peasant
 
 ## Perfumer
 
@@ -123,11 +145,15 @@ Not much is asked of peons. They need raw strength and endurance to be of use.
 
 ## Physician
 
+## Priest / Preacher
+
 ## Rat Catcher
 
 ## Sailor
 
 ## Scribe
+
+## Scholar
 
 ## Servant
 
