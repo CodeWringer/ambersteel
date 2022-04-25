@@ -964,13 +964,14 @@ Please keep in mind the values here are representative for an ordinary human abo
 
 #### Manual Attribute Assignment
 * As a mage
-  * You can spend 17 points on your attributes. 
+  * You can spend 15 points on your attributes. 
   * All attributes start at level 2. 
-  * Your attribute-total cannot be greater than **39**.
+  * **Arcana** starts at level 1. 
+  * Your attribute-total cannot be greater than **36**.
 * As a non-mage
-  * You can spend 22 points on your attributes. 
+  * You can spend 18 points on your attributes. 
   * All attributes *except arcana* start at level 2. Arcana is 0 and remains 0. 
-  * Your attribute-total cannot be greater than **42**.
+  * Your attribute-total cannot be greater than **38**.
 * No attribute may have a level less than 2 nor higher than 6.
 * Only two attributes may have a level of 6. 
 
@@ -982,8 +983,8 @@ Please keep in mind the values here are representative for an ordinary human abo
 3. Row up your dice to form a line, then read them from one end to the other and note each value. The order in which they are written down, is the order in which they'll be applied to the attributes. 
 4. If there are more than 2 6s, start lowering their value by one, starting from the left or the right, until there are only 2 6s left. 
 5. Count up the total of your values. 
-   1. For a mage subtract your total from **39**. <br>
-   For a non-mage subtract your total from **42**.
+   1. For a mage subtract your total from **36**. <br>
+   For a non-mage subtract your total from **38**.
    2. If the number is negative, that's the number of levels you'll have to go down. <br>
    If the number is positive, that's the number of levels you'll have to go up. 
 6. Starting from the left or right, start adjusting each value.
