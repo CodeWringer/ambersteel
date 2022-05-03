@@ -150,3 +150,75 @@ A large, half-round building with a cobbled plaza surrounding it serves as a hid
 The stairs-quarter is named after its many stairs. The already very narrow alleys are a further challenge due to the many steps and large variance in height. 
 
 Once something of a tourist attraction, this quarter is now a labyrinth of death. But perhaps that could be of advantage? It would be easy to lose one's enemies in these winding passages. 
+
+#### Father Elias' Hospital
+Father Elias may not be doctor, nor know the first thing about medicine, but he will tend to anyone knocking on his door. Over time, his drive to help has attracted the like-minded. 
+
+They moved from the infirmary wing of the church to their own building, dedicated to the treatment and care of the sick. 
+
+And yet, even before tonight, people tended to avoid the hospital. Sickness and helplessness are a stigma many wouldn't willingly attract. 
+
+Now, the place reeks of death. Whether from the lack of care, or the invasion of carcasses, you can be sure to find even more cold bodies here. But then again, medical supplies are hard to come by and the hospital is known to stock many. Better hope the fire doesn't get to them, first. 
+
+## Encounters
+This is a (non-exhaustive) selection of possible encounters for the players to face. 
+
+### The Rat-Catcher
+A slimy-looking fellow. The rat-catcher is well known in these parts. He's got a dirty and sly smile, a lazy eye and a dirty leather belt diagonally strapped over his shoulder. Rats are tied to it by their tails. 
+
+This is the rat-catcher. He knows these alleys, most peoples' basements and even parts of the sewers. But he won't share his secrets. In fact, he barely speaks a straight sentence, instead resorting to oddly hinting at his intentions and licking his lips. He is very overtly a weirdo. 
+
+Violence won't make him yield any information, instead making him squeal like a rat and boggling his eyes in panic. He's clearly not sane. Perhaps it is violence like this, done unto him in the past, that made him so. Regardless, the most use the players will get out of him, is if they can tail him, without him noticing. He will unknowingly lead them through the alleys, closer to one of the city gates. This way, the PCs can avoid some of the worse streets. 
+
+If at any point he notices them, he will squeal and run away in a blind panic. Somewhere along the way, he is guaranteed to notice them and flee. It would be quite hard for the players to keep chasing him. If they do catch him, he won't be of any use, see the point about violence above. 
+
+### The Cat Lady
+A middle-aged lady stands outside her burning home. She's crying and worried sick. 
+
+When the PCs catch her attention, she'll stop them, even throw herself at them, if needed, and beg them to go rescue her little babies. The woman can offer no reward. 
+
+If they agree, they'll have to enter the building, somehow. Flame seeks to consume all and endangers the PCs' lives. Attentive and nimble PCs may be able to spot and pilfer some silver tableware. 
+
+The "little babies" are in the basement. It's a pack of well-cared for looking albino rats. At the far back wall, there is a flight of steep stairs, leading up to a locked hatch double door. The PCs have to catch the rats first, if they want to "rescue" them. There are small metal cages around, in which any caught rats can be held. 
+
+### The Curious Plague Doktor
+In one of the alleyways, a masked man in a shoddy top hat is crouched over a mangled body, taking samples of blood with a nasty-looking syringe. 
+
+This is an odd fellow, who will ask the players for a *small* favor. He wants a *live* sample of undead flesh. He suspects something beyond necromancy at work, but finds himself incapable of acquiring it, on his own. He would accompany the PCs to a nearby alley, where he heard gurgles and uncoordinated foot falls. Several tougher undead are clawing on the doors of the houses there. The PCs will have to grapple and hold one of them long enough for the plague doktor to take his sample. 
+
+If they agree, as advance payment, he'll hand them an alchemical potion. As reward, he promises another potion. 
+
+If the players try to take the potions by force, he'll use smoke bombs to disengage, run and hide in the alleys. The players can chase him with a successful, very hard observation test. He's a slippery fellow...
+
+### Citizens Stuck in a Burning House
+Screams for help from a burning house may alert the players that someone is inside. 
+
+Inside are three terrified children, a lightly wounded mother, their grandmother and an unconscious, heavily burned husband. 
+
+The front door is stuck, a fallen wooden beam has blocked it from the outside. The windows are too small for anyone to climb through. 
+
+If and once freed, they'll want to get out, just as everyone else. The've nothing to reward the players with, but are grateful for the rescue. 
+
+If the players simply move on, they'll be rewarded with heavy banging and more panicked screams for help that morph into screams of incredible pain and agony. 
+
+### A Scholar in Need
+An intellectual, wearing a fancy vest and feathered hat, is currently busy trying to calm their mule. Leather saddle bags are laying nearby, seemingly intended for the mule's back. But the animal is freaked out and won't let anyone near. 
+
+The animal is too small to ride and won't help the PCs get out faster. Its use is only for carrying the personal library of the intellectual. 
+
+If the PCs can help calm the animal, the scholar will tell them of a relatively close way into the sewers. They themselves are too afraid to try the sewers - there are stories of monsters living down there and he suspects the sewes are also how the undead got into the city undetected. 
+
+### Thug and City Watch Battle
+Even in the end-times, the city watch and local crime lords are vying for supremacy. They're currently engaged in a deadly battle and are blocking several streets with their fighting. 
+
+Even if uninvolved, the PCs getting too close might put them in danger of stray projectiles or wildly swung weapons. 
+
+Helping either side will cost time, but free up the way and earn the PCs new allies. 
+
+### The Doom-Sayer
+A madman is raving in the streets. Despite his loud screaming, the undead seem to pay him no heed. A collaborator? Perhaps even the undead prefer to pretend he wasn't there. He's running around, babbling, hollering and howling and may scream promises of doom at the PCs. 
+
+### The Templar
+A holy warrior who will attempt to recruit the PCs to help defend the temple, where survivors are huddled together, under the protection of the templars. 
+
+If the PCs refuse, the templar may become violent towards them, cursing them for their vile selfishness and lack of solidarity. The PCs may talk themselves out of a fight, but the templar is a capable fighter who will be difficult to take on, even for a group of them. 
