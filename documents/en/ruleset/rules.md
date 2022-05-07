@@ -145,6 +145,7 @@
     - [Knowledge](#knowledge)
       - [Architecture (Int)](#architecture-int)
       - [Alchemy (Arc)](#alchemy-arc)
+      - [Appraisal (Int)](#appraisal-int)
       - [Brewing (Wis)](#brewing-wis)
       - [Geography (Int)](#geography-int)
       - [Heraldry (Int)](#heraldry-int)
@@ -1468,6 +1469,9 @@ Analysing and planning buildings. Discerning weak points in a structure.
 
 #### Alchemy (Arc)
 The ability to brew alchemical potions, create powders, mixtures and other substances, as well as the ability to tell these things apart. 
+
+#### Appraisal (Int)
+The ability to quickly and approximately guage the value of goods and services, the weight or quantity of goods, without having to actually count or weigh. 
 
 #### Brewing (Wis)
 The brewing of alcoholic beverages. 
