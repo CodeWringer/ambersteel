@@ -29,6 +29,8 @@ Knowledge flows only from masters to apprentices. There is no public school syst
 
 Although Zakkid are intelligent and learn quickly, their knowledge of the outside world is limited only to what news travelers bring. 
 
+Zakkids are acutely aware that the world is a globe. They map star patterns, measure seismic activity and understand plate tectonics. Above all, they understand the flow of magic profoundly and can sense it circling the world. 
+
 ## Economy
 There is no export as there is no traditional economy. Instead, all of Zakkid efforts are aimed solely at keeping the hive alive. 
 
