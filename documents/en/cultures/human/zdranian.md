@@ -1,6 +1,12 @@
 # Zdránian
 Zdránians are a very communal and religious people, with a strong sense of compassion and hospitality. 
 
+Family is very extended and hard to break apart. Even distant cousins and ex-partners are still considered a part of the family. 
+
+Religion is important, but which gods are to be worshipped is a question of much debate, with the pantheon of choice frequently changing. 
+
+At least, once, Zdrànians were like this. Now, since the [Creeping Death](../../../bestiary/horrors/creeping-death) forced them from their home land of [Berennia](../../../world/berennia/berennia), they've grown closer to each other and far more wary of non-family. Bitterness and insanity have taken hold of many. 
+
 ## TOC <!-- omit in TOC -->
 - [Zdránian](#zdránian)
   - [Appearance](#appearance)
@@ -55,80 +61,41 @@ Zdránians are a very communal and religious people, with a strong sense of comp
     - [Matters of Daily Life](#matters-of-daily-life)
 
 ## Appearance
-* What is their range of appearance: e.g., colour of hair or eyes or skin, height, build, and the like?
+* Fairly pale
+* Dominantly dark-haired
+* Dominantly green eyes
 
 ### Body Adornment
-* Are tattoos, scarification, piercings or body paint common?
-  * What forms do they take?
-  * Are they monochromatic or tinted?
-  * What areas of the body must be covered?
-  * What significance might these kinds of decorations have?
-* Is facial hair a common or even respectable feature? And who has facial hair?
-* If such adornments are not used in this culture, how do people react to outsiders wearing tattoos or piercings, facial hair or cosmetics?
+* Facial hair is common. Flowing and bushy bears are all the rage. 
+* Outsiders with lots of tattoos and piercings may be regarded sceptically, but with not with disdain. 
+* Women often wear ear rings. 
 
 ### Clothing & Fashion
-* What articles of clothing do people habitually wear and how does this vary by season, ethnicity, age, profession, and the like?
-  * Are certain articles of clothing customary or obligatory for certain occupations and how much variation is allowed?
-* Describe how the genders dress: what differences & similarities are there between men's and women's clothing and accessories?
-* What materials do people prefer their clothes made of?
-  * What materials are intended for special occasions?
-  * Is the material be produced locally, or must some or all of it be imported? Must the material be exotic? 
-  * Are there dyes for certain colors, such as purple or indigo that are very rare, making cloth of that color more expensive and/or reserved for nobility or other high-status people?
-* How many changes of clothing can a person be expected to own or afford?
-* Or is clothing more a matter of individual taste?
-* Are there fashions or fads in things besides clothes? -- styles of carriages, furniture, race or gender of household slaves, modes of speech?
-* Are there fashions or fads in magical practice, religious devotion or in other areas of life? -- are herbal spells "in" this year and ritual spells "out," or is that god out while this new religion is in fashion?
-* What is the current fashion in clothing, haberdashery, jewellery, shoes & other accouterments?
-* What articles are considered tacky and vulgar, and which are stylish?
-* What physical appearance types and characteristics are currently fashionable? -- tan versus pale skin, the "consumptive look" versus robust good health, fat versus thin, blonde versus brunette?
-* How pervasive is the culture of vanity and how are people who simply can not fit into a fashionable category affected? -- do they suffer along, or try to make up for their perceived deficiencies or do they simply create their own categories of fashion and vanity?
-* How are colors for clothing chosen?
-  * What colors and combinations of colors are thought to look well or to clash?
-  * What colors are associated with power, with virtue and with death?
-* Are weapons of some kind a standard part of dress for any/all segments of society?
-  * Are such weapons crafted solely with "utility" in mind or are they so decorative as to be nearly useless?
+* Treated leather hats, shaped like tricornes, are common, regardless of gender. 
+* Men commonly wear the clothes of their trade. 
+* Women commonly wear simple robes with a blouse, in high boots and a fashionable shawl. 
+  * Jewelry, such as ear rings and necklaces are common, from simple to ornamental. 
+* In winter, thick fur overcoats are worn. 
+* Everyone owns one set of elegant clothes, for special occasions, only. 
+* Generally, people aren't too vain, save for the rich and privileged folk. 
+* Although most Zdránians are very religious, they can never really agree on which god or gods to worship. Exacerbating the problem, is their lack of loyalty to their gods, which means they frequently find new pantheons to worship. 
 
 ## Family
-* What is considered a family?
-* How big are families, typically?
-* How *extended* is an extended family?
-* How are families named?
-* Are people strongly attached to their heritage?
-* How important are family connections and responsibilities?
+* Families are big and extended, up to distant cousins. 
+* Family connections and heritage are important and people feel a strong bond with their kin. 
 
 ### Houshold
-* What constitutes a household?
-* How many people live in one household?
-* How many generations?
-* Which members are expected to leave, and why and when?
-* What is the division of labor among gender and generational lines within the household?
+* Many generations may live in the same household. No one is ever expelled. 
 
 ### Marriage
-* How many spouses may a man or woman have?
-* Who decides on a marriage?
-* Can a marriage end in divorce and how would this work?
-* What, if anything, is considered a good marriage gift?
-* Does this society connect the ideas of marriage with love?
-* What types of marriages and sexual relationships are required, encouraged, allowed, and prohibited?
-* What are the society's mores regarding courtship, betrothal & marriage?
-* Is marriage primarily a civil or a religious institution?
-* How are marriages celebrated?
-* What is the term of a marriage contract?
-* What is considered too great a difference in age for a couple?
+* Divorce is possible, but even a divorced husband or wife is still considered distant family, including all the expected obligations. 
 
 ### Childcare
-* What are the patterns of childcare?
-  * Are girls and boys treated differently? 
-  * Are girls or boys preferred and why?
-* Which member of the household cares for the children in what ways?
-  * Who usually takes custody of children if a marriage ends for some reason?
-  * What happens to orphans?
-* What are the expectations of children?
+* The entire house hold takes care of the children. 
 
 ### Domestic Violence
-* How common or rare is domestic violence?
-* Is this understood to be a problem, or a normal aspect of family life?
-* If it is seen as problematic, what is being done about it?
+* Domestic violence is frowned upon and shunned. 
+* Murder is a terrible crime, but family murder is even worse. 
 
 ## Customs and Social Life
 * If two men get into a fight, how is this supposed to be resolved?
