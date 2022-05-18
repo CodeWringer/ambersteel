@@ -186,9 +186,9 @@ In one of the alleyways, a masked man in a shoddy top hat is crouched over a man
 
 This is an odd fellow, who will ask the players for a *small* favor. He wants a *live* sample of undead flesh. He suspects something beyond necromancy at work, but finds himself incapable of acquiring it, on his own. He would accompany the PCs to a nearby alley, where he heard gurgles and uncoordinated foot falls. Several tougher undead are clawing on the doors of the houses there. The PCs will have to grapple and hold one of them long enough for the plague doktor to take his sample. 
 
-If they agree, as advance payment, he'll hand them an alchemical potion. As reward, he promises another potion. 
+If they agree, as advance payment, he'll hand them an alchemical potion. As reward, he promises two more potions. 
 
-If the players try to take the potions by force, he'll use smoke bombs to disengage, run and hide in the alleys. The players can chase him with a successful, very hard observation test. He's a slippery fellow...
+If the players try to take the potions by force, he'll use smoke bombs to disengage, run and hide in the alleys. The players can chase him with a successful, very hard observation test. He'll also use alchemical potions to detonate parts of the buildings around, to block passage to him. He's a slippery fellow...
 
 ### Citizens Stuck in a Burning House
 Screams for help from a burning house may alert the players that someone is inside. 
@@ -200,6 +200,11 @@ The front door is stuck, a fallen wooden beam has blocked it from the outside. T
 If and once freed, they'll want to get out, just as everyone else. The've nothing to reward the players with, but are grateful for the rescue. 
 
 If the players simply move on, they'll be rewarded with heavy banging and more panicked screams for help that morph into screams of incredible pain and agony. 
+
+### Citizens cornered by the undead
+Screams and roars from a nearby alley may alert the players that someone nearby is being threatened by the invaders. 
+
+This should only be a mild encounter, depending on the PCs' remaining strength. Helping the citizens, they are rewarded with medical supplies. Failing to help the citizens or arriving late, to scavenge the leftovers, reveals the tattered and unusable remains of the medical supplies. 
 
 ### A Scholar in Need
 An intellectual, wearing a fancy vest and feathered hat, is currently busy trying to calm their mule. Leather saddle bags are laying nearby, seemingly intended for the mule's back. But the animal is freaked out and won't let anyone near. 
@@ -222,3 +227,14 @@ A madman is raving in the streets. Despite his loud screaming, the undead seem t
 A holy warrior who will attempt to recruit the PCs to help defend the temple, where survivors are huddled together, under the protection of the templars. 
 
 If the PCs refuse, the templar may become violent towards them, cursing them for their vile selfishness and lack of solidarity. The PCs may talk themselves out of a fight, but the templar is a capable fighter who will be difficult to take on, even for a group of them. 
+
+### Haunted House
+A larger manor provides some safety from the flames. But unbeknownst to the PCs, does a [haunt](../../../bestiary/undead/haunt.md) inhabit this place. 
+
+Before the invasion, this restless soul was contained by the body of a servant of the house. They had always been poor, never known their parents and grew up at their parent's relatives, who didn't quite relish having another mouth to feed. This tragic life reached its crescendo in this fateful night, when their master told them they were no longer needed. In the exact moment that the pain set in, the invasion reached them. 
+
+The overload of emotions of fear, anger and sorrow was too much for the soul. It simply could not depart, when it was time. Now, they want justice. Nothing more than justice. Their master must suffer equally, if this haunt is to be appeased. Trouble is, the master of the house has since joined the undead and is roaming the house aimlessly. 
+
+Some undead roam the manor house, but most notably, the **haunt** drives anyone insane, who can't resist its influence. 
+
+The manor house itself is only interesting because it provides some respite from the encroaching flames. But PCs should not dwell too long, for more undead are sure to sniff them out. There may be many valuables inside the house, but only few supplies of actual value. 
