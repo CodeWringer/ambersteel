@@ -107,6 +107,7 @@
   - [Dealing Damage](#dealing-damage)
 - [Magic](#magic)
   - [Magic Stamina](#magic-stamina)
+    - [Recovery](#recovery)
   - [Spell Intensity](#spell-intensity)
     - [Maximum Spell Intensity](#maximum-spell-intensity)
   - [Spell-Backfire](#spell-backfire)
@@ -1219,30 +1220,29 @@ What type of [injury](#injury) is dealt, also depends on the [damage type](#dama
 # Magic
 Any character with [arcana](#arcana-arc), can cast magic. What kind of magic, depends on the [magic schools](#magic-schools) the character knows. 
 
-While not all spells can be used offensively, those that can, will inflict [damage](#health--exhaustion), proportional to the [spell's intensity](#spell-intensity) and may cause other effects on those affected by it. 
+While not all magic can be used offensively, that which can, will inflict [damage](#health--exhaustion), proportional to the [spell's intensity](#spell-intensity) and may cause other effects on those affected by it. 
 
-The effects of a spell do not affect the mage casting the spell, unless they suffer a [spell-backfire](#spell-backfire) or if it is an [aoe](#area-of-effect-attack) spell. 
+The effects magic do not affect the mage casting, unless if they suffer a [spell-backfire](#spell-backfire) or if it is an [aoe](#area-of-effect-attack) spell. 
 
 ## Magic Stamina
-**Magic stamina** represents a mage's capacity for casting magic without risk to themselves. 
+Magic takes a toll on the caster's body. It takes great mental effort to properly cast magic. **Magic stamina** represents a mage's capacity for casting magic without risk to themselves. 
 
-Note that it is possible for a mage to cast spells that costs more **magic stamina** than they have available. 
+Note that it is possible for a mage to cast magic that costs more **magic stamina** than they have available. Any magic cast that costs more **magic stamina** than is available, can cause a [spell-backfire](#spell-backfire). 
 
-Thus, it represents the threshold of safely casting magic. Any spell cast that costs more **magic stamina** than is available, can cause a [spell-backfire](#spell-backfire). 
-
-This threshold is reduced every time a spell is cast. The threshold is reduced by the [intensity](#spell-intensity) at which the spell was cast. Success or failure doesn't matter - even just the attempt to cast the spell incurs the **magic stamina** cost. 
+**Magic stamina** is reduced every time magic is cast. The threshold is reduced by the [intensity](#spell-intensity) at which the spell was cast. Success or failure doesn't matter - even just the attempt to cast the spell incurs the **magic stamina** cost. 
 
 Mechanically speaking, every mage has two values to track: their **maximum magic stamina** and their **current magic stamina**. The *threshold* is considered the maximum, while the current magic stamina must be tracked, separately. 
 
-For every point past the current threshold that a spell costs, one **D6** must be rolled. If a 1 or a 2 is rolled, the spell [spell-backfires](#spell-backfire), dealing its full damage to the caster, instead. 
+For every point past the current threshold that the magic casting costs, one **D6** must be rolled. If a 1 or a 2 is rolled, the spell [spell-backfires](#spell-backfire), dealing its full damage to the caster, instead. 
 
 How much **magic stamina** a mage has available to them, is derived from their [arcana](#arcana-arc) attribute + the total level of all their known [magic school](#magic-school--school---attribute-) skill levels, divided by two and rounded up. 
 
 > If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **counter-magic** at level 5, that means they have (3 + 3 + 2 + 5) / 2 = 7 **magic stamina**. 
 
-Magic spells take a toll on the caster's body. It takes great mental effort to properly cast a spell. 
+### Recovery
+Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every 10 minutes spent in *active recovery*, a mage regains 1 **magic stamina**. 
 
-Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every hour spent, not casting magic, a mage regains 2 **magic stamina**. 
+Active recovery implies not engaging in any physical or mental strains, but instead meditating or resting. 
 
 ## Spell Intensity
 Any magic can be cast at different **intensities**. A greater **spell intensity** results in a greater effect, at a proportionally greater [magic stamina](#magic-stamina) cost. 
