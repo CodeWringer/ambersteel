@@ -1,6 +1,6 @@
 - [Introduction](#introduction)
 - [Credits](#credits)
-  - [How to Play](#how-to-play)
+- [How to Play](#how-to-play)
     - [Dice](#dice)
     - [Before the Game](#before-the-game)
     - [The Session](#the-session)
@@ -256,7 +256,7 @@ As such, I took inspiration from other systems I have read, played and enjoyed i
 * **Zweihänder**, by Daniel D. Fox
 * **Knave**, by Ben Milton
 
-## How to Play
+# How to Play
 As **Ambersteel** is a **roleplaying game**, there are certain rules and expectations of both players and **GM**. 
 
 In some places, where distances are concerned, both feet and meters are noted as units. What attentive readers will notice, is that the conversion between the numbers won't always be correct. This is a deliberate decision to make the math easier, whenever a grid (or *battlemap*) is used in play. One square on the grid should represent either a three foot, or one meter square. Furthermore, a single, ordinary human, should occupy an entire such square. 
@@ -340,6 +340,18 @@ Whether the attribute or skill(s) in question can apply to resolve the situation
 Also known as a *versus test*, this type of test occurs, when two characters come into opposition. Who wins, and by how much, is determined by comparing the number of **positives** of each character. The one with the most **positives** is the winner. 
 
 If there is a tie, the **defending** character is considered the winner. 
+
+What this means, is that the defender first rolls a test of their respective skill, against **Ob 0** (this 'automatic success' does **not** count towards skill progression) and the number of **positives** that result, plus one, is the resulting **Ob** for the attacker to match or exceed. 
+
+> In combat, a defender rolls their [melee defence](#melee-defence-agi) and achieves 3 positives. Thus, the attacker must achieve at least 4 **positives**, in order to win the opposed test. 
+
+Whoever actually wins the opposed test, gets to note a success on their respective skill, while the loser must note a failure on their respective skill. 
+
+> In combat, a defender rolls **melee defence** and achieves 3 positives.
+> 
+> The attacker rolls an attack and achieves 3 **positives**. The **positives** being tied with the defenders', means the defender wins, by default. 
+> 
+> Thus, the defender notes a success on their **melee defence**, while the attacker must note a failure on their respective attack skill. 
 
 The terms of **attacker** and **defender** refer to the character initiating and the character reacting to the **opposed test**, respectively. 
 
