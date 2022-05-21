@@ -1109,7 +1109,9 @@ Any basic action, so any action not requiring a test, costs 1 **AP**. Any action
 
 Speaking or shouting a short phrase is free. If you want to have a proper conversation, that will have to take multiple rounds. 
 
-If the turn is ended with any **AP** unspent, they go towards the character's [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi), as **+1D6** per **AP**. 
+If the turn is ended with any **AP** unspent, they can either be saved up, or spent on improving the character's [melee defence](#melee-defence-agi) and [ranged defence](#ranged-defence-agi), as **+1D6** per **AP**. 
+
+Only up to 5 AP may be saved up this way. It may be possible to go past this limit via some skill abilities. 
 
 ### Combat Movement
 A character can move up to **18'/6m** per **AP** spent. In **difficult terrain**, the distance moved per **AP** is half that, at **9'/3m**. 
