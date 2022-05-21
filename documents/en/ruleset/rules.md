@@ -1641,12 +1641,12 @@ The mage can always choose to **either** create an image **or** a sound **or** a
 
 | Level | Name                 | AP | Distance | Type | Damage | Effect(s)                      |
 | ----- | -------------------- | -- | -------- | ---- | ------ | ------------------------------ |
-| 1     | Weak Illusion        | 2  | 6'/2m    | MST  | 0      | Resist: **Ob 1**, Duration: 3 turns / 15 seconds, Effect: a hand-sized image / a quiet, but audible sound, a weak odor |
-| 2     | Significant Illusion | 2  | 12'/4m   | MST  | 0      | Resist: **Ob 2**, Duration: 6 turns / 30 seconds, Effect: a person-sized image / a significant sound a noticeable odor |
-| 3     | Strong Illusion      | 2  | 24'/8m   | MST  | 0      | Resist: **Ob 3**, Duration: entire combat / 1 minute, Effect: up to 9'³/3m³ sized image / a very loud sound / a strong odor |
-| 4     | Overwhelming Illusion| 3  | 48'/16m  | MST  | 0      | Resist: **Ob 4**, Duration: entire combat / 10 minutes, Effect: up to 18'³/6m³ sized image / a deafening sound / an overwhelming odor |
-| 5     | Bewitching Illusion  | 4  | 96'/32m  | MST  | 0      | Resist: **Ob 5**, Duration: entire combat / 1 hour, Effect: up to 36'³/12m³ sized image / a deafening sound / an overwhelming odor |
-| 7     | Living a Dream       | 4  | 192'/64m | MST  | 0      | Resist: **Ob 7**, Duration: however long the mage desires, Effect: however large the mage desires image / a deafening sound / an overwhelming odor |
+| 1     | Weak Illusion        | 2  | 36'/12m   | MST  | 0      | Resist: **Ob 1**, Duration: 3 turns / 15 seconds, Effect: a hand-sized image / a quiet, but audible sound, a weak odor |
+| 2     | Significant Illusion | 2  | 36'/12m  | MST  | 0      | Resist: **Ob 2**, Duration: 6 turns / 30 seconds, Effect: a person-sized image / a significant sound a noticeable odor |
+| 3     | Strong Illusion      | 2  | 36'/12m   | MST  | 0      | Resist: **Ob 3**, Duration: entire combat / 1 minute, Effect: up to 9'³/3m³ sized image / a very loud sound / a strong odor; A resist test can be made again every 30 seconds / 6 turns of combat. |
+| 4     | Overwhelming Illusion| 3  | 48'/16m  | MST  | 0      | Resist: **Ob 4**, Duration: entire combat / 10 minutes, Effect: up to 18'³/6m³ sized image / a deafening sound / an overwhelming odor; A resist test can be made again every 3 minutes |
+| 5     | Bewitching Illusion  | 4  | 96'/32m  | MST  | 0      | Resist: **Ob 5**, Duration: entire combat / 1 hour, Effect: up to 36'³/12m³ sized image / a deafening sound / an overwhelming odor; A resist test can be made again every 10 minutes |
+| 7     | Living a Dream       | 4  | 192'/64m | MST  | 0      | Resist: **Ob 7**, Duration: however long the mage desires, Effect: however large the mage desires image / a deafening sound / an overwhelming odor; A resist test can be made again every hour |
 
 ### Soul-Binding [Int]
 Also referred to as **necromancy**, this is the art and skill of calling souls from the **plane of the dead** and binding them, to reanimate corpses or animate an otherwise unliving body. 
