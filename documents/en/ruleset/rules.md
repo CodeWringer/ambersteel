@@ -364,6 +364,8 @@ The terms of **attacker** and **defender** refer to the character initiating and
 
 If a tie occurs in which a **defender** cannot be clearly determined, the result is a deadlock and neither side gains anything. 
 
+The defender **cannot** [fork](#skill-forking) other skills into their test, whereas the attacker **can**.
+
 ### Providing Assistance
 Characters can help each other in tests. In order to help with a test, a character must know a relevant [skill](#skills) and the one being helped must accept the help. 
 
