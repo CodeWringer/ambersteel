@@ -286,6 +286,8 @@ Also after the session, players and the **GM** discuss whether a **PC** should l
 
 Any time in between sessions, players can spend [fate points](#fate-points) to buy cards (boons) from the [hand of fate](#hand-of-fate). 
 
+Also any time in between sessions, players should re-evaluate their character's [beliefs](#beliefs) and change them, as they see fit. 
+
 ## Tests
 Whenever the outcome of an action or situation is uncertain, a **test** may be called for by the **GM**, in order to resolve it. 
 
@@ -307,7 +309,7 @@ A [skill being learned](#learning-skills) is tested with *only* half of the rela
 
 For every test, one of three outcomes is possible: 
 * **Complete Success**: There are enough or even more than required **positives**.
-* **Partial Success**: There are not enough **positives**, but more than none. 
+* **Partial Success/failure**: There are not enough **positives**, but more than none. 
 * **Complete Failure**: There are no **positives**, only **negatives**. 
 
 ### Types of Test
