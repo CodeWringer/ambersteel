@@ -46,6 +46,8 @@
     - [Instincts](#instincts)
   - [Health & Exhaustion](#health--exhaustion)
     - [Injury](#injury)
+      - [Injury States](#injury-states)
+      - [Injury Exhaustion Threshold](#injury-exhaustion-threshold)
     - [Exhaustion](#exhaustion)
     - [Status Effects](#status-effects)
       - [Dazed](#dazed)
@@ -657,12 +659,11 @@ Outside of combat, a successful [medicine](#medicine-int) test can restore all c
 ### Injury
 An **injury (Inj.)** is a serious health impediment of a character. Every character has a maximum number of **Inj.** they can endure. If they reach their maximum number of **Inj.**, the character dies. **PC**s are an exception, who instead arrive at [death's door](#deaths-door). 
 
-Whenever a character suffers an **Inj.**, a **D100** must be rolled and the corresponding result from the [list of injuries](#list-of-injuries) added to the character. 
-
-Whenever a character is brought to at least half their maximum number of **Inj.** (rounded up), they must succeed a [toughness](#toughness-tough) test, or else suffer +1 [exhaustion](#exhaustion). 
+Whenever a character suffers an **Inj.**, a **D100** must be rolled and the corresponding result from the [list of injuries](#list-of-injuries) added to the character. Depending on the type of damage and the situation in question, a different injury table may be rolled on, instead. Such as the [burn injuries](#list-of-burn-injuries). 
 
 An **Inj.** can reduce [attributes](#attributes) and impose other restrictions. An [attribute](#attributes) cannot be brought down to less than 1, by **Inj.**
 
+#### Injury States
 There are four possible states of an **Inj.**: **active**, **patched up**, **treated** or **permanent**. 
 
 Only an **active** **Inj.** imposes negative effects. 
@@ -679,7 +680,14 @@ An **Inj.** can be properly **treated** via [surgery](#surgery-int):
 * If the attempt is a complete failure, the **Inj.** becomes **permanent**. It cannot be **treated** via [surgery](#surgery-int) anymore. 
 * Only one [surgery](#surgery-int) attempt can be made every 24 hours. 
 
-All currently **treated** **Inj.** can be removed/recovered from, by spending **4D4** weeks in uninterrupted, active recovery. Active recovery implies spending the vast majority of the day in bed or at least avoiding physical and mental strains. 
+All currently **treated**  Inj.** can be removed/recovered from, by spending **4D4** weeks in uninterrupted, active recovery. Active recovery implies spending the vast majority of the day in bed or at least avoiding physical and mental strains. 
+
+#### Injury Exhaustion Threshold
+Once a character is brought to at least half their maximum number of **Inj.** (rounded up), every time past that point that they suffer further damage and/or injury they must succeed a [toughness](#toughness-tough) test with twice their number of injuries as the **Ob**, or else suffer +1 [exhaustion](#exhaustion). This point in time is called the **injury exhaustion threshold**. 
+
+> A character is injured in combat. They have an **injury** threshold of 3 and already suffered an injury earlier. Even though the earlier injury may have been **patched up** by now, the character's new injury brings them up to a total of 2 injuries. 
+> 
+> This means that they've reached their **injury exhaustion threshold**. Now, when they're wounded again in combat, they must succeed a [toughness](#toughness-tough) test at **Ob** 4, or else suffer +1 [exhaustion](#exhaustion). 
 
 ### Exhaustion
 Exhaustion is the measure of a character's maximum physical and mental strain they can endure. 
