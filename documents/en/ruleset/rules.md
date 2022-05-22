@@ -1156,6 +1156,12 @@ If the attacker wins the [opposed test](#opposed-test) or if they used an **aoe*
 ### Attack-Targeting
 There are two types of attack targeting methods: **Single-target** and **area of effect** (**aoe**).
 
+The different **attack-types** can be abbreviated as follows:
+
+* **ST** stands for [single-target attack](#single-target-attack)
+* **MST** stands for *multiple* [single-target attacks](#single-target-attack)
+* **AOE** stands for [area of effect attack](#area-of-effect-attack)
+
 #### Single-Target Attack
 Any **single-target** attack can be dodged or defended against. To do so, an [opposed test](#opposed-test) is made. If the defender wins no damage is dealt. 
 
