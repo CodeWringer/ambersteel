@@ -284,7 +284,7 @@ After a playing session is done, the players and **GM** should stick around to d
 
 Also after the session, players and the **GM** discuss whether a **PC** should lose an [instinct](#instincts), because they have acted against it or haven't gotten to play it out at all. 
 
-Any time in between sessions, players can spend [fate points](#fate-points) to buy cards (boons) from the [hand of fate](#hand-of-fate). 
+Any time in between sessions, players can spend [fate points](#fate-points) to buy cards (boons) from the [hand of fate](#hand-of-fate).
 
 Also any time in between sessions, players should re-evaluate their character's [beliefs](#beliefs) and change them, as they see fit. 
 
@@ -301,9 +301,9 @@ How many **positives** are needed to succeed a test, is determined by the **GM**
 
 To resolve an **attribute test**, the number of **D6** indicated by the *attribute level* (the number next to the attribute) must be rolled. 
 
-To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill), plus half of the related **attribute** (rounded down) as additional dice must be rolled. 
+To resolve a **skill test**, the number of **D6** indicated by the **skill level** (the number next to the skill), plus half of the related **attribute** (rounded up) as additional dice must be rolled. 
 
-> A **PC** has an [agility](#agility-agi) of 3 and an [acrobatics](#acrobatics-agi) skill at level 2. The player is asked to roll a test for [acrobatics](#acrobatics-agi) at **Ob** 2. They get to roll 1 + 2 = 3 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
+> A **PC** has an [agility](#agility-agi) of 3 and an [acrobatics](#acrobatics-agi) skill at level 2. The player is asked to roll a test for [acrobatics](#acrobatics-agi) at **Ob** 2. They get to roll 2 + 2 = 4 **D6**, if they don't have any other skills to [fork](#skill-forking) into the test. 
 
 A [skill being learned](#learning-skills) is tested with *only* half of the related **attribute** (rounded up). 
 
