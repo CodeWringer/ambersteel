@@ -696,7 +696,7 @@ If a character's exhaustion reaches their threshold, they become [dazed](#dazed)
 
 Exhaustion is gained through performing **exhausting actions**, carrying **exhausting equipment** or suffering [injuries](#injury). 
 
-Exhaustion gained from **exhausting actions** can be reduced by resting. A full rest of at least six uninterrupted hours will fully clear any exhaustion gained from **exhausting actions**. 
+Exhaustion gained from **exhausting actions** can be reduced by resting. A full rest of at least **six uninterrupted hours** will fully clear any exhaustion gained from **exhausting actions**. 
 
 Exhaustion gained from **exhausting equipment**, can be reduced, by dropping the equipment in question and resting for a short while, at the **GM**'s discretion. A character trying to carry more than they can endure, should not immediately fall unconscious, mind you. Apply common sense - the character in question would probably try to carry the extra equipment, only find out right away it is simply too much for them. 
 
