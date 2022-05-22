@@ -1772,10 +1772,10 @@ Any short, one-handed blade. Examples: shiv, dagger, Shortsword
 
 | Skill | **Ob**  | Attack                  | AP | Damage                | Effect |
 | ----- | ------- | ----------------------- | -- | --------------------- | ------ |
-| 0     | Opposed by **Melee Defence** | Slash                   | 2  | 2 **Slashing**        | / |
-| 0     | Opposed by **Melee Defence** | Stab                    | 2  | 1 **Piercing**        | / |
-| 3     | Opposed by **Melee Defence**+2 | Target weak-spot      | 3  | 3 **Piercing**        | / |
-| 3     | Opposed by **Melee Defence**+2 | Artery cut            | 3  | 2 **Slashing**        | +1 **bleeding** to the target (if it can bleed). |
+| 0     | Opposed by **Melee Defence** | Slash                   | 2  | **2D2** **Slashing** | / |
+| 0     | Opposed by **Melee Defence** | Stab                    | 2  | **1D2** **Piercing** | / |
+| 0     | Opposed by **Melee Defence**+2 | Target weak-spot      | 3  | **3D2** **Piercing** | / |
+| 2     | Opposed by **Melee Defence**+2 | Artery cut            | 3  | **2D2** **Slashing** | +1 **bleeding** to the target (if it can bleed). |
 
 ### Long Blade
 Any long blade, including long one-handed blades. Examples: arming sword, bastard sword, Longsword
