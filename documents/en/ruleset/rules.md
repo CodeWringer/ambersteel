@@ -1240,9 +1240,9 @@ How much **magic stamina** a mage has available to them, is derived from their [
 > If a mage has an **arcana** of 3 and has the **magic school skills** **pyromancy** at level 3, **cryomancy** at level 2 and **counter-magic** at level 5, that means they have (3 + 3 + 2 + 5) / 2 = 7 **magic stamina**. 
 
 ### Recovery
-Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every 10 minutes spent in *active recovery*, a mage regains 1 **magic stamina**. 
+Once spent, **magic stamina** can only be regained through **active rest or meditation**. For every 10 minutes spent in *active rest or meditation*, a mage regains 1 **magic stamina**. 
 
-Active recovery implies not engaging in any physical or mental strains, but instead meditating or resting. 
+This implies not engaging in any physical or mental strains. 
 
 ## Spell Intensity
 Any magic can be cast at different **intensities**. A greater **spell intensity** results in a greater effect, at a proportionally greater [magic stamina](#magic-stamina) cost. 
