@@ -154,7 +154,7 @@ Once something of a tourist attraction, this quarter is now a labyrinth of death
 #### Father Elias' Hospital
 Father Elias may not be doctor, nor know the first thing about medicine, but he will tend to anyone knocking on his door. Over time, his drive to help has attracted the like-minded. 
 
-They moved from the infirmary wing of the church to their own building, dedicated to the treatment and care of the sick. 
+They moved from the infirmary wing of a church to their own building, dedicated to the treatment and care of the sick. 
 
 And yet, even before tonight, people tended to avoid the hospital. Sickness and helplessness are a stigma many wouldn't willingly attract. 
 
@@ -162,6 +162,41 @@ Now, the place reeks of death. Whether from the lack of care, or the invasion of
 
 ## Encounters
 This is a (non-exhaustive) selection of possible encounters for the players to face. 
+
+### Citizens Stuck in a Burning House
+Screams for help from a burning house may alert the players that someone is inside. 
+
+Inside are three terrified children, a lightly wounded mother, their grandmother and an unconscious, heavily burned husband. 
+
+The front door is stuck, a fallen wooden beam has blocked it from the outside. The windows are too small for anyone to climb through. 
+
+If and once freed, they'll want to get out, just as everyone else. The've nothing to reward the players with, but are grateful for the rescue. 
+
+If the players simply move on, they'll be rewarded with heavy banging and more panicked screams for help that morph into screams of incredible pain and agony. 
+
+### Citizens cornered by the undead
+Screams and roars from a nearby alley may alert the players that someone nearby is being threatened by the invaders. 
+
+This should only be a mild encounter, depending on the PCs' remaining strength. Helping the citizens, they are rewarded with medical supplies. Failing to help the citizens or arriving late, to scavenge the leftovers, reveals the tattered and unusable remains of the medical supplies. 
+
+### A mother in search of her child
+As they make their way through the narrow streets, a woman will rush out of one of the side alleys and bump into one of the PCs. She will ask them, frantically, if they've seen her child. She lost her little Emily around here, somewhere. They were separated when her husband was attacked. She doesn't know why anyone would attack her dear Tarkin. 
+
+If the PCs agree to help, they'll have to search the nearby alleyways. In one of them, they find a wounded little girl cowering behind some rubble. It's only a light wound - slight burns and scratches. As they carry or lead her out, two zombies lunge at them from where they came from. 
+
+Once dispatched or avoided, the PCs can safely return the child to her mother, who will take her and run towards the temple. The PCs may tag along or try to find their own path. 
+
+### Guards escorting survivors
+A small precession of guards and several survivors is carefully making its way through the streets. They're heading towards the bastion, where they're rounding up survivors, to try and keep them safe. 
+
+The PCs are free to tag along, or find their own path. 
+
+### Bone-Spider ambush
+Once the PCs enter of the narrower streets, they find three guardsmen there, carefully advancing through the rubble. As their heads spin to face the PCs, surprised to see them, they're suddenly assaulted by two [bone-spiders](bestiary/../../../../bestiary/undead/bone-spider.md). 
+
+The PCs can choose to aid them or to avoid the fight. 
+
+One of the guardsmen is a capable healer and will patch up any wounds of anyone who particiapted in the fight. 
 
 ### The Rat-Catcher
 A slimy-looking fellow. The rat-catcher is well known in these parts. He's got a dirty and sly smile, a lazy eye and a dirty leather belt diagonally strapped over his shoulder. Rats are tied to it by their tails. 
@@ -190,21 +225,14 @@ If they agree, as advance payment, he'll hand them an alchemical potion. As rewa
 
 If the players try to take the potions by force, he'll use smoke bombs to disengage, run and hide in the alleys. The players can chase him with a successful, very hard observation test. He'll also use alchemical potions to detonate parts of the buildings around, to block passage to him. He's a slippery fellow...
 
-### Citizens Stuck in a Burning House
-Screams for help from a burning house may alert the players that someone is inside. 
+### Wounded citizens in an alley protected by an Amberantist
+As they pass by an alley, the PCs may notice an armed and armored individual standing guard. When he notices them, he commands them to help, in the name of the holy amber tree. 
 
-Inside are three terrified children, a lightly wounded mother, their grandmother and an unconscious, heavily burned husband. 
+There are several wounded citizens cowering in the alley behind him. He needs help getting them to safety, at the temple. 
 
-The front door is stuck, a fallen wooden beam has blocked it from the outside. The windows are too small for anyone to climb through. 
+The Amberantist would be a scary sight to any mage among the PCs. He would swear death upon all mages, regardless of their intentions. They're all corrupted and foul and must not be allowed to fester. 
 
-If and once freed, they'll want to get out, just as everyone else. The've nothing to reward the players with, but are grateful for the rescue. 
-
-If the players simply move on, they'll be rewarded with heavy banging and more panicked screams for help that morph into screams of incredible pain and agony. 
-
-### Citizens cornered by the undead
-Screams and roars from a nearby alley may alert the players that someone nearby is being threatened by the invaders. 
-
-This should only be a mild encounter, depending on the PCs' remaining strength. Helping the citizens, they are rewarded with medical supplies. Failing to help the citizens or arriving late, to scavenge the leftovers, reveals the tattered and unusable remains of the medical supplies. 
+If the PCs agree, they may be able to escort the citizens or find stray guardsmen to enroll convince to help, instead. 
 
 ### A Scholar in Need
 An intellectual, wearing a fancy vest and feathered hat, is currently busy trying to calm their mule. Leather saddle bags are laying nearby, seemingly intended for the mule's back. But the animal is freaked out and won't let anyone near. 
@@ -213,12 +241,14 @@ The animal is too small to ride and won't help the PCs get out faster. Its use i
 
 If the PCs can help calm the animal, the scholar will tell them of a relatively close way into the sewers. They themselves are too afraid to try the sewers - there are stories of monsters living down there and he suspects the sewes are also how the undead got into the city undetected. 
 
-### Thug and City Watch Battle
-Even in the end-times, the city watch and local crime lords are vying for supremacy. They're currently engaged in a deadly battle and are blocking several streets with their fighting. 
+He knows there are records of the extensive and labyrinthian sewer system at the great library, perhaps the PCs could find them there?
 
-Even if uninvolved, the PCs getting too close might put them in danger of stray projectiles or wildly swung weapons. 
+### Undead and City Watch Battle
+A dozen guardsmen are stuck in battle with several dozen undead. Most are [zombies](bestiary/../../../../bestiary/undead/zombie.md), but some are [bloated shamblers](../../../bestiary/undead/bloated-shambler.md). 
 
-Helping either side will cost time, but free up the way and earn the PCs new allies. 
+If the PCs help, they'll be stuck in the battle, as well. If won, the guardsmen will patch up everyones wounds and continue their search for survivors to escort to the bastion. 
+
+They offer the PCs a some of their medical supplies, as thanks for their help. 
 
 ### The Doom-Sayer
 A madman is raving in the streets. Despite his loud screaming, the undead seem to pay him no heed. A collaborator? Perhaps even the undead prefer to pretend he wasn't there. He's running around, babbling, hollering and howling and may scream promises of doom at the PCs. 
@@ -226,7 +256,7 @@ A madman is raving in the streets. Despite his loud screaming, the undead seem t
 ### The Templar
 A holy warrior who will attempt to recruit the PCs to help defend the temple, where survivors are huddled together, under the protection of the templars. 
 
-If the PCs refuse, the templar may become violent towards them, cursing them for their vile selfishness and lack of solidarity. The PCs may talk themselves out of a fight, but the templar is a capable fighter who will be difficult to take on, even for a group of them. 
+If the PCs refuse, the templar may become violent towards them, cursing them for their vile selfishness and lack of solidarity. The PCs may talk themselves out of a fight, but the templar is a capable fighter who will be difficult to take on, even for a group of them. They may be able to run away from him, however. He is already tired and not particularly interested in chasing them down. 
 
 ### Haunted House
 A larger manor provides some safety from the flames. But unbeknownst to the PCs, does a [haunt](../../../bestiary/undead/haunt.md) inhabit this place. 
@@ -238,3 +268,31 @@ The overload of emotions of fear, anger and sorrow was too much for the soul. It
 Some undead roam the manor house, but most notably, the **haunt** drives anyone insane, who can't resist its influence. 
 
 The manor house itself is only interesting because it provides some respite from the encroaching flames. But PCs should not dwell too long, for more undead are sure to sniff them out. There may be many valuables inside the house, but only few supplies of actual value. 
+
+### The thoroughfare wargheist (cinematic)
+A massive hulking beast roams the main thoroughfare, swiftly assaulting anyone foolish enough to cross its path with terrifying efficiency. 
+
+A dozen guards are locked in a deadly struggle with the thing, but it is clearly winning the fight. 
+
+There is no way for the PCs to fight this thing. It would obliterate them. This must be made clear, before they try to fight it. They could use the distraction to try and get past it, however. 
+
+### Spine-Thresher (cinematic)
+The PCs spot citizens stuck in a rapidly deacying, burning house. Before they can act, a charred [spine thresher](../../../bestiary/undead/spine-thresher.md) jumps from the flames out of sight and swiftly kills them. 
+
+It turns to the PCs and moves to engage, when burning rubble comes crashing down on its head, burying it beneath. The PCs have time to flee and get away safely. They can't reach the monster. This is not meant to become a combat encounter. 
+
+### Murder and terror (cinematic)
+The PCs round a corner, to catch a glimpse of citizens being stabbed in the back and having their throats slit by bandits. 
+
+There is no time for the PCs to prevent this. When the bandits notice the PCs and turn to face them, a [wargheist](../../../bestiary/undead/wargheist.md) comes crashing through a nearby building, obliterating it in the process. Frightened, the bandits scatter and the **wargheist** chases after them. It does not even pay attention to the PCs. 
+
+There is no way for the PCs to fight the **wargheist**, it would obliterate them. This must be made clear, before they try to fight it. 
+
+### A mage (cinematic)
+As the PCs peek around a corner leading to the main thoroughfare, the see a robed and hooded figure calmly walking along. They're surrounded by a multitude of undead soldiers, who show no sign of hostility towards the figure. 
+
+Then, suddenly, the figure points out into one alleyway along their path and several undead storm off into it. There are sounds of a short struggle and screams, before the alley falls silent, once again. 
+
+Then the figure turns around and starts shooting a jet of flame from their hands, setting market stalls, carts and wagons aflame, as well as rekindling the fire on the buildings. 
+
+There is no way for the PCs to get past them, here. They must find another way around. This must be made very clear. This is not intended to become a combat encounter. 
