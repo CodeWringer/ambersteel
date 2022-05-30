@@ -1,9 +1,8 @@
 # Land Shark
-
-Territorial predator. 
+A territorial predator. 
 
 ## Appearance
-Slender quadrupedal reptilians. 
+Slender quadrupedal reptilian. 
 
 The back is covered in especially tough, large and rigid scales. 
 

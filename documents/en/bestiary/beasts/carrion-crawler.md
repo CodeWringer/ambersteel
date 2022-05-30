@@ -1,4 +1,5 @@
 # Carrion Crawler
+A blind predator that prefers dark and damp places, where it relies on its senses of hearing and vibrations, to locate its prey. 
 
 ## Appearance
 A large arthropoid, in the form of a centipede. 

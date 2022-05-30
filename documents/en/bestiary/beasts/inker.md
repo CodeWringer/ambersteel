@@ -1,7 +1,7 @@
 # Inker
 
 ## Appearance
-Human-sized squid with eyes multiple eyes facing every direction. 
+Human-sized squid with multiple eyes facing every direction. 
 
 ## Strengths
 * Can release large clouds of ink into the water to cover its retreat or confuse prey in combat
