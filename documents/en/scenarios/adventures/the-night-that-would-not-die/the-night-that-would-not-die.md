@@ -126,13 +126,17 @@ The fire has hit this quarter pretty hard, though and there isn't much time to p
 #### The Great Library
 One of the oldest buildings in town, the Great Library is host to parchments, scrolls and books pertaining a wide field of knowledge. That alone won't rouse the interest of someone looking to get out of the city. But if the players come across it, a citizen outside will hail them and beg them to rescue their friend whose trapped inside. 
 
-They themselves have a broken leg and thus can't do it themselves. If the players agree, they'll have to act quickly, to find the trapped friend somewhere in the bowels of the large, but disintegrating building. 
+His friend was looking for a recent map of the sewers he knew was inside, but when the invasion began, got trapped inside. 
 
-If they find them in time, they'll have to free them from some rubble. With combined strength, they should be able to lift the smoldering wooden beam that's trapped the man underneath. 
+He himself has a broken leg and thus can't do it himself. If the players agree, they'll have to act quickly, to find the trapped friend somewhere in the bowels of the large, but disintegrating building. 
+
+If they find him in time, they'll have to free him from some rubble. With combined strength, they should be able to lift the smoldering wooden beam that's trapped the man underneath. 
 
 Perceptive players may notice a silver broach laying nearby. Especially knowledgable characters will know this to be the identifying mark of the secretive **Mechanite Order**. If they confront him about it, the man will admit to being a mechanite. 
 
-If they help him get to safety outside, both he and his friend will tell the players of a secret mechanite workshop not far from the library. If they help both men get there safely, they'll open the way and disable the guardian-type automaton inside. From there, they send them through a relatively safe section of the sewers. The mechanites will remain in the workshop, insisting that their work cannot be allowed to go to waste. 
+If they help him get to safety outside, and the PCs identified them as Mechanites, both he and his friend will tell the players of a secret mechanite workshop not far from the library. If they help both men get there safely, they'll open the way and disable the guardian-type automaton inside. From there, they send them through a relatively safe section of the sewers. The mechanites will remain in the workshop, insisting that their work cannot be allowed to go to waste. 
+
+Otherwise, if the PCs failed to figure out they're dealing with Mechanites, the men will simply tell them of a remote way into the sewers, and to try and head north. 
 
 #### The Mechanite Workshop
 Not far from the Great Library, a secret mechanite workshop is hidden in the basement of a stone-mason house. The building stands out, because few other buildings around are made of stone. As such, it is standing in good enough shape to investigate. 
@@ -160,8 +164,8 @@ And yet, even before tonight, people tended to avoid the hospital. Sickness and 
 
 Now, the place reeks of death. Whether from the lack of care, or the invasion of carcasses, you can be sure to find even more cold bodies here. But then again, medical supplies are hard to come by and the hospital is known to stock many. Better hope the fire doesn't get to them, first. 
 
-## Encounters
-This is a (non-exhaustive) selection of possible encounters for the players to face. 
+## City Encounters
+This is a (non-exhaustive) selection of possible encounters for the players to face in the city itself. 
 
 ### Citizens Stuck in a Burning House
 Screams for help from a burning house may alert the players that someone is inside. 
@@ -199,13 +203,20 @@ The PCs can choose to aid them or to avoid the fight.
 One of the guardsmen is a capable healer and will patch up any wounds of anyone who particiapted in the fight. 
 
 ### The Rat-Catcher
-A slimy-looking fellow. The rat-catcher is well known in these parts. He's got a dirty and sly smile, a lazy eye and a dirty leather belt diagonally strapped over his shoulder. Rats are tied to it by their tails. 
+A slimy-looking fellow. The rat-catcher is well known in these parts. He's got a dirty and sly smile, a lazy eye and a dirty leather belt diagonally strapped over his torso. Rats are tied to it by their tails. 
 
 This is the rat-catcher. He knows these alleys, most peoples' basements and even parts of the sewers. But he won't share his secrets. In fact, he barely speaks a straight sentence, instead resorting to oddly hinting at his intentions and licking his lips. He is very overtly a weirdo. 
 
 Violence won't make him yield any information, instead making him squeal like a rat and boggling his eyes in panic. He's clearly not sane. Perhaps it is violence like this, done unto him in the past, that made him so. Regardless, the most use the players will get out of him, is if they can tail him, without him noticing. He will unknowingly lead them through the alleys, closer to one of the city gates. This way, the PCs can avoid some of the worse streets. 
 
 If at any point he notices them, he will squeal and run away in a blind panic. Somewhere along the way, he is guaranteed to notice them and flee. It would be quite hard for the players to keep chasing him. If they do catch him, he won't be of any use, see the point about violence above. 
+
+### Amberantist Task Force
+A small group of Amberantists has gathered and has been clearing streets of zombies, but is now stumped at what to do about a nearby wargheist.
+
+They would advise the PCs to avoid the beast at all costs and suggest an alternate route.
+
+If there are any mages among the PCs, they'd do well to stay away from the Amberantists, as their ambersteel would strike mage-sickness into their hearts. It should be made clear that the PCs cannot fight these Amberantists. There are too many of them and each is a formidable fighter. 
 
 ### The Cat Lady
 A middle-aged lady stands outside her burning home. She's crying and worried sick. 
@@ -296,3 +307,60 @@ Then, suddenly, the figure points out into one alleyway along their path and sev
 Then the figure turns around and starts shooting a jet of flame from their hands, setting market stalls, carts and wagons aflame, as well as rekindling the fire on the buildings. 
 
 There is no way for the PCs to get past them, here. They must find another way around. This must be made very clear. This is not intended to become a combat encounter. 
+
+## Sewer Encounters
+This is a (non-exhaustive) selection of possible encounters for the players to face in the extensive sewer system beneath the city. 
+
+### Lost Citizens
+Some citizens have found their way into the sewers and are hopelessly lost. They saw shapes up ahead, but were too afraid to investigate. If the PCs could clear the way, they'd wait a while and then follow in their footsteps. 
+
+### Zombies
+A group of [zombies](../../../bestiary/undead/zombie.md) is currently migrating through the sewers as a unit. Perhaps they've been given orders to patrol?
+
+Regardless, they're blocking a path ahead. 
+
+### Deserters
+Some city watch deserters have holed up in the sewers. They're only out to save themselves and will refuse to help the PCs or let them tag along. 
+
+### A bloated shambler
+A lone [bloated shambler](../../../bestiary/undead/bloated-shambler.md) roams this part of the sewers. Perhaps it got lost? 
+
+### Monster Hunter
+A monster hunter is stalking his prey in the darkness. His torch is giving him away. 
+
+When he notices the PCs, he questions why they're there. He suspects they might be smugglers, as there is no other reason for people besides him being down there. 
+
+In truth, he is simply unaware of the invasion taking place. Somehow, he must have missed the bulk of the undead. 
+
+His prey is a [carrion crawler](../../../bestiary/beasts/carrion-crawler.md) he's been hired to kill. It should be just up ahead and easy to take down, if they can avoid making too much noise. He asks for their help. In turn, the way would be clear to pass through and he would also try to make his way out of the sewers. He might even join the PCs in their escape. 
+
+### Carrion Crawler
+A [carrion crawler](../../../bestiary/beasts/carrion-crawler.md) lurks in the tunnel ahead, unbeknownst to the PCs. It is an ambush predator, but blind and must rely on its sense of vibrations and hearing. If they're too loud and clumsy, it will attack them. 
+
+In fact, the PCs likely won't be expecting it and stumble right into its territory. Once it has attacked them with fearsome ferocity, the PCs can choose to fight or run away from it. Since it is blind, hiding from it should be easy enough, if they can manage to stifle their breath and calm their adrenaline-soaked hearts. 
+
+### The Amberantist and the Mage
+An Amberantist has cornered a mage in a dead-end. Both are wounded and have evidently been stuck in this stalemate for a while. 
+
+The Amberantist will try to enlist the PCs' help to subdue the mage. That can both mean kill or put a pair of Amberite manacles on him. The mage will yell from behind the corner of his alley, that he's being unjustly blamed for what has happened above. She claims to never have done a bad deed, but the Amberantist won't hear it and yell at her in blind rage, that she's a monster and if she didn't exist, none of this hell would have been unleashed. 
+
+The PCs can help either side, perhaps even convince the Amberantist to let the mage go or simply leave them both to their fate. 
+
+### Wounded Smugglers
+A man and woman in dirty burgher clothes are holed up in a side-passage. The man is wounded and holding his bleeding side. The woman is telling him to get up and continue, but he can't muster the strength. 
+
+The PCs will have to patch up his wound quickly, if he is to survive. 
+
+If they don't help, the woman will stay with the dying man. If they do help, the woman will tell them of a safe side-passage that gets around some zombies that would otherwise be up ahead. 
+
+### More zombies
+Another group of [zombies](../../../bestiary/undead/zombie.md) is blocking the forward path. 
+
+### The Rat-Catcher
+A slimy-looking fellow. The rat-catcher is well known in these parts. He's got a dirty and sly smile, a lazy eye and a dirty leather belt diagonally strapped over his torso. Rats are tied to it by their tails. 
+
+This is the rat-catcher. He knows these sewers. But he won't share his secrets. In fact, he barely speaks a straight sentence, instead resorting to oddly hinting at his intentions and licking his lips. He is very overtly a weirdo. 
+
+Violence won't make him yield any information, instead making him squeal like a rat and boggling his eyes in panic. He's clearly not sane. Perhaps it is violence like this, done unto him in the past, that made him so. Regardless, the most use the players will get out of him, is if they can tail him, without him noticing. He will unknowingly lead them through a section of the sewers.  
+
+At one point, a [spine thresher](../../../bestiary/undead/spine-thresher.md) ambushes him, killing him instantly. The deadly monster might not notice the PCs right away, though. Avoiding it is advisable, as it just demonstrated. 
