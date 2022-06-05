@@ -31,10 +31,17 @@ An experienced necromancer may be able to command entire armies of zombies.
 | Melee Defence            | 1     | 
 | Ranged Defence           | 1     | 
 | Fighting                 | 2     | 
-| Weapon \<Unarmed\>       | 3     | 
-| Weapon \<Short Blade\>   | 2     | 
-| Weapon \<Long Blade\>    | 2     | 
-| Weapon \<Axe\>           | 2     | 
-| Weapon \<Spear\>         | 2     | 
-| Weapon \<Polearm\>       | 2     | 
-| Weapon \<Small Crusher\> | 2     | 
+| Weapon \<Unarmed\>       | 1     | 
+| Weapon \<Short Blade\>   | 1     | 
+| Weapon \<Long Blade\>    | 1     | 
+| Weapon \<Axe\>           | 1     | 
+| Weapon \<Spear\>         | 1     | 
+| Weapon \<Polearm\>       | 1     | 
+| Weapon \<Small Crusher\> | 1     | 
+
+### Weapon \<Jaws\> (Str)
+* Level 2
+
+| Skill | **Ob** | Attack | Type | AP | Damage | Effect |
+| ----- | ------ | ------ | ---- | -- | ------ | ------ |
+| 0 | Opposed by Melee Defence | Bite | ST | 2 | **1D4** **Slashing** | Requires an opposed toughness test, with **Ob** as the number of successes of this attack. <br> If failed, the victim contracts an illness. |
