@@ -12,20 +12,20 @@ Long and crooked, yet sharp and deadly claws line their hands and feet, often ca
 
 The following morning, the affected often don't remember their nightly murder-spree. But signs of their deeds remain - torn clothes, the taste of iron and an inexplicable exhaustion. 
 
-## Strengths
+## Traits
+### Strengths
 * Unnaturally strong
 * Unnaturally tough
 * Fast
 
-## Weaknesses
+### Weaknesses
 * Unintelligent
 * Blind rage
 * Can be cured through exorcism
 
-## Origin
+## Origin & Occurrence
 The origin of the werewolf curse is unknown, though in part rumored to stem from the [great wounds](../../world/great-wounds). 
 
 What is known, however, is the fact that the curse is transferred via the bite or blood of a werewolf, while it is in its feral form. 
 
-## Occurrence
 In their normal form, someone affected by the werewolf curse might not even be aware of their condition. It is only at night, when the full moon shows, that they transform into their horrible alternative self. 
