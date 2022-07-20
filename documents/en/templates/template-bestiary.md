@@ -2,18 +2,19 @@
 
 ## Appearance
 
-
-## Strengths
+## Traits
+### Strengths
 * 
 
-## Weaknesses
+### Weaknesses
 * 
 
-## Origin
+
+## Origin & Occurrence
 
 
-## Occurrence
-
+## Behavior
+* 
 
 ## Skills
 | Skill                    | Level | 
