@@ -5,7 +5,7 @@ They make for excellent craftsmen. With an eye for beauty and skilled hands, the
 
 Another great passion of theirs is good food and drink, with a particular love for expensive and exotic tastes.
 
-Nothing about Cobresians is subtle - they're loud, their clothes vibrant and their buildings covered in graceful ornaments. They enjoy being noticed and they love being complimented. 
+Nothing about Cobresians is subtle - they're loud, their clothes vibrant and their buildings covered in graceful ornaments. They yearn for being noticed and complimented - be it for their fashion sense, wealth, fame or anything else. 
 
 ## TOC <!-- omit in TOC -->
 - [Cobresian](#cobresian)

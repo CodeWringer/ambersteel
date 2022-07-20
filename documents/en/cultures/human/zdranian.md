@@ -34,6 +34,9 @@ At least, once, Zdrànians were like this. Now, since the [Creeping Death](../..
       - [First Names (Male)](#first-names-male)
       - [First Names (Female)](#first-names-female)
       - [Last Names](#last-names)
+    - [Typical Names of Places](#typical-names-of-places)
+      - [Cities & Towns](#cities--towns)
+      - [Rivers & Lakes](#rivers--lakes)
   - [Morality & Ethics](#morality--ethics)
     - [Values](#values)
     - [Morality](#morality)
@@ -290,6 +293,44 @@ At least, once, Zdrànians were like this. Now, since the [Creeping Death](../..
 * Zymotov
 * Zyszómin
 * Zyszótov
+
+### Typical Names of Places
+#### Cities & Towns
+* Andris
+* Adris
+* Aldrin
+* Astèròpis
+* Bangarin
+* Basczok
+* Badovin
+* Bendris
+* Bendirin
+* Bengiris
+* Bengiriszin
+* Besczin
+* Nickoszin
+* Massinis
+* Maszock
+* Masczock
+* Masdrin
+* Myszin
+* Nodolvin
+* Nodolvis
+* Wolgorin
+* Wolczin
+* Wolsczok
+* Vannyé
+* Vandolin
+* Vandris
+* Vosczock
+* Vorrin
+* Vorsczik
+* Vorrin
+* Vorris
+
+#### Rivers & Lakes
+* Tsarinyé
+* 
 
 ## Morality & Ethics
 ### Values

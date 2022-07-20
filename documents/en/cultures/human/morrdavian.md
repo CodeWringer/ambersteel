@@ -1,5 +1,5 @@
 # Morrdavian
-Morrdavians are very hardy and hard working people. 
+Morrdavians are very hardy and hard working people, used to short and painful lives. 
 
 Used to living in an unhospitable land, they do not hesitate to take what they need by force, be it from the land itself, or other people. 
 
